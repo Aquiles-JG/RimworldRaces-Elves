@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!-- Elf Start Research -->
+	
+	<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ResearchProjectDef[defName="ComplexFurniture" or defName="Stonecutting" or defName="ComplexClothing" or defName="Brewing"]/tags</xpath>
+		<value>
+			<li>ElfStart</li>
+		</value>
+	
+	</Operation>
+	
+	<!-- Drow Start Research -->
+	
+	<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ResearchProjectDef[defName="ComplexFurniture" or defName="Stonecutting" or defName="ComplexClothing" or defName="Brewing"]/tags</xpath>
+		<value>
+			<li>DrowStart</li>
+		</value>
+	
+	</Operation>
+	
+	<!-- Goodwill from the start-->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/FactionDef[defName = "PlayerColony" or defName="PlayerTribe"]</xpath>
+		<value>
+			 <modExtensions>
+				<li Class="VFECore.FactionDefExtension">
+					<startingGoodwillByFactionDefs>
+					   <Aq_DrowUnforgiven>0~10</Aq_DrowUnforgiven>
+					</startingGoodwillByFactionDefs>
+				</li>
+			 </modExtensions>
+		</value>
+	</Operation>
+	
+	
+	
+</Patch>

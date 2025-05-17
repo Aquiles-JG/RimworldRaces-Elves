@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	
+  
+   <!-- PARALYSIS -->
+  
+   <DamageDef ParentName="CutBase">
+    <defName>MHParalysisCut</defName>
+    <label>paralizing cut</label>
+    <additionalHediffs>
+      <li>
+        <hediff>Paralysis</hediff>
+        <severityPerDamageDealt>0.01</severityPerDamageDealt>
+        <victimSeverityScalingByInvBodySize>true</victimSeverityScalingByInvBodySize>
+      </li>
+    </additionalHediffs>
+  </DamageDef>
+  
+  <DamageDef>
+		<defName>VAE_UncontrollableBleeding</defName>
+		<label>uncontrollable bleeding</label>
+		<workerClass>DamageWorker_AddInjury</workerClass>
+		<externalViolence>true</externalViolence>
+		<deathMessage>{0} has bled to death.</deathMessage>
+		<hediff>VAE_OpenWound</hediff>
+
+		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+		<armorCategory>Sharp</armorCategory>
+	</DamageDef>
+
+  </Defs>

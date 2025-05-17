@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- Dark Elves-->
+	<ResearchProjectDef ParentName="ElvenResearch">
+        <defName>Kara_Furniture</defName>
+        <label>dark furniture</label>
+        <description>The dark elves like to decorate their houses with their own particular furnishing.</description>
+        <baseCost>1000</baseCost>
+        <prerequisites>
+      		<li>Aq_ElfRecipesOne</li>
+    	</prerequisites>
+        <techprintCount>1</techprintCount>
+    	<techprintCommonality>0.5</techprintCommonality>
+   		<techprintMarketValue>2000</techprintMarketValue>
+    	<heldByFactionCategoryTags>
+      		<li>Drow</li>
+      		<li>Empire</li>
+    	</heldByFactionCategoryTags>
+        <researchViewX>2</researchViewX>
+        <researchViewY>0.7</researchViewY>
+	</ResearchProjectDef>
+ 
+    <ResearchProjectDef ParentName="ElvenResearch">
+        <defName>Kara_Smithing</defName>
+        <label>karasti blacksmithing</label>
+        <description>Discover the ancient craft of the Karasti blacksmiths.</description>
+        <baseCost>1500</baseCost>
+        <prerequisites>
+            <li>Smithing</li>
+            <li>Kara_Furniture</li>
+        </prerequisites>
+        <researchViewX>3</researchViewX>
+        <researchViewY>0.7</researchViewY>
+   </ResearchProjectDef>
+   
+   <ResearchProjectDef ParentName="ElvenResearch">
+    	<defName>Kara_RangedWeapons</defName>
+    	<label>flight of death</label>
+    	<description>Craft the silent ranged weapons of the dark elves.</description>
+    	<baseCost>2000</baseCost>
+    	<prerequisites>
+      		<li>Kara_Smithing</li>
+    	</prerequisites>
+        <researchViewX>4</researchViewX>
+        <researchViewY>0.7</researchViewY>
+   </ResearchProjectDef>
+   
+    <ResearchProjectDef ParentName="ElvenResearch">
+        <defName>Kara_Apparel</defName>
+        <label>shadow clothing</label>
+        <description>Unlock one of the many secrets of the Karasti assassins: their stealthy clothes.</description>
+        <baseCost>1500</baseCost>
+        <prerequisites>
+            <li>ComplexClothing</li>
+            <li>Kara_Furniture</li>
+        </prerequisites>
+        <researchViewX>3</researchViewX>
+        <researchViewY>0</researchViewY>
+   	</ResearchProjectDef>
+   
+    <ResearchProjectDef ParentName="ElvenResearch">
+		<defName>Kara_Weapons</defName>
+		<label>blades of war</label>
+		<description>Forge the fearsome weapons of the dark elves.</description>
+		<baseCost>2000</baseCost>
+		<prerequisites>
+		  <li>Kara_Smithing</li>
+		</prerequisites>
+		<researchViewX>4</researchViewX>
+		<researchViewY>0</researchViewY>
+  	</ResearchProjectDef>
+  
+    <ResearchProjectDef ParentName="ElvenResearch">
+		<defName>Kara_WeaponsII</defName>
+		<label>holy weapons</label>
+		<description>Decipher the secrets of the ancient metallurgy of the Karasti people.</description>
+		<baseCost>2500</baseCost>
+		<prerequisites>
+		  <li>Kara_Weapons</li>
+		  <li>Kara_RangedWeapons</li>
+		</prerequisites>
+		<researchViewX>5</researchViewX>
+		<researchViewY>0</researchViewY>
+  	</ResearchProjectDef>
+   
+    <ResearchProjectDef ParentName="ElvenResearch">
+        <defName>Kara_Culture</defName>
+        <label>Underdark pleasures</label>
+        <description>Uncover some of the forgotten lore of the Karasti, like their strong herbal liqueur.</description>
+        <baseCost>1000</baseCost>
+		<techprintCount>1</techprintCount>
+    	<techprintCommonality>0.5</techprintCommonality>
+   		<techprintMarketValue>2000</techprintMarketValue>
+    	<heldByFactionCategoryTags>
+      		<li>Drow</li>
+      		<li>Empire</li>
+    	</heldByFactionCategoryTags>
+		<prerequisites>
+			<li>Brewing</li>
+			<li>Aq_ElfRecipesOne</li>
+    	</prerequisites>
+        <researchViewX>2</researchViewX>
+        <researchViewY>1.4</researchViewY>
+   </ResearchProjectDef>
+   
+   <ResearchProjectDef ParentName="ElvenResearch">
+        <defName>Kara_CultureII</defName>
+        <label>karasti medicine</label>
+        <description>Craft the incredible Karasti medicine, an ancient recipe made with their own blood.</description>
+        <baseCost>1500</baseCost>
+        <prerequisites>
+            <li>Kara_Culture</li>
+            <li>DrugProduction</li>
+        </prerequisites>
+        <researchViewX>3</researchViewX>
+        <researchViewY>1.4</researchViewY>
+   </ResearchProjectDef>
+   
+    <ResearchProjectDef ParentName="ElvenResearch">
+        <defName>Kara_CultureIII</defName>
+        <label>venoms</label>
+        <description>Craft the most powerful Karasti remedies: venoms.</description>
+        <baseCost>2000</baseCost>
+        <prerequisites>
+            <li>Kara_CultureII</li>
+        </prerequisites>
+        <researchViewX>4</researchViewX>
+        <researchViewY>1.4</researchViewY>
+   </ResearchProjectDef>
+   
+    <ResearchProjectDef ParentName="ElvenResearch">
+        <defName>Kara_CultureIV</defName>
+        <label>karasti rebirth</label>
+        <description>Unleash the full healing power of the Karasti medicine.</description>
+        <baseCost>2500</baseCost>
+        <prerequisites>
+            <li>Kara_CultureIII</li>
+        </prerequisites>
+        <researchViewX>5</researchViewX>
+        <researchViewY>1.4</researchViewY>
+   </ResearchProjectDef>
+   
+   
+</Defs>

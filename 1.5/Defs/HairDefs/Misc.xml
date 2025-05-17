@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+<!-- Lillian (from Sunny's Dr Stone Hairstyles) -->    
+
+    <HairDef>
+    <defName>SD_DS_Lillian</defName>
+    <label>SD Lillian</label>
+    <styleGender>Female</styleGender>
+	<category>Drow</category>
+    <texPath>Things/Pawn/Humanlike/Hair/SDLillian</texPath>
+		<styleTags>
+			<li>Drow</li>
+			<li>HairLong</li>
+		</styleTags>
+	 </HairDef>    
+	 
+</Defs>

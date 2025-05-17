@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+ 	<WeaponClassDef>
+    	<defName>Irissdi</defName>
+    	<label>irissdi</label>
+  	</WeaponClassDef>
+  	
+  	<WeaponClassDef>
+    	<defName>Karasti</defName>
+    	<label>karasti</label>
+  	</WeaponClassDef>
+
+
+   	<WeaponClassPairDef>
+    	<defName>IrissdiKarasti</defName>
+    	<first>Irissdi</first>
+    	<second>Karasti</second>
+    </WeaponClassPairDef>
+    
+  
+</Defs>

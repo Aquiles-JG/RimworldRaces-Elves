@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  
+   <!-- Grey Elves have +20% combatPower-->
+  
+  <PawnKindDef Name="HighElfBase" Abstract="True">
+    	<race>Human</race>
+    	<defaultFactionType>Aq_ElfFactionHigh</defaultFactionType>
+    	<minGenerationAge>18</minGenerationAge>
+    	<useFactionXenotypes>true</useFactionXenotypes>	   
+		<invNutrition>2.55</invNutrition>
+		<invFoodDef>DE_Waybread</invFoodDef>	
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<apparelTags>
+		  <li>ElfApparelBasic</li>
+          <li>Aq_ElfApparel</li>
+		</apparelTags>
+		 <apparelDisallowTags>
+       		<li>Jester</li>
+       		<li>K_Apparel</li>
+       		<li>K_SacredApparel</li>
+       		<li>K_KhabiApparel</li>
+       		<li>MedievalMilitaryArmored</li>
+       		<li>IndustrialBasic</li>
+    	</apparelDisallowTags>
+  </PawnKindDef>
+  
+  <PawnKindDef Name="HighElfEliteBase" ParentName="HighElfBase" Abstract="True">
+    <minGenerationAge>25</minGenerationAge>
+	<apparelTags>
+		  <li>ElfApparelBasic</li>
+          <li>ElfApparelRoyal</li>
+          <li>Aq_ElfApparel</li>
+          <li>Aq_ElfMilitary</li>
+	</apparelTags>
+	<combatEnhancingDrugsChance>0.25</combatEnhancingDrugsChance>	
+	<combatEnhancingDrugsCount>
+      <min>0</min>
+      <max>1</max>
+    </combatEnhancingDrugsCount>
+    <skills>
+      <li>
+        <skill>Shooting</skill>
+        <range>7~12</range>
+      </li>
+      <li>
+      	<skill>Melee</skill>
+      	<range>5~10</range>
+      </li>
+    </skills>
+  </PawnKindDef>
+  
+  <!--Elf Colonist -->
+  <PawnKindDef ParentName="BasePlayerPawnKind">
+    <defName>Elf</defName>
+    <label>elf</label>
+    <labelPlural>elves</labelPlural>
+    <race>Human</race>
+    <defaultFactionType>Player_Elf</defaultFactionType>
+    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+    <apparelTags>
+        <li>Aq_ElfApparel</li>
+		<li>ElfApparelBasic</li>
+	</apparelTags>
+	<apparelDisallowTags>
+       	<li>Jester</li>
+       	<li>K_Apparel</li>
+       	<li>K_SacredApparel</li>
+       	<li>K_KhabiApparel</li>
+       	<li>MedievalMilitaryArmored</li>
+    </apparelDisallowTags> 
+    <apparelMoney>
+      <min>200</min>
+      <max>400</max>
+    </apparelMoney> 	
+	<chemicalAddictionChance>0</chemicalAddictionChance>	
+    <initialWillRange>1~3</initialWillRange>
+    <initialResistanceRange>15~24</initialResistanceRange>
+    <requiredWorkTags>
+		<li>Caring</li>
+	</requiredWorkTags>
+  </PawnKindDef>
+ 
+  <!--Elf Ally --> 
+  <PawnKindDef>
+	<defName>ElfAlly</defName>
+	<label>allied man-at-arms</label>
+	<fixedGender>Male</fixedGender>
+	<race>Human</race>
+	<useFactionXenotypes>false</useFactionXenotypes>	
+	<combatPower>36</combatPower>
+	<canBeSapper>true</canBeSapper>
+	<backstoryFiltersOverride>
+		<li>
+			<categories>
+				<li>Offworld</li>
+				<li>Outlander</li>
+				<li>Outsider</li>
+			</categories>
+		</li>
+	</backstoryFiltersOverride>
+	<gearHealthRange>
+		<min>0.5</min>
+		<max>1.8</max>
+	</gearHealthRange>
+	<apparelMoney>
+		<min>300</min>
+		<max>500</max>
+	</apparelMoney>
+	<apparelTags>
+		<li>Neolithic</li>
+		<li>MedievalArmorBasic</li>
+		<li>MedievalApparelBasic</li>
+		<li>MedievalMilitary</li>
+	</apparelTags>
+	<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+	<weaponMoney>
+		<min>100</min>
+		<max>150</max>
+	</weaponMoney>
+	<weaponTags>
+		<li>MedievalMeleeDecent</li>
+	</weaponTags>
+	<maxGenerationAge>70</maxGenerationAge>
+	<chemicalAddictionChance>0.05</chemicalAddictionChance>
+	<invNutrition>2.55</invNutrition>
+	<invFoodDef>Pemmican</invFoodDef>
+	<initialWillRange>1~3</initialWillRange>
+	<initialResistanceRange>5~9</initialResistanceRange>
+  </PawnKindDef>
+    
+ <!-- Melee Elf-->
+ <PawnKindDef ParentName="HighElfBase">
+    <defName>Aq_ElfGuardHigh</defName>
+    <label>grey elf guard</label>
+    <combatPower>54</combatPower>
+    <itemQuality>Normal</itemQuality>
+    <gearHealthRange>
+      <min>0.5</min>
+      <max>1.8</max>
+    </gearHealthRange>
+    <apparelMoney>
+      <min>300</min>
+      <max>900</max>
+    </apparelMoney>
+    <apparelAllowHeadgearChance>0.33</apparelAllowHeadgearChance>
+    <weaponMoney>
+      <min>455</min>
+      <max>700</max>
+    </weaponMoney>
+    <weaponTags>
+      <li>ElvenMelee</li>
+      <li>Aq_ElvenShield</li>
+    </weaponTags>
+    <techHediffsMoney>
+      <min>200</min>
+      <max>300</max>
+    </techHediffsMoney>
+    <techHediffsTags>
+      <li>Simple</li>
+    </techHediffsTags>
+    <techHediffsChance>0.001</techHediffsChance>
+    <inventoryOptions>
+      <skipChance>0.95</skipChance>
+      <thingDef>Silver</thingDef>
+      <countRange>
+        <min>30</min>
+        <max>100</max>
+      </countRange>
+    </inventoryOptions>
+    <initialWillRange>1~3</initialWillRange>
+    <initialResistanceRange>15~24</initialResistanceRange>
+  </PawnKindDef>
+  
+   <!--Ranged Elf -->
+ 
+ <PawnKindDef ParentName="HighElfBase">
+    <defName>Aq_ElfWatcherHigh</defName>
+    <label>waywatcher</label>
+    <labelPlural>waywatchers</labelPlural>
+    <combatPower>90</combatPower>
+    <itemQuality>Normal</itemQuality> 
+    <gearHealthRange>
+      <min>0.7</min>
+      <max>2.3</max>
+    </gearHealthRange>
+     <apparelRequired>
+    	<li>Aq_ElfApparel_Robe</li>
+    </apparelRequired>
+    <apparelMoney>
+      <min>300</min>
+      <max>800</max>
+    </apparelMoney>
+    <weaponMoney>
+      <min>195</min>
+      <max>250</max>
+    </weaponMoney>
+    <weaponTags>
+   	  <li>MedievalRanged</li>
+      <li>ElvenRanged</li>
+    </weaponTags>
+    <inventoryOptions>
+      <skipChance>0.85</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <thingDef>Silver</thingDef>
+          <countRange>
+            <min>50</min>
+            <max>150</max>
+          </countRange>
+        </li>
+        <li>
+          <thingDef>MedicineHerbal</thingDef>
+          <countRange>
+            <min>1</min>
+            <max>1</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+    <techHediffsChance>0.10</techHediffsChance>
+    <techHediffsMoney>
+      <min>700</min>
+      <max>1200</max>
+    </techHediffsMoney>
+    <techHediffsTags>
+      <li>Simple</li>
+    </techHediffsTags>	
+    <initialWillRange>1~2</initialWillRange>
+    <initialResistanceRange>13~21</initialResistanceRange>
+</PawnKindDef> 
+
+  <!-- Elite Melee Elf-->
+  <PawnKindDef ParentName="HighElfEliteBase">
+    <defName>Aq_ElfChampionHigh</defName>
+    <label>grey elf champion</label>
+    <combatPower>102</combatPower> 
+    <gearHealthRange>
+    	<min>0.5</min>
+    	<max>1.8</max>
+    </gearHealthRange>
+    <apparelRequired>
+    	<li>Aq_ElvenJerkin</li>
+    </apparelRequired>
+    <apparelMoney>
+      <min>300</min>
+      <max>1000</max>
+    </apparelMoney>
+    <weaponMoney>
+      <min>400</min>
+      <max>800</max>
+    </weaponMoney>
+    <weaponTags>
+      <li>ElvenMeleeElite</li>
+    </weaponTags>
+    <techHediffsMoney>
+      <min>200</min>
+      <max>300</max>
+    </techHediffsMoney>
+    <techHediffsTags>
+      <li>Simple</li>
+    </techHediffsTags>
+    <techHediffsChance>0.001</techHediffsChance>
+    <inventoryOptions>
+      <skipChance>0.95</skipChance>
+      <thingDef>Silver</thingDef>
+      <countRange>
+        <min>30</min>
+        <max>100</max>
+      </countRange>
+    </inventoryOptions>
+     <initialWillRange>1~3</initialWillRange>
+    <initialResistanceRange>17~26</initialResistanceRange> 
+  </PawnKindDef>
+  
+  <!-- Elite Ranged Elf-->
+  <PawnKindDef ParentName="HighElfEliteBase">
+    <defName>Aq_ElfArcherHigh</defName>
+    <label>grey elf archer</label>
+    <combatPower>108</combatPower> 
+    <gearHealthRange>
+    	<min>0.5</min>
+    	<max>1.8</max>
+    </gearHealthRange>
+    <apparelRequired>
+    	<li>Aq_ElvenJerkin</li>
+    </apparelRequired>
+    <apparelMoney>
+      <min>300</min>
+      <max>900</max>
+    </apparelMoney>
+    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+    <weaponMoney>
+      <min>400</min>
+      <max>700</max>
+    </weaponMoney>
+    <weaponTags>
+      <li>ElvenRanged</li>
+    </weaponTags>
+    <techHediffsMoney>
+      <min>200</min>
+      <max>300</max>
+    </techHediffsMoney>
+    <techHediffsTags>
+      <li>Simple</li>
+    </techHediffsTags>
+    <techHediffsChance>0.001</techHediffsChance>
+    <inventoryOptions>
+      <skipChance>0.95</skipChance>
+      <thingDef>Silver</thingDef>
+      <countRange>
+        <min>30</min>
+        <max>100</max>
+      </countRange>
+    </inventoryOptions>
+     <initialWillRange>1~3</initialWillRange>
+    <initialResistanceRange>15~24</initialResistanceRange> 
+  </PawnKindDef>
+  
+  <!-- Trader-->
+  <PawnKindDef ParentName="HighElfBase">
+    <defName>Aq_ElfTraderHigh</defName>
+    <label>grey elf trader</label>  
+    <combatPower>54</combatPower>
+    <gearHealthRange>
+      <min>1</min>
+      <max>2.3</max>
+    </gearHealthRange>
+    <apparelRequired>
+    	<li>Aq_ElvenTunic</li>
+    	<li>Aq_ElfApparel_Cape</li>
+    </apparelRequired>
+    <apparelMoney>
+      <min>700</min>
+      <max>1100</max>
+    </apparelMoney>
+    <apparelAllowHeadgearChance>0.5</apparelAllowHeadgearChance>
+    <weaponMoney>
+      <min>500</min>
+      <max>1000</max>
+    </weaponMoney>
+    <weaponTags>
+      <li>ElvenMelee</li>
+    </weaponTags>
+    <initialWillRange>3~4</initialWillRange>
+    <initialResistanceRange>13~21</initialResistanceRange>
+    <trader>true</trader>
+  </PawnKindDef>
+ 
+  <!-- Elf Leader--> 
+ <PawnKindDef ParentName="HighElfEliteBase">
+    <defName>Aq_ElfLord</defName>
+    <label>lord of the elves</label>
+    <labelFemale>lady of the elves</labelFemale>
+    <combatPower>144</combatPower>
+  	<itemQuality>Excellent</itemQuality>
+    <apparelRequired>
+    	<li>Aq_ElfLordArmor</li>
+    	<li>Aq_ElvishCirclet</li>
+    </apparelRequired>
+    <apparelTags>
+      <li>Royal</li>
+    </apparelTags>
+    <factionLeader>true</factionLeader>
+    <minGenerationAge>40</minGenerationAge>
+    <apparelMoney>
+      <min>3300</min>
+      <max>3900</max>
+    </apparelMoney>
+    <apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
+    <weaponMoney>
+      <min>3200</min>
+      <max>3600</max>
+    </weaponMoney>
+    <weaponTags>
+      <li>ElvenMeleeElite</li>
+      <li>ElvenRanged</li>
+    </weaponTags>
+    <initialWillRange>8~9</initialWillRange>
+    <initialResistanceRange>30~45</initialResistanceRange>
+  </PawnKindDef>
+  
+    <!-- Miner-->  
+    <PawnKindDef ParentName="HighElfBase">
+        <defName>Aq_HighElf_Miner</defName>
+        <label>collier</label>
+        <combatPower>35</combatPower> 
+        <itemQuality>Poor</itemQuality>
+        <isFighter>false</isFighter>
+        <gearHealthRange>0.5~1.8</gearHealthRange>
+        <apparelMoney>180~350</apparelMoney>
+        <weaponMoney>90~90</weaponMoney>
+        <weaponTags>
+            <li>MedievalMeleeDecent</li>
+        </weaponTags>
+        <techHediffsMoney>50~50</techHediffsMoney>
+        <techHediffsTags>
+            <li>Poor</li>
+        </techHediffsTags>
+        <techHediffsChance>0.03</techHediffsChance>
+        <initialWillRange>1~2</initialWillRange>
+        <initialResistanceRange>13~21</initialResistanceRange>
+   </PawnKindDef>
+  
+   <!-- Logger-->
+   <PawnKindDef ParentName="HighElfBase">
+        <defName>Aq_HighElf_Logger</defName>
+        <label>tree whisperer</label>
+        <combatPower>40</combatPower>
+        <itemQuality>Poor</itemQuality>
+        <isFighter>false</isFighter>
+        <gearHealthRange>0.5~1.8</gearHealthRange>
+        <apparelMoney>180~350</apparelMoney>
+        <weaponMoney>80~80</weaponMoney>
+        <apparelRequired>
+        </apparelRequired>
+        <weaponTags>
+            <li>MedievalMeleeBasic</li>
+        </weaponTags>
+        <techHediffsMoney>50~50</techHediffsMoney>
+        <techHediffsTags>
+            <li>Poor</li>
+        </techHediffsTags>
+        <techHediffsChance>0.03</techHediffsChance>
+        <initialWillRange>1~2</initialWillRange>
+        <initialResistanceRange>13~21</initialResistanceRange>
+    </PawnKindDef>
+
+    <!-- Farmer-->
+    <PawnKindDef ParentName="HighElfBase">
+        <defName>Aq_HighElf_Farmer</defName>
+        <label>planter</label>
+        <combatPower>35</combatPower>
+        <itemQuality>Poor</itemQuality>
+        <isFighter>false</isFighter>
+        <gearHealthRange>0.5~1.8</gearHealthRange>
+        <apparelMoney>180~350</apparelMoney>
+        <weaponMoney>80~80</weaponMoney>
+        <apparelRequired>
+        </apparelRequired>
+         <weaponTags>
+            <li>MedievalMeleeBasic</li>
+        </weaponTags>
+        <techHediffsMoney>50~50</techHediffsMoney>
+        <techHediffsTags>
+            <li>Poor</li>
+        </techHediffsTags>
+        <techHediffsChance>0.03</techHediffsChance>
+        <initialWillRange>1~2</initialWillRange>
+        <initialResistanceRange>13~21</initialResistanceRange>
+    </PawnKindDef>
+  
+
+</Defs>

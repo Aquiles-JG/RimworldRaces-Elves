@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<FactionDef Name="Aq_DrowFactionBase" ParentName="FactionBase" Abstract="True">  
+	<pawnSingular>dark elf</pawnSingular>
+    <pawnsPlural>dark elves</pawnsPlural>
+    <categoryTag>Drow</categoryTag>
+	<settlementGenerationWeight>0.75</settlementGenerationWeight>
+	<listOrderPriority>20</listOrderPriority>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <canStageAttacks>true</canStageAttacks>
+	<techLevel>Medieval</techLevel>
+	<allowedCultures>
+    	<li MayRequire="Ludeon.RimWorld.Ideology">WayofKara</li>
+    </allowedCultures>
+	<requiredMemes>
+	  <li MayRequire="Ludeon.RimWorld.Ideology">Darkness</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">DrowPrimacy</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Structure_TheistEmbodied</li>
+    </requiredMemes>
+	<disallowedPrecepts>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Abhorrent</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Horrible</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Execution_Abhorrent</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Execution_Horrible</li>
+    </disallowedPrecepts>
+	<xenotypeSet>
+      <xenotypeChances>
+        <Aq_DarkElf MayRequire="Ludeon.RimWorld.Biotech">999</Aq_DarkElf>
+      </xenotypeChances>
+    </xenotypeSet>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>Karasti</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+	<caravanTraderKinds>
+	  <li>Drow_Caravan_Dealer</li>
+	  <li MayRequire="Aquiles.Alchemy">Aq_Caravan_Alchemy</li> 
+    </caravanTraderKinds>
+    <visitorTraderKinds>
+       <li>Aq_Visitor_Drow</li>
+    </visitorTraderKinds>
+    <baseTraderKinds>
+        <li>Base_Drow_Standard</li>
+    </baseTraderKinds>
+    <allowedArrivalTemperatureRange>-40~35</allowedArrivalTemperatureRange>
+    <raidCommonalityFromPointsCurve>
+    	<points>
+    	<li>(0, 1)</li>
+    	</points>
+  	</raidCommonalityFromPointsCurve>
+    <raidLootMaker>DrowRaidLootMaker</raidLootMaker>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,35)</li>
+        <li>(70, 50)</li>
+        <li>(800, 100)</li>
+        <li>(1300, 150)</li>
+        <li>(100000, 10000)</li>
+      </points>
+     </maxPawnCostPerTotalPointsCurve>
+     <settlementTexturePath>World/MedievalSettlement</settlementTexturePath>
+    <modExtensions>
+      <li Class="VFECore.FactionDefExtension">
+        <allowedBiomes>
+          <li>IceSheet</li>
+          <li>SeaIce</li>
+          <li>BorealForest</li>
+          <li>ColdBog</li>
+          <li>Tundra</li>
+          <li>TemperateForest</li>
+        </allowedBiomes>
+        <neverConnectToRoads>true</neverConnectToRoads>
+      </li>
+    </modExtensions>
+</FactionDef>
+  
+<FactionDef ParentName="Aq_DrowFactionBase">
+    <defName>Aq_DrowCity</defName>
+    <label>karasti aristocracy</label>
+    <description>One of the four great noble houses that rule with iron fist the dark elven society. Implacable owners of their ancient cities, they are always plotting to gain influence in others places. They hate each other as much as they worship Kara, the Goddess of Darkness.</description>
+    <colorSpectrum Inherit="False">
+    	<li>(220, 20, 60)</li>
+    	<li>(220, 60, 60)</li>
+    </colorSpectrum>	
+    <leaderTitle>matriarch</leaderTitle>
+    <allowedMemes>
+      	<li MayRequire="Ludeon.RimWorld.Ideology">FemaleSupremacy</li>
+    	<li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
+      	<li MayRequire="Ludeon.RimWorld.Ideology">Tunneler</li>
+      	<li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
+      	<li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+    </allowedMemes>
+    <factionNameMaker>NamerFactionDrow</factionNameMaker>
+    <settlementNameMaker>NamerSettlementDrow</settlementNameMaker>
+    <permanentEnemy>true</permanentEnemy>
+    <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+    <configurationListOrderPriority>66</configurationListOrderPriority>
+    <factionIconPath>World/DrowCamp</factionIconPath>
+    <pawnGroupMakers>
+ 	  <li>
+        <!-- Basic Melee squad-->
+        <kindDef>Combat</kindDef>
+         <commonality>50</commonality>
+     	<options>
+			<Drow_MeleeDrow>90</Drow_MeleeDrow>
+			<Drow_Slave>10</Drow_Slave>
+     	</options>
+     </li>
+     <li>
+        <!-- Standard squad-->
+        <kindDef>Combat</kindDef>
+        <commonality>25</commonality>
+     	<options>
+			<Drow_SniperDrow>5</Drow_SniperDrow>
+			<Drow_HeavyDrow>10</Drow_HeavyDrow>
+			<Drow_MeleeDrow>50</Drow_MeleeDrow>
+			<Drow_GunnerDrow>35</Drow_GunnerDrow>
+     	</options>
+     </li>
+     <li>
+        <!-- Elite troops-->
+        <kindDef>Combat</kindDef>
+        <commonality>5</commonality>
+    	<options>
+        	<Drow_SniperDrow>35</Drow_SniperDrow>
+			<Drow_ShockDrow>20</Drow_ShockDrow>
+        	<Drow_HeavyDrow>40</Drow_HeavyDrow>
+			<Drow_CaptainDrow>5</Drow_CaptainDrow>
+      </options>
+      </li> 
+      <li>
+         <!-- Peaceful--> 
+        <kindDef>Peaceful</kindDef>
+        <options>
+			<Drow_Slave>15</Drow_Slave>
+		    <Drow_SniperDrow>10</Drow_SniperDrow>
+		  	<Drow_ShockDrow>10</Drow_ShockDrow>
+		  	<Drow_MeleeDrow>20</Drow_MeleeDrow>
+			<Drow_GunnerDrow>20</Drow_GunnerDrow>
+			<Drow_HeavyDrow>20</Drow_HeavyDrow>
+			<Drow_CaptainDrow>5</Drow_CaptainDrow>
+        </options>
+      </li>
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+          <Drow_TraderDrow>1</Drow_TraderDrow>
+        </traders>
+        <carriers>
+          <Muffalo>6</Muffalo>
+          <Yak>5</Yak>
+          <Alpaca>2</Alpaca>
+          <Elephant>1</Elephant>
+        </carriers>
+        <guards>
+		  <Drow_ShockDrow>5</Drow_ShockDrow>
+		  <Drow_MeleeDrow>40</Drow_MeleeDrow>
+		  <Drow_GunnerDrow>40</Drow_GunnerDrow>
+		  <Drow_SniperDrow>15</Drow_SniperDrow>
+        </guards>
+      </li>
+      <li>
+        <kindDef>Settlement</kindDef>
+        <options>
+            <Drow_Slave>15</Drow_Slave>
+		    <Drow_SniperDrow>10</Drow_SniperDrow>
+		  	<Drow_ShockDrow>10</Drow_ShockDrow>
+		  	<Drow_MeleeDrow>20</Drow_MeleeDrow>
+			<Drow_GunnerDrow>20</Drow_GunnerDrow>
+			<Drow_HeavyDrow>20</Drow_HeavyDrow>
+			<Drow_CaptainDrow>5</Drow_CaptainDrow>
+        </options>
+     </li>
+    <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Miners</kindDef>
+        <commonality>1</commonality>
+        <options>
+          <Drow_Miner>1</Drow_Miner>
+        </options>
+  	</li>
+     	<li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Loggers</kindDef>
+        <commonality>1</commonality>
+        <options>
+          <Drow_Logger>1</Drow_Logger>
+        </options>
+      	</li>
+      	<li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Farmers</kindDef>
+        <commonality>1</commonality>
+        <options>
+          <Drow_Farmer>1</Drow_Farmer>
+        </options>
+       </li>
+    </pawnGroupMakers>
+</FactionDef>
+
+<FactionDef ParentName="Aq_DrowFactionBase">
+    <defName>Aq_DrowUnforgiven</defName>
+    <label>the unforgiven</label>
+    <leaderTitle>elder</leaderTitle>
+    <description>Exiled, outcasted and abandoned by dark elves society, these Karasti survive in the wild forming small communities called prides. They distrust humans but their friendship can be gained through trust, goodwill and patience.</description>
+    <colorSpectrum Inherit="False">
+        <li>(58, 58, 58)</li>
+        <li>(37, 37, 37)</li>
+    </colorSpectrum>
+	<allowedMemes>
+    	<li MayRequire="Ludeon.RimWorld.Ideology">Individualist</li>
+      	<li MayRequire="Ludeon.RimWorld.Ideology">Tunneler</li>
+      	<li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
+      	<li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+    </allowedMemes> 
+    <settlementNameMaker>NamerSettlementUFDrow</settlementNameMaker>
+    <factionNameMaker>NamerFactionUFDrow</factionNameMaker>
+    <naturalEnemy>true</naturalEnemy>
+    <settlementGenerationWeight>0.5</settlementGenerationWeight>
+    <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+    <configurationListOrderPriority>65</configurationListOrderPriority>
+    <factionIconPath>World/DrowCampUF</factionIconPath>      
+	<pawnGroupMakers>
+    <li>
+    <!-- Basic Ranged squad-->
+    	<kindDef>Combat</kindDef>
+    	<commonality>50</commonality>
+    	<options>
+			<Drow_GunnerUFDrow>50</Drow_GunnerUFDrow>
+			<Drow_MeleeUFDrow>50</Drow_MeleeUFDrow>
+    	</options>
+    </li>
+    <li>
+    <!-- Standard squad-->
+    	<kindDef>Combat</kindDef>
+        <commonality>25</commonality>
+     	<options>
+			<Drow_SniperUFDrow>10</Drow_SniperUFDrow>
+			<Drow_HeavyUFDrow>10</Drow_HeavyUFDrow>
+			<Drow_MeleeUFDrow>40</Drow_MeleeUFDrow>
+			<Drow_GunnerUFDrow>40</Drow_GunnerUFDrow>
+     	</options>
+	</li>
+    <li>
+    <!-- Elite troops-->
+    	<kindDef>Combat</kindDef>
+        <commonality>10</commonality>
+    	<options>
+        	<Drow_SniperUFDrow>35</Drow_SniperUFDrow>
+        	<Drow_HeavyUFDrow>35</Drow_HeavyUFDrow>
+        	<Drow_ShockUFDrow>25</Drow_ShockUFDrow>
+			<Drow_CaptainUFDrow>5</Drow_CaptainUFDrow>
+    	</options>
+    </li>
+    <li>
+    <!-- Peaceful--> 
+        <kindDef>Peaceful</kindDef>
+        <options>
+			<Drow_SniperUFDrow>15</Drow_SniperUFDrow>
+		  	<Drow_MeleeUFDrow>20</Drow_MeleeUFDrow>
+			<Drow_GunnerUFDrow>20</Drow_GunnerUFDrow>
+			<Drow_HeavyUFDrow>20</Drow_HeavyUFDrow>
+			<Drow_ShockUFDrow>20</Drow_ShockUFDrow>
+			<Drow_CaptainUFDrow>5</Drow_CaptainUFDrow>
+        </options>
+    </li>
+    <li>
+    	<kindDef>Trader</kindDef>
+        <traders>
+          	<Drow_TraderUFDrow>1</Drow_TraderUFDrow>
+        </traders>
+        <carriers>
+          <Muffalo>6</Muffalo>
+          <Yak>4</Yak>
+          <Alpaca>2</Alpaca>
+          <Elephant>1</Elephant>
+        </carriers>
+        <guards>
+		  <Drow_ShockUFDrow>5</Drow_ShockUFDrow>
+		  <Drow_MeleeUFDrow>40</Drow_MeleeUFDrow>
+		  <Drow_GunnerUFDrow>40</Drow_GunnerUFDrow>
+		  <Drow_SniperUFDrow>15</Drow_SniperUFDrow>
+        </guards>
+    </li>  
+    <li>
+        <kindDef>Settlement</kindDef>
+        <options>
+		  	<Drow_ShockUFDrow>15</Drow_ShockUFDrow>
+		  	<Drow_HeavyUFDrow>20</Drow_HeavyUFDrow>
+          	<Drow_SniperUFDrow>20</Drow_SniperUFDrow>
+		  	<Drow_MeleeUFDrow>20</Drow_MeleeUFDrow>
+		  	<Drow_GunnerUFDrow>20</Drow_GunnerUFDrow>
+		  	<Drow_CaptainUFDrow>5</Drow_CaptainUFDrow>
+    	</options>
+    </li>
+    <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Miners</kindDef>
+        <commonality>1</commonality>
+        <options>
+          <Drow_MinerUF>1</Drow_MinerUF>
+        </options>
+    </li>
+    <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Loggers</kindDef>
+        <commonality>1</commonality>
+        <options>
+          <Drow_LoggerUF>1</Drow_LoggerUF>
+        </options>
+    </li>
+    <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Farmers</kindDef>
+        <commonality>1</commonality>
+        <options>
+          <Drow_FarmerUF>1</Drow_FarmerUF>
+        </options>
+    </li>
+</pawnGroupMakers>
+</FactionDef>
+
+<ThingSetMakerDef>
+    <defName>DrowRaidLootMaker</defName>
+    <root Class="ThingSetMaker_MarketValue">
+      <fixedParams>
+        <filter>
+          <thingDefs>
+          	<li>Silver</li>
+            <li>DE_Medicine</li>
+            <li>DE_Waybread</li>
+          </thingDefs>
+        </filter>
+      </fixedParams>
+    </root>
+</ThingSetMakerDef>
+  
+</Defs>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+ <ThingDef ParentName="ResourceBase">
+    <defName>Aq_AloeOil</defName>
+    <label>aloe oil</label>
+    <description>A pure extract of aloe vera, a precursor for ointments and remedies.</description>
+    <graphicData>
+      <texPath>Things/Item/Manufactured/AloeOil</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>0.9</drawSize>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <stackLimit>25</stackLimit>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>8.5</MarketValue>
+      <Mass>0.2</Mass>
+      <Flammability>0.75</Flammability>
+      <DeteriorationRate>2.0</DeteriorationRate>
+    </statBases>
+    <thingCategories>
+      <li>Aq_Oils</li>
+    </thingCategories>
+    <tradeTags>
+      <li>MedicalSupplies</li>
+    </tradeTags>
+  </ThingDef>
+  
+   <ThingDef ParentName="ResourceBase">
+    <defName>Aq_HenbaneOil</defName>
+    <label>henbane oil</label>
+    <description>A pure extract of henbane, a precursor for ointments and remedies.</description>
+    <graphicData>
+      <texPath>Things/Item/Manufactured/HenbaneOil</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>0.9</drawSize>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <stackLimit>25</stackLimit>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>7</MarketValue>
+      <Mass>0.2</Mass>
+      <Flammability>0.75</Flammability>
+      <DeteriorationRate>2.0</DeteriorationRate>
+    </statBases>
+    <thingCategories>
+      <li>Aq_Oils</li>
+    </thingCategories>
+    <tradeTags>
+      <li>MedicalSupplies</li>
+    </tradeTags>
+  </ThingDef>
+			
+ </Defs>
+ 

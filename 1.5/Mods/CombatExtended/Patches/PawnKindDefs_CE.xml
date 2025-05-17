@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+
+	<!-- ========== Give ammo to archers ========== -->
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/PawnKindDef[defName="Drow_GunnerDrow" or defName="Drow_GunnerUFDrow" or defName="Drow_SniperDrow" or defName="Drow_SniperUFDrow"]</xpath>
+		<value>
+			<li Class="CombatExtended.LoadoutPropertiesExtension">
+				<primaryMagazineCount>
+					<min>14</min>
+					<max>26</max>
+				</primaryMagazineCount>
+				<forcedSidearm>
+					<sidearmMoney>
+						<min>120</min>
+						<max>250</max>
+					</sidearmMoney>
+					<weaponTags>
+						<li>NeolithicMeleeBasic</li>
+						<li>MedievalMeleeDecent</li>
+					</weaponTags>
+				</forcedSidearm>
+			</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/PawnKindDef[defName="Drow_GunnerDrow" or defName="Drow_GunnerUFDrow" or defName="Drow_SniperDrow" or defName="Drow_SniperUFDrow"]/apparelRequired</xpath>
+		<value>
+			<li>CE_Apparel_TribalBackpack</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/PawnKindDef[defName="Aq_ElfArcherHigh"]</xpath>
+		<value>
+			<li Class="CombatExtended.LoadoutPropertiesExtension">
+				<primaryMagazineCount>
+					<min>14</min>
+					<max>26</max>
+				</primaryMagazineCount>
+				<forcedSidearm>
+					<sidearmMoney>
+						<min>120</min>
+						<max>250</max>
+					</sidearmMoney>
+					<weaponTags>
+						<li>NeolithicMeleeBasic</li>
+						<li>MedievalMeleeDecent</li>
+					</weaponTags>
+				</forcedSidearm>
+			</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/PawnKindDef[defName="Aq_ElfLord"]</xpath>
+		<value>
+			<li Class="CombatExtended.LoadoutPropertiesExtension">
+				<primaryMagazineCount>
+					<min>14</min>
+					<max>26</max>
+				</primaryMagazineCount>
+			</li>
+		</value>
+	</Operation>
+
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/PawnKindDef[defName="Aq_ElfArcherHigh"]/apparelRequired</xpath>
+		<value>
+				<li>CE_Apparel_TribalBackpack</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/PawnKindDef[defName="Aq_ElfLord"]/apparelRequired</xpath>
+		<value>
+			<li>CE_Apparel_TribalBackpack</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/PawnKindDef[defName="Drow_Miner" or defName="Drow_Logger" or defName="Drow_Farmer" or defName="Drow_MinerUF" or defName="Drow_LoggerUF" or defName="Drow_FarmerUF"]</xpath>
+		<value>
+			<li Class="CombatExtended.LoadoutPropertiesExtension">
+				<primaryMagazineCount>
+					<min>3</min>
+					<max>5</max>
+				</primaryMagazineCount>
+				<sidearms>
+					<li>
+						<generateChance>0.25</generateChance>
+						<sidearmMoney>
+							<min>75</min>
+							<max>185</max>
+						</sidearmMoney>
+						<weaponTags>
+							<li>MedievalMeleeBasic</li>
+						</weaponTags>
+					</li>
+				</sidearms>
+			</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/PawnKindDef[defName="Aq_HighElf_Miner" or defName="Aq_HighElf_Logger" or defName="Aq_HighElf_Farmer"]</xpath>
+		<value>
+			<li Class="CombatExtended.LoadoutPropertiesExtension">
+				<primaryMagazineCount>
+					<min>3</min>
+					<max>5</max>
+				</primaryMagazineCount>
+				<sidearms>
+					<li>
+						<generateChance>0.25</generateChance>
+						<sidearmMoney>
+							<min>75</min>
+							<max>185</max>
+						</sidearmMoney>
+						<weaponTags>
+							<li>MedievalMeleeBasic</li>
+						</weaponTags>
+					</li>
+				</sidearms>
+			</li>
+		</value>
+	</Operation>
+	
+	
+</Patch>

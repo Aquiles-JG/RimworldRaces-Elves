@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Precepts -->
+
+  <PreceptDef>
+    <defName>DE_Corpses_Beautiful</defName>
+    <issue>Corpses</issue>
+    <label>beautiful</label>
+    <description>The sight of a dead person is a beautiful thing. There is nothing more sublime than decorating our colony with the corpses of our vanquished foes.</description>
+    <impact>Medium</impact>
+    <displayOrderInIssue>20</displayOrderInIssue>
+    <associatedMemes>
+      <li>DrowPrimacy</li>
+    </associatedMemes>
+    <requiredMemes>
+      <li>DrowPrimacy</li>
+    </requiredMemes>
+    <comps>
+      <li Class="PreceptComp_SelfTookMemoryThought">
+        <eventDef>ObservedLayingCorpse</eventDef>
+        <thought>DE_Corpses_Beautiful_ObservedLayingCorpse</thought>
+      </li>
+      <li Class="PreceptComp_SelfTookMemoryThought">
+        <eventDef>ObservedLayingRottingCorpse</eventDef>
+        <thought>DE_Corpses_Beautiful_ObservedLayingRottingCorpse</thought>
+      </li>
+    </comps>
+  </PreceptDef>
+  
+  <ThoughtDef>
+    <defName>DE_Corpses_Beautiful_ObservedLayingCorpse</defName>
+    <icon>Things/Mote/ThoughtSymbol/Skull</icon>
+    <showBubble>true</showBubble>
+    <thoughtClass>Thought_MemoryObservation</thoughtClass>
+    <durationDays>0.5</durationDays>
+    <stackedEffectMultiplier>0.5</stackedEffectMultiplier>
+    <stackLimit>2</stackLimit>
+   
+    <stages>
+      <li>
+        <label>observed corpse</label>
+        <description>I saw a dead body laying on the ground. What a beautiful sight!</description>
+        <baseMoodEffect>3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>DE_Corpses_Beautiful_ObservedLayingRottingCorpse</defName>
+    <icon>Things/Mote/ThoughtSymbol/Skull</icon>
+    <showBubble>true</showBubble>
+    <thoughtClass>Thought_MemoryObservation</thoughtClass>
+    <durationDays>0.5</durationDays>
+    <stackedEffectMultiplier>0.5</stackedEffectMultiplier>
+    <stackLimit>3</stackLimit>
+   
+    <stages>
+      <li>
+        <label>observed rotting corpse</label>
+        <description>I saw a rotting corpse laying on the ground. What a beautiful sight!</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+<PreceptDef>
+    <defName>FungusEating_Indifferent</defName>
+    <issue>FungusEating</issue>
+    <label>indifferent</label>
+    <description>Fungus is just another source of food. Nothing more.</description>
+    <impact>Low</impact>
+    <displayOrderInIssue>0</displayOrderInIssue>
+    <displayOrderInImpact>100</displayOrderInImpact>
+    <associatedMemes>
+      <li>DrowPrimacy</li>
+      <li>Darkness</li>
+    </associatedMemes>
+    <requiredMemes>
+      <li>DrowPrimacy</li>
+      <li>Darkness</li>
+    </requiredMemes>
+    <comps>
+      <li Class="PreceptComp_SelfTookMemoryThought">
+        <eventDef>AteFungus</eventDef>
+        <thought>AteFungus_Indifferent</thought>
+      </li>
+      <li Class="PreceptComp_SelfTookMemoryThought">
+        <eventDef>AteFungusAsIngredient</eventDef>
+        <thought>AteFungusAsIngredient_Indifferent</thought>
+      </li>
+    </comps>
+</PreceptDef>
+
+ <ThoughtDef>
+    <defName>AteFungus_Indifferent</defName>
+    <showBubble>false</showBubble>
+    <icon>Things/Mote/ThoughtSymbol/Food</icon>
+    <durationDays>1</durationDays>
+    <stages>
+      <li>
+        <label>ate fungus</label>
+        <description>I ate some fungus. It wasn't that bad.</description>
+        <baseMoodEffect>0</baseMoodEffect>
+      </li>
+    </stages>
+</ThoughtDef>
+
+<ThoughtDef>
+    <defName>AteFungusAsIngredient_Indifferent</defName>
+    <showBubble>true</showBubble>
+    <icon>Things/Mote/ThoughtSymbol/Food</icon>
+    <durationDays>1</durationDays>
+    <stages>
+      <li>
+        <label>ate cooked fungus</label>
+        <description>I ate a meal with fungus. It was tastier than I thought.</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+    </stages>
+</ThoughtDef>
+  
+</Defs>

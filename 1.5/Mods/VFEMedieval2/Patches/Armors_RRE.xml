@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Armors nerfed (Dark Elves armors as templates)-->
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="VFEM2_Apparel_PaddedArmor"]/statBases/StuffEffectMultiplierArmor</xpath>
+    <value>
+    	<StuffEffectMultiplierArmor>0.44</StuffEffectMultiplierArmor>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="VFEM2_Apparel_LeatherArmor"]/statBases/StuffEffectMultiplierArmor</xpath>
+    <value>
+    	<StuffEffectMultiplierArmor>0.5</StuffEffectMultiplierArmor>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="VFEM2_Apparel_HeavyLeatherArmor"]/statBases/StuffEffectMultiplierArmor</xpath>
+    <value>
+    	<StuffEffectMultiplierArmor>0.55</StuffEffectMultiplierArmor>
+    </value>
+  </Operation>
+  
+</Patch>

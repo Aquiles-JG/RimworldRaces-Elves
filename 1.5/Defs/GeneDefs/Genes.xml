@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	 <!-- ============= Genes ============== --> 
+
+  <GeneDef ParentName="GeneSkinColorOverride">
+    <defName>Skin_DarkGray</defName>
+    <label>underdark skin</label>
+    <labelShortAdj>underdark</labelShortAdj>
+    <description>Carriers of this gene produce a pigment that turns their skin underdark gray.</description>
+    <skinColorOverride>(76, 76, 76)</skinColorOverride>
+    <randomBrightnessFactor>0</randomBrightnessFactor>
+    <displayOrderInCategory>98</displayOrderInCategory>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>gray</symbol></li>
+        <li><symbol>ash</symbol></li>
+        <li><symbol>fog</symbol></li>
+        <li><symbol>gloom</symbol></li>
+        <li><symbol>smoke</symbol></li>
+        <li><symbol>grim</symbol></li>
+        <li><symbol>murk</symbol></li>
+        <li><symbol>mist</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>wisp</symbol></li>
+        <li><symbol>ghost</symbol></li>
+        <li><symbol>murk</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+  
+  <GeneDef ParentName="GeneSkinColorOverride">
+	<defName>Skin_ElvenWhite</defName>
+	<label>pale skin</label>
+	<description>Carriers of this gene produce a pigment that turns their skin a white color.</description>
+	<skinColorOverride>(250,250,250)</skinColorOverride>
+	<randomBrightnessFactor>0</randomBrightnessFactor>
+	<displayOrderInCategory>92</displayOrderInCategory>
+	<symbolPack>
+	  <prefixSymbols>
+		<li><symbol>white</symbol></li>
+		<li><symbol>pale</symbol></li>
+	  </prefixSymbols>
+	  <suffixSymbols></suffixSymbols>
+	</symbolPack>
+</GeneDef>
+  
+  <GeneDef ParentName="GeneJawBase">
+    <defName>Head_Elven</defName>
+    <label>androgynous face</label>
+    <description>Carriers of this gene have a slim and slender appearance in their face and head.</description>
+    <iconPath>UI/Icons/Genes/Gene_ElvenHead</iconPath>
+    <forcedHeadTypes>
+      <li>Male_AveragePointy</li>
+	  <li>Male_NarrowNormal</li>
+	  <li>Male_NarrowPointy</li>
+	  <li>Female_AveragePointy</li>
+	  <li>Female_NarrowNormal</li>
+	  <li>Female_NarrowPointy</li>
+    </forcedHeadTypes>
+    <displayOrderInCategory>96</displayOrderInCategory>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>slender</symbol></li>
+        <li><symbol>slim</symbol></li>
+        <li><symbol>graceful</symbol></li>
+        <li><symbol>androgynous</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+  
+  <GeneDef ParentName="GeneSleepBase">
+    <defName>Elf_LightSleep</defName>
+    <label>elven sleep</label>
+    <description>Carriers of this gene get tired less quickly than others.</description>
+    <iconPath>UI/Icons/Genes/Gene_QuickSleeper</iconPath>
+    <displayOrderInCategory>20</displayOrderInCategory>
+    <statFactors>
+      <RestFallRateFactor>0.8</RestFallRateFactor>
+    </statFactors>
+    <biostatCpx>2</biostatCpx>
+    <biostatMet>-2</biostatMet>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>wake</symbol></li>
+        <li><symbol>night</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+  
+  <GeneDef ParentName="GeneBeautyBase">
+    <defName>Elf_Charm</defName>
+    <label>elven charm</label>
+    <description>Carriers of this gene possess a mysterious and almost irresistible charm.</description>
+    <iconPath>UI/Icons/Genes/Gene_Beautiful</iconPath>
+    <displayOrderInCategory>20</displayOrderInCategory>
+    <statOffsets>
+      <PawnBeauty>1</PawnBeauty>
+    </statOffsets>
+    <statFactors>
+      <SocialImpact>1.25</SocialImpact>
+    </statFactors>
+    <biostatMet>-2</biostatMet>
+    <biostatCpx>1</biostatCpx>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>charm</symbol></li>
+        <li><symbol>grace</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+  
+  <GeneDef ParentName="GeneMoveSpeedBase">
+    <defName>Elf_Dexterity</defName>
+    <label>elf dexterity</label> 
+    <labelShortAdj>dexterous</labelShortAdj>
+    <description>Carriers of this gene move quicker and stealthier than normal.</description>
+    <iconPath>UI/Icons/Genes/Gene_QuickMovespeed</iconPath>
+    <displayOrderInCategory>10</displayOrderInCategory>
+    <statFactors>
+      <PawnTrapSpringChance>0.1</PawnTrapSpringChance>
+    </statFactors>
+    <statOffsets>
+      <MeleeDodgeChance>10</MeleeDodgeChance>
+      <MoveSpeed>0.25</MoveSpeed>
+    </statOffsets>
+    <biostatMet>-3</biostatMet>
+    <biostatCpx>1</biostatCpx>
+    <symbolPack>
+      <wholeNameSymbols>
+        <li><symbol>speeder</symbol></li>
+      </wholeNameSymbols>
+      <prefixSymbols>
+        <li><symbol>speed</symbol></li>
+        <li><symbol>fast</symbol></li>
+        <li><symbol>quick</symbol></li>
+        <li><symbol>agi</symbol></li>
+        <li><symbol>nimb</symbol></li>
+        <li><symbol>swift</symbol></li>
+        <li><symbol>flash</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>flash</symbol></li>
+        <li><symbol>runner</symbol></li>
+        <li><symbol>sprinter</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+
+
+</Defs>

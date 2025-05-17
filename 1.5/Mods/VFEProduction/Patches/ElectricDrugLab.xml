@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+
+				<Operation Class="PatchOperationAdd"> 
+					<xpath>/Defs/RecipeDef[defName="MakeMedicineKarasti"]/recipeUsers</xpath>
+					<value>
+						 <li>VFE_TableDrugLabElectric</li>
+					</value>
+				</Operation>
+				
+	
+</Patch>

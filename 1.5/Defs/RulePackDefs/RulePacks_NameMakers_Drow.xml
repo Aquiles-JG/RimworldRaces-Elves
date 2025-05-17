@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+ <RulePackDef>
+    <defName>NamerDrow</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[firstName] [Pat][lastName]</li>
+		
+		<li>firstName(p=1)->[Mnames]</li>
+		<li>Pat(p=3)->[Fpat]</li>
+		<li>lastName(p=3)->[FamilyList]</li>
+      </rulesStrings>
+    <rulesFiles>
+     	<li>Mnames->Drow_Names/DrowMale</li>
+     	<li>Fpat->Drow_Names/Fpat</li>
+     	<li>FamilyList->Drow_Names/DrowFamily</li>
+     </rulesFiles>
+    </rulePack>
+  </RulePackDef>
+  
+  <RulePackDef>
+    <defName>NamerDrowFemale</defName>
+     <rulePack>
+      <rulesStrings>
+        <li>r_name->[firstName] [Pat][lastName]</li>
+		
+		<li>firstName(p=1)->[Fnames]</li>
+		<li>Pat(p=3)->[Fpat]</li>
+		<li>lastName(p=3)->[FamilyList]</li>
+      </rulesStrings>
+    <rulesFiles>
+     	<li>Fnames->Drow_Names/DrowFemale</li>
+     	<li>Fpat->Drow_Names/Fpat</li>
+     	<li>FamilyList->Drow_Names/DrowFamily</li>
+     </rulesFiles>
+    </rulePack>
+  </RulePackDef>
+  
+  <RulePackDef>
+    <defName>NamerFactionDrow</defName>
+    <rulePack>
+      <rulesStrings>
+		<li>name->[DrowFaction]'s Outpost</li>
+      </rulesStrings>
+      <rulesFiles>
+		<li>DrowFaction->Words/Drow_Factions</li>
+      </rulesFiles>
+    </rulePack>
+  </RulePackDef>
+  
+  <RulePackDef>
+    <defName>NamerFactionUFDrow</defName>
+    <rulePack>
+      <rulesStrings>
+		<li>name->[DrowFaction] Pride</li>
+      </rulesStrings>
+      <rulesFiles>
+		<li>DrowFaction->Words/Drow_FactionsUF</li>
+      </rulesFiles>
+    </rulePack>
+  </RulePackDef>
+  
+  <RulePackDef>
+    <defName>NamerSettlementDrow</defName>
+    <rulePack>
+      <rulesStrings>
+		<li>name->[DrowSettlement] the [Epithet]</li>
+      </rulesStrings>
+      <rulesFiles>
+		<li>DrowSettlement->Words/Drow_Settlements</li>
+		<li>Epithet->Words/Drow_Epithets</li>
+      </rulesFiles>
+    </rulePack>
+  </RulePackDef>
+  
+  <RulePackDef>
+  	<defName>NamerSettlementUFDrow</defName>
+  	<rulePack>
+  		<rulesStrings>
+  			<li>name->Nameless [noun]</li>
+  			<li>name->Lost [noun]</li>
+  			<li>name->Secret [noun]</li>
+  			<li>name->Forgotten [noun]</li>
+  			<li>name->Unknown [noun]</li>
+  			
+  			<li>noun->hideout</li>
+  			<li>noun->lair</li>
+  			<li>noun->den</li>
+  			<li>noun->refuge</li>
+  			<li>noun->sanctuary</li>
+  			<li>noun->haven</li>
+  			<li>noun->hideaway</li>
+  			<li>noun->shelter</li>
+  			<li>noun->campsite</li>
+  			<li>noun->sanctum</li>
+  			<li>noun->cave</li>
+  			<li>noun->trench</li>
+  			<li>noun->corner</li>
+  			<li>noun->underway</li>
+  			<li>noun->tunnel</li>
+  		</rulesStrings>
+  	</rulePack>
+  </RulePackDef>
+  
+   <RulePackDef>
+    <defName>NamerLeaderDrow</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_leaderTitle->[cultureLeaderAdjective] [cultureLeaderNoun]</li>
+
+        <li>cultureLeaderAdjective->blessed</li>
+        <li>cultureLeaderAdjective->hallowed</li>
+        <li>cultureLeaderAdjective->holy</li>
+       
+        <li>cultureLeaderNoun->nuschka</li>
+        <li>cultureLeaderNoun->matriarch</li>
+        <li>cultureLeaderNoun->elder</li>
+       
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  
+   <RulePackDef>
+    <defName>NamerDeityDrow</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_deityName->[Deity]</li>
+     
+        <li>Deity(p=3)->Kara</li>
+        <li>Deity->Mormegil</li>
+        <li>Deity->Iala</li>
+       
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  
+  
+   <RulePackDef>
+    <defName>DeityTypeMakerDrow</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_deityType->the [DrowDeity]</li>
+
+        <li>DrowDeity->broadbreasted mother</li>
+        <li>DrowDeity->night huntress</li>
+        <li>DrowDeity->ravenous maiden</li>
+        <li>DrowDeity->masked lady</li>
+        <li>DrowDeity->all-mother</li>
+        
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  
+  
+  <RulePackDef>
+    <defName>DrowIdeoNamer</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_ideoName->[creed] of the [deity]</li>
+
+        <li>r_ideoAdjective->dark elven</li>
+
+        <li>r_memberName->karasti</li>
+        
+        <li>hyphenPrefix->[globalHyphenPrefix]</li>
+
+        <li>globalHyphenPrefix->neo</li>
+        <li>globalHyphenPrefix->archaeo</li>
+      
+        <li>creed->way</li>
+        <li>creed->path</li>
+        <li>creed->commandment</li>
+        <li>creed->canon</li>
+        <li>creed->act</li>
+
+        <li>deity->Night Huntress</li>
+        <li>deity->Ravenous Maiden</li>
+        <li>deity->Broadbreasted Mother</li>
+        <li>deity->All-mother</li>
+       
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+   
+  <RulePackDef>
+    <defName>DrowNamerFestival</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_ritualName->[festivalName]</li>
+        <li>festivalName->[festival] of [DrowConcept]</li>
+
+        <li>festival->feast</li>
+        <li>festival->ritual</li>
+        <li>festival->dance</li>
+        <li>festival->orgy</li>
+        <li>festival->gathering</li>
+
+        <li>DrowConcept->blood</li>
+        <li>DrowConcept->death</li>
+        <li>DrowConcept->fury</li>
+        <li>DrowConcept->pain</li>
+        <li>DrowConcept->faith</li>
+        <li>DrowConcept->shadows</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  
+  <!-- Dark Pyre-->
+  <RulePackDef>
+    <defName>ArtDescription_Pyre</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>physical_description_root->The dark pyre is engraved with a [depiction] of [image]. [desc_sentence_group]</li>
+        <li>physical_description_root->The dark pyre bears a [depiction] of [image]. [desc_sentence_group]</li>
+        <li>physical_description_root->The dark pyre is engraved with a [depiction] of [image]. [desc_sentence_group]</li>
+        <li>physical_description_root->An engraving on this dark pyre [depicts] [image]. [desc_sentence_group]</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  
+</Defs>

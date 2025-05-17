@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+ 	<ThingDef ParentName="BuildingBase">
+		<defName>Aq_PeppermintBarrel</defName>
+		<label>peppermint barrel</label>
+		<description>A big barrel meant for aging a high volume of peppermint at once. Any sunlight hitting the barrel may slow down the fermenting process, or even stop it.</description>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<techLevel>Medieval</techLevel>
+		<graphicData>
+      		<texPath>Things/Building/Aq_PeppermintBarrel/PeppermintBarrel</texPath>
+      		<graphicClass>Graphic_Multi</graphicClass>
+      		<shaderType>CutoutComplex</shaderType>
+      		<drawSize>2</drawSize>
+      		<damageData>
+        	  <rect>(0.05,0.1,0.9,0.9)</rect>
+      		</damageData>
+      		<shadowData>
+        	  <volume>(0.75, 0.35, 0.33)</volume>
+      		</shadowData>
+    	</graphicData>
+		<thingCategories>
+			<li>BuildingsProduction</li>
+		</thingCategories>
+		<costList>
+			<WoodLog>100</WoodLog>
+			<Steel>50</Steel>
+			<Leather_MDeer>20</Leather_MDeer>
+		</costList>
+		<designationCategory>Production</designationCategory>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>true</rotatable>
+		<uiIconScale>0.8</uiIconScale>
+		<fillPercent>0.5</fillPercent>
+		<statBases>
+			<Mass>100</Mass>
+			<WorkToBuild>1000</WorkToBuild>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>1</Flammability>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">2</StyleDominance>		
+		</statBases>
+		<dominantStyleCategory>Underdark</dominantStyleCategory>
+		<tickerType>Rare</tickerType>
+		<size>(2,2)</size>
+		<passability>PassThroughOnly</passability>
+		<pathCost>70</pathCost>
+		<uiOrder>2002</uiOrder>
+		<researchPrerequisites>
+			<li>Kara_Culture</li>
+		</researchPrerequisites>
+		<comps>
+			<li Class="ProcessorFramework.CompProperties_Processor">
+    			<capacity>20</capacity>
+    			<processes>
+      				<li>Aq_PeppermintProcess</li>
+    			</processes>
+  			</li>
+		</comps>
+		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+		<minifiedDef>MinifiedThing</minifiedDef>
+	</ThingDef>
+	
+	<ProcessorFramework.ProcessDef>
+		<defName>Aq_PeppermintProcess</defName>
+		<thingDef>Aq_PeppermintLiquor</thingDef>
+		<ingredientFilter>
+		  <thingDefs>
+			<li>Aq_Extract</li>
+		  </thingDefs>
+		</ingredientFilter>
+		<processDays>5</processDays>
+		<efficiency>0.8</efficiency>
+		<sunFactor>1.0~0</sunFactor>
+		<usesTemperature>false</usesTemperature>
+    </ProcessorFramework.ProcessDef>      
+
+</Defs>

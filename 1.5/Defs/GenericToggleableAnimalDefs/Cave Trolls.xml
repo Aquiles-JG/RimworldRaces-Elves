@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<Defs>
+
+
+	<AnimalBehaviours.GenericToggleableAnimalDef>
+		<defName>AEXP_ToggleableAnimalsCaves</defName>
+		<toggleablePawns>			
+			<li>Aq_Troll</li>
+		</toggleablePawns>							
+	</AnimalBehaviours.GenericToggleableAnimalDef>
+
+	
+</Defs>

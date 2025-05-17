@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	
+<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Psycasts Expanded</li>
+		</mods>
+
+		<match Class="PatchOperationSequence">
+			<operations>
+	
+				<li Class="PatchOperationAdd">
+                    <xpath>/Defs/VanillaPsycastsExpanded.PsycasterPathDef[defName="VPE_Nightstalker"]</xpath>
+                    <value>
+                    	<lockedReason>Karasti only</lockedReason>
+                        <requiredBackstoriesAny>
+        					<li>
+          						<categoryName>KarastiBackstory</categoryName>
+          						<slot>Childhood</slot>
+        					</li>
+        					<li>
+          						<categoryName>KarastiBackstory</categoryName>
+          						<slot>Adulthood</slot>
+        					</li>
+      					</requiredBackstoriesAny>
+                    </value>
+                </li>
+				<li Class="PatchOperationAdd">
+            		<xpath>Defs/FactionDef[defName = "Aq_DrowCity"]/pawnGroupMakers</xpath>
+            		<value>
+               			<li Class="VanillaPsycastsExpanded.PawnGroupMaker_PsycasterRaid">
+                  		<kindDef>Combat</kindDef>
+                  		<commonality>10</commonality>
+                  		<options>
+                     		<Penal_MeleeDrow>5</Penal_MeleeDrow>
+                     		<Mercenary_SniperDrow>3.5</Mercenary_SniperDrow>
+                     		<Drow_shocktroop>2</Drow_shocktroop>
+                     		<Penal_CaptainDrow>1</Penal_CaptainDrow>
+					 		<Penal_PriestessDrow>0.2</Penal_PriestessDrow>
+                  		</options>
+                  		</li>
+                  	</value>
+               </li>
+               <li Class="PatchOperationAdd">
+            		<xpath>Defs/FactionDef[defName = "Aq_DrowUnforgiven"]/pawnGroupMakers</xpath>
+            		<value>
+               			<li Class="VanillaPsycastsExpanded.PawnGroupMaker_PsycasterRaid">
+                  		<kindDef>Combat</kindDef>
+                  		<commonality>10</commonality>
+                  		<options>
+                     		<Penal_MeleeUFDrow>5</Penal_MeleeUFDrow>
+                     		<Mercenary_SniperUFDrow>3.5</Mercenary_SniperUFDrow>
+                     		<AssassinUFDrow>2</AssassinUFDrow>
+                     		<Penal_CaptainUFDrow>1</Penal_CaptainUFDrow>
+					 		<Penal_KinasierUFDrow>0.2</Penal_KinasierUFDrow>
+                  		</options>
+                  		</li>
+                  	</value>
+               </li>
+               <li Class="PatchOperationAdd">
+            		<xpath>Defs/FactionDef[@Name = "Aq_ElfFactionBase"]/pawnGroupMakers</xpath>
+            		<value>
+               			<li Class="VanillaPsycastsExpanded.PawnGroupMaker_PsycasterRaid">
+                  		<kindDef>Combat</kindDef>
+                  		<commonality>10</commonality>
+                  		<options>
+                     		 <Aq_ElfGuardHigh>20</Aq_ElfGuardHigh>
+          					 <Aq_ElfArcherHigh>10</Aq_ElfArcherHigh>
+          					 <Aq_ElfLord>1</Aq_ElfLord>
+          					 <Aq_ElfMage>0.2</Aq_ElfMage>
+                  		</options>
+                  		</li>
+                  	</value>
+               </li>
+                <li Class="PatchOperationAdd">
+				<xpath>/Defs/ScenarioDef[defName = "DrowScenario"]/scenario/parts</xpath>
+					<value>
+						<li Class="ScenPart_ScatterThingsNearPlayerStart">
+						<def>ScatterThingsNearPlayerStart</def>
+						<thingDef>PsychicAmplifier</thingDef>
+						<count>1</count>
+						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+				<xpath>/Defs/ScenarioDef[defName = "ElfScenario"]/scenario/parts</xpath>
+					<value>
+						<li Class="ScenPart_ScatterThingsNearPlayerStart">
+						<def>ScatterThingsNearPlayerStart</def>
+						<thingDef>PsychicAmplifier</thingDef>
+						<count>1</count>
+						</li>
+					</value>
+				</li>
+				
+			</operations>
+		</match>
+		
+</Operation>
+	
+</Patch>

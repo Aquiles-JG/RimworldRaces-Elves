@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+<XenotypeDef>
+    <defName>Aq_Elf</defName>
+    <label>elf</label>
+    <description>Elves live in the wooden realms far beyond the Human reach. They are wise, beautiful and slender creatures that spend their time crafting all kinds of marvelous and delicate things. They only hate their underworld cousins: the dark elves.</description>
+    <descriptionShort>Elves live in the wooden realms far beyond the Human reach.</descriptionShort>
+    <iconPath>UI/Icons/Xenotypes/Elf</iconPath>
+    <nameMaker>Aq_ElfMaleNamer</nameMaker>
+    <nameMakerFemale>Aq_ElfFemaleNamer</nameMakerFemale>
+    <inheritable>true</inheritable>
+    <chanceToUseNameMaker>1</chanceToUseNameMaker>
+    <genes>
+      <!-- Common to all elves-->
+      <li>Elf_Charm</li>
+      <li>Elf_Dexterity</li>
+      <li>Elf_LightSleep</li>
+      <li>Head_Elven</li>
+      <li>Ears_Pointed</li>
+      <li>Hair_LongOnly</li>
+      <li>Beard_NoBeardOnly</li>
+      <li>Body_Thin</li>
+      <li>Body_Standard</li>
+      <li>ArchiteMetabolism</li>
+	  <li>DiseaseFree</li>
+      <!-- Specific for gray elves-->
+      <li>Skin_ElvenWhite</li>
+	  <li>Libido_Low</li>
+	  <li>AptitudeTerrible_Mining</li>
+	  <li>AptitudeStrong_Artistic</li>
+    </genes>
+     <modExtensions>
+		<li Class="XenotypeRestrictions.XenotypeExtension">
+			<!--overridenSpawnedParts>
+				<li>
+					<key>Lung</key><value>CustomLung</value>
+				</li>
+			</overridenSpawnedParts-->
+			<customHemogenPack>DE_Blood</customHemogenPack>
+		</li>
+	</modExtensions>
+  </XenotypeDef>
+  
+  <XenotypeDef>
+    <defName>Aq_DarkElf</defName>
+    <label>dark elf</label>
+    <description>Dark elves live in the gloomy Underdark, preying on the weak and feeding their ravenous hatred against the elves of the surface. Be careful because they are always deadly enemies, especially in the cover of darkness.</description>
+    <descriptionShort>Dark elves live in the gloomy Underdark, preying on the weak and feeding their ravenous hatred against the elves of the surface.</descriptionShort>
+    <iconPath>UI/Icons/Xenotypes/DarkElf</iconPath>
+    <nameMaker>NamerDrow</nameMaker>
+    <nameMakerFemale>NamerDrowFemale</nameMakerFemale>
+    <inheritable>true</inheritable>
+    <chanceToUseNameMaker>1</chanceToUseNameMaker>
+    <genes>
+      <!--Common to all elves-->
+      <li>Elf_Charm</li>
+      <li>Elf_Dexterity</li>
+      <li>Elf_LightSleep</li>
+      <li>Head_Elven</li>
+      <li>Ears_Pointed</li>
+      <li>Hair_LongOnly</li>
+      <li>Beard_NoBeardOnly</li>
+      <li>Body_Thin</li>
+	  <li>Body_Standard</li>
+	  <li>ArchiteMetabolism</li>
+	  <li>DiseaseFree</li>
+	  <!-- Specific for dark elves-->
+	  <li>Skin_DarkGray</li>
+	  <li>Hair_SnowWhite</li>
+      <li>DarkVision</li>
+      <li>UVSensitivity_Mild</li>
+      <li>MinTemp_SmallDecrease</li>
+	  <li>AptitudePoor_Animals</li>
+	  <li>AptitudeStrong_Melee</li>
+    </genes>
+    <modExtensions>
+    	<li Class="XenotypeRestrictions.XenotypeExtension">
+			<!--overridenSpawnedParts>
+				<li>
+					<key>Lung</key><value>CustomLung</value>
+				</li>
+			</overridenSpawnedParts-->
+			<customHemogenPack>DE_Blood</customHemogenPack>
+		</li>
+	</modExtensions>
+  </XenotypeDef>
+  
+</Defs>

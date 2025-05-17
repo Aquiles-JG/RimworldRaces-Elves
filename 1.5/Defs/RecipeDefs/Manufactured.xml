@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+  <RecipeDef>
+    <defName>Aq_MakeExtract</defName>
+    <label>make herbal extract</label>
+    <description>Make herbal extract from peppermint.</description>
+    <jobString>Making extract.</jobString>
+    <workSpeedStat>DrugCookingSpeed</workSpeedStat>
+    <workSkill>Cooking</workSkill>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Brewing</soundWorking>
+    <workAmount>800</workAmount>
+    <targetCountAdjustment>1</targetCountAdjustment>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Aq_RawPeppermint</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Aq_RawPeppermint</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <recipeUsers>
+    	<li>Brewery</li>
+    </recipeUsers>
+    <products>
+      <Aq_Extract>4</Aq_Extract>
+    </products>
+    <researchPrerequisite>Kara_Culture</researchPrerequisite>
+  </RecipeDef>
+  
+  <RecipeDef>
+    <defName>MakeAq_AloeOil</defName>
+    <label>make aloe oil</label>
+    <description>Extract vegetal oil from the aloe leaves.</description>
+    <jobString>Making aloe oil.</jobString>
+    <workSpeedStat>DrugCookingSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <workAmount>800</workAmount>
+    <workSkill>Crafting</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Aq_AloeLeaves</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Aq_AloeLeaves</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Aq_AloeOil>1</Aq_AloeOil>
+    </products>
+    <recipeUsers>
+      <li>DrugLab</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Crafting>3</Crafting>
+    </skillRequirements>
+    <researchPrerequisite>Aq_ElvenMedicine</researchPrerequisite>
+  </RecipeDef>
+  
+  <RecipeDef>
+    <defName>MakeAq_HenbaneOil</defName>
+    <label>make henbane oil</label>
+    <description>Extract vegetal oil from the henbane leaves.</description>
+    <jobString>Making henbane oil.</jobString>
+    <workSpeedStat>DrugCookingSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <workAmount>800</workAmount>
+    <workSkill>Crafting</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Aq_HenbaneLeaves</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Aq_HenbaneLeaves</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Aq_HenbaneOil>1</Aq_HenbaneOil>
+    </products>
+    <recipeUsers>
+      <li>DrugLab</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Crafting>3</Crafting>
+    </skillRequirements>
+    <researchPrerequisite>Kara_CultureII</researchPrerequisite>
+  </RecipeDef>
+
+</Defs>
+

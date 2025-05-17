@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<!-- AlchemySpProduct Rewards -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingSetMakerDef[defName="Reward_ItemsStandard"]/root/options/li[maxMarketValue=5500]/thingSetMaker/options</xpath>
+		<value>
+			<li>
+                <weight>8</weight> 
+                <thingSetMaker Class="ThingSetMaker_Conditional_MakingFaction">
+                  <makingFaction>Aq_ElfFactionHigh</makingFaction>
+                  <requireNonNull>true</requireNonNull>
+                  <thingSetMaker Class="ThingSetMaker_MarketValue">
+                    <fixedParams>
+                      <qualityGenerator>Reward</qualityGenerator>
+                      <allowNonStackableDuplicates>False</allowNonStackableDuplicates>
+                      <filter>
+                        <thingSetMakerTagsToAllow>
+                          <li>WeaponBladelink</li>
+                        </thingSetMakerTagsToAllow>
+                        <tradeTagsToAllow>
+                          <li>Elvendom</li>
+                        </tradeTagsToAllow>
+                      </filter>
+                    </fixedParams>
+                  </thingSetMaker>
+                </thingSetMaker>
+              </li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+	<xpath>/Defs/TraderKindDef[defName = "Caravan_Outlander_Exotic" or defName="Orbital_Exotic"]/stockGenerators</xpath>
+    	<value>
+ 	 		<li Class="StockGenerator_BuyTradeTag"><tag>Elvendom</tag></li>
+   		</value>
+	</Operation>
+	
+</Patch>

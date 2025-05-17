@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ResearchProjectTagDef>
+    	<defName>ElfStart</defName>
+  	</ResearchProjectTagDef>
+
+	<ResearchProjectTagDef>
+    	<defName>DrowStart</defName>
+  	</ResearchProjectTagDef>
+
+
+</Defs>
+   

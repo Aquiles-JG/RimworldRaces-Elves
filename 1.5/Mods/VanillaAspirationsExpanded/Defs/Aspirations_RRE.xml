@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <VAspirE.AspirationDef>
+		<defName>VAspirE_AqDrinkPeppermintLiquor</defName>
+		<label>get drunk with herbal liqueur</label>
+		<iconPath>UI/AspirationIcons/Aspiration_GetBlackoutDrunk</iconPath>
+		<description>{0} would like to get hammered with herbal liqueur.</description>
+		<requiredTraitsAny>
+			<DrugDesire>2</DrugDesire>
+			<DrugDesire>1</DrugDesire>
+		</requiredTraitsAny>
+		<satisfiedHediff>PeppermintHigh</satisfiedHediff>
+		<satisfiedHediffSeverityRange>0.7~99999</satisfiedHediffSeverityRange>
+  </VAspirE.AspirationDef>
+  
+  <VAspirE.AspirationDef>
+		<defName>VAspirE_AqBeBondedToAMonster</defName>
+		<label>be bonded to a monster</label>
+		<iconPath>UI/AspirationIcons/Aspiration_BeBondedToRoyalAnimal</iconPath>
+		<description>{0} would like to bond with one monster.</description>
+		<satisfiedWhenText>{0} bonds with either of: Troll, Gorgon, Rust monster, Insectoid hulk, Cave crawler, Ancient giant spider, Giant spider and Wyvern.</satisfiedWhenText>
+		<satisfiedRelation>Bond</satisfiedRelation>
+		<thingDefsForRelation>
+			<li>Aq_Troll</li>
+			<li MayRequire="Aquiles.Humanoids">Aq_Gorgon</li>
+			<li MayRequire="Aquiles.Humanoids">Aq_Manticore</li>
+			<li MayRequire="Aquiles.Alchemy">Aq_RustMonster</li>
+			<li MayRequire="VanillaExpanded.VAECaves">VAECaves_CaveCrawler</li>
+			<li MayRequire="VanillaExpanded.VAECaves">VAECaves_Wyrm</li>
+			<li MayRequire="VanillaExpanded.VAECaves">VAECaves_GiantSpider</li>
+		</thingDefsForRelation>
+	</VAspirE.AspirationDef>
+ 
+</Defs>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+<FactionDef Parent="PlayerFactionBase">
+    <defName>Player_Drow</defName>
+    <label>last Kin'asier</label>
+    <description>The remains of a secret organization of dark elves assassins.</description>
+   	<xenotypeSet Inherit="False">
+      <xenotypeChances>
+        <Aq_DarkElf>999</Aq_DarkElf>
+      </xenotypeChances>
+	</xenotypeSet>
+   	<backstoryCategories>
+      <li>Karasti</li>
+    </backstoryCategories>
+	<isPlayer>true</isPlayer>
+    <basicMemberKind>Drow</basicMemberKind>
+    <pawnSingular>dark elf</pawnSingular>
+    <pawnsPlural>dark elves</pawnsPlural>
+    <techLevel>Medieval</techLevel>
+    
+	<settlementNameMaker>NamerSettlementDrow</settlementNameMaker>
+	<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>		
+	<factionNameMaker>NamerFactionDrow</factionNameMaker>
+	<allowedCultures>
+		<li>WayofKara</li>
+	</allowedCultures>
+		
+	<raidLootValueFromPointsCurve>
+      <points>
+        <li>(35,     15)</li>
+        <li>(100,   120)</li>
+        <li>(1000,  500)</li>
+        <li>(2000,  800)</li>
+        <li>(4000, 1000)</li>
+      </points>
+    </raidLootValueFromPointsCurve>
+		
+	<startingResearchTags>
+      	<li>DrowStart</li>
+    </startingResearchTags>
+  	
+    <factionIconPath>World/DrowCamp</factionIconPath>
+    <settlementTexturePath>World/MedievalSettlement</settlementTexturePath>
+
+ <apparelStuffFilter>
+      <thingDefs>
+        <li>Cloth</li>
+		<li>Leather_Plain</li>
+		<li>Leather_Dog</li>
+		<li>Leather_Wolf</li>
+		<li>Leather_Panthera</li>
+		<li>Leather_Camel</li>
+		<li>Leather_Bluefur</li>
+		<li>Leather_Bear</li>
+		<li>Leather_GuineaPig</li>
+		<li>Leather_Pig</li>
+		<li>Leather_Light</li>
+		<li>Leather_Bird</li>
+		<li>Leather_Chinchilla</li>
+		<li>Leather_Fox</li>
+		<li>Leather_Lizard</li>
+		<li>Leather_Elephant</li>
+		<li>Leather_Heavy</li>
+		<li>Leather_Rhinoceros</li>
+		<li>Leather_Patch</li>
+		<li>Leather_MDeer</li>
+      </thingDefs>
+    </apparelStuffFilter>
+
+<modExtensions>
+		<li Class="VFECore.FactionDefExtension">
+			<startingGoodwillByFactionDefs>
+				<Aq_DrowUnforgiven>-10~5</Aq_DrowUnforgiven>
+			</startingGoodwillByFactionDefs>
+		</li>
+</modExtensions>
+
+</FactionDef>
+  
+</Defs>

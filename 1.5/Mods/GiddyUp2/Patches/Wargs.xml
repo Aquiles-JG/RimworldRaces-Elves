@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch> 
+
+
+				<Operation Class="PatchOperationAddModExtension">
+					<xpath>Defs/PawnKindDef[defName="Drow_HeavyDrow"]</xpath>
+					<value>
+						<li Class="GiddyUp.CustomMounts">
+							<mountChance>100</mountChance>
+							<possibleMounts>
+								<li>
+									<key>Warg</key>
+									<value>100</value>
+								</li>
+							</possibleMounts>
+						</li>
+					</value>
+				</Operation>
+				
+				<Operation Class="PatchOperationAddModExtension">
+					<xpath>Defs/PawnKindDef[defName="Drow_HeavyUFDrow"]</xpath>
+					<value>
+						<li Class="GiddyUp.CustomMounts">
+							<mountChance>100</mountChance>
+							<possibleMounts>
+								<li>
+									<key>Warg</key>
+									<value>100</value>
+								</li>
+							</possibleMounts>
+						</li>
+					</value>
+				</Operation>
+
+	
+</Patch>

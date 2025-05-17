@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ModMetaData>
+  <name>Rimworld Races: Elves</name>
+  <packageId>Aquiles.Elves</packageId>
+  <author>Aquiles</author>
+  <supportedVersions>
+    <li>1.5</li>
+  </supportedVersions>
+  <modIconPath IgnoreIfNoMatchingField="True">UI/ModIcon</modIconPath>
+  <description>Dungeons and Dragons Elves come to Rimworld. A mixed bag of many mods and new content of my own making.</description>
+  <modDependencies>
+    <li>
+      <packageId>Ludeon.RimWorld.Biotech</packageId>
+      <displayName>Rimworld - Biotech</displayName>
+      <steamWorkshopUrl>https://store.steampowered.com/app/1826140/RimWorld__Biotech/</steamWorkshopUrl>
+    </li>
+    <li>
+      <packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
+      <displayName>Vanilla Expanded Framework</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2023507013</steamWorkshopUrl>
+    </li>
+    <li>
+      <packageId>Aquiles.Core</packageId>
+      <displayName>Aquiles Core</displayName>
+      <downloadUrl>https://github.com/Aquiles-JG/AquilesCore</downloadUrl>
+    </li>
+    <li>
+      <packageId>syrchalis.processor.framework</packageId>
+      <displayName>[SYR] Processor Framework</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3210544395</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+  	<li>Ludeon.Rimworld.Biotech</li>
+    <li>syrchalis.processor.framework</li>
+    <li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+    <li>CETeam.CombatExtended</li>
+    <li>Aquiles.Core</li>
+  </loadAfter>
+  <incompatibleWith />  
+</ModMetaData>

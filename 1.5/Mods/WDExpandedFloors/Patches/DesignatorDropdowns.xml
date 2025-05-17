@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+
+<Operation Class="PatchOperationAdd">
+      <xpath>/Defs/TerrainDef[defName="WDJadeTile"]</xpath>
+	  <value>
+		  <designatorDropdown>Floor_WDLuxury</designatorDropdown>
+	  </value>
+</Operation>	  
+
+<Operation Class="PatchOperationAdd">
+      <xpath>/Defs/TerrainDef[defName="WDJadeFloor"]</xpath>
+	  	<value>
+		  <designatorDropdown>Floor_WDLuxuryII</designatorDropdown>
+		</value>
+</Operation>
+
+<Operation Class="PatchOperationAdd">
+      <xpath>/Defs/TerrainDef[defName="WDSmoothJadeFloor"]</xpath>
+	  	<value>
+		  <designatorDropdown>Floor_WDSmoothLuxury</designatorDropdown>
+		</value>
+</Operation>	  	  
+
+<Operation Class="PatchOperationAdd">
+      <xpath>/Defs/TerrainDef[defName="WDFineJadeTile"]</xpath>
+	  	<value>
+		  <designatorDropdown>Floor_WDLuxuryIII</designatorDropdown>
+		</value>
+</Operation>	
+
+
+</Patch>

@@ -1,0 +1,8 @@
+Northern
+Southern
+Eastern
+Western
+Lost
+Hidden
+Secret
+Forgotten

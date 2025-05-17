@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<RecipeDef>
+        <defName>MakeTrollVenom</defName>
+        <label>create troll venom</label>
+        <description>Create a precious vial of troll venom. It might resurrect a colonist if it's not too late.</description>
+        <jobString>Creating troll venom.</jobString>
+        <workSkill>Medicine</workSkill>
+        <effectWorking>Cook</effectWorking>
+        <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+        <soundWorking>Recipe_Drug</soundWorking>
+        <workAmount>4000</workAmount>
+        <allowMixingIngredients>true</allowMixingIngredients>
+        <ingredients>
+          <li>
+            <filter>
+              <thingDefs>
+                <li>DE_Medicine</li>
+              </thingDefs>
+            </filter>
+            <count>20</count>
+          </li>
+           <li>
+            <filter>
+              <thingDefs>
+                <li>Aq_UnicornHorn</li>
+              </thingDefs>
+            </filter>
+            <count>2</count>
+          </li>
+           <li>
+            <filter>
+              <thingDefs>
+                <li>Aq_PotionRegeneration</li>
+              </thingDefs>
+            </filter>
+            <count>1</count>
+          </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>DE_Medicine</li>
+                <li>Aq_UnicornHorn</li>
+                <li>Aq_PotionRegeneration</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <DE_TrollVenom>1</DE_TrollVenom>
+        </products>
+        <recipeUsers>
+          <li>Aq_AlchemistFurnace</li>
+        </recipeUsers>
+        <researchPrerequisite>Kara_CultureIV</researchPrerequisite>
+        <skillRequirements>
+          <Intellectual>11</Intellectual>
+          <Medicine>11</Medicine>
+        </skillRequirements>
+</RecipeDef>
+
+  
+</Defs>

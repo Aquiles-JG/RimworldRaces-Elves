@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ScenarioDef>
+    <defName>ElfScenario</defName>
+    <label>Far from Home</label>
+    <description>Decisions on the imperial council have led to sending three irissdi settlers to new foreign lands.</description>
+    <scenario>
+      <summary>Three elves set up to help found a new elven colony.</summary>
+      <playerFaction>
+        <def>PlayerFaction</def>
+        <factionDef>Player_Elf</factionDef>
+      </playerFaction>
+      <parts>
+      
+        <!-- Config pages -->
+        <li Class="ScenPart_ConfigPage_ConfigureStartingPawns_Xenotypes">
+					<def>ConfigurePawnsXenotypes</def>
+					<pawnChoiceCount>8</pawnChoiceCount>
+					<customSummary>Start with three elves.</customSummary>
+					<overrideKinds>
+						<li>
+							<xenotype>Aq_Elf</xenotype>
+							<pawnKind>Elf</pawnKind>
+						</li>
+					</overrideKinds>
+					<xenotypeCounts>
+						<li>
+							<xenotype>Aq_Elf</xenotype>
+							<count>3</count>
+							<description>adult elf</description>
+							<allowedDevelopmentalStages>Adult</allowedDevelopmentalStages>
+						</li>
+					</xenotypeCounts>
+	    </li>
+        <!-- Player starting stuff spawn method-->
+        <li Class="ScenPart_PlayerPawnsArriveMethod">
+          <def>PlayerPawnsArriveMethod</def>
+          <method>Standing</method>
+          <visible>false</visible>
+        </li>
+        <!-- Player starting things -->
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Silver</thingDef>
+          <count>800</count>
+        </li>
+         <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>DE_Waybread</thingDef>
+          <count>40</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>MedicineHerbal</thingDef>
+          <count>20</count>
+        </li>
+        <li Class="ScenPart_StartingAnimal">
+          <def>StartingAnimal</def>
+          <count>1</count>
+          <animalKind>Deer</animalKind>
+          <bondToRandomPlayerPawnChance>1.0</bondToRandomPlayerPawnChance>
+        </li>
+       
+        <!-- Starting weapons -->
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Aq_Elf_Lhang</thingDef>
+          <stuff>Steel</stuff>
+        </li>
+         <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Aq_Elf_WhiteKnives</thingDef>
+          <stuff>Steel</stuff>
+        </li>
+         <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Aq_Bow_High</thingDef>
+          <stuff>WoodLog</stuff>
+          <count>2</count>
+        </li>
+        <!-- Scatter some things near player start -->
+        <li Class="ScenPart_ScatterThingsNearPlayerStart">
+          <def>ScatterThingsNearPlayerStart</def>
+          <thingDef>Steel</thingDef>
+          <count>450</count>
+        </li>
+        <li Class="ScenPart_ScatterThingsNearPlayerStart">
+          <def>ScatterThingsNearPlayerStart</def>
+          <thingDef>WoodLog</thingDef>
+          <count>300</count>
+        </li>
+        <li Class="ScenPart_ScatterThingsAnywhere">
+          <def>ScatterThingsAnywhere</def>
+          <thingDef>DE_Waybread</thingDef>
+          <count>7</count>
+        </li>
+      </parts>
+    </scenario>
+  </ScenarioDef>
+</Defs>

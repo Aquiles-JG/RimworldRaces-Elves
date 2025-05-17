@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+ 
+
+			<Operation Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[@Name="ADS_Cat3" or @Name="ADS_Cat2" or @Name="ADS_Cat1"]/recipeUsers</xpath>
+				<value>
+					<li>Aq_Troll</li>
+				</value>
+			</Operation>
+				
+			<Operation Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[@Name="ADS_Cat2" or @Name="ADS_Cat1"]/recipeUsers</xpath>
+				<value>
+					<li>Aq_Unicorn</li>
+					<li>Mystic_Deer</li>
+				</value>
+			</Operation>
+
+</Patch>

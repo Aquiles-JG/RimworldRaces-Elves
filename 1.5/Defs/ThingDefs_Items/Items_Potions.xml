@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+<ThingDef ParentName="MedicineBase">
+	<defName>DE_Medicine</defName>
+	<label>karasti medicine</label>
+	<description>The karasti blood is both a gift and a curse, because with it an incredibly powerful medicine can be crafted. At the same time, it is the cause of why dark elves are hunted down like animals by the humans.</description>
+	<graphicData>
+	  <texPath>Things/Item/Drug/DE_Medicine</texPath>
+	  <graphicClass>Graphic_StackCount</graphicClass>
+	  <drawSize>0.95</drawSize>
+	</graphicData>
+	<techLevel>Medieval</techLevel>
+	<statBases>
+	  <MarketValue>40</MarketValue>
+	  <Mass>0.50</Mass>
+	  <Flammability>0.7</Flammability>
+	  <MedicalPotency>0.8</MedicalPotency>
+	  <MedicalQualityMax>0.85</MedicalQualityMax>
+	  <DeteriorationRate>1.0</DeteriorationRate>
+	</statBases>
+	<tradeTags>
+	  <li>Underdark</li>
+	</tradeTags>
+	<thingSetMakerTags><li>RewardStandardLowFreq</li></thingSetMakerTags>
+</ThingDef>
+
+<!--Venoms and Ointments-->
+<ThingDef Name="Aq_UnderdarkDrugBase" ParentName="Aq_DrugPotionBase" Abstract="True">
+    <tradeTags Inherit="False">
+        <li>Underdark</li>
+        <li>AlchemySpProduct</li>
+    </tradeTags>
+</ThingDef>
+
+<ThingDef Name="Aq_ElvendomDrugBase" ParentName="Aq_DrugPotionBase" Abstract="True">
+    <ingestible>
+      <baseIngestTicks>100</baseIngestTicks>
+      <ingestSound>RawMeat_Eat</ingestSound>
+      <ingestCommandString>Apply {0}</ingestCommandString>
+      <ingestReportString>Applying {0}.</ingestReportString>
+    </ingestible>
+    <tradeTags Inherit="False">
+        <li>Elvendom</li>
+        <li>AlchemySpProduct</li>
+    </tradeTags>
+</ThingDef>
+
+ <!--Aloe Ointment-->
+ 
+  <ThingDef ParentName="Aq_ElvendomDrugBase">
+    <defName>Aq_AloeOintment</defName>
+    <label>aloe balm</label>
+    <description>Aloe vera is an antibiotic skin ointment designed to help with scars and burn injuries. However, it cannot cure brain scars. Healing effects last 1.5 days, longer than a potion.</description>
+    <graphicData>
+      <texPath>Things/Item/Drug/AloeOintment</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>30</MarketValue>
+    </statBases>
+    <socialPropernessMatters>false</socialPropernessMatters>
+    <rotatable>false</rotatable>
+    <ingestible>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>Aq_AloeOintmentHigh</hediffDef>
+          <severity>1.5</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <listOrder>3586</listOrder>
+        <overdoseSeverityOffset>
+          <min>0.01</min>
+          <max>0.03</max>
+        </overdoseSeverityOffset>
+      </li>
+    </comps>
+  </ThingDef>
+  
+  <!-- Restoration Balm-->
+   <ThingDef ParentName="Aq_ElvendomDrugBase">
+		<defName>Aq_RestorationBalm</defName> 
+		<label>restoration balm</label>
+		<description>A balsamic ointment made by the Elves that can revive someone catatonic. It causes some mild side effects though.</description>
+		<graphicData>
+      		<texPath>Things/Item/Drug/RestorationBalm</texPath>
+      		<graphicClass>Graphic_StackCount</graphicClass>
+    	</graphicData>
+		<statBases>
+			<MarketValue>320</MarketValue>
+		</statBases>
+    	<socialPropernessMatters>false</socialPropernessMatters>
+    	<rotatable>false</rotatable>		
+		<ingestible>
+			<outcomeDoers>
+				<li Class="HediffRemover.IngestionOutcomeDoer_RemoveHediff">
+					<hediffToRemove>CatatonicBreakdown</hediffToRemove>
+				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+          			<hediffDef>Aq_MindConfusion</hediffDef>
+          			<severity>1.0</severity>
+        		</li>
+			</outcomeDoers>
+		</ingestible>
+		<descriptionHyperlinks>
+      		<HediffDef>Aq_MindConfusion</HediffDef>
+    	</descriptionHyperlinks>
+		<comps>
+      		<li Class="CompProperties_Drug">
+        		<addictiveness>0</addictiveness>
+        		<listOrder>3587</listOrder>
+      		</li>
+    	</comps>
+	</ThingDef>
+	
+ <!--Plague Venom-->
+  <ThingDef ParentName="Aq_UnderdarkDrugBase">
+    <defName>Aq_PlagueVenom</defName>
+    <label>anti-plague venom</label>
+    <description>A venom for fighting plague outbreaks, if it's not too late. Need to wait 8 hours for taking another dose.</description>
+    <graphicData>
+      <texPath>Things/Item/Drug/PlagueVenom</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>315</MarketValue>
+    </statBases>
+    <socialPropernessMatters>false</socialPropernessMatters>
+    <rotatable>false</rotatable>
+    <ingestible>
+      <outcomeDoers>
+        <li Class="HediffRemover.IngestionOutcomeDoer_Immunity">
+            <hediffToRemove>Plague</hediffToRemove>
+            <severityToReduce>0.2</severityToReduce>
+            <immunityHediff>
+                <hediff>VenomTreated</hediff>
+                <durationHours>8</durationHours>
+            </immunityHediff>
+            <recoveringHediff>
+                <hediff>Aq_Convalescent</hediff>
+                <durationHours>18</durationHours>
+            </recoveringHediff>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <listOrder>3588</listOrder>
+        <overdoseSeverityOffset>
+          <min>0.01</min>
+          <max>0.03</max>
+        </overdoseSeverityOffset>
+      </li>
+    </comps>
+ </ThingDef>
+  
+ <!--Antitoxic Venom-->
+  <ThingDef ParentName="Aq_UnderdarkDrugBase">
+    <defName>Aq_ToxicVenom</defName>
+    <label>antitoxic venom</label>
+    <description>A venom for preventing radiation before they take hold. Blocks toxic buildup. Must be taken every four days to remain effective.</description>
+    <graphicData>
+      <texPath>Things/Item/Drug/ToxicVenom</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>35</MarketValue>
+    </statBases>
+    <stackLimit>10</stackLimit>
+    <socialPropernessMatters>false</socialPropernessMatters>
+    <rotatable>false</rotatable>
+    <ingestible>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>AntiToxicHigh</hediffDef>
+          <severity>1.0</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <listOrder>3588</listOrder>
+        <overdoseSeverityOffset>
+          <min>0.01</min>
+          <max>0.03</max>
+        </overdoseSeverityOffset>
+      </li>
+    </comps>
+  </ThingDef>
+
+<!-- Troll Venom-->
+<ThingDef ParentName="MechSerumBase">
+    <defName>DE_TrollVenom</defName>
+    <label>troll venom</label>
+    <description>The disgusting troll blood can have a miracolous use through the proper treatment. The troll venom can heal the worst injuries, even resurrect organic bodies not entirely ruined.</description>
+    <graphicData>
+      <texPath>Things/Item/Drug/TrollVenom</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <statBases>
+      <MarketValue>1750</MarketValue>
+    </statBases>
+    <tradeability>Sellable</tradeability>
+    <thingSetMakerTags>
+      <li>RewardStandardMidFreq</li>
+    </thingSetMakerTags>
+    <thingCategories>
+      <li>Aq_Potions</li>
+    </thingCategories>
+    <comps>
+      <li Class="CompProperties_Usable">
+        <useJob>UseItem</useJob>
+        <useLabel>Use troll venom</useLabel>
+        <useDuration>0</useDuration>
+        <warmupMote>Mote_ResurrectAbility</warmupMote>
+      </li>
+      <li Class="CompProperties_Targetable">
+        <compClass>CompTargetable_SingleCorpse</compClass>
+        <fleshCorpsesOnly>true</fleshCorpsesOnly>
+        <nonDessicatedCorpsesOnly>true</nonDessicatedCorpsesOnly>
+      </li>
+      <li Class="CompProperties_TargetEffectResurrect">
+        <moteDef>Mote_ResurrectFlash</moteDef>
+      </li>
+    </comps>
+    <tradeTags>
+      <li>Underdark</li>
+    </tradeTags>
+  </ThingDef>
+
+</Defs>

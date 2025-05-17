@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+
+	<Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Vanilla Psycasts Expanded</li>
+        </mods>
+
+	<match Class="PatchOperationSequence">
+		
+		<operations>
+					
+			<li Class="PatchOperationAddModExtension">
+				<xpath>/Defs/ThingDef[defName = "Aq_MineableGlowstone"]</xpath>
+					<value>
+						<li Class="SecondaryYields.MineableExtension">
+						<chanceToSpawnSecondaryOutput>0.05</chanceToSpawnSecondaryOutput>
+						<yieldOutputThings>
+							<li>
+								<thingDef>VPE_Eltex</thingDef>
+								<quantityRange>1</quantityRange>
+							</li>
+						</yieldOutputThings>
+						</li>
+					</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Aq_MineableGlowstone"]/description</xpath>
+					<value>
+            			<description>A rock that fell from the sky a long time ago, containing bits of a strange glowing stone. On rare occasions you might find nuggets of eltex inside.</description>
+					</value>
+    		</li>
+	
+		</operations>
+		
+	</match>
+
+</Operation>
+
+
+</Patch>

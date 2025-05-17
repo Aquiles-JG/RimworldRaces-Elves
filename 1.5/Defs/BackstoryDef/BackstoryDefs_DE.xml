@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <BackstoryDef Name="KarastiBackstoryBase" Abstract="True">
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <spawnCategories>
+      <li>Karasti</li>
+    </spawnCategories>
+  </BackstoryDef>
+  <!-- Adulthood -->
+  <BackstoryDef ParentName="KarastiBackstoryBase">
+    <defName>KinasierDrow</defName>
+    <title>kin'asier</title>
+    <titleShort>kin'asier</titleShort>
+    <baseDesc>Exiled to the outer worlds by a deceitful political plot, [PAWN_nameDef] joined the fearsome Kin'asier, probably the best assassins in the Rim. The kin'asier are outcast, doomed to never return home, and only loyal to their legendary leader: Tyz'Ianoa, the Dark Bride.</baseDesc>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Shooting>4</Shooting>
+      <Melee>2</Melee>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <forcedTraits>
+      <BrawlerDrow>0</BrawlerDrow>
+    </forcedTraits>
+  </BackstoryDef>
+  <BackstoryDef ParentName="KarastiBackstoryBase">
+    <defName>DeserterDrow</defName>
+    <title>deserter</title>
+    <titleShort>deserter</titleShort>
+    <baseDesc>Tired of risking [PAWN_possessive] life in the endless war against the insectoids or another rival House, [PAWN_nameDef] decided to abandon [PAWN_possessive] post in search for a better future. [PAWN_pronoun] was wrong. Treated as a traitor by the ancient Karasti laws, [PAWN_nameDef] will be hunted all [PAWN_possessive] life, so [PAWN_pronoun] uses to travel at night and avoid major cities.</baseDesc>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Plants>1</Plants>
+      <Shooting>1</Shooting>
+      <Crafting>1</Crafting>
+    </skillGains>
+    <workDisables></workDisables>
+  </BackstoryDef>
+  <BackstoryDef ParentName="KarastiBackstoryBase">
+    <defName>AlchemistDrow</defName>
+    <title>mad alchemist</title>
+    <titleShort>alchemist</titleShort>
+    <baseDesc>The care for the secrets of alchemy is well established in the dark elven society. Many as [PAWN_nameDef] have dared to cross the boundaries between sanity and knowledge.</baseDesc>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Cooking>1</Cooking>
+      <Crafting>2</Crafting>
+    </skillGains>
+    <workDisables></workDisables>
+    <requiredWorkTags>
+      <li>Cooking</li>
+      <li>Crafting</li>
+    </requiredWorkTags>
+  </BackstoryDef>
+  <BackstoryDef ParentName="KarastiBackstoryBase">
+    <defName>MerchantDrow</defName>
+    <title>dust dealer</title>
+    <titleShort>dust dealer</titleShort>
+    <baseDesc>Part merchants, part smugglers, the Dust dealers make money trafficking with the most dangerous substances in the Rim, whether legal or not. [PAWN_nameDef] excels in the trade of poisonous mushrooms, natural or made in a laboratory, collected from the four corners of the galaxy.</baseDesc>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Plants>1</Plants>
+      <Social>2</Social>
+    </skillGains>
+    <workDisables></workDisables>
+    <requiredWorkTags>
+      <li>Social</li>
+    </requiredWorkTags>
+  </BackstoryDef>
+  <BackstoryDef ParentName="KarastiBackstoryBase">
+    <defName>FarmerDrow</defName>
+    <title>fungus farmer</title>
+    <titleShort>fungus farmer</titleShort>
+    <baseDesc>A fact unknown by most outsiders, fungus farmes are actually well respected in the harsh karasti societies, because of their vital dependencies of the mushroom fields. [PAWN_nameDef] was the owner of a small plantation until an enemy raid burned everything to the ground.</baseDesc>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Plants>3</Plants>
+    </skillGains>
+    <workDisables></workDisables>
+    <requiredWorkTags>
+      <li>PlantWork</li>
+    </requiredWorkTags>
+  </BackstoryDef>
+  <BackstoryDef ParentName="KarastiBackstoryBase">
+    <defName>IronfistDrow</defName>
+    <title>ironfist</title>
+    <titleShort>ironfist</titleShort>
+    <baseDesc>Raised, trained and breed for the single purpose of war, [PAWN_nameDef] specializes in close combat and the use of heavy weapons. Ironfists are the elite infantry of any Karasti army, its thickest line of defense.</baseDesc>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Shooting>2</Shooting>
+      <Melee>2</Melee>
+    </skillGains>
+    <workDisables>
+      <li>Caring</li>
+    </workDisables>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+  </BackstoryDef>
+  <BackstoryDef ParentName="KarastiBackstoryBase">
+    <defName>HPriestessDrow</defName>
+    <title>sha'Kara</title>
+    <titleShort>sha'Kara</titleShort>
+    <baseDesc>Since the beginning, only the karasti women can enter the service of Kara. [PAWN_nameDef] assisted the High Priestess of [PAWN_possessive] city in all matters moral, if there is any in the karasti society. Now, after a dire turn of events, [PAWN_pronoun] must face exile in an unknown rimworld.</baseDesc>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Medicine>1</Medicine>
+      <Intellectual>2</Intellectual>
+      <Social>3</Social>
+    </skillGains>
+    <workDisables>
+      <li>Cleaning</li>
+      <li>Hauling</li>
+    </workDisables>
+    <requiredWorkTags>
+      <li>Social</li>
+    </requiredWorkTags>
+    <bodyTypeGlobal>Female</bodyTypeGlobal>
+  </BackstoryDef>
+  <BackstoryDef ParentName="KarastiBackstoryBase">
+    <defName>AcolyteDrow</defName>
+    <title>acolyte</title>
+    <titleShort>acolyte</titleShort>
+    <baseDesc>The acolytes are the bulk of the servants of Kara. As a low member of the clergy, [PAWN_nameDef] endures a hard, cruel and unforgiven existence, only bearable thanks to the secret dream of maybe one day becoming the High Priestess.</baseDesc>
+    <skillGains>
+      <Social>1</Social>
+    </skillGains>
+    <workDisables>
+      <li>Cleaning</li>
+      <li>Hauling</li>
+    </workDisables>
+    <requiredWorkTags>
+      <li>Social</li>
+    </requiredWorkTags>
+    <bodyTypeGlobal>Female</bodyTypeGlobal>
+  </BackstoryDef>
+  <BackstoryDef ParentName="KarastiBackstoryBase">
+    <defName>PriestessDrow</defName>
+    <title>priestess</title>
+    <titleShort>priestess</titleShort>
+    <baseDesc>Committed by a single sacred vow: obedience, [PAWN_nameDef] devotes [PAWN_possessive] life as a priestess in one of the many temples of Kara and therefore [PAWN_pronoun] plays an active role in local politics.</baseDesc>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Social>2</Social>
+      <Medicine>1</Medicine>
+    </skillGains>
+    <workDisables>
+      <li>Cleaning</li>
+      <li>Hauling</li>
+    </workDisables>
+    <requiredWorkTags>
+      <li>Social</li>
+    </requiredWorkTags>
+    <bodyTypeGlobal>Female</bodyTypeGlobal>
+  </BackstoryDef>
+  <BackstoryDef ParentName="KarastiBackstoryBase">
+    <defName>HerdmasterDrow</defName>
+    <title>herd master</title>
+    <titleShort>beastmaster</titleShort>
+    <baseDesc>[PAWN_nameDef] works as a herd master for any Karasti House willing to pay. Every animal, beast or monster's will had been broken by [PAWN_possessive] outstanding skills, learned after living in the wild all [PAWN_possessive] life.</baseDesc>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Animals>4</Animals>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Animals</li>
+    </requiredWorkTags>
+  </BackstoryDef>
+  <BackstoryDef ParentName="KarastiBackstoryBase">
+    <defName>KhabaDrow</defName>
+    <title>khaba</title>
+    <titleShort>khaba</titleShort>
+    <baseDesc>One of the seventy-one words to define a woman in the Karasti language. The khaba is a young girl that had to serve as an armed guardian in the Karantar without pay for seven whole years. Only the Nuschka is exempted from this service. [PAWN_nameDef] didn't have that luck.</baseDesc>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Shooting>2</Shooting>
+      <Melee>2</Melee>
+    </skillGains>
+    <workDisables></workDisables>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <bodyTypeGlobal>Female</bodyTypeGlobal>
+  </BackstoryDef>
+  <BackstoryDef ParentName="KarastiBackstoryBase">
+    <defName>PoleJumperDrow</defName>
+    <title>pole jumper</title>
+    <titleShort>pole jumper</titleShort>
+    <baseDesc>Karanzaran is capable of deploying deadly troops that no other karasti city can. [PAWN_nameDef] was a pole jumper, a member of an elite corps that used a pole to jump over shield walls and spread terror from the inside of enemy formations.</baseDesc>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Melee>3</Melee>
+    </skillGains>
+    <workDisables></workDisables>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <bodyTypeGlobal>Male</bodyTypeGlobal>
+  </BackstoryDef>
+  <BackstoryDef ParentName="KarastiBackstoryBase">
+    <defName>ShadowDrow</defName>
+    <title>shadow</title>
+    <titleShort>shadow</titleShort>
+    <baseDesc>The Shadows are more operatives than soldiers. They prefer to spread across the battlefield and wait for a concealed opportunity to take down their enemies one by one using longe range weapons. [PAWN_nameDef] was a survivor of many wars and until today no enemy knew where the projectile came from.</baseDesc>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Shooting>3</Shooting>
+      <Artistic>-2</Artistic>
+      <Intellectual>-1</Intellectual>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+  </BackstoryDef>
+  <BackstoryDef ParentName="KarastiBackstoryBase">
+    <defName>MatriarchDrow</defName>
+    <title>matriarch</title>
+    <titleShort>matriarch</titleShort>
+    <baseDesc>As the oppressing ruler of one of the four Great Houses of the Karasti, [PAWN_nameDef] embodies the scheming and treachery associated with the Goddess of Darkness. Each matriarch stands at the center of a vast conspiratorial web, with demons, dark elves, spiders, and slaves positioned between them and their enemies, aiming both to further their own family's goals and the will of Kara.</baseDesc>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Medicine>2</Medicine>
+      <Intellectual>2</Intellectual>
+      <Social>4</Social>
+    </skillGains>
+    <workDisables>
+      <li>Cleaning</li>
+    </workDisables>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <bodyTypeGlobal>Female</bodyTypeGlobal>
+  </BackstoryDef>
+  <BackstoryDef ParentName="KarastiBackstoryBase">
+    <defName>ConsortDrow</defName>
+    <title>consort</title>
+    <titleShort>consort</titleShort>
+    <baseDesc>[PAWN_nameDef] is a consort, the highest political rank for males in karasti societies. Consorts serve no purpose beyond pleasure, breeding, or both, but sometimes can gain the ear of their lovers and be relied on to provide useful advice. But never underestimate a dark elf consort, because matriarchs only favor males with beauty and might.</baseDesc>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Intellectual>1</Intellectual>
+      <Social>3</Social>
+    </skillGains>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <bodyTypeGlobal>Male</bodyTypeGlobal>
+  </BackstoryDef>
+  <BackstoryDef ParentName="KarastiBackstoryBase">
+    <defName>CourierDrow</defName>
+    <title>courier</title>
+    <titleShort>courier</titleShort>
+    <baseDesc>[PAWN_nameDef] worked as a courier for an important Karasti House. A dangerous job because in the cruel dark elven society, everybody is interested in steal information from the enemy.</baseDesc>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Melee>2</Melee>
+      <Social>1</Social>
+    </skillGains>
+    <workDisables></workDisables>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+  </BackstoryDef>
+  <BackstoryDef ParentName="KarastiBackstoryBase">
+    <defName>MatronDrow</defName>
+    <title>matron</title>
+    <titleShort>matron</titleShort>
+    <baseDesc>[PAWN_nameDef] is a matron o mother of a lesser House. A ruthless tyrant always plotting to help [PAWN_possessive] family grow in power.</baseDesc>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Medicine>1</Medicine>
+      <Intellectual>1</Intellectual>
+      <Social>3</Social>
+    </skillGains>
+    <workDisables></workDisables>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <bodyTypeGlobal>Female</bodyTypeGlobal>
+  </BackstoryDef>
+  <BackstoryDef ParentName="KarastiBackstoryBase">
+    <defName>WarslaveDrow</defName>
+    <title>war slave</title>
+    <titleShort>war slave</titleShort>
+    <baseDesc>The oldest spoil of war: slaves. [PAWN_nameDef] was captured when [PAWN_possessive] home was destroyed. Now [PAWN_pronoun] tries to survive in the karasti world, a place without hope or mercy.</baseDesc>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Cooking>1</Cooking>
+      <Plants>1</Plants>
+      <Construction>1</Construction>
+      <Mining>1</Mining>
+    </skillGains>
+  </BackstoryDef>
+  <BackstoryDef ParentName="KarastiBackstoryBase">
+    <defName>GardenerDrow</defName>
+    <title>mushrooms shepherd</title>
+    <titleShort>mushrooms shepherd</titleShort>
+    <baseDesc>As pale imitations of the Floating Gardens of Karanzaran, all the great Houses grow their own mushrooms gardens. Fragile yards that need constant attention.[PAWN_nameDef] earned a living as a mushrooms shepherd, and for that [PAWN_pronoun] was under the direct protection of the matriarch.</baseDesc>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Plants>3</Plants>
+      <Animals>1</Animals>
+      <Mining>-2</Mining>
+    </skillGains>
+    <workDisables>
+      <li>Crafting</li>
+    </workDisables>
+    <requiredWorkTags>
+      <li>PlantWork</li>
+    </requiredWorkTags>
+  </BackstoryDef>
+  <BackstoryDef ParentName="KarastiBackstoryBase">
+    <defName>CupbearerDrow</defName>
+    <title>cupbearer</title>
+    <titleShort>cupbearer</titleShort>
+    <baseDesc>The matriarchs love to have young and beautiful males to fill their cups.[PAWN_nameDef] was one of these trustworthy servants, if that concept really exists in karasti society. The position of cupbearer was greatly valued and given only to a select few.</baseDesc>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Social>3</Social>
+      <Animals>-1</Animals>
+      <Plants>-1</Plants>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Social</li>
+    </requiredWorkTags>
+  </BackstoryDef>
+  <!-- Childhood -->
+  <BackstoryDef ParentName="KarastiBackstoryBase">
+    <defName>SlaveDrow</defName>
+    <title>slave child</title>
+    <titleShort>slave child</titleShort>
+    <baseDesc>No matter the race, culture or planet, slaves are always the first spoils of war.[PAWN_nameDef] was captured when [PAWN_possessive] city was sacked by a enemy House. [PAWN_pronoun] was very young back then but still remembers the horrifying Great Slave Market of Karanzaran. Under the service of a harsh master, [PAWN_possessive] will was broken and little hope is to be found in [PAWN_nameDef]'s heart.</baseDesc>
+    <slot>Childhood</slot>
+    <skillGains>
+      <Mining>1</Mining>
+      <Plants>1</Plants>
+    </skillGains>
+  </BackstoryDef>
+  <BackstoryDef ParentName="KarastiBackstoryBase">
+    <defName>FoundlingDrow</defName>
+    <title>foundling</title>
+    <titleShort>foundling</titleShort>
+    <baseDesc>Like many karasti children, [PAWN_nameDef] was left to die when [PAWN_pronoun] was born. The reasons will remain a mistery forever, but whatever they were, only brought [PAWN_possessive] pain, misery and hunger.</baseDesc>
+    <slot>Childhood</slot>
+    <skillGains>
+      <Melee>2</Melee>
+      <Intellectual>-1</Intellectual>
+      <Social>-2</Social>
+    </skillGains>
+    <workDisables></workDisables>
+  </BackstoryDef>
+  <BackstoryDef ParentName="KarastiBackstoryBase">
+    <defName>AdventurousDrow</defName>
+    <title>adventurous child</title>
+    <titleShort>adventurous child</titleShort>
+    <baseDesc>It is fairly common that second-born children of the noble Houses leave their family early to seek out glory and fame. [PAWN_nameDef] did it before their own siblings see [PAWN_possessive] as a threat and try to kill [PAWN_possessive].</baseDesc>
+    <slot>Childhood</slot>
+    <skillGains>
+      <Shooting>2</Shooting>
+      <Social>-1</Social>
+      <Intellectual>-2</Intellectual>
+    </skillGains>
+    <workDisables></workDisables>
+  </BackstoryDef>
+  <BackstoryDef ParentName="KarastiBackstoryBase">
+    <defName>ServantDrow</defName>
+    <title>sanctuary child</title>
+    <titleShort>sanctuary child</titleShort>
+    <baseDesc>Sometimes the poorest Karasti families sell their offspring to the temples. As one of these abandoned children, [PAWN_nameDef] served in one of the sanctuaries of the Broad Breasted Mother, doing minion's work. It is very difficult to earn enough money to buy their freedom, so eventually the girls take the Vow of Kara to become acolytes and the boys join the army.</baseDesc>
+    <slot>Childhood</slot>
+    <skillGains>
+      <Mining>1</Mining>
+      <Crafting>1</Crafting>
+      <Intellectual>-2</Intellectual>
+    </skillGains>
+    <workDisables></workDisables>
+  </BackstoryDef>
+  <BackstoryDef ParentName="KarastiBackstoryBase">
+    <defName>TrackerDrow</defName>
+    <title>tracker kid</title>
+    <titleShort>tracker</titleShort>
+    <baseDesc>[PAWN_nameDef] was one of the many orphan kids that served as trackers for a noble House, like dogs are used by humans. Part feral, part civilized, [PAWN_pronoun] could follow the tracks of almost anything.</baseDesc>
+    <slot>Childhood</slot>
+    <skillGains>
+      <Shooting>1</Shooting>
+      <Animals>1</Animals>
+    </skillGains>
+    <workDisables>
+      <li>Artistic</li>
+    </workDisables>
+  </BackstoryDef>
+  <BackstoryDef ParentName="KarastiBackstoryBase">
+    <defName>FieldHandDrow</defName>
+    <title>field hand</title>
+    <titleShort>field hand</titleShort>
+    <baseDesc>Many children of the plebs estate end up working as field hands in the vast fungus farms that feed and sustained the great karasti cities. [PAWN_nameDef] served in one for countless years.</baseDesc>
+    <slot>Childhood</slot>
+    <skillGains>
+      <Animals>1</Animals>
+      <Plants>1</Plants>
+      <Intellectual>-2</Intellectual>
+    </skillGains>
+    <workDisables></workDisables>
+    <requiredWorkTags>
+      <li>Animals</li>
+      <li>PlantWork</li>
+    </requiredWorkTags>
+  </BackstoryDef>
+  <BackstoryDef ParentName="KarastiBackstoryBase">
+    <defName>NuschkaDrow</defName>
+    <title>nuschka</title>
+    <titleShort>nuschka</titleShort>
+    <baseDesc>Born as the daughter of the High Priestess, [PAWN_nameDef] was raised as a crown princess for a major Karasti city. A birthright both powerful and dangerous, because [PAWN_pronoun] needed to excel soon in the arts of war, conspiracy and poison in order to survive the vicious life inside the Karantar.</baseDesc>
+    <slot>Childhood</slot>
+    <skillGains>
+      <Shooting>3</Shooting>
+      <Melee>2</Melee>
+      <Social>1</Social>
+    </skillGains>
+    <workDisables>
+      <li>Cleaning</li>
+    </workDisables>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <bodyTypeGlobal>Female</bodyTypeGlobal>
+    <forcedTraits>
+      <ReveredDrow>0</ReveredDrow>
+    </forcedTraits>
+  </BackstoryDef>
+  <BackstoryDef ParentName="KarastiBackstoryBase">
+    <defName>MuyoDrow</defName>
+    <title>muyo</title>
+    <titleShort>muyo</titleShort>
+    <baseDesc>When [PAWN_possessive] family was purged after a failed conspiracy, [PAWN_nameDef] was kept alive because of [PAWN_possessive] great beauty. [PAWN_nameDef] lived comfortably in the Karantar for the sexual pleasure of the priestesses of Kara. In exchange, no deed or responsability was expected, as long as [PAWN_pronoun] remained gorgeous. But everything comes with a price and so many years of luxury, idleness and boredom lead [PAWN_pronoun] to enjoy drugs.</baseDesc>
+    <slot>Childhood</slot>
+    <skillGains>
+      <Social>3</Social>
+      <Artistic>2</Artistic>
+    </skillGains>
+    <workDisables>
+      <li>Firefighting</li>
+      <li>ManualDumb</li>
+    </workDisables>
+    <requiredWorkTags>
+      <li>Social</li>
+    </requiredWorkTags>
+    <bodyTypeGlobal>Male</bodyTypeGlobal>
+  </BackstoryDef>
+  <BackstoryDef ParentName="KarastiBackstoryBase">
+    <defName>HeiressDrow</defName>
+    <title>spoiled heiress</title>
+    <titleShort>spoiled heiress</titleShort>
+    <baseDesc>The major Karasti Houses are organized in strict hierarchies where the strong prey on the weak. As long as the Matriarch is alive, the heiress will enjoy a life of limitless pleasure, luxury and excess. But beware, because conspiracies are always on the making and privileged positions can change in a blink of a eye. As a child, [PAWN_nameDef] was a spoiled brat and probably [PAWN_pronoun] will always be one.</baseDesc>
+    <slot>Childhood</slot>
+    <skillGains>
+      <Social>3</Social>
+      <Mining>-3</Mining>
+      <Crafting>-3</Crafting>
+    </skillGains>
+    <bodyTypeGlobal>Female</bodyTypeGlobal>
+    <workDisables>
+      <li>ManualDumb</li>
+      <li>Cooking</li>
+    </workDisables>
+    <requiredWorkTags>
+      <li>Social</li>
+    </requiredWorkTags>
+  </BackstoryDef>
+  <BackstoryDef ParentName="KarastiBackstoryBase">
+    <defName>TraineeDrow</defName>
+    <title>trainee alchemist</title>
+    <titleShort>apprentice</titleShort>
+    <description>[PAWN_nameDef] grew up alone. [PAWN_pronoun] learned the basics of alchemy and medicine in one the best alchemist lab on [PAWN_possessive] city.</description>
+    <slot>Childhood</slot>
+    <skillGains>
+      <Intellectual>2</Intellectual>
+      <Medicine>1</Medicine>
+    </skillGains>
+  </BackstoryDef>
+  <BackstoryDef ParentName="KarastiBackstoryBase">
+    <defName>ThiefDrow</defName>
+    <title>kid thief</title>
+    <titleShort>thief</titleShort>
+    <description>[PAWN_nameDef] grew up poor and hungry on a dark elves city, learning to fend for [PAWN_objective]self. At first, [PAWN_pronoun] only took what [PAWN_pronoun] needed, but later, [PAWN_pronoun] learned to take what [PAWN_pronoun] wanted.</description>
+    <slot>Childhood</slot>
+    <skillGains>
+      <Melee>3</Melee>
+      <Social>-2</Social>
+      <Crafting>1</Crafting>
+    </skillGains>
+  </BackstoryDef>
+  
+</Defs>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!--ThingDef ParentName="BodyPartNaturalBase">
+    <defName>CustomLung</defName>
+    <label>custom lung</label>
+    <description>A biological human lung. A pair of these form the core of the human respiratory system.</description>
+    <descriptionHyperlinks><RecipeDef>InstallNaturalLung</RecipeDef></descriptionHyperlinks>
+    <statBases>
+      <MarketValue>1000</MarketValue>
+      <Mass>1</Mass>
+    </statBases>
+</ThingDef-->
+	
+</Defs>

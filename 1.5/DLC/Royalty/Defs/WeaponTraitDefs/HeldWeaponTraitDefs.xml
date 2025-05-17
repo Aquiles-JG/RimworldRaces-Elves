@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+   <WeaponTraitDef>
+        <defName>Aq_Held_MeleeHitChanceUp</defName>
+        <label>avenger</label>
+        <description>This weapon's persona has better things to be doing than being used to wave at things and thus seeks to end fights quickly. While held, it provides its wielder with an increased chance to hit their target.</description>
+        <commonality>0.5</commonality>
+        <marketValueOffset>400</marketValueOffset>
+        <equippedStatOffsets>
+            <MeleeHitChance>3</MeleeHitChance>
+        </equippedStatOffsets>
+        <exclusionTags><li>NeverBond</li></exclusionTags>
+    </WeaponTraitDef>
+    
+     <WeaponTraitDef>
+        <defName>Aq_Held_MeleeDodgeChanceUp</defName>
+        <label>dancer</label>
+        <description>This weapon's persona provides their wielder with astounding poise and grace. Even the most fumbling wielder will move through a battlefield like a ribbon on the wind.\nWhile held, it provides its wielder with increased melee dodge chance and reduced trap spring chance.</description>
+        <commonality>0.5</commonality>
+        <marketValueOffset>400</marketValueOffset>
+        <equippedStatOffsets>
+            <MeleeDodgeChance>9</MeleeDodgeChance>
+            <PawnTrapSpringChance>-0.3</PawnTrapSpringChance>
+        </equippedStatOffsets>
+        <exclusionTags><li>NeverBond</li></exclusionTags>
+    </WeaponTraitDef>
+    
+    <WeaponTraitDef>
+        <defName>Aq_Held_MeleeDamageFactorUp</defName>
+        <label>vorpal</label>
+        <description>This weapon's persona has a deadly aura around it.\nWhile held, it increases the wielder's melee damage output.</description>
+        <commonality>0.5</commonality>
+        <marketValueOffset>750</marketValueOffset>
+        <equippedHediffs>
+            <li>Aq_Hediff_HeldMeleeDamageFactorUp</li>
+        </equippedHediffs>
+        <exclusionTags><li>NeverBond</li></exclusionTags>
+    </WeaponTraitDef>
+    
+    <HediffDef>
+        <defName>Aq_Hediff_HeldMeleeDamageFactorUp</defName>
+        <label>lethal</label>
+        <description>My weapon is causing me to deal much more damage.</description>
+        <descriptionHyperlinks>
+            <WeaponTraitDef>Aq_Held_MeleeDamageFactorUp</WeaponTraitDef>
+        </descriptionHyperlinks>
+        <isBad>false</isBad>
+        <stages>
+            <li>
+                <statFactors>
+                    <MeleeDamageFactor>1.25</MeleeDamageFactor>
+                </statFactors>
+            </li>
+        </stages>
+    </HediffDef>
+    
+    <WeaponTraitDef>
+        <defName>Aq_Held_ComfyTempUp</defName>
+        <label>thermoregulating</label>
+        <description>This weapon's persona posses an instinctual knowledge of how to balance ones internal temperature and can help their wielder do it too!\nWhile held, it provides its wielder with an increased range of comfortable temperatures.</description>
+        <commonality>0.5</commonality>
+        <marketValueOffset>400</marketValueOffset>
+        <equippedStatOffsets>
+            <ComfyTemperatureMin>-10</ComfyTemperatureMin>
+            <ComfyTemperatureMax>10</ComfyTemperatureMax>
+        </equippedStatOffsets>
+        <exclusionTags><li>NeverBond</li></exclusionTags>
+    </WeaponTraitDef>
+  
+</Defs>

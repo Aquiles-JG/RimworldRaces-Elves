@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ScenarioDef>
+	<defName>DrowScenario</defName>
+		<label>Revenge of the Kin'asier</label>
+		<description>A traitor within the group gave the location of the Kin'asier's lair to the great Karasti Houses, all with old grudges against them. Hunted down one by one, only few survived the slaughter.</description>
+	<scenario>
+	<summary>Three outlawed kin'asiers managed to escaped to an unknown planet. Very difficult and slow.</summary>
+		<playerFaction>
+			<def>PlayerFaction</def>
+			<factionDef>Player_Drow</factionDef>
+		</playerFaction>
+		<parts>
+
+        <!-- Config pages -->
+		 <li Class="ScenPart_ConfigPage_ConfigureStartingPawns_Xenotypes">
+					<def>ConfigurePawnsXenotypes</def>
+					<pawnChoiceCount>8</pawnChoiceCount>
+					<customSummary>Start with three dark elves.</customSummary>
+					<overrideKinds>
+						<li>
+							<xenotype>Aq_DarkElf</xenotype>
+							<pawnKind>Drow</pawnKind>
+						</li>
+					</overrideKinds>
+					<xenotypeCounts>
+						<li>
+							<xenotype>Aq_DarkElf</xenotype>
+							<count>3</count>
+							<description>adult karasti</description>
+							<allowedDevelopmentalStages>Adult</allowedDevelopmentalStages>
+						</li>
+					</xenotypeCounts>
+	    </li>
+        <!-- Player starting stuff spawn method-->
+        <li Class="ScenPart_PlayerPawnsArriveMethod">
+          <def>PlayerPawnsArriveMethod</def>
+          <method>Standing</method>
+        </li>
+
+        <!-- Player pawns modifiers -->
+         
+        <!-- Player starting things -->
+     	<li Class="ScenPart_StartingAnimal">
+          <def>StartingAnimal</def>
+          <animalKind>Warg</animalKind>
+          <count>1</count>
+          <bondToRandomPlayerPawnChance>1.0</bondToRandomPlayerPawnChance>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>DE_Waybread</thingDef>
+          <count>40</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>DE_Medicine</thingDef>
+          <count>10</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>ComponentIndustrial</thingDef>
+          <count>10</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Kara_Melee_FlameEdge</thingDef>
+          <count>1</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>DE_RepeaterCB</thingDef>
+          <stuff>WoodLog</stuff>
+          <count>1</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>DE_Rapier</thingDef>
+          <count>1</count>
+        </li>
+        <!-- Scatter some things near player start -->
+        <li Class="ScenPart_ScatterThingsNearPlayerStart">
+          <def>ScatterThingsNearPlayerStart</def>
+          <thingDef>Steel</thingDef>
+          <count>450</count>
+        </li>
+        <li Class="ScenPart_ScatterThingsNearPlayerStart">
+          <def>ScatterThingsNearPlayerStart</def>
+          <thingDef>WoodLog</thingDef>
+          <count>300</count>
+        </li>      
+
+        <!-- Scatter some things anywhere -->
+        <li Class="ScenPart_ScatterThingsAnywhere">
+          <def>ScatterThingsAnywhere</def>
+          <thingDef>ShipChunk</thingDef>
+          <count>3</count>
+		</li>
+		<li Class="ScenPart_ScatterThingsAnywhere">
+			<def>ScatterThingsAnywhere</def>
+			<thingDef>Steel</thingDef>
+			<count>300</count>
+			<allowRoofed>True</allowRoofed>
+		</li>
+		<li Class="ScenPart_ScatterThingsAnywhere">
+          <def>ScatterThingsAnywhere</def>
+          <thingDef>DE_Waybread</thingDef>
+          <count>7</count>
+        </li>
+
+        <!-- Game start dialog -->
+        <li Class="ScenPart_GameStartDialog">
+          <def>GameStartDialog</def>
+          <textKey>A traitor within the group gave the location of the Kin'asier's lair to the great Karasti Houses, all with old grudges against this dreaded band of assassins. Hunted down one by one, only a few kin'asier had survived the slaughter. Four lieutenants managed to escaped to an unknown planet. Now it is time for regroup. Now is time for revenge.</textKey>
+          <closeSound>GameStartSting</closeSound>
+        </li>
+      </parts>
+    </scenario>
+  </ScenarioDef>
+</Defs>

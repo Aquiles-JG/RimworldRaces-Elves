@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="DE_RepeaterCB" or defName="DE_DoubleCB"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>7</power>
+					<cooldownTime>1.6</cooldownTime>
+					<armorPenetrationBlunt>0.65</armorPenetrationBlunt>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Kara_Bow"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>7</power>
+					<cooldownTime>1.6</cooldownTime>
+					<armorPenetrationBlunt>0.65</armorPenetrationBlunt>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+	
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>DE_RepeaterCB</defName>
+		<statBases>
+			<Bulk>6</Bulk>
+			<SwayFactor>1.2</SwayFactor>
+			<ShotSpread>0.25</ShotSpread>
+			<SightsEfficiency>1</SightsEfficiency>
+			<RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+		</statBases>
+		<costList>
+	  		<Steel>10</Steel>
+	  		<Leather_MDeer>10</Leather_MDeer>
+    	</costList>
+		<Properties>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>True</hasStandardCommand>
+			<defaultProjectile>Projectile_CrossbowBolt_Steel</defaultProjectile>
+			<warmupTime>1</warmupTime>
+			<range>24</range>
+			<soundCast>DE_CrossbowShot</soundCast>
+		</Properties>
+		<AmmoUser>
+			<magazineSize>1</magazineSize>
+			<reloadTime>3.5</reloadTime>
+			<ammoSet>AmmoSet_CrossbowBolt</ammoSet>
+		</AmmoUser>
+		<FireModes>
+			<aiAimMode>AimedShot</aiAimMode>
+		</FireModes>
+		<researchPrerequisite>Kara_RangedWeapons</researchPrerequisite>
+		<weaponTags>
+			<li>CE_XBow</li>
+			<li>CE_OneHandedWeapon</li>
+		</weaponTags>
+	</Operation>
+	
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>DE_DoubleCB</defName>
+		<statBases>
+			<Bulk>6</Bulk>
+			<SwayFactor>1.0</SwayFactor>
+			<ShotSpread>0.20</ShotSpread>
+			<SightsEfficiency>1</SightsEfficiency>
+			<RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+		</statBases>
+		 <costList>
+	  		<Steel>20</Steel>
+	  		<Leather_MDeer>15</Leather_MDeer>
+    	</costList>
+		<Properties>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>True</hasStandardCommand>
+			<defaultProjectile>Projectile_HeavyCrossbowBolt_Steel</defaultProjectile>
+			<warmupTime>1</warmupTime>
+			<range>24</range>
+			<soundCast>DE_CrossbowShot</soundCast>
+		</Properties>
+		<AmmoUser>
+			<magazineSize>1</magazineSize>
+			<reloadTime>5.5</reloadTime>
+			<ammoSet>AmmoSet_HeavyCrossbowBolt</ammoSet>
+		</AmmoUser>
+		<FireModes>
+			<aiAimMode>AimedShot</aiAimMode>
+		</FireModes>
+		<researchPrerequisite>Kara_RangedWeapons</researchPrerequisite>
+		<weaponTags>
+			<li>CE_XBow</li>
+		</weaponTags>
+	</Operation>
+	
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>Kara_Bow</defName>
+		<statBases>
+			<SightsEfficiency>0.8</SightsEfficiency>
+			<ShotSpread>1</ShotSpread>
+			<SwayFactor>2</SwayFactor>
+			<Bulk>5.00</Bulk>
+			<RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>
+		</statBases>
+	 	<costList>
+			<Plasteel>5</Plasteel>
+			<Leather_MDeer>20</Leather_MDeer>
+    	</costList>
+		<Properties>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>Projectile_StreamlinedArrow_Stone</defaultProjectile>
+			<warmupTime>1.5</warmupTime>
+			<range>42</range>
+			<soundCast>Bow_Large</soundCast>
+		</Properties>
+		<AmmoUser>
+			<ammoSet>AmmoSet_StreamlinedArrow</ammoSet>
+		</AmmoUser>
+		<FireModes/>
+		<weaponTags>
+			<li>CE_Bow</li>
+		</weaponTags>
+		<researchPrerequisite>Kara_RangedWeapons</researchPrerequisite>
+		<AllowWithRunAndGun>false</AllowWithRunAndGun>
+	</Operation>
+	
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>Aq_Bow_Great</defName>
+		<statBases>
+			<SightsEfficiency>0.8</SightsEfficiency>
+			<ShotSpread>1</ShotSpread>
+			<SwayFactor>2</SwayFactor>
+			<Bulk>5.00</Bulk>
+			<RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+		</statBases>
+		 <costList>
+      		<WoodLog>100</WoodLog>
+      		<Gold>2</Gold>
+    	</costList>
+		<Properties>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>Projectile_GreatArrow_Stone</defaultProjectile>
+			<warmupTime>1.3</warmupTime>
+			<range>42</range>
+			<soundCast>Aq_BowLongbow</soundCast>
+		</Properties>
+		<AmmoUser>
+			<ammoSet>AmmoSet_GreatArrow</ammoSet>
+		</AmmoUser>
+		<FireModes />
+		<weaponTags>
+			<li>CE_Bow</li>
+		</weaponTags>
+		<researchPrerequisite>Aq_WeaponsTwo</researchPrerequisite>
+		<AllowWithRunAndGun>false</AllowWithRunAndGun>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Aq_Bow_Great"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>7</power>
+					<cooldownTime>1.6</cooldownTime>
+					<armorPenetrationBlunt>0.65</armorPenetrationBlunt>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Aq_Bow_High"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>7</power>
+					<cooldownTime>1.6</cooldownTime>
+					<armorPenetrationBlunt>0.65</armorPenetrationBlunt>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+	
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>Aq_Bow_High</defName>
+		<statBases>
+			<SightsEfficiency>0.8</SightsEfficiency>
+			<ShotSpread>1</ShotSpread>
+			<SwayFactor>2</SwayFactor>
+			<Bulk>5.00</Bulk>
+			<RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+		</statBases>
+		<costList>
+			<Gold>1</Gold>
+		</costList>
+		<Properties>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>Projectile_GreatArrow_Stone</defaultProjectile>
+			<warmupTime>1.5</warmupTime>
+			<range>36</range>
+			<soundCast>Aq_BowLongbow</soundCast>
+		</Properties>
+		<AmmoUser>
+			<ammoSet>AmmoSet_GreatArrow</ammoSet>
+		</AmmoUser>
+		<FireModes/>
+		<weaponTags>
+			<li>CE_Bow</li>
+		</weaponTags>
+		<researchPrerequisite>Aq_WeaponsTwo</researchPrerequisite>
+		<AllowWithRunAndGun>false</AllowWithRunAndGun>
+	</Operation>
+
+	
+</Patch>
