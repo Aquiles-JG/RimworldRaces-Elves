@@ -16,7 +16,7 @@
     <iconPath>World/WoodElves</iconPath>
     <iconColor>(0.8, 0.8, 0.8)</iconColor>
     <preferredWeaponClasses>
-      <noble>Irissdi</noble>
+      <noble>Elf</noble>
       <despised>Drow</despised>
     </preferredWeaponClasses>
     <thingStyleCategories>

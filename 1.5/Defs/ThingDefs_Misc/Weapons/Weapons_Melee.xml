@@ -15,7 +15,7 @@
       <li>ElvenMelee</li>
     </weaponTags>
     <weaponClasses>
-      <li>Irissdi</li>
+      <li>Elf</li>
     </weaponClasses>
     <costStuffCount>80</costStuffCount>
     <costList>
@@ -82,7 +82,7 @@
       <li>ElvenMelee</li>
     </weaponTags>
     <weaponClasses>
-      <li>Irissdi</li>
+      <li>Elf</li>
     </weaponClasses>
     <costStuffCount>125</costStuffCount>
     <costList>
@@ -159,7 +159,7 @@
       <li>ElvenMeleeElite</li>
     </weaponTags>
     <weaponClasses>
-      <li>Irissdi</li>
+      <li>Elf</li>
     </weaponClasses>
     <tools>
       <li>
@@ -250,7 +250,7 @@
       <li>ElvenMeleeElite</li>
     </weaponTags>
     <weaponClasses>
-      <li>Irissdi</li>
+      <li>Elf</li>
     </weaponClasses>
     <equippedStatOffsets>
       <MoveSpeed>-0.1</MoveSpeed>
@@ -350,7 +350,7 @@
   <ThingDef ParentName="BaseWeapon_ElfBladelink">
     <defName>Aq_Elf_BastardBladelink</defName>
     <label>palatine bastard sword</label>
-    <description>A legendary blade only granted to the highest ranking servants of the Iriss Empire.</description>
+    <description>A legendary blade only granted to the highest ranking servants of the elven Empire.</description>
     <graphicData>
       <texPath>Things/MeleeWeapons/Elf_BastardSwordLink</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -365,7 +365,7 @@
     <meleeHitSound>MeleeHit_BladelinkMonoSword</meleeHitSound>
     <equippedAngleOffset>-45</equippedAngleOffset>
     <weaponClasses>
-      <li>Irissdi</li>
+      <li>Elf</li>
     </weaponClasses>
     <tools>
       <li>

@@ -3,7 +3,7 @@
   <ScenarioDef>
     <defName>ElfScenario</defName>
     <label>Far from Home</label>
-    <description>Decisions on the imperial council have led to sending three irissdi settlers to new foreign lands.</description>
+    <description>Decisions on the imperial council have led to sending three elf settlers to new foreign lands.</description>
     <scenario>
       <summary>Three elves set up to help found a new elven colony.</summary>
       <playerFaction>

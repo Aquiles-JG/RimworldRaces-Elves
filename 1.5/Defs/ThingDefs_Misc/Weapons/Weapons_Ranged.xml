@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
- 
   <!-- Elven Longbow -->
   <ThingDef ParentName="BaseProjectileNeolithic">
     <defName>Aq_Arrow_High</defName>
@@ -18,13 +17,11 @@
       <armorPenetrationBase>0.15</armorPenetrationBase>
     </projectile>
   </ThingDef>
-  
   <ThingDef ParentName="BaseWeaponNeolithic">
     <defName>Aq_Bow_High</defName>
     <label>elven longbow</label>
     <description>The longbow preferred by the gray elves. A powerful long range weapon.</description>
     <techLevel>Medieval</techLevel>
-  
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponRanged/Aq_GaladhrimBow</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -51,8 +48,8 @@
       <li>ElvenRanged</li>
     </weaponTags>
     <weaponClasses>
-      <li>Irissdi</li>
-	</weaponClasses>
+      <li>Elf</li>
+    </weaponClasses>
     <recipeMaker>
       <recipeUsers>
         <li>ElectricSmithy</li>
@@ -82,12 +79,11 @@
         <cooldownTime>1.6</cooldownTime>
       </li>
     </tools>
-     <tradeTags>
-        <li>ElvenRanged</li>
-        <li>Elvendom</li>
+    <tradeTags>
+      <li>ElvenRanged</li>
+      <li>Elvendom</li>
     </tradeTags>
   </ThingDef>
-  
   <ThingDef ParentName="BaseProjectileNeolithic">
     <defName>Aq_Arrow_Great</defName>
     <label>elven great arrow</label>
@@ -110,7 +106,6 @@
     <label>elven greatbow</label>
     <description>The elite archers of the gray elves utilize an exceptional longbow that has devestating damage and pinpoint accuracy.</description>
     <techLevel>Medieval</techLevel>
-  
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponRanged/Aq_NoldorinBow</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -133,9 +128,9 @@
     <weaponTags>
       <li>ElvenRanged</li>
     </weaponTags>
-       <weaponClasses>
-    <li>Irissdi</li>
-</weaponClasses>
+    <weaponClasses>
+      <li>Elf</li>
+    </weaponClasses>
     <recipeMaker>
       <recipeUsers>
         <li>ElectricSmithy</li>
@@ -165,10 +160,9 @@
         <cooldownTime>1.8</cooldownTime>
       </li>
     </tools>
-     <tradeTags>
-        <li>ElvenRanged</li>
-        <li>Elvendom</li>
+    <tradeTags>
+      <li>ElvenRanged</li>
+      <li>Elvendom</li>
     </tradeTags>
   </ThingDef>
-  
 </Defs>

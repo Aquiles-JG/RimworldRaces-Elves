@@ -2,8 +2,8 @@
 <Defs>
 
  	<WeaponClassDef>
-    	<defName>Irissdi</defName>
-    	<label>irissdi</label>
+    	<defName>Elf</defName>
+    	<label>elf</label>
   	</WeaponClassDef>
   	
   	<WeaponClassDef>
@@ -13,8 +13,8 @@
 
 
    	<WeaponClassPairDef>
-    	<defName>IrissdiDrow</defName>
-    	<first>Irissdi</first>
+    	<defName>ElfDrow</defName>
+    	<first>Elf</first>
     	<second>Drow</second>
     </WeaponClassPairDef>
     

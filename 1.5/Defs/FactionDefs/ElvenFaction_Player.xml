@@ -14,7 +14,7 @@
 <FactionDef Parent="PlayerFactionBase">
 
 <defName>Player_Elf</defName>
-<label>Iriss Chosen</label>
+<label>the Chosen</label>
 <description>A group of elves far away from home with the only desire of glory and fame.</description>
 <xenotypeSet Inherit="False">
       <xenotypeChances>
