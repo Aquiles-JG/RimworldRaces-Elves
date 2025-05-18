@@ -5,7 +5,7 @@
     <defName>Aq_CookWaybread</defName>
     <label>cook elvish waybread</label>
     <description>Prepare four rations of elvish waybread.</description>
-    <jobString>Cooking karasti waybread.</jobString>
+    <jobString>Preparing elvish waybread.</jobString>
     <workAmount>2400</workAmount>
     <workSpeedStat>CookSpeed</workSpeedStat>
     <effectWorking>Cook</effectWorking>
@@ -52,8 +52,7 @@
     </products>
     <recipeUsers>
       	<li>FueledStove</li>
-        <li>ElectricStove</li>
-       
+        <li>ElectricStove</li>    
     </recipeUsers>
     <skillRequirements>
       <Cooking>8</Cooking>

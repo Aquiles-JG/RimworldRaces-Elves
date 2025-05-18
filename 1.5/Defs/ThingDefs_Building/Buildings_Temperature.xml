@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
- <!-- Karasti Icebox -->
+ <!-- Drow Icebox -->
   <ThingDef ParentName="BuildingBase">
     <defName>Aq_Icebox</defName>
-    <label>karasti ice box</label>
-    <description>A traditional karasti un-powered cooler that works by sticking ice in a metal box. If you have enough of these you can bring a room's temperature below freezing. Will run out of ice after only a few days.</description>
+    <label>drow ice box</label>
+    <description>A traditional drow un-powered cooler that works by sticking ice in a metal box. If you have enough of these you can bring a room's temperature below freezing. Will run out of ice after only a few days.</description>
     <category>Building</category>
     <thingCategories>
       <li>BuildingsTemperature</li>
@@ -81,7 +81,7 @@
   <ThingDef ParentName="FurnitureBase">
     <defName>DE_Hearth</defName>
     <label>dark pyre</label>
-    <description>The dark pyre provides hefty warmth and light to the great halls of the Karasti temples. People who prefer darklight work best with this light source.</description>
+    <description>The dark pyre provides hefty warmth and light to the great halls of the drow temples. People who prefer darklight work best with this light source.</description>
     <graphicData>
       <texPath>Things/Building/DE_Hearth/DE_Hearth</texPath>
       <graphicClass>Graphic_Multi</graphicClass>

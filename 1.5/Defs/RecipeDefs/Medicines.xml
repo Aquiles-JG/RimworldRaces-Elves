@@ -2,10 +2,10 @@
 <Defs>
     
 <RecipeDef>
-        <defName>MakeMedicineKarasti</defName>
-        <label>make karasti medicine</label>
+        <defName>MakeMedicineDrow</defName>
+        <label>make drow medicine</label>
         <description>Create the most powerful and secret medicine.</description>
-        <jobString>Making karasti medicine.</jobString>
+        <jobString>Making drow medicine.</jobString>
         <workSkill>Intellectual</workSkill>
         <effectWorking>Cook</effectWorking>
         <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
@@ -49,10 +49,10 @@
 </RecipeDef>
 
 <RecipeDef>
-        <defName>MakeMedicineKarastiBulk</defName>
-        <label>make karasti medicine x4</label>
+        <defName>MakeMedicineDrowBulk</defName>
+        <label>make drow medicine x4</label>
         <description>Create the most powerful and secret medicine.</description>
-        <jobString>Making karasti medicine.</jobString>
+        <jobString>Making drow medicine.</jobString>
         <workSkill>Intellectual</workSkill>
         <effectWorking>Cook</effectWorking>
         <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>

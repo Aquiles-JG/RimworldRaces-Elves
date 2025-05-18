@@ -3,8 +3,8 @@
 
 <ThingDef ParentName="MedicineBase">
 	<defName>DE_Medicine</defName>
-	<label>karasti medicine</label>
-	<description>The karasti blood is both a gift and a curse, because with it an incredibly powerful medicine can be crafted. At the same time, it is the cause of why dark elves are hunted down like animals by the humans.</description>
+	<label>drow medicine</label>
+	<description>The elven blood is both a gift and a curse, because with it an incredibly powerful medicine can be crafted and also the cause of the hatred and distrust.</description>
 	<graphicData>
 	  <texPath>Things/Item/Drug/DE_Medicine</texPath>
 	  <graphicClass>Graphic_StackCount</graphicClass>

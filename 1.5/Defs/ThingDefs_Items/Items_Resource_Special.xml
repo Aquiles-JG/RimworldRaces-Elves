@@ -67,7 +67,7 @@
   <ThingDef>
     <defName>DE_Blood</defName>
     <label>elf blood</label>
-    <description>A vial of elf blood. A potent ingredient for making Karasti medicine and more.</description>
+    <description>A vial of elf blood. A potent ingredient for making elven medicine and more.</description>
     <graphicData>
       <texPath>Things/Item/Resource/DE_Blood</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>

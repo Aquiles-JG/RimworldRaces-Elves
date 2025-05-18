@@ -23,8 +23,8 @@
  
     <ResearchProjectDef ParentName="ElvenResearch">
         <defName>Kara_Smithing</defName>
-        <label>karasti blacksmithing</label>
-        <description>Discover the ancient craft of the Karasti blacksmiths.</description>
+        <label>drow blacksmithing</label>
+        <description>Discover the ancient craft of the Drow blacksmiths.</description>
         <baseCost>1500</baseCost>
         <prerequisites>
             <li>Smithing</li>
@@ -49,7 +49,7 @@
     <ResearchProjectDef ParentName="ElvenResearch">
         <defName>Kara_Apparel</defName>
         <label>shadow clothing</label>
-        <description>Unlock one of the many secrets of the Karasti assassins: their stealthy clothes.</description>
+        <description>Unlock one of the many secrets of the Drow assassins: their stealthy clothes.</description>
         <baseCost>1500</baseCost>
         <prerequisites>
             <li>ComplexClothing</li>
@@ -74,7 +74,7 @@
     <ResearchProjectDef ParentName="ElvenResearch">
 		<defName>Kara_WeaponsII</defName>
 		<label>holy weapons</label>
-		<description>Decipher the secrets of the ancient metallurgy of the Karasti people.</description>
+		<description>Decipher the secrets of the ancient metallurgy of the Drow people.</description>
 		<baseCost>2500</baseCost>
 		<prerequisites>
 		  <li>Kara_Weapons</li>
@@ -86,8 +86,8 @@
    
     <ResearchProjectDef ParentName="ElvenResearch">
         <defName>Kara_Culture</defName>
-        <label>Underdark pleasures</label>
-        <description>Uncover some of the forgotten lore of the Karasti, like their strong herbal liqueur.</description>
+        <label>underdark pleasures</label>
+        <description>Uncover some of the forgotten lore of the Drow, like their strong herbal liqueur.</description>
         <baseCost>1000</baseCost>
 		<techprintCount>1</techprintCount>
     	<techprintCommonality>0.5</techprintCommonality>
@@ -106,8 +106,8 @@
    
    <ResearchProjectDef ParentName="ElvenResearch">
         <defName>Kara_CultureII</defName>
-        <label>karasti medicine</label>
-        <description>Craft the incredible Karasti medicine, an ancient recipe made with their own blood.</description>
+        <label>drow medicine</label>
+        <description>Craft the incredible Drow medicine, an ancient recipe made with their own blood.</description>
         <baseCost>1500</baseCost>
         <prerequisites>
             <li>Kara_Culture</li>
@@ -120,7 +120,7 @@
     <ResearchProjectDef ParentName="ElvenResearch">
         <defName>Kara_CultureIII</defName>
         <label>venoms</label>
-        <description>Craft the most powerful Karasti remedies: venoms.</description>
+        <description>Craft the most powerful Drow remedies: venoms.</description>
         <baseCost>2000</baseCost>
         <prerequisites>
             <li>Kara_CultureII</li>
@@ -131,8 +131,8 @@
    
     <ResearchProjectDef ParentName="ElvenResearch">
         <defName>Kara_CultureIV</defName>
-        <label>karasti rebirth</label>
-        <description>Unleash the full healing power of the Karasti medicine.</description>
+        <label>drow rebirth</label>
+        <description>Unleash the full healing power of the Drow medicine.</description>
         <baseCost>2500</baseCost>
         <prerequisites>
             <li>Kara_CultureIII</li>

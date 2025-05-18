@@ -5,7 +5,7 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>Mystic_Deer</defName>
     <label>mystic deer</label>
-    <description>A mythical herding herbivore which prefers to live in cold forests and plains. The Karasti use its precious leather to craft some of their most powerful items.</description>
+    <description>A mythical herding herbivore which prefers to live in cold forests and plains. The drow use its precious leather to craft some of their most powerful items.</description>
     <statBases>
       <MoveSpeed>5.85</MoveSpeed>
       <MarketValue>500</MarketValue>

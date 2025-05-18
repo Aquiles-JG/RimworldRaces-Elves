@@ -10,7 +10,7 @@
     <degreeDatas>
       <li>
         <label>revered</label>
-        <description>Even in a harsh society like the dark elves, some individuals have the devotion of the rest. [PAWN_nameDef] is revered among the karasti as a holy dark elf. Every time [PAWN_pronoun] speaks, everybody listens.</description>
+        <description>Even in a harsh society like the dark elves, some individuals have the devotion of the rest. [PAWN_nameDef] is revered among the drow as a holy dark elf. Every time [PAWN_pronoun] speaks, everybody listens.</description>
         <allowedMeditationFocusTypes><li>Morbid</li></allowedMeditationFocusTypes>
         <statOffsets>
 					<MentalBreakThreshold>-0.1</MentalBreakThreshold>
@@ -137,7 +137,7 @@
     <degreeDatas>
       <li>
         <label>silk gauntlet</label>
-        <description>{PAWN_nameDef} knows the karasti way of doing bussiness: Seduction and Intimidation.</description>
+        <description>{PAWN_nameDef} knows the drow way of doing bussiness: Seduction and Intimidation.</description>
         <statOffsets>
           <NegotiationAbility>0.25</NegotiationAbility>
           <TradePriceImprovement>0.15</TradePriceImprovement>

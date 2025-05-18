@@ -3,7 +3,7 @@
 
   <ThingDef ParentName="ArmorSmithableBase">
     <defName>DE_StuddedArmor</defName>
-    <label>karasti studded armor</label>
+    <label>drow studded armor</label>
     <description>A studded leather armor is reinforced with close-set rivets or spikes. Meant to be worn under a cloak, offers suitable protection for light combat. The armor was impregnated with a substance that help sustain the pain of wounds.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Only Dark Elves may wear it.</description>
     <graphicData>
       <texPath>Things/Apparel/DE_StuddedArmor/DE_StuddedArmor</texPath>
@@ -84,7 +84,7 @@
   
   <ThingDef ParentName="ArmorSmithableBase">
     <defName>DE_PlateArmor</defName>
-    <label>karasti plate armor</label>
+    <label>drow plate armor</label>
     <description>Overlapping solid plates of armor covering the entire body from neck to feet. The armor was impregnated with a substance that helps sustain the pain of wounds and prevents the bleeding.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Only Dark Elves may wear it.</description>
     <graphicData>
       <texPath>Things/Apparel/DE_PlateArmor/DE_PlateArmor</texPath>

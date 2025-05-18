@@ -3,10 +3,10 @@
 
 	<ScenarioDef>
 	<defName>DrowScenario</defName>
-		<label>Revenge of the Kin'asier</label>
-		<description>A traitor within the group gave the location of the Kin'asier's lair to the great Karasti Houses, all with old grudges against them. Hunted down one by one, only few survived the slaughter.</description>
+		<label>Revenge of the Outlaws</label>
+		<description>A traitor within the group gave the location of the outlaw's lair to the great Drow Houses, all with old grudges against them. Hunted down one by one, only few survived the slaughter.</description>
 	<scenario>
-	<summary>Three outlawed kin'asiers managed to escaped to an unknown planet. Very difficult and slow.</summary>
+	<summary>Three outlaws managed to escaped to an unknown planet. Very difficult and slow.</summary>
 		<playerFaction>
 			<def>PlayerFaction</def>
 			<factionDef>Player_Drow</factionDef>
@@ -28,7 +28,7 @@
 						<li>
 							<xenotype>Aq_DarkElf</xenotype>
 							<count>3</count>
-							<description>adult karasti</description>
+							<description>adult drow</description>
 							<allowedDevelopmentalStages>Adult</allowedDevelopmentalStages>
 						</li>
 					</xenotypeCounts>
@@ -112,7 +112,7 @@
         <!-- Game start dialog -->
         <li Class="ScenPart_GameStartDialog">
           <def>GameStartDialog</def>
-          <textKey>A traitor within the group gave the location of the Kin'asier's lair to the great Karasti Houses, all with old grudges against this dreaded band of assassins. Hunted down one by one, only a few kin'asier had survived the slaughter. Four lieutenants managed to escaped to an unknown planet. Now it is time for regroup. Now is time for revenge.</textKey>
+          <textKey>A traitor within the group gave the location of the outlaw's lair to the great Drow Houses, all with old grudges against this dreaded band of assassins. Hunted down one by one, only a few had survived the slaughter. Four lieutenants managed to escaped to an unknown planet. Now it is time for regroup. Now is time for revenge.</textKey>
           <closeSound>GameStartSting</closeSound>
         </li>
       </parts>
