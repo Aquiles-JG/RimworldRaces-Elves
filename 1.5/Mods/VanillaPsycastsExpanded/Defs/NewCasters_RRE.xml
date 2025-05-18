@@ -24,7 +24,7 @@
 		</requiredWorkTags>
 		<weaponMoney>9999</weaponMoney>
 		<weaponTags Inherit="False">
-			<li>Karasti_weapon_special</li>
+			<li>DrowMeleeSpecial</li>
 		</weaponTags>
 		<initialWillRange>6~8</initialWillRange>
 		<initialResistanceRange>30~46</initialResistanceRange>
@@ -62,7 +62,7 @@
 		</requiredWorkTags>
 		<weaponMoney>9999</weaponMoney>
 		<weaponTags Inherit="False">
-			<li>Karasti_weapon_special</li>
+			<li>DrowMeleeSpecial</li>
 		</weaponTags>
 		<initialWillRange>6~8</initialWillRange>
 		<initialResistanceRange>30~46</initialResistanceRange>

@@ -13,7 +13,7 @@
     <defName>KinasierDrow</defName>
     <title>kin'asier</title>
     <titleShort>kin'asier</titleShort>
-    <baseDesc>Exiled to the outer worlds by a deceitful political plot, [PAWN_nameDef] joined the fearsome Kin'asier, probably the best assassins in the Rim. The kin'asier are outcast, doomed to never return home, and only loyal to their legendary leader: Tyz'Ianoa, the Dark Bride.</baseDesc>
+    <baseDesc>Exiled to the outer worlds by a deceitful political plot, [PAWN_nameDef] joined the fearsome Kin'asier, probably the best assassins in the Rim. The kin'asier are outcast, doomed to never return home, and only loyal to their legendary leader: the Dark Bride.</baseDesc>
     <slot>Adulthood</slot>
     <skillGains>
       <Shooting>4</Shooting>
@@ -74,7 +74,7 @@
     <defName>FarmerDrow</defName>
     <title>fungus farmer</title>
     <titleShort>fungus farmer</titleShort>
-    <baseDesc>A fact unknown by most outsiders, fungus farmes are actually well respected in the harsh karasti societies, because of their vital dependencies of the mushroom fields. [PAWN_nameDef] was the owner of a small plantation until an enemy raid burned everything to the ground.</baseDesc>
+    <baseDesc>A fact unknown by most outsiders, fungus farmes are actually well respected in the harsh drow societies, because of their vital dependencies of the mushroom fields. [PAWN_nameDef] was the owner of a small plantation until an enemy raid burned everything to the ground.</baseDesc>
     <slot>Adulthood</slot>
     <skillGains>
       <Plants>3</Plants>
@@ -88,7 +88,7 @@
     <defName>IronfistDrow</defName>
     <title>ironfist</title>
     <titleShort>ironfist</titleShort>
-    <baseDesc>Raised, trained and breed for the single purpose of war, [PAWN_nameDef] specializes in close combat and the use of heavy weapons. Ironfists are the elite infantry of any Karasti army, its thickest line of defense.</baseDesc>
+    <baseDesc>Raised, trained and breed for the single purpose of war, [PAWN_nameDef] specializes in close combat and the use of heavy weapons. Ironfists are the elite infantry of any Drow army, its thickest line of defense.</baseDesc>
     <slot>Adulthood</slot>
     <skillGains>
       <Shooting>2</Shooting>
@@ -105,7 +105,7 @@
     <defName>HPriestessDrow</defName>
     <title>sha'Kara</title>
     <titleShort>sha'Kara</titleShort>
-    <baseDesc>Since the beginning, only the karasti women can enter the service of Kara. [PAWN_nameDef] assisted the High Priestess of [PAWN_possessive] city in all matters moral, if there is any in the karasti society. Now, after a dire turn of events, [PAWN_pronoun] must face exile in an unknown rimworld.</baseDesc>
+    <baseDesc>Since the beginning, only the drow women can enter the service of Kara. [PAWN_nameDef] assisted the High Priestess of [PAWN_possessive] city in all matters moral, if there is any in the drow society. Now, after a dire turn of events, [PAWN_pronoun] must face exile in an unknown rimworld.</baseDesc>
     <slot>Adulthood</slot>
     <skillGains>
       <Medicine>1</Medicine>
@@ -161,7 +161,7 @@
     <defName>HerdmasterDrow</defName>
     <title>herd master</title>
     <titleShort>beastmaster</titleShort>
-    <baseDesc>[PAWN_nameDef] works as a herd master for any Karasti House willing to pay. Every animal, beast or monster's will had been broken by [PAWN_possessive] outstanding skills, learned after living in the wild all [PAWN_possessive] life.</baseDesc>
+    <baseDesc>[PAWN_nameDef] works as a herd master for any Drow House willing to pay. Every animal, beast or monster's will had been broken by [PAWN_possessive] outstanding skills, learned after living in the wild all [PAWN_possessive] life.</baseDesc>
     <slot>Adulthood</slot>
     <skillGains>
       <Animals>4</Animals>
@@ -174,7 +174,7 @@
     <defName>KhabaDrow</defName>
     <title>khaba</title>
     <titleShort>khaba</titleShort>
-    <baseDesc>One of the seventy-one words to define a woman in the Karasti language. The khaba is a young girl that had to serve as an armed guardian in the Karantar without pay for seven whole years. Only the Nuschka is exempted from this service. [PAWN_nameDef] didn't have that luck.</baseDesc>
+    <baseDesc>One of the seventy-one words to define a woman in the drow language. The khaba is a young girl that had to serve as an armed guardian in the Karantar without pay for seven whole years. Only the Nuschka is exempted from this service. [PAWN_nameDef] didn't have that luck.</baseDesc>
     <slot>Adulthood</slot>
     <skillGains>
       <Shooting>2</Shooting>
@@ -190,7 +190,7 @@
     <defName>PoleJumperDrow</defName>
     <title>pole jumper</title>
     <titleShort>pole jumper</titleShort>
-    <baseDesc>Karanzaran is capable of deploying deadly troops that no other karasti city can. [PAWN_nameDef] was a pole jumper, a member of an elite corps that used a pole to jump over shield walls and spread terror from the inside of enemy formations.</baseDesc>
+    <baseDesc>Karanzaran is capable of deploying deadly troops that no other drow city can. [PAWN_nameDef] was a pole jumper, a member of an elite corps that used a pole to jump over shield walls and spread terror from the inside of enemy formations.</baseDesc>
     <slot>Adulthood</slot>
     <skillGains>
       <Melee>3</Melee>
@@ -220,7 +220,7 @@
     <defName>MatriarchDrow</defName>
     <title>matriarch</title>
     <titleShort>matriarch</titleShort>
-    <baseDesc>As the oppressing ruler of one of the four Great Houses of the Karasti, [PAWN_nameDef] embodies the scheming and treachery associated with the Goddess of Darkness. Each matriarch stands at the center of a vast conspiratorial web, with demons, dark elves, spiders, and slaves positioned between them and their enemies, aiming both to further their own family's goals and the will of Kara.</baseDesc>
+    <baseDesc>As the oppressing ruler of one of the four Great Houses of the Drow, [PAWN_nameDef] embodies the scheming and treachery associated with the Goddess of Darkness. Each matriarch stands at the center of a vast conspiratorial web, with demons, dark elves, spiders, and slaves positioned between them and their enemies, aiming both to further their own family's goals and the will of Kara.</baseDesc>
     <slot>Adulthood</slot>
     <skillGains>
       <Medicine>2</Medicine>
@@ -239,7 +239,7 @@
     <defName>ConsortDrow</defName>
     <title>consort</title>
     <titleShort>consort</titleShort>
-    <baseDesc>[PAWN_nameDef] is a consort, the highest political rank for males in karasti societies. Consorts serve no purpose beyond pleasure, breeding, or both, but sometimes can gain the ear of their lovers and be relied on to provide useful advice. But never underestimate a dark elf consort, because matriarchs only favor males with beauty and might.</baseDesc>
+    <baseDesc>[PAWN_nameDef] is a consort, the highest political rank for males in drow societies. Consorts serve no purpose beyond pleasure, breeding, or both, but sometimes can gain the ear of their lovers and be relied on to provide useful advice. But never underestimate a dark elf consort, because matriarchs only favor males with beauty and might.</baseDesc>
     <slot>Adulthood</slot>
     <skillGains>
       <Intellectual>1</Intellectual>
@@ -255,7 +255,7 @@
     <defName>CourierDrow</defName>
     <title>courier</title>
     <titleShort>courier</titleShort>
-    <baseDesc>[PAWN_nameDef] worked as a courier for an important Karasti House. A dangerous job because in the cruel dark elven society, everybody is interested in steal information from the enemy.</baseDesc>
+    <baseDesc>[PAWN_nameDef] worked as a courier for an important Drow House. A dangerous job because in the cruel dark elven society, everybody is interested in steal information from the enemy.</baseDesc>
     <slot>Adulthood</slot>
     <skillGains>
       <Melee>2</Melee>
@@ -287,7 +287,7 @@
     <defName>WarslaveDrow</defName>
     <title>war slave</title>
     <titleShort>war slave</titleShort>
-    <baseDesc>The oldest spoil of war: slaves. [PAWN_nameDef] was captured when [PAWN_possessive] home was destroyed. Now [PAWN_pronoun] tries to survive in the karasti world, a place without hope or mercy.</baseDesc>
+    <baseDesc>The oldest spoil of war: slaves. [PAWN_nameDef] was captured when [PAWN_possessive] home was destroyed. Now [PAWN_pronoun] tries to survive in the Drow world, a place without hope or mercy.</baseDesc>
     <slot>Adulthood</slot>
     <skillGains>
       <Cooking>1</Cooking>
@@ -318,7 +318,7 @@
     <defName>CupbearerDrow</defName>
     <title>cupbearer</title>
     <titleShort>cupbearer</titleShort>
-    <baseDesc>The matriarchs love to have young and beautiful males to fill their cups.[PAWN_nameDef] was one of these trustworthy servants, if that concept really exists in karasti society. The position of cupbearer was greatly valued and given only to a select few.</baseDesc>
+    <baseDesc>The matriarchs love to have young and beautiful males to fill their cups.[PAWN_nameDef] was one of these trustworthy servants, if that concept really exists in drow society. The position of cupbearer was greatly valued and given only to a select few.</baseDesc>
     <slot>Adulthood</slot>
     <skillGains>
       <Social>3</Social>
@@ -345,7 +345,7 @@
     <defName>FoundlingDrow</defName>
     <title>foundling</title>
     <titleShort>foundling</titleShort>
-    <baseDesc>Like many karasti children, [PAWN_nameDef] was left to die when [PAWN_pronoun] was born. The reasons will remain a mistery forever, but whatever they were, only brought [PAWN_possessive] pain, misery and hunger.</baseDesc>
+    <baseDesc>Like many drow children, [PAWN_nameDef] was left to die when [PAWN_pronoun] was born. The reasons will remain a mistery forever, but whatever they were, only brought [PAWN_possessive] pain, misery and hunger.</baseDesc>
     <slot>Childhood</slot>
     <skillGains>
       <Melee>2</Melee>
@@ -371,7 +371,7 @@
     <defName>ServantDrow</defName>
     <title>sanctuary child</title>
     <titleShort>sanctuary child</titleShort>
-    <baseDesc>Sometimes the poorest Karasti families sell their offspring to the temples. As one of these abandoned children, [PAWN_nameDef] served in one of the sanctuaries of the Broad Breasted Mother, doing minion's work. It is very difficult to earn enough money to buy their freedom, so eventually the girls take the Vow of Kara to become acolytes and the boys join the army.</baseDesc>
+    <baseDesc>Sometimes the poorest drow families sell their offspring to the temples. As one of these abandoned children, [PAWN_nameDef] served in one of the sanctuaries of the Broad Breasted Mother, doing minion's work. It is very difficult to earn enough money to buy their freedom, so eventually the girls take the Vow of Kara to become acolytes and the boys join the army.</baseDesc>
     <slot>Childhood</slot>
     <skillGains>
       <Mining>1</Mining>
@@ -398,7 +398,7 @@
     <defName>FieldHandDrow</defName>
     <title>field hand</title>
     <titleShort>field hand</titleShort>
-    <baseDesc>Many children of the plebs estate end up working as field hands in the vast fungus farms that feed and sustained the great karasti cities. [PAWN_nameDef] served in one for countless years.</baseDesc>
+    <baseDesc>Many children of the plebs estate end up working as field hands in the vast fungus farms that feed and sustained the great drow cities. [PAWN_nameDef] served in one for countless years.</baseDesc>
     <slot>Childhood</slot>
     <skillGains>
       <Animals>1</Animals>
@@ -415,7 +415,7 @@
     <defName>NuschkaDrow</defName>
     <title>nuschka</title>
     <titleShort>nuschka</titleShort>
-    <baseDesc>Born as the daughter of the High Priestess, [PAWN_nameDef] was raised as a crown princess for a major Karasti city. A birthright both powerful and dangerous, because [PAWN_pronoun] needed to excel soon in the arts of war, conspiracy and poison in order to survive the vicious life inside the Karantar.</baseDesc>
+    <baseDesc>Born as the daughter of the High Priestess, [PAWN_nameDef] was raised as a crown princess for a major drow city. A birthright both powerful and dangerous, because [PAWN_pronoun] needed to excel soon in the arts of war, conspiracy and poison in order to survive the vicious life inside the Karantar.</baseDesc>
     <slot>Childhood</slot>
     <skillGains>
       <Shooting>3</Shooting>
@@ -456,7 +456,7 @@
     <defName>HeiressDrow</defName>
     <title>spoiled heiress</title>
     <titleShort>spoiled heiress</titleShort>
-    <baseDesc>The major Karasti Houses are organized in strict hierarchies where the strong prey on the weak. As long as the Matriarch is alive, the heiress will enjoy a life of limitless pleasure, luxury and excess. But beware, because conspiracies are always on the making and privileged positions can change in a blink of a eye. As a child, [PAWN_nameDef] was a spoiled brat and probably [PAWN_pronoun] will always be one.</baseDesc>
+    <baseDesc>The major Drow Houses are organized in strict hierarchies where the strong prey on the weak. As long as the Matriarch is alive, the heiress will enjoy a life of limitless pleasure, luxury and excess. But beware, because conspiracies are always on the making and privileged positions can change in a blink of a eye. As a child, [PAWN_nameDef] was a spoiled brat and probably [PAWN_pronoun] will always be one.</baseDesc>
     <slot>Childhood</slot>
     <skillGains>
       <Social>3</Social>
