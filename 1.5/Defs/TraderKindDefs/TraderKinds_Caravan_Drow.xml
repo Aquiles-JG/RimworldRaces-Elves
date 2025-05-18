@@ -146,6 +146,7 @@
         <tradeTag>ExoticMisc</tradeTag>
         <thingDefCountRange>2~3</thingDefCountRange>
         <countRange>1~1</countRange>
+        <maxTechLevelGenerate>Medieval</maxTechLevelGenerate>
         <excludedThingDefs>
           <li>MedicineUltratech</li> 
           <li>ComponentSpacer</li> 
