@@ -16,7 +16,7 @@
     <iconPath>World/DrowCamp</iconPath>
     <iconColor>(0.8, 0.8, 0.8)</iconColor>
     <preferredWeaponClasses>
-      <noble>Karasti</noble>
+      <noble>Drow</noble>
       <despised>Irissdi</despised>
     </preferredWeaponClasses>
     <thingStyleCategories>

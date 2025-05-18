@@ -17,7 +17,7 @@
     <iconColor>(0.8, 0.8, 0.8)</iconColor>
     <preferredWeaponClasses>
       <noble>Irissdi</noble>
-      <despised>Karasti</despised>
+      <despised>Drow</despised>
     </preferredWeaponClasses>
     <thingStyleCategories>
       <li MayRequire="Ludeon.RimWorld.Ideology">

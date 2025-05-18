@@ -3,7 +3,7 @@
   <ThingDef Name="BaseWeapon_KaraBladelink" ParentName="BaseWeapon" Abstract="True">
     <techLevel>Spacer</techLevel>
     <weaponClasses>
-      <li>Karasti</li>
+      <li>Drow</li>
     </weaponClasses>
     <tradeNeverStack>true</tradeNeverStack>
     <relicChance>3</relicChance>
@@ -30,6 +30,7 @@
       <li>Underdark</li>
     </tradeTags>
   </ThingDef>
+  
   <ThingDef ParentName="BaseWeapon_KaraBladelink">
     <defName>Kara_Melee_FlameEdgeBladelink</defName>
     <label>kin'asiers dagger</label>
