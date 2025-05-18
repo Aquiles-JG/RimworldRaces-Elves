@@ -3,7 +3,7 @@
   
  <CultureDef>
     <defName>WayofKara</defName>
-    <label>Karasti</label>
+    <label>Drow</label>
     <description>A broad category describing the beliefs, styles and practices of dark elves societies.</description>
     <ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">DrowIdeoNamer</ideoNameMaker>
     <deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerDeityDrow</deityNameMaker>

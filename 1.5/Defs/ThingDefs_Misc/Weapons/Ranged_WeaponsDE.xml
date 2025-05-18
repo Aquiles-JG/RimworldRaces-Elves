@@ -22,8 +22,8 @@
 
 <ThingDef ParentName="BaseWeaponNeolithic">
     <defName>DE_RepeaterCB</defName>
-    <label>karasti crossbow</label>
-    <description>An incredibly fast repeater crossbow used by assassins mostly. It doesn't fire double shots like the other karasti crossbow, but its armor penetration is unmatched.</description> 
+    <label>drow crossbow</label>
+    <description>An incredibly fast repeater crossbow used by assassins mostly. It doesn't fire double shots like the other crossbow, but its armor penetration is unmatched.</description> 
     <graphicData>
       <texPath>Things/WeaponRanged/RepeaterCrossbow/DE_RepeaterCB</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -119,8 +119,8 @@
 
 <ThingDef ParentName="BaseWeaponNeolithic">
     <defName>DE_DoubleCB</defName>
-    <label>karasti double crossbow</label>
-    <description>A heavy double crossbow used by karasti infantry. Double attacks. Less damage, but more armor piercing than a repeater crossbow.</description> 
+    <label>drow double crossbow</label>
+    <description>A heavy double crossbow used by drow infantry. Double attacks. Less damage, but more armor piercing than a repeater crossbow.</description> 
     <graphicData>
       <texPath>Things/WeaponRanged/DoubleCrossbow/DE_DoubleCB</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -204,7 +204,7 @@
 
   <ThingDef ParentName="BaseProjectileNeolithic">
     <defName>DE_Arrow</defName>
-    <label>karasti arrow</label>
+    <label>drow arrow</label>
     <graphicData>
       <texPath>Things/WeaponRanged/Bow/DE_Arrow</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -222,8 +222,8 @@
   
   <ThingDef ParentName="BaseWeaponNeolithic">
     <defName>Kara_Bow</defName>
-    <label>karasti bow</label>
-    <description>Karasti longbow. You could think this is only for hunters, but this bow is used also in war, because its excellent accuracy and armor penetration.</description>
+    <label>drow bow</label>
+    <description>A drow longbow. You could think this is only for hunters, but this bow is used also in war, because its excellent accuracy and armor penetration.</description>
     <techLevel>Medieval</techLevel>
     <graphicData>
       <texPath>Things/WeaponRanged/Bow/DE_Bow</texPath>

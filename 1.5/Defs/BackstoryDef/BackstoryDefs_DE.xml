@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-  <BackstoryDef Name="KarastiBackstoryBase" Abstract="True">
+  <BackstoryDef Name="DrowBackstoryBase" Abstract="True">
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <spawnCategories>
-      <li>Karasti</li>
+      <li>Drow</li>
     </spawnCategories>
   </BackstoryDef>
   <!-- Adulthood -->
-  <BackstoryDef ParentName="KarastiBackstoryBase">
+  <BackstoryDef ParentName="DrowBackstoryBase">
     <defName>KinasierDrow</defName>
     <title>kin'asier</title>
     <titleShort>kin'asier</titleShort>
@@ -26,11 +26,11 @@
       <BrawlerDrow>0</BrawlerDrow>
     </forcedTraits>
   </BackstoryDef>
-  <BackstoryDef ParentName="KarastiBackstoryBase">
+  <BackstoryDef ParentName="DrowBackstoryBase">
     <defName>DeserterDrow</defName>
     <title>deserter</title>
     <titleShort>deserter</titleShort>
-    <baseDesc>Tired of risking [PAWN_possessive] life in the endless war against the insectoids or another rival House, [PAWN_nameDef] decided to abandon [PAWN_possessive] post in search for a better future. [PAWN_pronoun] was wrong. Treated as a traitor by the ancient Karasti laws, [PAWN_nameDef] will be hunted all [PAWN_possessive] life, so [PAWN_pronoun] uses to travel at night and avoid major cities.</baseDesc>
+    <baseDesc>Tired of risking [PAWN_possessive] life in the endless war against the insectoids or another rival House, [PAWN_nameDef] decided to abandon [PAWN_possessive] post in search for a better future. [PAWN_pronoun] was wrong. Treated as a traitor by the ancient drow laws, [PAWN_nameDef] will be hunted all [PAWN_possessive] life, so [PAWN_pronoun] uses to travel at night and avoid major cities.</baseDesc>
     <slot>Adulthood</slot>
     <skillGains>
       <Plants>1</Plants>
@@ -39,7 +39,7 @@
     </skillGains>
     <workDisables></workDisables>
   </BackstoryDef>
-  <BackstoryDef ParentName="KarastiBackstoryBase">
+  <BackstoryDef ParentName="DrowBackstoryBase">
     <defName>AlchemistDrow</defName>
     <title>mad alchemist</title>
     <titleShort>alchemist</titleShort>
@@ -55,7 +55,7 @@
       <li>Crafting</li>
     </requiredWorkTags>
   </BackstoryDef>
-  <BackstoryDef ParentName="KarastiBackstoryBase">
+  <BackstoryDef ParentName="DrowBackstoryBase">
     <defName>MerchantDrow</defName>
     <title>dust dealer</title>
     <titleShort>dust dealer</titleShort>
@@ -70,7 +70,7 @@
       <li>Social</li>
     </requiredWorkTags>
   </BackstoryDef>
-  <BackstoryDef ParentName="KarastiBackstoryBase">
+  <BackstoryDef ParentName="DrowBackstoryBase">
     <defName>FarmerDrow</defName>
     <title>fungus farmer</title>
     <titleShort>fungus farmer</titleShort>
@@ -84,7 +84,7 @@
       <li>PlantWork</li>
     </requiredWorkTags>
   </BackstoryDef>
-  <BackstoryDef ParentName="KarastiBackstoryBase">
+  <BackstoryDef ParentName="DrowBackstoryBase">
     <defName>IronfistDrow</defName>
     <title>ironfist</title>
     <titleShort>ironfist</titleShort>
@@ -101,7 +101,7 @@
       <li>Violent</li>
     </requiredWorkTags>
   </BackstoryDef>
-  <BackstoryDef ParentName="KarastiBackstoryBase">
+  <BackstoryDef ParentName="DrowBackstoryBase">
     <defName>HPriestessDrow</defName>
     <title>sha'Kara</title>
     <titleShort>sha'Kara</titleShort>
@@ -121,7 +121,7 @@
     </requiredWorkTags>
     <bodyTypeGlobal>Female</bodyTypeGlobal>
   </BackstoryDef>
-  <BackstoryDef ParentName="KarastiBackstoryBase">
+  <BackstoryDef ParentName="DrowBackstoryBase">
     <defName>AcolyteDrow</defName>
     <title>acolyte</title>
     <titleShort>acolyte</titleShort>
@@ -138,7 +138,7 @@
     </requiredWorkTags>
     <bodyTypeGlobal>Female</bodyTypeGlobal>
   </BackstoryDef>
-  <BackstoryDef ParentName="KarastiBackstoryBase">
+  <BackstoryDef ParentName="DrowBackstoryBase">
     <defName>PriestessDrow</defName>
     <title>priestess</title>
     <titleShort>priestess</titleShort>
@@ -157,7 +157,7 @@
     </requiredWorkTags>
     <bodyTypeGlobal>Female</bodyTypeGlobal>
   </BackstoryDef>
-  <BackstoryDef ParentName="KarastiBackstoryBase">
+  <BackstoryDef ParentName="DrowBackstoryBase">
     <defName>HerdmasterDrow</defName>
     <title>herd master</title>
     <titleShort>beastmaster</titleShort>
@@ -170,7 +170,7 @@
       <li>Animals</li>
     </requiredWorkTags>
   </BackstoryDef>
-  <BackstoryDef ParentName="KarastiBackstoryBase">
+  <BackstoryDef ParentName="DrowBackstoryBase">
     <defName>KhabaDrow</defName>
     <title>khaba</title>
     <titleShort>khaba</titleShort>
@@ -186,7 +186,7 @@
     </requiredWorkTags>
     <bodyTypeGlobal>Female</bodyTypeGlobal>
   </BackstoryDef>
-  <BackstoryDef ParentName="KarastiBackstoryBase">
+  <BackstoryDef ParentName="DrowBackstoryBase">
     <defName>PoleJumperDrow</defName>
     <title>pole jumper</title>
     <titleShort>pole jumper</titleShort>
@@ -201,7 +201,7 @@
     </requiredWorkTags>
     <bodyTypeGlobal>Male</bodyTypeGlobal>
   </BackstoryDef>
-  <BackstoryDef ParentName="KarastiBackstoryBase">
+  <BackstoryDef ParentName="DrowBackstoryBase">
     <defName>ShadowDrow</defName>
     <title>shadow</title>
     <titleShort>shadow</titleShort>
@@ -216,7 +216,7 @@
       <li>Violent</li>
     </requiredWorkTags>
   </BackstoryDef>
-  <BackstoryDef ParentName="KarastiBackstoryBase">
+  <BackstoryDef ParentName="DrowBackstoryBase">
     <defName>MatriarchDrow</defName>
     <title>matriarch</title>
     <titleShort>matriarch</titleShort>
@@ -235,7 +235,7 @@
     </requiredWorkTags>
     <bodyTypeGlobal>Female</bodyTypeGlobal>
   </BackstoryDef>
-  <BackstoryDef ParentName="KarastiBackstoryBase">
+  <BackstoryDef ParentName="DrowBackstoryBase">
     <defName>ConsortDrow</defName>
     <title>consort</title>
     <titleShort>consort</titleShort>
@@ -251,7 +251,7 @@
     </requiredWorkTags>
     <bodyTypeGlobal>Male</bodyTypeGlobal>
   </BackstoryDef>
-  <BackstoryDef ParentName="KarastiBackstoryBase">
+  <BackstoryDef ParentName="DrowBackstoryBase">
     <defName>CourierDrow</defName>
     <title>courier</title>
     <titleShort>courier</titleShort>
@@ -266,7 +266,7 @@
       <li>Violent</li>
     </requiredWorkTags>
   </BackstoryDef>
-  <BackstoryDef ParentName="KarastiBackstoryBase">
+  <BackstoryDef ParentName="DrowBackstoryBase">
     <defName>MatronDrow</defName>
     <title>matron</title>
     <titleShort>matron</titleShort>
@@ -283,7 +283,7 @@
     </requiredWorkTags>
     <bodyTypeGlobal>Female</bodyTypeGlobal>
   </BackstoryDef>
-  <BackstoryDef ParentName="KarastiBackstoryBase">
+  <BackstoryDef ParentName="DrowBackstoryBase">
     <defName>WarslaveDrow</defName>
     <title>war slave</title>
     <titleShort>war slave</titleShort>
@@ -296,7 +296,7 @@
       <Mining>1</Mining>
     </skillGains>
   </BackstoryDef>
-  <BackstoryDef ParentName="KarastiBackstoryBase">
+  <BackstoryDef ParentName="DrowBackstoryBase">
     <defName>GardenerDrow</defName>
     <title>mushrooms shepherd</title>
     <titleShort>mushrooms shepherd</titleShort>
@@ -314,7 +314,7 @@
       <li>PlantWork</li>
     </requiredWorkTags>
   </BackstoryDef>
-  <BackstoryDef ParentName="KarastiBackstoryBase">
+  <BackstoryDef ParentName="DrowBackstoryBase">
     <defName>CupbearerDrow</defName>
     <title>cupbearer</title>
     <titleShort>cupbearer</titleShort>
@@ -330,7 +330,7 @@
     </requiredWorkTags>
   </BackstoryDef>
   <!-- Childhood -->
-  <BackstoryDef ParentName="KarastiBackstoryBase">
+  <BackstoryDef ParentName="DrowBackstoryBase">
     <defName>SlaveDrow</defName>
     <title>slave child</title>
     <titleShort>slave child</titleShort>
@@ -341,7 +341,7 @@
       <Plants>1</Plants>
     </skillGains>
   </BackstoryDef>
-  <BackstoryDef ParentName="KarastiBackstoryBase">
+  <BackstoryDef ParentName="DrowBackstoryBase">
     <defName>FoundlingDrow</defName>
     <title>foundling</title>
     <titleShort>foundling</titleShort>
@@ -354,7 +354,7 @@
     </skillGains>
     <workDisables></workDisables>
   </BackstoryDef>
-  <BackstoryDef ParentName="KarastiBackstoryBase">
+  <BackstoryDef ParentName="DrowBackstoryBase">
     <defName>AdventurousDrow</defName>
     <title>adventurous child</title>
     <titleShort>adventurous child</titleShort>
@@ -367,7 +367,7 @@
     </skillGains>
     <workDisables></workDisables>
   </BackstoryDef>
-  <BackstoryDef ParentName="KarastiBackstoryBase">
+  <BackstoryDef ParentName="DrowBackstoryBase">
     <defName>ServantDrow</defName>
     <title>sanctuary child</title>
     <titleShort>sanctuary child</titleShort>
@@ -380,7 +380,7 @@
     </skillGains>
     <workDisables></workDisables>
   </BackstoryDef>
-  <BackstoryDef ParentName="KarastiBackstoryBase">
+  <BackstoryDef ParentName="DrowBackstoryBase">
     <defName>TrackerDrow</defName>
     <title>tracker kid</title>
     <titleShort>tracker</titleShort>
@@ -394,7 +394,7 @@
       <li>Artistic</li>
     </workDisables>
   </BackstoryDef>
-  <BackstoryDef ParentName="KarastiBackstoryBase">
+  <BackstoryDef ParentName="DrowBackstoryBase">
     <defName>FieldHandDrow</defName>
     <title>field hand</title>
     <titleShort>field hand</titleShort>
@@ -411,7 +411,7 @@
       <li>PlantWork</li>
     </requiredWorkTags>
   </BackstoryDef>
-  <BackstoryDef ParentName="KarastiBackstoryBase">
+  <BackstoryDef ParentName="DrowBackstoryBase">
     <defName>NuschkaDrow</defName>
     <title>nuschka</title>
     <titleShort>nuschka</titleShort>
@@ -433,7 +433,7 @@
       <ReveredDrow>0</ReveredDrow>
     </forcedTraits>
   </BackstoryDef>
-  <BackstoryDef ParentName="KarastiBackstoryBase">
+  <BackstoryDef ParentName="DrowBackstoryBase">
     <defName>MuyoDrow</defName>
     <title>muyo</title>
     <titleShort>muyo</titleShort>
@@ -452,7 +452,7 @@
     </requiredWorkTags>
     <bodyTypeGlobal>Male</bodyTypeGlobal>
   </BackstoryDef>
-  <BackstoryDef ParentName="KarastiBackstoryBase">
+  <BackstoryDef ParentName="DrowBackstoryBase">
     <defName>HeiressDrow</defName>
     <title>spoiled heiress</title>
     <titleShort>spoiled heiress</titleShort>
@@ -472,7 +472,7 @@
       <li>Social</li>
     </requiredWorkTags>
   </BackstoryDef>
-  <BackstoryDef ParentName="KarastiBackstoryBase">
+  <BackstoryDef ParentName="DrowBackstoryBase">
     <defName>TraineeDrow</defName>
     <title>trainee alchemist</title>
     <titleShort>apprentice</titleShort>
@@ -483,7 +483,7 @@
       <Medicine>1</Medicine>
     </skillGains>
   </BackstoryDef>
-  <BackstoryDef ParentName="KarastiBackstoryBase">
+  <BackstoryDef ParentName="DrowBackstoryBase">
     <defName>ThiefDrow</defName>
     <title>kid thief</title>
     <titleShort>thief</titleShort>

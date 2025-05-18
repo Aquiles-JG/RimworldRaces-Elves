@@ -13,14 +13,14 @@
 				<li Class="PatchOperationAdd">
                     <xpath>/Defs/VanillaPsycastsExpanded.PsycasterPathDef[defName="VPE_Nightstalker"]</xpath>
                     <value>
-                    	<lockedReason>Karasti only</lockedReason>
+                    	<lockedReason>Drow only</lockedReason>
                         <requiredBackstoriesAny>
         					<li>
-          						<categoryName>KarastiBackstory</categoryName>
+          						<categoryName>DrowBackstory</categoryName>
           						<slot>Childhood</slot>
         					</li>
         					<li>
-          						<categoryName>KarastiBackstory</categoryName>
+          						<categoryName>DrowBackstory</categoryName>
           						<slot>Adulthood</slot>
         					</li>
       					</requiredBackstoriesAny>
