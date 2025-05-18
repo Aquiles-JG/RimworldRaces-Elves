@@ -44,8 +44,8 @@
   <!-- ======================== Lighting ======================= -->
   <ThingDef ParentName="LampBase">
     <defName>DE_Chandelier</defName>
-    <label>karasti chandelier</label>
-    <description>A dark ceiling mounted chandelier made by karasti artisans. Thanks to their amazing craftsmanship with glowstone, these chandeliers are an endless source of darklight.</description>
+    <label>drow chandelier</label>
+    <description>A dark ceiling mounted chandelier made by drow artisans. Thanks to their amazing craftsmanship with glowstone, these chandeliers are an endless source of darklight.</description>
     <category>Building</category>
     <building>
       <isEdifice>false</isEdifice>

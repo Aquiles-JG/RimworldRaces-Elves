@@ -126,7 +126,7 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
 
     <TerrainDef ParentName="FloorBase" Name="FloorBaseStoneFineUnderdark" Abstract="True">
-    <description>Luxurious stone tiles often seen in karasti temples.</description>
+    <description>Luxurious stone tiles often seen in drow temples.</description>
     <texturePath>Terrain/Surfaces/UnderdarkTemple</texturePath>
     <designatorDropdown>Floor_UnderdarkFine</designatorDropdown>
     <statBases>

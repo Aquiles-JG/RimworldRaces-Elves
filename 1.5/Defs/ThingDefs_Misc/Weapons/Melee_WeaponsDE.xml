@@ -3,8 +3,8 @@
   <!-- War Sickle -->
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>DE_Warsickle</defName>
-    <label>karasti warsickle</label>
-    <description>Decorated light ceremonial weapon of karasti design incrusted with precious metals.</description>
+    <label>drow warsickle</label>
+    <description>Decorated light ceremonial weapon of drow design incrusted with precious metals.</description>
     <graphicData>
       <texPath>Things/MeleeWeapons/DE_Warsickle</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -67,7 +67,7 @@
   <!-- Rapier -->
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>DE_Rapier</defName>
-    <label>karasti rapier</label>
+    <label>drow rapier</label>
     <description>The traditional longsword of the dark elves.</description>
     <graphicData>
       <texPath>Things/MeleeWeapons/DE_Rapier</texPath>
@@ -134,7 +134,7 @@
   <!-- HEAVY WEAPONS: Mace -->
   <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
     <defName>DE_Mace</defName>
-    <label>karasti mace</label>
+    <label>drow mace</label>
     <description>Dark elves sometimes prefer blunt weapons, like this flanged mace, very effective against armor.</description>
     <graphicData>
       <texPath>Things/MeleeWeapons/DE_Mace</texPath>
@@ -201,7 +201,7 @@
   <!--Glaive-->
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>DE_Glaive</defName>
-    <label>karasti glaive</label>
+    <label>drow glaive</label>
     <description>The glaive is a heavy polearm that demands strength and agility and both requirements are met by the sinister ironfists, keepers of the Great Houses.</description>
     <graphicData>
       <texPath>Things/MeleeWeapons/DE_Glaive</texPath>
@@ -285,8 +285,8 @@
   <!-- HOLY WEAPONS: Dagger -->
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>Kara_Melee_FlameEdge</defName>
-    <label>karasti dagger</label>
-    <description>This is a deadly dagger made by the skill of the Karasti master assassins. Its blade has the effect of setting the opponent on fire.</description>
+    <label>drow dagger</label>
+    <description>This is a deadly dagger made by the skill of the Drow master assassins. Its blade has the effect of setting the opponent on fire.</description>
     <graphicData>
       <texPath>Things/MeleeWeapons/Kara_FlameEdge</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -366,8 +366,8 @@
   <!--== Broadsword ===-->
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>Kara_Blade</defName>
-    <label>karasti broadsword</label>
-    <description>The Karasti call these weapons "the Goddess Wrath", wielded by the fearsome Khabi or Temple Guards. Very few have suffered a full blow and live to tell the tale. The special composition of the blade short-circuit mechanoids.</description>
+    <label>drow broadsword</label>
+    <description>The drow call these weapons "the Goddess Wrath", wielded by the fearsome Khabi or Temple Guards. Very few have suffered a full blow and live to tell the tale. The special composition of the blade short-circuit mechanoids.</description>
     <graphicData>
       <texPath>Things/MeleeWeapons/Kara_Blade</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -446,8 +446,8 @@
   <!--== Lance ===-->
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>Kara_Lance</defName>
-    <label>karasti lance</label>
-    <description>In the dawn of time, it is said that Kara was wounded by a drifting spear, so the goddess proscribed the use of this weapon. However, it is also said that She allows her finest champions to wield the Forbidden Lance in battle. The point will make the deepest wounds, so beware!</description>
+    <label>drow lance</label>
+    <description>In the dawn of time, it is said that the Drow Goddess was wounded by a drifting spear, so the goddess proscribed the use of this weapon. However, it is also said that She allows her finest champions to wield the Forbidden Lance in battle. The point will make the deepest wounds, so beware!</description>
     <graphicData>
       <texPath>Things/MeleeWeapons/Kara_Lance</texPath>
       <graphicClass>Graphic_Single</graphicClass>

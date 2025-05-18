@@ -80,8 +80,8 @@
   
 <FactionDef ParentName="Aq_DrowFactionBase">
     <defName>Aq_DrowCity</defName>
-    <label>karasti aristocracy</label>
-    <description>One of the four great noble houses that rule with iron fist the dark elven society. Implacable owners of their ancient cities, they are always plotting to gain influence in others places. They hate each other as much as they worship Kara, the Goddess of Darkness.</description>
+    <label>drow aristocracy</label>
+    <description>One of the four great noble houses that rule with iron fist the dark elven society. Implacable owners of their ancient cities, they are always plotting to gain influence in others places. They hate each other as much as they worship the Goddess of Darkness.</description>
     <colorSpectrum Inherit="False">
     	<li>(220, 20, 60)</li>
     	<li>(220, 60, 60)</li>
@@ -203,7 +203,7 @@
     <defName>Aq_DrowUnforgiven</defName>
     <label>the unforgiven</label>
     <leaderTitle>elder</leaderTitle>
-    <description>Exiled, outcasted and abandoned by dark elves society, these Karasti survive in the wild forming small communities called prides. They distrust humans but their friendship can be gained through trust, goodwill and patience.</description>
+    <description>Exiled, outcasted and abandoned by dark elves society, these drow survive in the wild forming small communities called prides. They distrust humans but their friendship can be gained through trust, goodwill and patience.</description>
     <colorSpectrum Inherit="False">
         <li>(58, 58, 58)</li>
         <li>(37, 37, 37)</li>

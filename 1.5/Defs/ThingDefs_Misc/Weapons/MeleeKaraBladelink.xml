@@ -33,7 +33,7 @@
   <ThingDef ParentName="BaseWeapon_KaraBladelink">
     <defName>Kara_Melee_FlameEdgeBladelink</defName>
     <label>kin'asiers dagger</label>
-    <description>This is a deadly dagger made by the skill of the Karasti master assassins. It has the effect of setting your opponent on fire. \nThis weapon has an onboard persona that can bond to only a single person. The wielder and intelligent weapon can synchronize their reflexes and attack with frightening speed, accuracy, and creativity. Once bonded to a wielder, the weapon's persona will refuse to be wielded by anyone else.</description>
+    <description>This is a deadly dagger made by the skill of the Drow master assassins. It has the effect of setting your opponent on fire. \nThis weapon has an onboard persona that can bond to only a single person. The wielder and intelligent weapon can synchronize their reflexes and attack with frightening speed, accuracy, and creativity. Once bonded to a wielder, the weapon's persona will refuse to be wielded by anyone else.</description>
     <statBases>
       <MarketValue>3000</MarketValue>
       <Mass>1</Mass>
@@ -85,7 +85,7 @@
   <ThingDef ParentName="BaseWeapon_KaraBladelink">
     <defName>Kara_BladeBladelink</defName>
     <label>sacred broadsword</label>
-    <description>The Karasti call these weapons "the Goddess Wrath". Very few have suffered a full blow and live to tell the tale. \nThis weapon has an onboard persona that can bond to only a single person. The wielder and intelligent weapon can synchronize their reflexes and attack with frightening speed, accuracy, and creativity. Once bonded to a wielder, the weapon's persona will refuse to be wielded by anyone else.</description>
+    <description>The drow call these weapons "the Goddess Wrath". Very few have suffered a full blow and live to tell the tale. \nThis weapon has an onboard persona that can bond to only a single person. The wielder and intelligent weapon can synchronize their reflexes and attack with frightening speed, accuracy, and creativity. Once bonded to a wielder, the weapon's persona will refuse to be wielded by anyone else.</description>
     <statBases>
       <MarketValue>4000</MarketValue>
       <Mass>1.85</Mass>
@@ -139,7 +139,7 @@
   <ThingDef ParentName="BaseWeapon_KaraBladelink">
     <defName>Kara_LanceBladelink</defName>
     <label>forbidden lance</label>
-    <description>In the dawn of time, it is said that Kara was wounded by a drifting spear, so the goddess proscribed the use of this weapon. However, it is also said that She allows her finest champions to wield the Forbidden Lance in battle. \nThis weapon has an onboard persona that can bond to only a single person. The wielder and intelligent weapon can synchronize their reflexes and attack with frightening speed, accuracy, and creativity. Once bonded to a wielder, the weapon's persona will refuse to be wielded by anyone else.</description>
+    <description>In the dawn of time, it is said that the Drow Goddess was wounded by a drifting spear, so the goddess proscribed the use of this weapon. However, it is also said that She allows her finest champions to wield the Forbidden Lance in battle. \nThis weapon has an onboard persona that can bond to only a single person. The wielder and intelligent weapon can synchronize their reflexes and attack with frightening speed, accuracy, and creativity. Once bonded to a wielder, the weapon's persona will refuse to be wielded by anyone else.</description>
     <statBases>
       <MarketValue>5000</MarketValue>
       <Mass>2.25</Mass>

@@ -6,7 +6,7 @@
     <label>elvish waybread</label>
     <description>An old forgotten elven recipe. While it never rots, it can still deteriorate if left outside. High nutrition.</description>
     <graphicData>
-      <texPath>Things/Item/KarastiWaybread</texPath>
+      <texPath>Things/Item/ElvenWaybread</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <drawSize>0.85</drawSize>
     </graphicData>
