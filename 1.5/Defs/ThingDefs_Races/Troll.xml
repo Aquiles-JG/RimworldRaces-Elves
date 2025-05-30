@@ -94,7 +94,6 @@
       <body>Aq_TrollBody</body>
       <herdAnimal>false</herdAnimal>
       <predator>true</predator>
-      <maxPreyBodySize>3</maxPreyBodySize>
       <baseBodySize>2.25</baseBodySize>
       <baseHungerRate>0.75</baseHungerRate>
       <baseHealthScale>2.5</baseHealthScale>
@@ -115,7 +114,7 @@
       <trainability>Advanced</trainability>
       <manhunterOnTameFailChance>0.25</manhunterOnTameFailChance>
       <manhunterOnDamageChance>1.0</manhunterOnDamageChance>
-      <gestationPeriodDays>26</gestationPeriodDays>
+      <gestationPeriodDays>20</gestationPeriodDays>
       <lifeExpectancy>13</lifeExpectancy>
       <lifeStageAges>
         <li>
