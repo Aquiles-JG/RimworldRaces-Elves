@@ -128,6 +128,10 @@
             <countRange>40~180</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
+        	<thingDef>Aq_Glowstone</thingDef>
+        	<countRange>2~12</countRange>
+      </li>	
+      <li Class="StockGenerator_SingleDef">
             <thingDef>RawBerries</thingDef>
             <countRange>40~200</countRange>
       </li>
