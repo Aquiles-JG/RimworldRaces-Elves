@@ -16,9 +16,9 @@
     <li IfModActive="zal.expandwoodwork">1.5/Mods/ExpWoodworking</li>
     <li IfModActive="Owlchemist.GiddyUp">1.5/Mods/GiddyUp2</li>
     <li IfModActive="NanoCE.GlassLights">1.5/Mods/GlassLights</li>
+    <li IfModActive="Aquiles.MonstrousCompendium">1.5/Mods/MonstrousCompendium</li>
     <li IfModActive="Aquiles.Collection">1.5/Mods/RadHairFix</li>
     <li IfModActive="Rah.RBSE">1.5/Mods/RBSE</li>
-    <li IfModActive="Aquiles.Humanoids">1.5/Mods/RRHumanoids</li>
     <li IfModActive="Aquiles.Rimcooking.Redux">1.5/Mods/RimCookingRedux</li>
     <li IfModActive="zal.survivaltools">1.5/Mods/SurvivalTools</li>
     <li IfModActive="BotchJob.Profaned">1.5/Mods/TheProfaned</li>
