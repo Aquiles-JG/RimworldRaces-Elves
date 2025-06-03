@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
-
  <ThingDef ParentName="LeatherBase">
     <defName>Leather_MDeer</defName>
     <label>mystic leather</label>
@@ -27,32 +25,6 @@
     </tradeTags>
   </ThingDef>
   
-  <ThingDef ParentName="LeatherBase">
-    <defName>Leather_Aq_Unicorn</defName>
-    <label>unicorn leather</label>
-    <description>Tanned skin from a unicorn. A very beautiful and sublime leather.</description>
-    <statBases>
-      <MarketValue>7</MarketValue>
-      <StuffPower_Armor_Sharp>1.2</StuffPower_Armor_Sharp>
-      <StuffPower_Insulation_Cold>11</StuffPower_Insulation_Cold>
-      <StuffPower_Insulation_Heat>22</StuffPower_Insulation_Heat>
-    </statBases>
-    <graphicData>
-      <color>(248,248,248)</color>
-    </graphicData>
-    <stuffProps>
-      <color>(248, 248, 248)</color>
-      <commonality>0</commonality>
-       <statFactors>
-        <Beauty>2.0</Beauty>
-      </statFactors>
-    </stuffProps>
-    <tradeTags>
-      <li>ExoticMisc</li>
-    </tradeTags>
-  </ThingDef>
-  
-  
    <ThingDef ParentName="LeatherBase">
     <defName>Leather_Aq_Troll</defName>
     <label>troll pelt</label>
@@ -71,7 +43,5 @@
       <commonality>0.002</commonality>
     </stuffProps>
   </ThingDef>
-  
-
  </Defs>
  
