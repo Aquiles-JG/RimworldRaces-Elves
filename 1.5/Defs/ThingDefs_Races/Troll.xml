@@ -15,7 +15,7 @@
       <ComfyTemperatureMin>-30</ComfyTemperatureMin>
       <FilthRate>10</FilthRate>
     </statBases>
-    <uiIconScale>1.25</uiIconScale>
+    <uiIconScale>1.3</uiIconScale>
     <comps>
     	<li Class="AnimalBehaviours.CompProperties_Regeneration">
 				<rateInTicks>60</rateInTicks>
