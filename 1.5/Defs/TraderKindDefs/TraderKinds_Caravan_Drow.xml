@@ -205,12 +205,14 @@
       <li Class="StockGenerator_BuyTradeTag"><tag>Elvendom</tag></li>
       <li Class="StockGenerator_BuyTradeTag"><tag>Dwarfdom</tag></li>
       <li Class="StockGenerator_BuyTradeTag"><tag>Minoan</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>Lizardman</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>Orc</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>Goblin</tag></li>
       <li Class="StockGenerator_BuySingleDef" MayRequire="Ludeon.RimWorld.Anomaly"><thingDef>Shell_Deadlife</thingDef></li>
       <li Class="StockGenerator_BuySingleDef" MayRequire="Ludeon.RimWorld.Anomaly"><thingDef>VoidSculpture</thingDef></li>
       <li Class="StockGenerator_BuySingleDef" MayRequire="Ludeon.RimWorld.Anomaly"><thingDef>Shard</thingDef></li>
       <li Class="StockGenerator_BuySingleDef" MayRequire="Ludeon.RimWorld.Anomaly"><thingDef>Bioferrite</thingDef></li>
-      <li Class="StockGenerator_BuySingleDef" MayRequire="Ludeon.RimWorld.Anomaly"><thingDef>RevenantSpine</thingDef></li>
-         
+      <li Class="StockGenerator_BuySingleDef" MayRequire="Ludeon.RimWorld.Anomaly"><thingDef>RevenantSpine</thingDef></li>     
     </stockGenerators>
   </TraderKindDef>
 </Defs>

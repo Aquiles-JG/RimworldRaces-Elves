@@ -145,13 +145,12 @@
       <li Class="StockGenerator_BuySlaves" />
       <li Class="StockGenerator_BuyTradeTag"><tag>Art</tag></li>
       <li Class="StockGenerator_BuyTradeTag"><tag>ExoticBuilding</tag></li>
-      <li Class="StockGenerator_BuyTradeTag"><tag>Minoan</tag></li>
       <li Class="StockGenerator_BuyTradeTag"><tag>MusicalInstrument</tag></li>
       <li Class="StockGenerator_BuyTradeTag"><tag>Drugs</tag></li>
       <li Class="StockGenerator_BuyTradeTag"><tag>Aq_Gemstones</tag></li>
       <li Class="StockGenerator_BuyTradeTag"><tag>Underdark</tag></li>
-      <li Class="StockGenerator_BuyTradeTag"><tag>Elvendom</tag></li>
       <li Class="StockGenerator_BuyTradeTag"><tag>Dwarfdom</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>Minoan</tag></li>
     </stockGenerators>
   </TraderKindDef>
 
