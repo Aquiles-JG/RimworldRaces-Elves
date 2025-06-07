@@ -20,69 +20,13 @@
     <resourcesFractionWhenDeconstructed>0.6</resourcesFractionWhenDeconstructed>
   </TerrainDef>
   
-  <!-- Tile Floor-->
-   <TerrainDef ParentName="FloorBaseStoneUnderdark">
-    <defName>DE_CrackedStoneUnderdarkSandstone</defName>
-    <label>underdark tile floor (sandstone)</label>
-    <texturePath>Terrain/Surfaces/TileFloor</texturePath>
-    <color>(126,104,94)</color>
-    <designatorDropdown>Floor_CrackedUnderdark</designatorDropdown>
-    <costList>
-      <BlocksSandstone>7</BlocksSandstone>
-    </costList>
-  </TerrainDef>
-
-  <TerrainDef ParentName="FloorBaseStoneUnderdark">
-    <defName>DE_CrackedStoneUnderdarkGranite</defName>
-    <label>underdark tile floor (granite)</label>
-    <texturePath>Terrain/Surfaces/TileFloor</texturePath>
-    <color>(105,95,97)</color>
-    <designatorDropdown>Floor_CrackedUnderdark</designatorDropdown>
-    <costList>
-      <BlocksGranite>7</BlocksGranite>
-    </costList>
-  </TerrainDef>
-
-  <TerrainDef ParentName="FloorBaseStoneUnderdark">
-    <defName>DE_CrackedStoneUnderdarkLimestone</defName>
-    <label>underdark tile floor (limestone)</label>
-    <texturePath>Terrain/Surfaces/TileFloor</texturePath>
-    <color>(158,153,135)</color>
-    <designatorDropdown>Floor_CrackedUnderdark</designatorDropdown>
-    <costList>
-      <BlocksLimestone>7</BlocksLimestone>
-    </costList>
-  </TerrainDef>
-
-  <TerrainDef ParentName="FloorBaseStoneUnderdark">
-    <defName>DE_CrackedStoneUnderdarkSlate</defName>
-    <label>underdark tile floor (slate)</label>
-    <texturePath>Terrain/Surfaces/TileFloor</texturePath>
-    <color>(70,70,70)</color>
-    <designatorDropdown>Floor_CrackedUnderdark</designatorDropdown>
-    <costList>
-      <BlocksSlate>7</BlocksSlate>
-    </costList>
-  </TerrainDef>
-
-  <TerrainDef ParentName="FloorBaseStoneUnderdark">
-    <defName>DE_CrackedStoneUnderdarkMarble</defName>
-    <label>underdark tile floor (marble)</label>
-    <texturePath>Terrain/Surfaces/TileFloor</texturePath>
-    <color>(132,135,132)</color>
-    <designatorDropdown>Floor_CrackedUnderdark</designatorDropdown>
-    <costList>
-      <BlocksMarble>7</BlocksMarble>
-    </costList>
-  </TerrainDef>
-  
   <!-- Stone Tiles-->
   <TerrainDef ParentName="FloorBaseStoneUnderdark">
     <defName>DE_FloorStoneUnderdarkSandstone</defName>
     <label>underdark stone tiles (sandstone)</label>
     <color>(126,104,94)</color>
     <costList>
-      <BlocksSandstone>5</BlocksSandstone>
+      <BlocksSandstone>8</BlocksSandstone>
     </costList>
   </TerrainDef>
 
@@ -91,7 +35,7 @@
     <label>underdark stone tiles (granite)</label>
     <color>(105,95,97)</color>
     <costList>
-      <BlocksGranite>5</BlocksGranite>
+      <BlocksGranite>8</BlocksGranite>
     </costList>
   </TerrainDef>
 
@@ -100,7 +44,7 @@
     <label>underdark stone tiles (limestone)</label>
     <color>(158,153,135)</color>
     <costList>
-      <BlocksLimestone>5</BlocksLimestone>
+      <BlocksLimestone>8</BlocksLimestone>
     </costList>
   </TerrainDef>
 
@@ -109,7 +53,7 @@
     <label>underdark stone tiles (slate)</label>
     <color>(70,70,70)</color>
     <costList>
-      <BlocksSlate>5</BlocksSlate>
+      <BlocksSlate>8</BlocksSlate>
     </costList>
   </TerrainDef>
 
@@ -118,7 +62,7 @@
     <label>underdark stone tiles (marble)</label>
     <color>(132,135,132)</color>
     <costList>
-      <BlocksMarble>5</BlocksMarble>
+      <BlocksMarble>8</BlocksMarble>
     </costList>
   </TerrainDef>
   

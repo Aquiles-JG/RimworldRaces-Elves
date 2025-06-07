@@ -1,35 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-
- <TerrainDef ParentName="FloorBaseStoneUnderdark">
-    <defName>DE_CrackedStoneUnderdarkClaystone</defName>
-    <label>underdark tile floor (claystone)</label>
-    <texturePath>Terrain/Surfaces/TileFloor</texturePath>
-    <color>(228, 188, 147)</color>
-    <designatorDropdown>Floor_CrackedUnderdark</designatorDropdown>
-    <costList>
-      <BlocksClaystone>7</BlocksClaystone>
-    </costList>
-  </TerrainDef>
-
-  <TerrainDef ParentName="FloorBaseStoneUnderdark">
-    <defName>DE_CrackedStoneUnderdarkBasalt</defName>
-    <label>underdark tile floor (basalt)</label>
-    <texturePath>Terrain/Surfaces/TileFloor</texturePath>
-    <color>(50,50,50)</color>
-    <designatorDropdown>Floor_CrackedUnderdark</designatorDropdown>
-    <costList>
-      <BlocksBasalt>7</BlocksBasalt>
-    </costList>
-  </TerrainDef>
-
 <TerrainDef ParentName="FloorBaseStoneUnderdark">
     <defName>DE_FloorStoneUnderdarkClaystone</defName>
     <label>underdark stone tiles (claystone)</label>
     <color>(228, 188, 147)</color>
     <costList>
-      <BlocksClaystone>5</BlocksClaystone>
+      <BlocksClaystone>8</BlocksClaystone>
     </costList>
   </TerrainDef>
 
@@ -38,7 +15,7 @@
     <label>underdark stone tiles (basalt)</label>
     <color>(50,50,50)</color>
     <costList>
-      <BlocksBasalt>5</BlocksBasalt>
+      <BlocksBasalt>8</BlocksBasalt>
     </costList>
   </TerrainDef>
   
