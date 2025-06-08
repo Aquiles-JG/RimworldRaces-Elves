@@ -71,7 +71,9 @@
     <skillRequirements>
       <Crafting>3</Crafting>
     </skillRequirements>
-    <researchPrerequisite>Aq_ElvenMedicine</researchPrerequisite>
+    <researchPrerequisites>
+		<li>Aq_ElvenMedicine</li>
+	</researchPrerequisites>
   </RecipeDef>
   
   <RecipeDef>
@@ -108,7 +110,9 @@
     <skillRequirements>
       <Crafting>3</Crafting>
     </skillRequirements>
-    <researchPrerequisite>Kara_CultureII</researchPrerequisite>
+    <researchPrerequisites>
+		<li>Kara_CultureII</li>
+	</researchPrerequisites>
   </RecipeDef>
 
 </Defs>
