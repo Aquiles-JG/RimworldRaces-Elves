@@ -49,29 +49,42 @@
 			<li>Kara_Culture</li>
 		</researchPrerequisites>
 		<comps>
-			<li Class="ProcessorFramework.CompProperties_Processor">
-    			<capacity>20</capacity>
-    			<processes>
-      				<li>Aq_PeppermintProcess</li>
-    			</processes>
-  			</li>
-		</comps>
+       		<li Class="PipeSystem.CompProperties_AdvancedResourceProcessor">
+			  <notWorkingKey>Aq_PeppermintBarrelNotWorking</notWorkingKey>
+		 	  <processes>
+				<li>Aq_PeppermintProcess</li>
+		 	  </processes>
+			  <progressBarOffset>(0,0,-0.5)</progressBarOffset>
+		 	  <hideSettings>true</hideSettings>
+	  		</li>
+   		 </comps>
+    	<inspectorTabs>
+			<li>PipeSystem.ITab_Processor</li>
+		</inspectorTabs>
 		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
 		<minifiedDef>MinifiedThing</minifiedDef>
 	</ThingDef>
 	
-	<ProcessorFramework.ProcessDef>
+	 <PipeSystem.ProcessDef>
 		<defName>Aq_PeppermintProcess</defName>
-		<thingDef>Aq_PeppermintLiquor</thingDef>
-		<ingredientFilter>
-		  <thingDefs>
-			<li>Aq_Extract</li>
-		  </thingDefs>
-		</ingredientFilter>
-		<processDays>5</processDays>
-		<efficiency>0.8</efficiency>
-		<sunFactor>1.0~0</sunFactor>
-		<usesTemperature>false</usesTemperature>
-    </ProcessorFramework.ProcessDef>      
+		<label>Brewing herbal liqueur.</label>
+		<spawnOnInteractionCell>true</spawnOnInteractionCell>
+		<priorityInBillList>0</priorityInBillList>
+		<ingredients>
+		<li>
+			<thing>Aq_Extract</thing>
+			<countNeeded>20</countNeeded>
+		</li>
+		</ingredients>
+		<ticks>360000</ticks>
+		<results>
+		<li>
+			<thing>Aq_PeppermintLiquor</thing>
+			<count>15</count>
+		</li>
+		</results>
+		<temperatureRuinable>false</temperatureRuinable>
+		<!-- should be affected by light-->
+  	</PipeSystem.ProcessDef>
 
 </Defs>

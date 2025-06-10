@@ -25,15 +25,9 @@
       <displayName>Aquiles Core</displayName>
       <downloadUrl>https://github.com/Aquiles-JG/AquilesCore</downloadUrl>
     </li>
-    <li>
-      <packageId>syrchalis.processor.framework</packageId>
-      <displayName>[SYR] Processor Framework</displayName>
-      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3210544395</steamWorkshopUrl>
-    </li>
   </modDependencies>
   <loadAfter>
   	<li>Ludeon.Rimworld.Biotech</li>
-    <li>syrchalis.processor.framework</li>
     <li>OskarPotocki.VanillaFactionsExpanded.Core</li>
     <li>CETeam.CombatExtended</li>
     <li>Aquiles.Core</li>

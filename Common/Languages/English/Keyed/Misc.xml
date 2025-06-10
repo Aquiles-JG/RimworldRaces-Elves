@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
+ <Aq_PeppermintBarrelNotWorking>This peppermint barrel is not working at the moment</Aq_PeppermintBarrelNotWorking>
+	
  <Regen.HealedScar>{PAWN_labelShort} healed a scar.</Regen.HealedScar>
  <Regen.HealedBurnInjury>{PAWN_labelShort} healed a permanent burn injury.</Regen.HealedBurnInjury>
-	
- <Aq_InsertMustDesc>Mint extract to Insert</Aq_InsertMustDesc>
- <Aq_StartInsertionMust>Bring mint extract</Aq_StartInsertionMust>
- <Aq_StartInsertionMustDesc>Bring mint extract to the peppermint barrel to start fermentation.</Aq_StartInsertionMustDesc>
- <Aq_CancelBringingMust>Cancel bringing mint extract</Aq_CancelBringingMust>
- <Aq_CancelBringingMustDesc>Cancel bringing mint extract to the peppermint barrel.</Aq_CancelBringingMustDesc>
 
 </LanguageData>
 
