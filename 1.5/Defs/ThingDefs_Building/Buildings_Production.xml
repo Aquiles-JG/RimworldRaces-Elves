@@ -4,7 +4,7 @@
  	<ThingDef ParentName="BuildingBase">
 		<defName>Aq_PeppermintBarrel</defName>
 		<label>peppermint barrel</label>
-		<description>A big barrel meant for aging a high volume of peppermint at once. Any sunlight hitting the barrel may slow down the fermenting process, or even stop it.</description>
+		<description>A big barrel meant for aging a high volume of peppermint at once. Any sunlight hitting the barrel may slow down the fermenting, or even stop it.</description>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<techLevel>Medieval</techLevel>
 		<graphicData>
@@ -67,7 +67,8 @@
 	
 	 <PipeSystem.ProcessDef>
 		<defName>Aq_PeppermintProcess</defName>
-		<label>Brewing herbal liqueur.</label>
+		<label>Brewing herbal liqueur</label>
+		<labelOverride>Brew herbal liqueur</labelOverride>
 		<spawnOnInteractionCell>true</spawnOnInteractionCell>
 		<priorityInBillList>0</priorityInBillList>
 		<ingredients>
@@ -84,7 +85,8 @@
 		</li>
 		</results>
 		<temperatureRuinable>false</temperatureRuinable>
-		<!-- should be affected by light-->
+		<isLightDependingProcess>true</isLightDependingProcess>
+		<maxLight>0.3</maxLight>
   	</PipeSystem.ProcessDef>
 
 </Defs>
