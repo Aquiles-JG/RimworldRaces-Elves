@@ -86,6 +86,7 @@
 		</results>
 		<temperatureRuinable>false</temperatureRuinable>
 		<isLightDependingProcess>true</isLightDependingProcess>
+		<minLight>-1</minLight>
 		<maxLight>0.3</maxLight>
 		<autoExtract>false</autoExtract>
 		<sustainerWhenWorking>true</sustainerWhenWorking>
