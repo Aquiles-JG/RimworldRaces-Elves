@@ -87,6 +87,9 @@
 		<temperatureRuinable>false</temperatureRuinable>
 		<isLightDependingProcess>true</isLightDependingProcess>
 		<maxLight>0.3</maxLight>
+		<autoExtract>false</autoExtract>
+		<sustainerWhenWorking>true</sustainerWhenWorking>
+		<sustainerDef>Recipe_Brewing</sustainerDef>
   	</PipeSystem.ProcessDef>
 
 </Defs>
