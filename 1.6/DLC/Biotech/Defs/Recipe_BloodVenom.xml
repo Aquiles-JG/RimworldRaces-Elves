@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecipeDef>
+    <defName>MakeBloodVenom</defName>
+    <label>make blood venom</label>
+    <description>Create a venom to end a pregnancy.</description>
+    <jobString>Making blood venom.</jobString>
+    <workSkill>Intellectual</workSkill>
+    <effectWorking>Cook</effectWorking>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <soundWorking>Recipe_Drug</soundWorking>
+    <workAmount>1200</workAmount>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Meat_Human</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Aq_HenbaneOil</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Meat_Human</li>
+        <li>Aq_HenbaneOil</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Aq_BloodVenom>1</Aq_BloodVenom>
+    </products>
+    <recipeUsers>
+      <li>DrugLab</li>
+    </recipeUsers>
+    <researchPrerequisite>Kara_CultureIII</researchPrerequisite>
+    <skillRequirements>
+      <Intellectual>4</Intellectual>
+      <Medicine>5</Medicine>
+    </skillRequirements>
+  </RecipeDef>
+</Defs>

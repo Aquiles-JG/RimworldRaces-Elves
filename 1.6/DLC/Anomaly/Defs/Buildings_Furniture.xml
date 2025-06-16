@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Inhibitors -->
+  <ThingDef ParentName="BuildingBase">
+    <defName>Aq_InhibitingIncense</defName>
+    <label>calm incense</label>
+    <description>A pontent mixture of burning herbs used to calm dark spirits and entities. The elven design does not disturb nature.</description>
+    <graphicData>
+      <texPath>Things/Building/Aq_TallIncense/Aq_TallIncense</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shadowData>
+        <volume>(0.92, 1 ,0.92)</volume>
+      </shadowData>
+      <drawSize>(1.75,1.75)</drawSize>
+    </graphicData>
+    <category>Building</category>
+    <tickerType>Normal</tickerType>
+    <drawerType>RealtimeOnly</drawerType>
+    <fillPercent>0.15</fillPercent>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>2500</WorkToBuild>
+      <Mass>2.2</Mass>
+    </statBases>
+    <selectable>true</selectable>
+    <designationCategory>Anomaly</designationCategory>
+    <uiOrder>104</uiOrder>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsSpecial</li>
+    </thingCategories>
+    <stuffCategories>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>30</costStuffCount>
+    <costList>
+      <PsychoidLeaves>20</PsychoidLeaves>
+      <Aq_Glowstone>3</Aq_Glowstone>
+    </costList>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+      <li>PlaceWorker_ShowFacilitiesRange</li>
+      <li>PlaceWorker_GlowRadius</li>
+    </placeWorkers>
+    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+    <researchPrerequisites>
+      <li>EntityContainment</li>
+    </researchPrerequisites>
+    <size>(1,1)</size>
+    <altitudeLayer>BuildingOnTop</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <rotatable>false</rotatable>
+    <pathCost>4</pathCost>
+    <building>
+      <buildingTags>
+        <li>Anomaly</li>
+      </buildingTags>
+      <isEdifice>true</isEdifice>
+      <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+    </building>
+    <clearBuildingArea>false</clearBuildingArea>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
+    <comps>
+      <li Class="CompProperties_Facility">
+        <maxSimultaneous>4</maxSimultaneous>
+        <maxDistance>4.9</maxDistance>
+        <requiresLOS>true</requiresLOS>
+        <statOffsets>
+          <ContainmentStrength>3</ContainmentStrength>
+        </statOffsets>
+      </li>
+      <li MayRequire="owlchemist.simplefx.smoke2" Class="Flecker.CompProperties_Smoker">
+        <particleSize>0.7</particleSize>
+        <particleOffset>(0,0,0.4)</particleOffset>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

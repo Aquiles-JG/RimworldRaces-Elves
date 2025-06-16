@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  
+    <SoundDef>
+    <defName>DE_CrossbowShot</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Weapons/Crossbow/RepeaterCrossbowShot</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>90.70111</min>        
+          <max>97.30627</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>0.902</min>        
+          <max>0.975</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  
+</Defs>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Elven hood -->
+  <ThingDef ParentName="HatMakeableBase">
+    <defName>DE_Hood</defName>
+    <label>drow hood</label>
+    <description>This hood covering can keep a wearer warm and dry.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Only Dark Elves may wear it.</description>
+    <techLevel>Medieval</techLevel>
+    <recipeMaker>
+      <researchPrerequisite>Kara_Apparel</researchPrerequisite>
+    </recipeMaker>
+    <thingCategories Inherit="False">
+      <li>Headgear</li>
+    </thingCategories>
+    <graphicData>
+      <texPath>Things/Apparel/DE_Hood/DE_Hood_UI</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>40</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <WorkToMake>1000</WorkToMake>
+      <Mass>0.07</Mass>
+      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.25</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.10</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>0.8</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/DE_Hood/DE_Hood</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>K_Apparel</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <equippedStatOffsets>
+      <HuntingStealth>0.10</HuntingStealth>
+    </equippedStatOffsets>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
+    <tradeTags>
+      <li>Underdark</li>
+    </tradeTags>
+    <modExtensions>
+      <li Class="XenotypeRestrictions.XenotypeExtension">
+        <exclusiveXenotypes>
+          <li>Aq_DarkElf</li>
+        </exclusiveXenotypes>
+      </li>
+    </modExtensions>
+  </ThingDef>
+  <!-- Elvish circlet-->
+  <ThingDef ParentName="ArmorSmithableBase">
+    <defName>Aq_ElvishCirclet</defName>
+    <label>elvish circlet</label>
+    <description>An intricate circlet bearing a magic gemstone.\n\nIt provides no physical protection, but will enhance the wearer's psychic sensitivity and help dissipate neural heat.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Only Elves and Dark Elves may wear it.</description>
+    <thingCategories>
+      <li>Headgear</li>
+    </thingCategories>
+    <techLevel>Medieval</techLevel>
+    <graphicData>
+      <texPath>Things/Pawn/Elf/Apparel/Aq_ElvishCirclet/ElvishCirclet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <statBases>
+      <MarketValue>500</MarketValue>
+      <MaxHitPoints>80</MaxHitPoints>
+      <Mass>0.8</Mass>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <SocialImpact>0.05</SocialImpact>
+      <PsychicSensitivityOffset MayRequire="Ludeon.RimWorld.Royalty">0.3</PsychicSensitivityOffset>
+      <PsychicEntropyRecoveryRate MayRequire="Ludeon.RimWorld.Royalty">0.095</PsychicEntropyRecoveryRate>
+    </equippedStatOffsets>
+    <costStuffCount>25</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costList>
+      <Aq_Glowstone>1</Aq_Glowstone>
+    </costList>
+    <apparel>
+      <renderSkipFlags>
+        <li>None</li>
+      </renderSkipFlags>
+      <drawData>
+        <dataNorth>
+          <layer>-3</layer>
+        </dataNorth>
+      </drawData>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Elf/Apparel/Aq_ElvishCirclet/ElvishCirclet</wornGraphicPath>
+      <useWornGraphicMask>true</useWornGraphicMask>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>ElfApparelRoyal</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <only>(90,90,90)</only>
+        </li>
+        <li>
+          <only>(135,135,135)</only>
+        </li>
+        <li>
+          <only>(160,160,160)</only>
+        </li>
+      </options>
+    </colorGenerator>
+    <recipeMaker>
+      <researchPrerequisite>Aq_ElvenArmor</researchPrerequisite>
+    </recipeMaker>
+    <tradeTags>
+      <li>Elvendom</li>
+    </tradeTags>
+    <modExtensions>
+      <li Class="XenotypeRestrictions.XenotypeExtension">
+        <exclusiveXenotypes>
+          <li>Aq_DarkElf</li>
+          <li>Aq_Elf</li>
+        </exclusiveXenotypes>
+      </li>
+    </modExtensions>
+  </ThingDef>
+  <!-- Priestess cowl-->
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>DE_PriestessCowl</defName>
+    <label>priestess cowl</label>
+    <description>A fabric cowl of elven design that was blessed in a temple.\n\nOffers a small amount of protection and will slightly enchance psychic sensitivity and help dissipate neural heat.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Only Elves and Dark Elves may wear it.</description>
+    <techLevel>Medieval</techLevel>
+    <graphicData>
+      <texPath>Things/Apparel/DE_PriestessCowl/DE_PriestessCowl</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>0.9</drawSize>
+    </graphicData>
+    <uiIconScale>1.4</uiIconScale>
+    <thingCategories>
+      <li>Headgear</li>
+    </thingCategories>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <costStuffCount>20</costStuffCount>
+    <statBases>
+      <WorkToMake>22000</WorkToMake>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>0.5</Mass>
+      <StuffEffectMultiplierArmor>0.20</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.10</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.10</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <SocialImpact>0.1</SocialImpact>
+      <PsychicSensitivityOffset>0.10</PsychicSensitivityOffset>
+      <PsychicEntropyRecoveryRate>0.056</PsychicEntropyRecoveryRate>
+    </equippedStatOffsets>
+    <costList>
+      <Leather_MDeer>20</Leather_MDeer>
+      <Aq_Glowstone>2</Aq_Glowstone>
+    </costList>
+    <recipeMaker>
+      <researchPrerequisite>Aq_Elvendom</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>9</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <apparel>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/DE_PriestessCowl/DE_PriestessCowl</wornGraphicPath>
+      <useWornGraphicMask>true</useWornGraphicMask>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>ElfApparelRoyal</li>
+        <li>K_SacredApparel</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <tradeTags>
+      <li>Underdark</li>
+      <li>Elvendom</li>
+    </tradeTags>
+    <modExtensions>
+      <li Class="XenotypeRestrictions.XenotypeExtension">
+        <exclusiveXenotypes>
+          <li>Aq_DarkElf</li>
+          <li>Aq_Elf</li>
+        </exclusiveXenotypes>
+      </li>
+    </modExtensions>
+  </ThingDef>
+</Defs>

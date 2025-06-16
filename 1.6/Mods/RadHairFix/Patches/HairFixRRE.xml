@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+
+<Operation Class="PatchOperationAdd">
+<xpath>/Defs/ThingDef[defName = "DE_Cloak"]/apparel</xpath>
+    <value>
+      <renderSkipFlags>
+        <li>None</li>
+      </renderSkipFlags>
+	        <drawData>
+        <dataNorth>
+          <layer>51</layer>
+        </dataNorth>
+      </drawData>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationAdd">
+<xpath>/Defs/ThingDef[defName = "Aq_ElfApparel_Cape"]/apparel</xpath>
+    <value>
+      <renderSkipFlags>
+        <li>None</li>
+      </renderSkipFlags>
+	        <drawData>
+        <dataNorth>
+          <layer>51</layer>
+        </dataNorth>
+      </drawData>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationAdd">
+<xpath>/Defs/ThingDef[defName = "DE_PriestessRobe"]/apparel</xpath>
+    <value>
+      <renderSkipFlags>
+        <li>None</li>
+      </renderSkipFlags>
+	        <drawData>
+        <dataNorth>
+          <layer>51</layer>
+        </dataNorth>
+      </drawData>
+    </value>
+</Operation>
+
+</Patch>

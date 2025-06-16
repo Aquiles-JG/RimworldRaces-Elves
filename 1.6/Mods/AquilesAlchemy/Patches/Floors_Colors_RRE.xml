@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Aquiles Alchemy</li>
+        </mods>
+      
+   <match Class="PatchOperationSequence">
+   <operations>
+	
+
+<li Class="PatchOperationReplace">
+		<xpath>Defs/TerrainDef[defName = "Aq_DecoratedTileStoneSandstone"]/color</xpath>
+		<value>
+		 	<color>(87,71,63)</color>
+		</value>
+</li>
+
+<li Class="PatchOperationReplace">
+		<xpath>Defs/TerrainDef[defName = "Aq_DecoratedTileStoneGranite"]/color</xpath>
+		<value>
+		 	<color>(75,84,92)</color>
+		</value>
+</li>
+
+<li Class="PatchOperationReplace">
+		<xpath>Defs/TerrainDef[defName = "Aq_DecoratedTileStoneLimestone"]/color</xpath>
+		<value>
+		 	<color>(202,214,194)</color>
+		</value>
+</li>
+
+<li Class="PatchOperationReplace">
+		<xpath>Defs/TerrainDef[defName = "Aq_DecoratedTileStoneSlate"]/color</xpath>
+		<value>
+		 	<color>(47,79,79)</color>
+		</value>
+</li>
+
+<li Class="PatchOperationReplace">
+		<xpath>Defs/TerrainDef[defName = "Aq_DecoratedTileStoneMarble"]/color</xpath>
+		<value>
+		 	<color>(244,244,244)</color>
+		</value>
+</li>
+<!-- Squircle Floors-->
+
+<li Class="PatchOperationReplace">
+		<xpath>Defs/TerrainDef[defName = "Aq_SquircleFloorSandstone"]/color</xpath>
+		<value>
+		 	<color>(87,71,63)</color>
+		</value>
+</li>
+
+<li Class="PatchOperationReplace">
+		<xpath>Defs/TerrainDef[defName = "Aq_SquircleFloorGranite"]/color</xpath>
+		<value>
+		 	<color>(75,84,92)</color>
+		</value>
+</li>
+
+<li Class="PatchOperationReplace">
+		<xpath>Defs/TerrainDef[defName = "Aq_SquircleFloorLimestone"]/color</xpath>
+		<value>
+		 	<color>(202,214,194)</color>
+		</value>
+</li>
+
+<li Class="PatchOperationReplace">
+		<xpath>Defs/TerrainDef[defName = "Aq_SquircleFloorSlate"]/color</xpath>
+		<value>
+		 	<color>(47,79,79)</color>
+		</value>
+</li>
+
+<li Class="PatchOperationReplace">
+		<xpath>Defs/TerrainDef[defName = "Aq_SquircleFloorMarble"]/color</xpath>
+		<value>
+		 	<color>(244,244,244)</color>
+		</value>
+</li>
+
+
+
+	</operations>
+	</match>
+	
+</Operation>
+
+</Patch>

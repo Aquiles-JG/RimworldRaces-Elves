@@ -30,4 +30,32 @@
     <li IfModActive="Wemd.ExpandedFloors">1.5/Mods/WDExpandedFloors</li>
   </v1.5>
   
+
+<v1.6>
+  <li>1.6</li>
+  <li>Common</li>
+  <li IfModActive="Ludeon.RimWorld.Anomaly">1.6/DLC/Anomaly</li>
+  <li IfModActive="Ludeon.RimWorld.Biotech">1.6/DLC/Biotech</li>
+  <li IfModActive="Ludeon.RimWorld.Ideology">1.6/DLC/Ideology</li>
+  <li IfModActive="Ludeon.RimWorld.Royalty">1.6/DLC/Royalty</li>
+  <li IfModActive="SamBucher.ADogSaidAnimalProsthetics2">1.6/Mods/ADogSaid2</li>
+  <li IfModActive="Aquiles.Alchemy">1.6/Mods/AquilesAlchemy</li>
+  <li IfModActive="CETeam.CombatExtended">1.6/Mods/CombatExtended</li>
+  <li IfModActive="mooloh.dndmenagerie">1.6/Mods/DNDMenagerie</li>
+  <li IfModActive="Owlchemist.GiddyUp">1.6/Mods/GiddyUp2</li>
+  <li IfModActive="Aquiles.MonstrousCompendium">1.6/Mods/MonstrousCompendium</li>
+  <li IfModActive="Aquiles.Collection">1.6/Mods/RadHairFix</li>
+  <li IfModActive="Rah.RBSE">1.6/Mods/RBSE</li>
+  <li IfModActive="Aquiles.Rimcooking.Redux">1.6/Mods/RimCookingRedux</li>
+  <li IfModActive="zal.survivaltools">1.6/Mods/SurvivalTools</li>
+  <li IfModActive="BotchJob.Profaned">1.6/Mods/TheProfaned</li>
+  <li IfModActive="Superniquito.TraitIcons">1.6/Mods/TraitIcons</li>
+  <li IfModActive="VanillaExpanded.VanillaAspirationsExpanded">1.6/Mods/VanillaAspirationsExpanded</li>
+  <li IfModActive="VanillaExpanded.VPsycastsE">1.6/Mods/VanillaPsycastsExpanded</li>
+  <li IfModActive="OskarPotocki.VFE.Medieval2">1.6/Mods/VFEMedieval2</li>
+  <li IfModActive="VanillaExpanded.VFEProduction">1.6/Mods/VFEProduction</li>
+  <li IfModActive="XeoNovaDan.VisiblePants">1.6/Mods/VisiblePants</li>
+  <li IfModActive="vanillaracesexpanded.highmate">1.6/Mods/VREHighmate</li>
+  <li IfModActive="Wemd.ExpandedFloors">1.6/Mods/WDExpandedFloors</li>
+</v1.6>
 </loadFolders>

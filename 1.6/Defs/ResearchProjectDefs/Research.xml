@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+ 
+  <ResearchProjectDef Name="ElvenResearch" Abstract="True">
+    <techLevel>Medieval</techLevel>
+    <tab>Aq_Research</tab>
+  </ResearchProjectDef>
+ 
+ <!-- Common-->
+ <ResearchProjectDef ParentName="ElvenResearch">
+    <defName>Aq_Elvendom</defName>
+    <label>elvendom</label>
+    <description>Sometimes people forget that once the elves were a sole people.</description>
+    <baseCost>500</baseCost>
+    <techprintCount>1</techprintCount>
+    <techprintCommonality>1</techprintCommonality>
+   	<techprintMarketValue>1500</techprintMarketValue>
+   	<heldByFactionCategoryTags>
+      <li>Elf</li>
+      <li>Drow</li>
+      <li>Empire</li>
+    </heldByFactionCategoryTags>
+    <tags>
+      <li>ElfStart</li>
+      <li>DrowStart</li>
+    </tags>
+    <researchViewX>0</researchViewX>
+    <researchViewY>1.4</researchViewY>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef ParentName="ElvenResearch">
+    <defName>Aq_ElfRecipesOne</defName>
+    <label>waybread</label>
+    <description>Elven waybread, one bite is enough to fill the stomach of a grown man, or a fourth of a hobbit's.</description>
+    <prerequisites>
+      <li>Aq_Elvendom</li>
+    </prerequisites>
+    <baseCost>750</baseCost>
+    <researchViewX>1</researchViewX>
+    <researchViewY>1.4</researchViewY>
+  </ResearchProjectDef>
+  
+ <!-- Grey Elves-->
+ <ResearchProjectDef ParentName="ElvenResearch">
+    <defName>Aq_ClothingOne</defName>
+    <label>ethereal clothing</label>
+    <description>Learn to tailor the finest elven clothes and something for the pets too!</description>
+    <baseCost>1000</baseCost>
+    <prerequisites>
+      <li>Aq_ElfRecipesOne</li>
+    </prerequisites>
+    <techprintCount>1</techprintCount>
+    <techprintCommonality>0.5</techprintCommonality>
+   	<techprintMarketValue>2000</techprintMarketValue>
+   	<heldByFactionCategoryTags>
+      <li>Elf</li>
+      <li>Empire</li>
+    </heldByFactionCategoryTags>
+    <researchViewX>2</researchViewX>
+    <researchViewY>2.1</researchViewY>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef ParentName="ElvenResearch">
+    <defName>Aq_WeaponsOne</defName>
+    <label>elven warfare</label>
+    <description>Learn to craft only the most simplistic elven weapons.</description>
+    <baseCost>1500</baseCost>
+    <prerequisites>
+      <li>Aq_ClothingOne</li>
+    </prerequisites>
+    <researchViewX>3</researchViewX>
+    <researchViewY>2.1</researchViewY>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef ParentName="ElvenResearch">
+    <defName>Aq_WeaponsTwo</defName>
+    <label>forest battlecry</label>
+    <description>The war tools of the elves. Unlock proper elven weaponry.</description>
+    <baseCost>2000</baseCost>
+    <prerequisites>
+      <li>Aq_WeaponsOne</li>
+    </prerequisites>
+    <researchViewX>4</researchViewX>
+    <researchViewY>2.1</researchViewY>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef ParentName="ElvenResearch">
+    <defName>Aq_ElvenArmor</defName>
+    <label>elven crafts</label>
+    <description>Know the master craftsmanship of the Elves.</description>
+    <baseCost>2000</baseCost>
+    <prerequisites>
+      <li>Aq_WeaponsOne</li>
+    </prerequisites>
+    <researchViewX>4</researchViewX>
+    <researchViewY>2.8</researchViewY>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef ParentName="ElvenResearch">
+    <defName>Aq_ElvenArmorII</defName>
+    <label>exquisite armor</label>
+    <description>The elves are upon you. Learn to make armor worthy of the Firstborn.</description>
+    <baseCost>2500</baseCost>
+    <prerequisites>
+      <li>Aq_WeaponsTwo</li>
+    </prerequisites>
+    <researchViewX>5</researchViewX>
+    <researchViewY>2.1</researchViewY>
+  </ResearchProjectDef>
+  
+   <ResearchProjectDef ParentName="ElvenResearch">
+    <defName>Aq_ElvenMedicine</defName>
+    <label>elvish medicine</label>
+    <description>Learn the secrets of ancient healing arts.</description>
+    <baseCost>2500</baseCost>
+    <prerequisites>
+      <li>Aq_ElvenArmor</li>
+    </prerequisites>
+    <researchViewX>5</researchViewX>
+    <researchViewY>2.8</researchViewY>
+  </ResearchProjectDef>
+  
+  
+</Defs>

@@ -1,0 +1,392 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Common -->
+  <!-- Elegant dress -->
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>Aq_ElegantDress</defName>
+    <label>elegant dress</label>
+    <description>An elven dress for the most distinguished events.</description>
+    <graphicData>
+      <texPath>Things/Apparel/Aq_ElegantDress/ElegantDress</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <statBases>
+      <MaxHitPoints>150</MaxHitPoints>
+      <WorkToMake>3000</WorkToMake>
+      <Mass>0.15</Mass>
+      <EquipDelay>1.5</EquipDelay>
+      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.10</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.50</StuffEffectMultiplierInsulation_Heat>
+    </statBases>
+    <equippedStatOffsets>
+      <SocialImpact>0.2</SocialImpact>
+      <TradePriceImprovement>0.10</TradePriceImprovement>
+      <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.2</SlaveSuppressionOffset>
+    </equippedStatOffsets>
+    <costStuffCount>75</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <costList>
+      <Gold>1</Gold>
+    </costList>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <apparel>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Legs</li>
+        <li>Shoulders</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Aq_ElegantDress/ElegantDress</wornGraphicPath>
+      <useWornGraphicMask>true</useWornGraphicMask>
+      <gender>Female</gender>
+      <tags>
+        <li>ElfApparelRoyal</li>
+        <li>K_Apparel</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+    <tradeTags>
+      <li>Elvendom</li>
+      <li>Underdark</li>
+    </tradeTags>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
+    <recipeMaker>
+      <researchPrerequisite>Aq_Elvendom</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+  <!-- Elven shirt  -->
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>DE_Shirt</defName>
+    <label>elven shirt</label>
+    <description>A nice shirt made by the elves.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Only Elves and Dark Elves may wear it.</description>
+    <recipeMaker>
+      <researchPrerequisite>Aq_Elvendom</researchPrerequisite>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Apparel/DE_Shirt/DE_Shirt</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>40</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToMake>1600</WorkToMake>
+      <Mass>0.25</Mass>
+      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.3</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.10</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Shoulders</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/DE_Shirt/DE_Shirt</wornGraphicPath>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <tags>
+        <li>ElfApparelBasic</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <tradeTags>
+      <li>Elvendom</li>
+      <li>Underdark</li>
+    </tradeTags>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
+    <modExtensions>
+      <li Class="XenotypeRestrictions.XenotypeExtension">
+        <exclusiveXenotypes>
+          <li>Aq_DarkElf</li>
+          <li>Aq_Elf</li>
+        </exclusiveXenotypes>
+      </li>
+    </modExtensions>
+  </ThingDef>
+  <!-- Elven pants  -->
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>DE_Pants</defName>
+    <label>elven pants</label>
+    <description>A set of tight pants made by the elves.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Only Elves and Dark Elves may wear it.</description>
+    <recipeMaker>
+      <researchPrerequisite>Aq_Elvendom</researchPrerequisite>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Apparel/DE_Pants/DE_Pants</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>40</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToMake>1600</WorkToMake>
+      <Mass>0.5</Mass>
+      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.3</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.08</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>2</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <tags>
+        <li>ElfApparelBasic</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <tradeTags>
+      <li>Elvendom</li>
+      <li>Underdark</li>
+    </tradeTags>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
+    <modExtensions>
+      <li Class="XenotypeRestrictions.XenotypeExtension">
+        <exclusiveXenotypes>
+          <li>Aq_DarkElf</li>
+          <li>Aq_Elf</li>
+        </exclusiveXenotypes>
+      </li>
+    </modExtensions>
+  </ThingDef>
+  <!-- Elven undergarment -->
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>DE_Undergarment</defName>
+    <label>elven undergarment</label>
+    <description>A full undergarment used worn by she-elves of all ranks and positions.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Only Elves and Dark Elves may wear it.</description>
+    <graphicData>
+      <texPath>Things/Apparel/DE_Undergarment/DE_Undergarment</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>Kara_Apparel</researchPrerequisite>
+    </recipeMaker>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToMake>1700</WorkToMake>
+      <Mass>0.1</Mass>
+      <EquipDelay>1.5</EquipDelay>
+      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.3</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.11</StuffEffectMultiplierInsulation_Heat>
+    </statBases>
+    <costStuffCount>50</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Shoulders</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/DE_Undergarment/DE_Undergarment</wornGraphicPath>
+      <gender>Female</gender>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <tags>
+         <li>ElfApparelBasic</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+    </apparel>
+    <tradeTags>
+      <li>Elvendom</li>
+      <li>Underdark</li>
+    </tradeTags>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
+    <modExtensions>
+      <li Class="XenotypeRestrictions.XenotypeExtension">
+        <exclusiveXenotypes>
+          <li>Aq_DarkElf</li>
+          <li>Aq_Elf</li>
+        </exclusiveXenotypes>
+      </li>
+    </modExtensions>
+  </ThingDef>
+  <!-- Priestess Robe-->
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>DE_PriestessRobe</defName>
+    <label>priestess robe</label>
+    <description>A long robe of elven design that was blessed in a temple.\n\nIt is more protective than a regular robe and will slightly enchance psychic sensitivity and help dissipate neural heat.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Only Elves and Dark Elves may wear it.</description>
+    <possessionCount>1</possessionCount>
+    <techLevel>Medieval</techLevel>
+    <recipeMaker>
+      <researchPrerequisite>Aq_Elvendom</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>9</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Apparel/DE_PriestessRobe/DE_PriestessRobe</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <costStuffCount>100</costStuffCount>
+    <statBases>
+      <MaxHitPoints>150</MaxHitPoints>
+      <WorkToMake>30000</WorkToMake>
+      <Mass>1</Mass>
+      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>1</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>1</StuffEffectMultiplierInsulation_Heat>
+      <ArmorRating_Sharp>0.15</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+      <EquipDelay>2</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <SocialImpact>0.05</SocialImpact>
+      <PsychicSensitivityOffset MayRequire="Ludeon.RimWorld.Royalty">0.15</PsychicSensitivityOffset>
+      <PsychicEntropyRecoveryRate MayRequire="Ludeon.RimWorld.Royalty">0.060</PsychicEntropyRecoveryRate>
+    </equippedStatOffsets>
+    <costList>
+      <Leather_MDeer>20</Leather_MDeer>
+      <Aq_Glowstone>3</Aq_Glowstone>
+    </costList>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/DE_PriestessRobe/DE_PriestessRobe</wornGraphicPath>
+      <useWornGraphicMask>true</useWornGraphicMask>
+      <layers>
+        <li>Shell</li>
+        <li>Middle</li>
+      </layers>
+      <tags>
+        <li>ElfApparelRoyal</li>
+        <li>K_SacredApparel</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <tradeTags>
+      <li>Underdark</li>
+      <li>Elvendom</li>
+    </tradeTags>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
+    <modExtensions>
+      <li Class="XenotypeRestrictions.XenotypeExtension">
+        <exclusiveXenotypes>
+          <li>Aq_DarkElf</li>
+          <li>Aq_Elf</li>
+        </exclusiveXenotypes>
+      </li>
+    </modExtensions>
+  </ThingDef>
+  <!-- Sack -->
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>Aq_Sack</defName>
+    <label>sack</label>
+    <description>A sack, a large bag used for carrying various items, is made from durable materials to easily transport heavy loads.</description>
+    <graphicData>
+      <texPath>Things/Apparel/Sack/Sack</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <costStuffCount>50</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <statBases>
+      <Insulation_Cold>2</Insulation_Cold>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToMake>5000</WorkToMake>
+      <Mass>0.5</Mass>
+      <EquipDelay>1</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <CarryingCapacity>10</CarryingCapacity>
+      <MoveSpeed>-0.3</MoveSpeed>
+    </equippedStatOffsets>
+    <thingCategories>
+      <li>ApparelMisc</li>
+    </thingCategories>
+    <apparel>
+      <bodyPartGroups>
+        <li>Waist</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Sack/Sack</wornGraphicPath>
+      <useWornGraphicMask>false</useWornGraphicMask>
+      <layers>
+        <li>Back</li>
+      </layers>
+      <tags>
+        <li>MedievalBasic</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+      <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+    </apparel>
+    <recipeMaker>
+      <recipeUsers>
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
+        <li>CraftingSpot</li>
+      </recipeUsers>
+      <researchPrerequisite>Aq_Elvendom</researchPrerequisite>
+    </recipeMaker>
+    <tradeTags>
+      <li>Underdark</li>
+      <li>Elvendom</li>
+    </tradeTags>
+  </ThingDef>
+</Defs>

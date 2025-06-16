@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+ 	<ThingDef ParentName="BuildingBase">
+		<defName>Aq_PeppermintBarrel</defName>
+		<label>peppermint barrel</label>
+		<description>A big barrel meant for aging a high volume of peppermint at once. Any sunlight hitting the barrel may slow down the fermenting, or even stop it.</description>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<techLevel>Medieval</techLevel>
+		<graphicData>
+      		<texPath>Things/Building/Aq_PeppermintBarrel/PeppermintBarrel</texPath>
+      		<graphicClass>Graphic_Multi</graphicClass>
+      		<shaderType>CutoutComplex</shaderType>
+      		<drawSize>2</drawSize>
+      		<damageData>
+        	  <rect>(0.05,0.1,0.9,0.9)</rect>
+      		</damageData>
+      		<shadowData>
+        	  <volume>(0.75, 0.35, 0.33)</volume>
+      		</shadowData>
+    	</graphicData>
+		<thingCategories>
+			<li>BuildingsProduction</li>
+		</thingCategories>
+		<costList>
+			<WoodLog>100</WoodLog>
+			<Steel>50</Steel>
+			<Leather_MDeer>20</Leather_MDeer>
+		</costList>
+		<designationCategory>Production</designationCategory>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>true</rotatable>
+		<uiIconScale>0.8</uiIconScale>
+		<fillPercent>0.5</fillPercent>
+		<statBases>
+			<Mass>100</Mass>
+			<WorkToBuild>1000</WorkToBuild>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>1</Flammability>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">2</StyleDominance>		
+		</statBases>
+		<dominantStyleCategory>Underdark</dominantStyleCategory>
+		<tickerType>Rare</tickerType>
+		<size>(2,2)</size>
+		<passability>PassThroughOnly</passability>
+		<pathCost>70</pathCost>
+		<uiOrder>2002</uiOrder>
+		<researchPrerequisites>
+			<li>Kara_Culture</li>
+		</researchPrerequisites>
+		<comps>
+       		<li Class="PipeSystem.CompProperties_AdvancedResourceProcessor">
+			  <notWorkingKey>Aq_PeppermintBarrelNotWorking</notWorkingKey>
+		 	  <processes>
+				<li>Aq_PeppermintProcess</li>
+		 	  </processes>
+			  <progressBarOffset>(0,0,-0.5)</progressBarOffset>
+		 	  <hideSettings>true</hideSettings>
+	  		</li>
+   		 </comps>
+    	<inspectorTabs>
+			<li>PipeSystem.ITab_Processor</li>
+		</inspectorTabs>
+		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+		<minifiedDef>MinifiedThing</minifiedDef>
+	</ThingDef>
+	
+	 <PipeSystem.ProcessDef>
+		<defName>Aq_PeppermintProcess</defName>
+		<label>Brewing herbal liqueur</label>
+		<labelOverride>Brew herbal liqueur</labelOverride>
+		<spawnOnInteractionCell>true</spawnOnInteractionCell>
+		<priorityInBillList>0</priorityInBillList>
+		<ingredients>
+		<li>
+			<thing>Aq_Extract</thing>
+			<countNeeded>20</countNeeded>
+		</li>
+		</ingredients>
+		<ticks>360000</ticks>
+		<results>
+		<li>
+			<thing>Aq_PeppermintLiquor</thing>
+			<count>15</count>
+		</li>
+		</results>
+		<temperatureRuinable>false</temperatureRuinable>
+		<isLightDependingProcess>true</isLightDependingProcess>
+		<minLight>-1</minLight>
+		<maxLight>0.3</maxLight>
+		<autoExtract>false</autoExtract>
+		<sustainerWhenWorking>true</sustainerWhenWorking>
+		<sustainerDef>Recipe_Brewing</sustainerDef>
+  	</PipeSystem.ProcessDef>
+
+</Defs>

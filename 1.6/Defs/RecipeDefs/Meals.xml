@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<RecipeDef>
+    <defName>Aq_CookWaybread</defName>
+    <label>cook elvish waybread</label>
+    <description>Prepare four rations of elvish waybread.</description>
+    <jobString>Preparing elvish waybread.</jobString>
+    <workAmount>2400</workAmount>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+     <li>
+		<filter>
+			<categories>
+				<li>MeatRaw</li>
+			</categories>
+		</filter>
+		<count>1.20</count>
+	  </li>
+      <li>
+        <filter>
+          <categories>
+            <li>PlantFoodRaw</li>
+          </categories>
+        </filter>
+        <count>1.20</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+		<categories>
+			<li>MeatRaw</li>
+			<li>PlantFoodRaw</li>
+		</categories>
+	</fixedIngredientFilter>
+    <defaultIngredientFilter>
+		<categories>
+			<li>MeatRaw</li>
+			<li>PlantFoodRaw</li>
+		</categories>
+		<disallowedThingDefs>
+			<li>Meat_Human</li>
+			<li>Meat_Megaspider</li>
+			<li MayRequire="Ludeon.Rimworld.Anomaly">Meat_Twisted</li>
+		</disallowedThingDefs>		
+   </defaultIngredientFilter>
+    <products>
+      <DE_Waybread>4</DE_Waybread>
+    </products>
+    <recipeUsers>
+      	<li>FueledStove</li>
+        <li>ElectricStove</li>    
+    </recipeUsers>
+    <skillRequirements>
+      <Cooking>8</Cooking>
+    </skillRequirements>
+    <researchPrerequisite>Aq_ElfRecipesOne</researchPrerequisite>
+</RecipeDef>
+				
+</Defs>
+

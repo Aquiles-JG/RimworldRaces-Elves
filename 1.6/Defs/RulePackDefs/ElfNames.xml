@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  
+  <RulePackDef>
+    <defName>Aq_ElfMaleNamer</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[firstName] [lastName]</li>
+        
+        <li>firstName(p=1)->[MName]</li>
+        <li>lastName(p=3)->[Realm]</li>
+      </rulesStrings>
+    <rulesFiles>
+     	<li>MName->NameBanks/Names_ElvesMale</li>
+     	<li>Realm->NameBanks/Names_Realm</li>
+     </rulesFiles>
+    </rulePack>
+  </RulePackDef>
+  
+  <RulePackDef>
+    <defName>Aq_ElfFemaleNamer</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[firstName] [lastName]</li>
+        
+        <li>firstName(p=1)->[fName]</li>
+        <li>lastName(p=3)->[Realm]</li>
+      </rulesStrings>
+    <rulesFiles>
+     	<li>fName->NameBanks/Names_ElvesFemale</li>
+     	<li>Realm->NameBanks/Names_Realm</li>
+     </rulesFiles>
+    </rulePack>
+  </RulePackDef>
+  
+   <RulePackDef>
+    <defName>Aq_NamerFactionBaseElfWoodland</defName>
+     <rulePack>
+      <rulesStrings>
+        <li>name->[ElfWHall]</li>
+      </rulesStrings>
+       <rulesFiles>
+		<li>ElfWHall->NameBanks/Names_BaseElfWoodland</li>
+      </rulesFiles>
+    </rulePack>
+  
+  </RulePackDef>
+  
+  <RulePackDef>
+    <defName>Aq_NamerFactionBaseElfHigh</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name->[ElfHall]</li>
+      </rulesStrings>
+       <rulesFiles>
+		<li>ElfHall->NameBanks/Names_BaseElfHigh</li>
+      </rulesFiles>
+    </rulePack>
+  </RulePackDef>
+  
+ 
+  <RulePackDef>
+    <defName>NamerLeaderElf</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_leaderTitle->[cultureLeaderAdjective] [cultureLeaderNoun]</li>
+
+        <li>cultureLeaderAdjective->wise</li>
+        <li>cultureLeaderAdjective->grand</li>
+        <li>cultureLeaderAdjective->immortal</li>
+       
+
+        <li>cultureLeaderNoun->lord</li>
+        <li>cultureLeaderNoun->master</li>
+        <li>cultureLeaderNoun->king</li>
+        <li>cultureLeaderNoun->prince</li>
+       
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  
+   <RulePackDef>
+    <defName>NamerDeityElf</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_deityName->[Deity]</li>
+        
+        <li>Deity(p=3)->Iriss</li>
+        <li>Deity->Hanali</li>
+        <li>Deity->Aerandil</li>
+        <li>Deity->Mormegil</li>
+       
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  
+   <RulePackDef>
+    <defName>DeityTypeMakerElf</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_deityType->the [ElfDeity]</li>
+
+        <li>ElfDeity->magnificent</li>
+        <li>ElfDeity->graceful</li>
+        <li>ElfDeity->elegant</li>
+        <li>ElfDeity->luminous</li>
+        <li>ElfDeity->almighty</li>
+        <li>ElfDeity->chosen</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  
+   <RulePackDef>
+    <defName>ElfIdeoNamer</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_ideoName->[creed] of [deity]</li>
+
+        <li>r_ideoAdjective->elven</li>
+
+        <li>r_memberName->elf</li>
+      
+        <li>creed->knowledge</li>
+        <li>creed->enlightenment</li>
+        <li>creed->awareness</li>
+        <li>creed->teaching</li>
+
+        <li>deity->Iriss</li>
+        <li>deity->Hanali</li>
+        <li>deity->Aerandil</li>
+       
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  
+   <RulePackDef>
+    <defName>ElfNamerFestival</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_ritualName->[festivalName]</li>
+        <li>festivalName->[festival] of [ElfConcept]</li>
+
+        <li>festival->council</li>
+        <li>festival->party</li>
+        <li>festival->festival</li>
+        <li>festival->assembly</li>
+        <li>festival->gathering</li>
+
+        <li>ElfConcept->fortitude</li>
+        <li>ElfConcept->life</li>
+        <li>ElfConcept->temperance</li>
+        <li>ElfConcept->prudence</li>
+        <li>ElfConcept->justice</li>
+        <li>ElfConcept->light</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  
+ 
+</Defs>

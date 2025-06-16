@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Elven cloak -->
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>DE_Cloak</defName>
+    <label>drow cloak</label>
+    <description>This cloak covering can keep a wearer warm and dry.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Only Dark Elves may wear it.</description>
+    <techLevel>Medieval</techLevel>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <recipeMaker>
+      <researchPrerequisite>Kara_Apparel</researchPrerequisite>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Apparel/DE_Cloak/DE_Cloak_UI</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>70</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <statBases>
+      <MaxHitPoints>170</MaxHitPoints>
+      <WorkToMake>7000</WorkToMake>
+      <Mass>2</Mass>
+      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>1.00</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.10</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>3</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/DE_Cloak/DE_Cloak</wornGraphicPath>
+      <layers>
+        <li>Shell</li>
+      </layers>
+      <tags>
+        <li>K_Apparel</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <equippedStatOffsets>
+      <HuntingStealth>0.15</HuntingStealth>
+    </equippedStatOffsets>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
+    <tradeTags>
+      <li>Underdark</li>
+    </tradeTags>
+    <modExtensions>
+      <li Class="XenotypeRestrictions.XenotypeExtension">
+        <exclusiveXenotypes>
+          <li>Aq_DarkElf</li>
+        </exclusiveXenotypes>
+      </li>
+    </modExtensions>
+  </ThingDef>
+  
+  <!-- Elven Girdle -->
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>DE_Girdle</defName>
+    <label>drow girdle</label>
+    <description>A decorated but resistant girdle usually worn by the khabi or temple guards.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Only Dark Elves may wear it.</description>
+    <graphicData>
+      <texPath>Things/Apparel/DE_Girdle/DE_Girdle</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>Kara_Apparel</researchPrerequisite>
+    </recipeMaker>
+    <statBases>
+      <MaxHitPoints>120</MaxHitPoints>
+      <WorkToMake>1200</WorkToMake>
+      <Mass>0.10</Mass>
+      <EquipDelay>1.5</EquipDelay>
+      <StuffEffectMultiplierArmor>0.15</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.25</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.16</StuffEffectMultiplierInsulation_Heat>
+    </statBases>
+    <costStuffCount>40</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/DE_Girdle/DE_Girdle</wornGraphicPath>
+      <gender>Female</gender>
+      <layers>
+        <li>Middle</li>
+      </layers>
+      <tags>
+        <li>K_Apparel</li>
+        <li>K_KhabiApparel</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+    </apparel>
+    <equippedStatOffsets>
+      <PainShockThreshold>0.05</PainShockThreshold>
+    </equippedStatOffsets>
+    <tradeTags>
+      <li>Underdark</li>
+    </tradeTags>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
+    <modExtensions>
+      <li Class="XenotypeRestrictions.XenotypeExtension">
+        <exclusiveXenotypes>
+          <li>Aq_DarkElf</li>
+        </exclusiveXenotypes>
+      </li>
+    </modExtensions>
+  </ThingDef>
+  
+  <!-- Elven loincloth -->
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>DE_Loincloth</defName>
+    <label>drow loincloth</label>
+    <description>A special garment worn only by the temple guards or khabi that serve the high priestess.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Only Dark Elves may wear it.</description>
+    <graphicData>
+      <texPath>Things/Apparel/DE_Loincloth/DE_Loincloth</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>Kara_Apparel</researchPrerequisite>
+    </recipeMaker>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <WorkToMake>1400</WorkToMake>
+      <Mass>0.1</Mass>
+      <EquipDelay>1.5</EquipDelay>
+      <StuffEffectMultiplierArmor>0.15</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.25</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.16</StuffEffectMultiplierInsulation_Heat>
+    </statBases>
+    <costStuffCount>35</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <apparel>
+      <bodyPartGroups>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/DE_Loincloth/DE_Loincloth</wornGraphicPath>
+      <gender>Female</gender>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <tags>
+        <li>K_KhabiApparel</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+    </apparel>
+    <equippedStatOffsets>
+      <PainShockThreshold>0.1</PainShockThreshold>
+    </equippedStatOffsets>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
+    <tradeTags>
+      <li>Underdark</li>
+    </tradeTags>
+    <modExtensions>
+      <li Class="XenotypeRestrictions.XenotypeExtension">
+        <exclusiveXenotypes>
+          <li>Aq_DarkElf</li>
+        </exclusiveXenotypes>
+      </li>
+    </modExtensions>
+  </ThingDef>
+  
+</Defs>

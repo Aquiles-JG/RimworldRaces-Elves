@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!-- Repeater Crossbow -->
+
+ <ThingDef ParentName="BaseProjectileNeolithic">
+    <defName>DE_bolt_repeater</defName>
+    <label>repeater crossbow bolt</label>
+    <graphicData>
+      <texPath>Things/WeaponRanged/RepeaterCrossbow/DE_arrow_big</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>Arrow</damageDef>
+      <damageAmountBase>16</damageAmountBase>
+	  <armorPenetrationBase>0.3</armorPenetrationBase>
+      <speed>54</speed>
+    </projectile>
+  </ThingDef>
+
+
+<ThingDef ParentName="BaseWeaponNeolithic">
+    <defName>DE_RepeaterCB</defName>
+    <label>drow crossbow</label>
+    <description>An incredibly fast repeater crossbow used by assassins mostly. It doesn't fire double shots like the other crossbow, but its armor penetration is unmatched.</description> 
+    <graphicData>
+      <texPath>Things/WeaponRanged/RepeaterCrossbow/DE_RepeaterCB</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <soundInteract>Bow_Large</soundInteract>
+    <costList>
+	  <Steel>20</Steel>
+	  <Leather_MDeer>10</Leather_MDeer>
+    </costList>
+     <stuffCategories>
+      <li>Woody</li>
+    </stuffCategories>
+    <costStuffCount>10</costStuffCount>
+    <equippedStatOffsets>
+    	<HuntingStealth>0.10</HuntingStealth>
+    </equippedStatOffsets>
+    <techLevel>Medieval</techLevel>
+    <statBases>
+      <WorkToMake>20000</WorkToMake>
+      <Mass>0.65</Mass>
+      <AccuracyTouch>0.68</AccuracyTouch>
+      <AccuracyShort>0.86</AccuracyShort>
+      <AccuracyMedium>0.82</AccuracyMedium>
+      <AccuracyLong>0.32</AccuracyLong>
+      <RangedWeapon_Cooldown>1.7</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>DrowRanged</li>
+    </weaponTags>
+     <weaponClasses>
+      <li>Drow</li>
+    </weaponClasses>
+    <tradeTags>
+        <li>DrowRanged</li>
+        <li>Underdark</li>
+    </tradeTags>
+    <recipeMaker>
+	  <recipeUsers>
+		<li>FueledSmithy</li>
+		<li>ElectricSmithy</li>
+	  </recipeUsers>
+    <researchPrerequisite>Kara_RangedWeapons</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <burstShotCount>1</burstShotCount>
+        <ticksBetweenBurstShots>25</ticksBetweenBurstShots>
+        <defaultProjectile>DE_bolt_repeater</defaultProjectile>
+        <warmupTime>2.2</warmupTime>
+        <range>24</range>
+        <soundCast>DE_CrossbowShot</soundCast>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>limb</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <smeltable>true</smeltable>
+    <burnableByRecipe>true</burnableByRecipe>
+  </ThingDef>
+  
+  <!-- Double Crossbow -->
+
+ <ThingDef ParentName="BaseProjectileNeolithic">
+    <defName>DE_bolt_double</defName>
+    <label>double crossbow bolt</label>
+    <graphicData>
+      <texPath>Things/WeaponRanged/DoubleCrossbow/DE_arrow_double</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>Arrow</damageDef>
+      <damageAmountBase>14</damageAmountBase>
+	  <armorPenetrationBase>0.35</armorPenetrationBase>
+      <speed>48</speed>
+    </projectile>
+  </ThingDef>
+
+
+<ThingDef ParentName="BaseWeaponNeolithic">
+    <defName>DE_DoubleCB</defName>
+    <label>drow double crossbow</label>
+    <description>A heavy double crossbow used by drow infantry. Double attacks. Less damage, but more armor piercing than a repeater crossbow.</description> 
+    <graphicData>
+      <texPath>Things/WeaponRanged/DoubleCrossbow/DE_DoubleCB</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <soundInteract>Bow_Large</soundInteract>
+    <costList>
+	  <Steel>20</Steel>
+	  <Leather_MDeer>15</Leather_MDeer>
+    </costList>
+     <stuffCategories>
+      <li>Woody</li>
+    </stuffCategories>
+    <costStuffCount>20</costStuffCount>
+    <equippedStatOffsets>
+    	<HuntingStealth>0.05</HuntingStealth>
+    </equippedStatOffsets>
+    <techLevel>Medieval</techLevel>
+    <statBases>
+      <WorkToMake>20000</WorkToMake>
+      <Mass>0.85</Mass>
+      <AccuracyTouch>0.72</AccuracyTouch>
+      <AccuracyShort>0.9</AccuracyShort>
+      <AccuracyMedium>0.78</AccuracyMedium>
+      <AccuracyLong>0.28</AccuracyLong>
+      <RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>DrowRanged</li>
+    </weaponTags>
+     <weaponClasses>
+      <li>Drow</li>
+    </weaponClasses>
+    <tradeTags>
+        <li>DrowRanged</li>
+        <li>Underdark</li>
+    </tradeTags>
+    <thingSetMakerTags>
+	</thingSetMakerTags>
+    <recipeMaker>
+	  <recipeUsers>
+		<li>FueledSmithy</li>
+		<li>ElectricSmithy</li>
+	  </recipeUsers>
+    <researchPrerequisite>Kara_RangedWeapons</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <burstShotCount>2</burstShotCount>
+        <ticksBetweenBurstShots>25</ticksBetweenBurstShots>
+        <defaultProjectile>DE_bolt_double</defaultProjectile>
+        <warmupTime>2.2</warmupTime>
+        <range>24</range>
+        <soundCast>DE_CrossbowShot</soundCast>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>limb</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <smeltable>true</smeltable>
+    <burnableByRecipe>true</burnableByRecipe>
+  </ThingDef>
+
+
+
+
+<!-- ==================== Dark Elven Bow ========================== -->
+
+  <ThingDef ParentName="BaseProjectileNeolithic">
+    <defName>DE_Arrow</defName>
+    <label>drow arrow</label>
+    <graphicData>
+      <texPath>Things/WeaponRanged/Bow/DE_Arrow</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <speed>55</speed>
+      <damageDef>Arrow</damageDef>
+      <stoppingPower>1.1</stoppingPower>
+      <armorPenetrationBase>0.2</armorPenetrationBase>
+	  <damageAmountBase>20</damageAmountBase>
+	  <arcHeightFactor>0.70</arcHeightFactor>
+      <shadowSize>0.4</shadowSize>
+    </projectile>
+	</ThingDef>
+  
+  <ThingDef ParentName="BaseWeaponNeolithic">
+    <defName>Kara_Bow</defName>
+    <label>drow bow</label>
+    <description>A drow longbow. You could think this is only for hunters, but this bow is used also in war, because its excellent accuracy and armor penetration.</description>
+    <techLevel>Medieval</techLevel>
+    <graphicData>
+      <texPath>Things/WeaponRanged/Bow/DE_Bow</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>1.1</drawSize>
+    </graphicData>
+    <equippedAngleOffset>-75</equippedAngleOffset>
+    <soundInteract>Bow_Large</soundInteract>
+    <statBases>
+      <WorkToMake>25000</WorkToMake>
+      <Mass>1.25</Mass>
+      <AccuracyTouch>0.72</AccuracyTouch>
+      <AccuracyShort>0.85</AccuracyShort>
+      <AccuracyMedium>0.77</AccuracyMedium>
+      <AccuracyLong>0.62</AccuracyLong>
+      <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>DrowRanged</li>
+    </weaponTags>
+    <weaponClasses>
+      <li>Drow</li>
+    </weaponClasses>
+	 <tradeTags>
+	    <li>DrowRanged</li>
+        <li>Underdark</li>
+     </tradeTags>
+    <costList>
+		<Plasteel>5</Plasteel>
+		<Leather_MDeer>20</Leather_MDeer>
+    </costList>
+     <stuffCategories>
+      <li>Woody</li>
+    </stuffCategories>
+    <costStuffCount>60</costStuffCount>
+    <equippedStatOffsets>
+    	<HuntingStealth>0.25</HuntingStealth>
+    </equippedStatOffsets>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>DE_Arrow</defaultProjectile>
+        <warmupTime>2</warmupTime>
+        <range>42</range>
+        <soundCast>Bow_Large</soundCast>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>limb</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+      <researchPrerequisite>Kara_RangedWeapons</researchPrerequisite>
+      <skillRequirements>
+		<Crafting>8</Crafting>
+	  </skillRequirements>
+      <recipeUsers>
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+      </recipeUsers>
+    </recipeMaker>
+  </ThingDef>
+  
+  
+</Defs>

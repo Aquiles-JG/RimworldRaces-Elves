@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch> 
+
+ <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName = "DND_Owlbear"]/race/leatherDef</xpath>
+    <value>
+    	 <leatherDef>Leather_Bear</leatherDef>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/MoodndBehaviorsAndEvents.StuffedApparelGrantsHediffDef[defName = "DND_OwlbearLeatherGivesSilence"]/stuff</xpath>
+    <value>
+    	 <stuff>Leather_MDeer</stuff>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/HediffDef[defName = "DND_OwlbearSilence"]/description</xpath>
+    <value>
+    	 <description>Wearing mystic deer leather over most of their body is muffling this person's movements, granting improved hunting stealth.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName = "DND_Leather_Owlbear"]</xpath>
+  </Operation>
+  
+   <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName = "Leather_MDeer"]/description</xpath>
+    <value>
+      <description>Tanned, dried, scraped skin from a mystic deer. The best for hunting.</description>
+    </value>
+  </Operation>
+
+
+	
+</Patch>

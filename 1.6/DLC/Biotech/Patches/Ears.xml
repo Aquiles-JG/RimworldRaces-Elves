@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+	
+				
+		<Operation Class="PatchOperationReplace">
+		<xpath>Defs/GeneDef[defName="Ears_Pointed"]/renderNodeProperties/li/texPath</xpath>
+		<value>
+			<texPath>Drow/Drow_Ear</texPath>
+		</value>
+		</Operation>
+
+
+</Patch>

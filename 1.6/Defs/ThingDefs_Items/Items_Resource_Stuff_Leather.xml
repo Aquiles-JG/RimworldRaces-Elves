@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+ <ThingDef ParentName="LeatherBase">
+    <defName>Leather_MDeer</defName>
+    <label>mystic leather</label>
+    <description>Tanned, dried, scraped skin from a mystic deer.</description>
+    <statBases>
+      <MarketValue>5</MarketValue>
+      <StuffPower_Armor_Heat>1.5</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>30</StuffPower_Insulation_Cold>
+    </statBases>
+    <graphicData>
+      <color>(61,99,98)</color>
+    </graphicData>
+    <stuffProps>
+      <color>(61, 99, 98)</color>
+      <commonality>0.002</commonality>
+       <statFactors>
+        <Beauty>2.0</Beauty>
+      </statFactors>
+    </stuffProps>
+    <tradeTags>
+      <li>ExoticMisc</li>
+      <li>Underdark</li>
+    </tradeTags>
+  </ThingDef>
+  
+   <ThingDef ParentName="LeatherBase">
+    <defName>Leather_Aq_Troll</defName>
+    <label>troll pelt</label>
+    <description>A soft furry pelt harvested from a common troll. It is difficult to pierce and insulates well against cold.</description>
+    <graphicData>
+      <color>(61,82,26)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>3.6</MarketValue>
+      <StuffPower_Armor_Sharp>1.1</StuffPower_Armor_Sharp>  
+      <StuffPower_Armor_Heat>0.5</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>20</StuffPower_Insulation_Cold>
+    </statBases>
+    <stuffProps>
+      <color>(61,82,26)</color>
+      <commonality>0.002</commonality>
+    </stuffProps>
+  </ThingDef>
+ </Defs>
+ 

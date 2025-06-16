@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+ 	<WeaponClassDef>
+    	<defName>Elf</defName>
+    	<label>elf</label>
+  	</WeaponClassDef>
+  	
+  	<WeaponClassDef>
+    	<defName>Drow</defName>
+    	<label>drow</label>
+  	</WeaponClassDef>
+
+
+   	<WeaponClassPairDef>
+    	<defName>ElfDrow</defName>
+    	<first>Elf</first>
+    	<second>Drow</second>
+    </WeaponClassPairDef>
+    
+  
+</Defs>

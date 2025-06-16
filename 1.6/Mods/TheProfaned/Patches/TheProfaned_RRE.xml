@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/RecipeDef[defName = "BotchJob_Make_WraithOrb"]/ingredients/li[1]/filter/thingDefs</xpath>
+    <value>
+      <thingDefs>
+        <li>Aq_Glowstone</li>
+      </thingDefs>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/RecipeDef[defName = "BotchJob_Make_WraithOrb"]/fixedIngredientFilter/thingDefs/li[text()="Silver"]</xpath>
+    <value>
+      <li>Aq_Glowstone</li>
+    </value>
+  </Operation>
+</Patch>

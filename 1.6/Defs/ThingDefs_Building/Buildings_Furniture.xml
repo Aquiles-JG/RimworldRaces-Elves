@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ThingDef ParentName="AnimalBedFurnitureBase">
+    <defName>Aq_RoyalAnimalBed</defName>
+    <label>royal animal bed</label>
+    <description>A soft bed for very special animals to sleep on.</description>
+    <uiOrder>2051</uiOrder>
+    <graphicData>
+      <texPath>Things/Building/AnimalBedRoyal</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>3.5</drawSize>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <size>(2,2)</size>
+    <!-- <uiIconScale>0.80</uiIconScale>-->
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <costStuffCount>80</costStuffCount>
+    <costList>
+      <Gold>1</Gold>
+    </costList>
+    <building>
+      <destroySound>BuildingDestroyed_Soft_Small</destroySound>
+      <bed_pawnDrawOffset>0.5</bed_pawnDrawOffset>
+    </building>
+    <statBases>
+      <MaxHitPoints>140</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <WorkToBuild>750</WorkToBuild>
+      <Mass>5</Mass>
+      <BedRestEffectiveness>1.10</BedRestEffectiveness>
+      <Comfort>0.85</Comfort>
+      <ImmunityGainSpeedFactor>1.15</ImmunityGainSpeedFactor>
+      <SurgerySuccessChanceFactor>1.05</SurgerySuccessChanceFactor>
+    </statBases>
+    <researchPrerequisites>
+      <li>Aq_ClothingOne</li>
+    </researchPrerequisites>
+  </ThingDef>
+  
+  <!-- ======================== Lighting ======================= -->
+  <ThingDef ParentName="LampBase">
+    <defName>DE_Chandelier</defName>
+    <label>drow chandelier</label>
+    <description>A dark ceiling mounted chandelier made by drow artisans. Thanks to their amazing craftsmanship with glowstone, these chandeliers are an endless source of darklight.</description>
+    <category>Building</category>
+    <building>
+      <isEdifice>false</isEdifice>
+      <isInert>true</isInert>
+      <ai_chillDestination>false</ai_chillDestination>
+    </building>
+    <clearBuildingArea>false</clearBuildingArea>
+    <graphicData>
+      <texPath>Things/Building/DE_Chandelier</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>Transparent</shaderType>
+      <drawRotated>false</drawRotated>
+      <drawSize>1.0</drawSize>
+    </graphicData>
+    <stuffCategories>
+      <li>Woody</li>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costList>
+      <Aq_Glowstone>3</Aq_Glowstone>
+      <Steel>15</Steel>
+    </costList>
+    <costStuffCount>50</costStuffCount>
+    <rotatable>false</rotatable>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <passability>Standable</passability>
+    <tickerType>Normal</tickerType>
+    <drawerType>RealtimeOnly</drawerType>
+    <fillPercent>0</fillPercent>
+    <pathCost>0</pathCost>
+    <statBases>
+      <MaxHitPoints>125</MaxHitPoints>
+      <WorkToBuild>2400</WorkToBuild>
+      <Mass>6</Mass>
+      <StyleDominance MayRequire="Ludeon.RimWorld.Ideology">4</StyleDominance>
+    </statBases>
+    <selectable>true</selectable>
+    <soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <killedLeavings>
+      <Aq_Glowstone>1</Aq_Glowstone>
+    </killedLeavings>
+    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+    <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+    <comps Inherit="False">
+      <li Class="CompProperties_Glower">
+        <glowRadius>12</glowRadius>
+        <glowColor>(78, 226, 229, 0)</glowColor>
+      </li>
+    </comps>
+    <dominantStyleCategory>Underdark</dominantStyleCategory>
+    <designationCategory>Furniture</designationCategory>
+    <researchPrerequisites Inherit="False">
+      <li>Kara_Furniture</li>
+    </researchPrerequisites>
+  </ThingDef>
+  
+  <ThingDef ParentName="TorchLamp">
+    <defName>DE_WallLamp</defName>
+    <label>wall-mounted glowlamp</label>
+    <description>A wall-mounted glowlamp for lighting an area. The power of the glowstone inside makes it an endless source of grim darklight.</description>
+    <rotatable>true</rotatable>
+    <graphicData>
+      <texPath>Things/Building/DE_WallLamp/DE_WallLamp</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>1.1,1.1</drawSize>
+      <damageData>
+        <rect>(0.35,0.35,0.3,0.3)</rect>
+      </damageData>
+      <drawOffset>(0, 0.05, 0)</drawOffset>
+    </graphicData>
+    <uiIconPath>Things/Building/DE_WallLamp/DE_WallLamp_UI</uiIconPath>
+    <uiIconScale>0.85</uiIconScale>
+    <altitudeLayer>BuildingBelowTop</altitudeLayer>
+    <passability>Standable</passability>
+    <terrainAffordanceNeeded IsNull="True" />
+    <pathCost>0</pathCost>
+    <costList>
+      <Aq_Glowstone>2</Aq_Glowstone>
+      <Steel>10</Steel>
+    </costList>
+    <building>
+      <isEdifice>false</isEdifice>
+      <isAttachment>true</isAttachment>
+    </building>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <StyleDominance MayRequire="Ludeon.RimWorld.Ideology">2</StyleDominance>
+    </statBases>
+    <dominantStyleCategory>Underdark</dominantStyleCategory>
+    <tickerType>Rare</tickerType>
+    <placeWorkers>
+      <li>Placeworker_AttachedToWall</li>
+    </placeWorkers>
+    <comps Inherit="False">
+      <li Class="VEF.Buildings.CompProperties_GlowerExtended">
+        <spawnGlowerInFacedCell>true</spawnGlowerInFacedCell>
+        <colorOptions>
+          <li>
+            <glowRadius>10</glowRadius>
+            <glowColor>(78, 226, 229, 0)</glowColor>
+          </li>
+        </colorOptions>
+      </li>
+      <li Class="VEF.Buildings.CompProperties_FireOverlayRotatable">
+        <texPath>Things/Special/Darklight</texPath>
+        <fireSize>0.2</fireSize>
+        <northOffset>(0.01, 0, 0.55)</northOffset>
+        <southOffset>(0.01, 0, 0)</southOffset>
+        <eastOffset>(-0.231, 0, 0.41)</eastOffset>
+        <westOffset>(0.231, 0, 0.39)</westOffset>
+      </li>
+      <li Class="CompProperties_Styleable" />
+      <li Class="CompProperties_MeditationFocus">
+        <statDef>MeditationFocusStrength</statDef>
+        <focusTypes>
+          <li>Flame</li>
+        </focusTypes>
+        <offsets>
+          <li Class="FocusStrengthOffset_Lit">
+            <offset>0.1</offset>
+          </li>
+          <li Class="FocusStrengthOffset_BuildingDefsLit">
+            <defs>
+              <li>Campfire</li>
+              <li>TorchLamp</li>
+              <li>TorchWallLamp</li>
+              <li MayRequire="Ludeon.RimWorld.Royalty,Ludeon.RimWorld.Ideology">DarklightBrazier</li>
+              <li MayRequire="Ludeon.RimWorld.Ideology">Darktorch</li>
+              <li MayRequire="Ludeon.RimWorld.Ideology">DarktorchFungus</li>
+              <li>DE_Hearth</li>
+            </defs>
+            <offsetPerBuilding>0.01</offsetPerBuilding>
+            <radius>9.9</radius>
+            <maxBuildings>8</maxBuildings>
+            <explanationKey>MeditationFocusPerFlame</explanationKey>
+            <explanationKeyAbstract>MeditationFocusPerFlameAbstract</explanationKeyAbstract>
+            <drawRingRadius>false</drawRingRadius>
+          </li>
+        </offsets>
+      </li>
+    </comps>
+    <killedLeavings>
+      <Aq_Glowstone>1</Aq_Glowstone>
+    </killedLeavings>
+    <researchPrerequisites>
+      <li>Kara_Furniture</li>
+    </researchPrerequisites>
+  </ThingDef>
+  
+</Defs>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <VEF.AnimalBehaviours.GenericToggleableAnimalDef>
+    <defName>AqRRE_DisabledAnimalSpawns</defName>
+    <toggleablePawns>
+      <li>Aq_Troll</li>
+      <li>Mystic_Deer</li>
+    </toggleablePawns>
+  </VEF.AnimalBehaviours.GenericToggleableAnimalDef>
+  
+  <VEF.AnimalBehaviours.AnimalsUnaffectedBySelfTameDef>
+    <defName>AqRRE_DisabledAnimalSelfTames</defName>
+    <unaffectedBySelfTamePawns>
+      <li>Aq_Troll</li>
+    </unaffectedBySelfTamePawns>
+  </VEF.AnimalBehaviours.AnimalsUnaffectedBySelfTameDef>
+  
+  <VEF.AnimalBehaviours.AnimalsDisabledFromQuestsDef>
+    <defName>AqRRE_DisabledAnimalFromQuests</defName>
+    <disabledFromQuestsPawns>
+      <li>Aq_Troll</li>
+    </disabledFromQuestsPawns>
+  </VEF.AnimalBehaviours.AnimalsDisabledFromQuestsDef>
+  
+</Defs>

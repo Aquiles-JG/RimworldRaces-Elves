@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <MemeDef>
+    <defName>ElfPrimacy</defName>
+    <label>Elf primacy</label>
+    <description>The culture of the Firstborn is all about knowledge, peace and beauty.</description>
+    <iconPath>UI/Memes/Elves</iconPath>
+    <groupDef>Primacy</groupDef>
+    <impact>2</impact>
+   	<renderOrder>50</renderOrder>
+    <deityCount>0~2</deityCount>
+    <veneratedAnimalsCountOffset>1</veneratedAnimalsCountOffset>
+    <exclusionTags>
+		<li>Primacy</li>
+		<li>Darkness</li>
+	</exclusionTags>
+    <consumableBuildings>
+    </consumableBuildings>
+    <requireOne>
+      <li>
+        <li>AnimalConnection_Strong</li>
+      </li>
+      <li>
+      	<li>TreeCutting_Disapproved</li>
+      	<li>TreeCutting_Horrible</li>
+      </li>
+    </requireOne>
+    <generalRules>
+      <rulesStrings>
+        <li>memeAdjective->elven</li>
+        <li>memeHyphenPrefix->over</li>
+        <li>memeConcept->peace</li>
+        <li>memeConcept->light</li>
+        <li>memeConcept->life</li>
+        <li>memeConcept->justice</li>
+        <li>memeLeaderNoun->lord</li>
+        <li>memeLeaderNoun->king</li>
+        <li>memeLeaderNoun->prince</li>
+        <li>memeMoralist->counsellor</li>
+        <li>memeMoralist->guide</li>  
+        <li>memeMoralist->steward</li>  
+      </rulesStrings>
+    </generalRules>
+    <descriptionMaker>
+      <rules>
+        <rulesStrings>
+          <!-- theist myth-->
+          <li>creation(tag=meme_ElfPrimacy)->At the beginning, [deity0_name] ruled the elven people in the Sterling Court under the Great Tree.</li>
+          <li>episode(uses=1, tag=meme_ElfPrimacy)->[deity0_name] smiled satisfied when saw that all was peace, justice and music.</li>
+          
+          <!-- theist founder-->
+          <li>intro(tag=meme_ElfPrimacy)->The daughters of [deity0_name] swept across the world, purging those unworthy to share the air that they breathed.</li>
+          <li>conflict(tag=meme_ElfPrimacy)->Every surface race stood in their path, wherever they went. By sword, spear or gun, they resisted the daughters of [deity0_name] with all their might.</li>
+          <li>victory(tag=meme_ElfPrimacy)->Yet the bloody blessings of their merciless goddess kept them surging onwards, overcoming adversity through sheer will and uncontrollable fury.</li>
+        </rulesStrings>
+      </rules>
+    </descriptionMaker>
+    <symbolPacks>
+      <li>
+        <ideoName>Elvendom</ideoName>
+        <theme>elvenkind</theme>
+        <adjective>elvish</adjective>
+        <member>elf</member>
+      </li>
+    </symbolPacks>
+    <thingStyleCategories>
+      <li>
+        <category>Animalist</category>
+        <priority>2</priority>
+      </li>
+    </thingStyleCategories>
+    <ritualsToMake>1</ritualsToMake>
+    <replaceRitualsWithTags><li>CelebratedDate</li></replaceRitualsWithTags>
+    <requiredRituals>
+    </requiredRituals>
+    <disagreeableTraits>
+      <li>Psychopath</li>
+    </disagreeableTraits>
+    
+  </MemeDef>
+</Defs>

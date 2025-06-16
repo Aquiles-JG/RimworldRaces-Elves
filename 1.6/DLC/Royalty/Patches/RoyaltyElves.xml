@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+ 
+  <Operation Class="PatchOperationAdd">
+      <xpath>/Defs/FactionDef[defName="Empire"]/permanentEnemyToEveryoneExcept</xpath>
+      <value>
+        <li>Player_Drow</li>
+        <li>Player_Elf</li>
+      </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Royalty</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+      				<xpath>/Defs/TraderKindDef[defName="Base_Empire_Standard" or defName="Empire_Caravan_TraderGeneral"]/stockGenerators</xpath>
+      				<value>
+          				<li Class="StockGenerator_Tag">
+        				  <tradeTag>Underdark</tradeTag>
+        				  <thingDefCountRange>0~3</thingDefCountRange>
+        				  <countRange>1~2</countRange>
+        				  <price>Expensive</price>
+      					</li>
+      				</value>
+   				</li>
+   				<li Class="PatchOperationAdd">
+      				<xpath>/Defs/TraderKindDef[defName="Base_Empire_Standard" or defName="Empire_Caravan_TraderGeneral"]/stockGenerators</xpath>
+      				<value>
+          				<li Class="StockGenerator_Tag">
+        				  <tradeTag>Elvendom</tradeTag>
+        				  <thingDefCountRange>0~3</thingDefCountRange>
+        				  <countRange>1~2</countRange>
+        				  <price>Expensive</price>
+      					</li>
+      				</value>
+   				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/QuestScriptDef/root[@Class="QuestNode_Sequence"]/nodes/li[@Class="QuestNode_IsSet"]/node[@Class="QuestNode_GetRandomPawnKindForFaction"]/choices</xpath>
+					<value>
+						<li>
+							<factionDef>Aq_DrowUnforgiven</factionDef>
+							<pawnKinds>
+								<li>Drow_MeleeUFDrow</li>
+								<li>Drow_GunnerUFDrow</li>
+								<li>Drow_SniperUFDrow</li>
+								<li>Drow_HeavyUFDrow</li>
+								<li>Drow_ShockUFDrow</li>
+							</pawnKinds>
+						</li>  
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/QuestScriptDef/root[@Class="QuestNode_Sequence"]/nodes/li[@Class="QuestNode_GetRandomPawnKindForFaction"]/choices</xpath>
+					<value>
+						<li>
+							<factionDef>Aq_DrowUnforgiven</factionDef>
+							<pawnKinds>
+							    <li>Drow_MeleeUFDrow</li>
+								<li>Drow_GunnerUFDrow</li>
+								<li>Drow_SniperUFDrow</li>
+								<li>Drow_HeavyUFDrow</li>
+								<li>Drow_ShockUFDrow</li>
+							</pawnKinds>
+						</li>  
+					</value>
+				</li>
+		<li Class="PatchOperationAdd">
+          <xpath>Defs/RoyalTitleDef[defName="Acolyte" or defName="Knight" or defName="Praetor" or defName="Baron" or defName="Count" or @Name="BaseEmpireTitleNPC"]/throneRoomRequirements/li[@Class="RoomRequirement_ThingAnyOfCount"][things/li="Brazier"]/things</xpath>
+          <value>
+            <li>DE_Hearth</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/RoyalTitleDef[defName="Acolyte" or defName="Knight" or defName="Praetor" or defName="Baron" or defName="Count" or @Name="BaseEmpireTitleNPC"]/throneRoomRequirements/li[@Class="RoomRequirement_AllThingsAnyOfAreGlowing"][labelKey="RoomRequirementAllBraziersMustBeLit"]/things</xpath>
+          <value>
+            <li>DE_Hearth</li>
+          </value>
+        </li>
+			</operations>
+		</match>
+	</Operation>
+
+</Patch>

@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+<!-- PlayerFactionBase already in Dwarves mod. Redundant-->
+
+<!--FactionDef ParentName="FactionBase" Abstract="True" Name="PlayerFactionBase">
+    <colorSpectrum>
+      	<li>(0, 0.737, 0.847)</li>
+		<li>(0, 0.637, 0.747)</li>
+    </colorSpectrum>
+</FactionDef-->
+  
+  
+<FactionDef Parent="PlayerFactionBase">
+
+<defName>Player_Elf</defName>
+<label>the Chosen</label>
+<description>A group of elves far away from home with the only desire of glory and fame.</description>
+<xenotypeSet Inherit="False">
+      <xenotypeChances>
+        <Aq_Elf>999</Aq_Elf>
+      </xenotypeChances>
+</xenotypeSet>
+<backstoryCategories>
+    <li>Elf</li>
+</backstoryCategories>
+<isPlayer>true</isPlayer>
+<basicMemberKind>Elf</basicMemberKind>
+<pawnSingular>elf</pawnSingular>
+<pawnsPlural>elves</pawnsPlural>
+<techLevel>Medieval</techLevel>
+
+<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+<factionNameMaker>NamerSettlementOutlander</factionNameMaker>  
+<allowedCultures>
+      <li>LightofIriss</li>
+</allowedCultures>
+
+<raidLootValueFromPointsCurve>
+      <points>
+        <li>(35,     15)</li>
+        <li>(100,   120)</li>
+        <li>(1000,  500)</li>
+        <li>(2000,  800)</li>
+        <li>(4000, 1000)</li>
+      </points>
+</raidLootValueFromPointsCurve>
+
+<startingResearchTags>
+    <li>ElfStart</li>
+</startingResearchTags>
+ 
+<factionIconPath>World/HighElvesPlayer</factionIconPath>
+<settlementTexturePath>World/MedievalSettlement</settlementTexturePath>
+  
+ <apparelStuffFilter>
+      <thingDefs>
+        <li>Cloth</li>
+		<li>Leather_Bluefur</li>
+		<li>Leather_Heavy</li>
+		<li>Leather_MDeer</li>
+      </thingDefs>
+    </apparelStuffFilter>
+  
+   <modExtensions>
+		<li Class="VEF.Factions.FactionDefExtension">
+			<startingGoodwillByFactionDefs>
+				<Aq_ElfFactionHigh>-10~5</Aq_ElfFactionHigh>
+			</startingGoodwillByFactionDefs>
+		</li>
+    </modExtensions>
+    
+</FactionDef>
+  
+
+</Defs>
