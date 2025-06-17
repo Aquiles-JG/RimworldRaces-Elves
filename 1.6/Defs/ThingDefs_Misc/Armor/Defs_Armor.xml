@@ -67,7 +67,7 @@
     <colorGenerator Class="ColorGenerator_StandardApparel" />
     <tickerType>Rare</tickerType>
     <comps>
-      <li Class="VFECore.CompProperties_ApparelHediffs">
+      <li Class="VEF.Apparels.CompProperties_ApparelHediffs">
         <hediffDefnames>
           <li>Drow_Painstopper</li>
         </hediffDefnames>
@@ -158,7 +158,7 @@
     </costList>
     <tickerType>Rare</tickerType>
     <comps>
-      <li Class="VFECore.CompProperties_ApparelHediffs">
+      <li Class="VEF.Apparels.CompProperties_ApparelHediffs">
         <hediffDefnames>
           <li>Drow_HeavyPainstopper</li>
         </hediffDefnames>

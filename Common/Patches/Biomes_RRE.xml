@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/BiomeDef[defName= "BorealForest"]/wildPlants</xpath>
+    <value>
+      <Aq_HenbanePlant>0.02</Aq_HenbanePlant>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/BiomeDef[defName= "TemperateForest"]/wildPlants</xpath>
+    <value>
+      <Aq_HenbanePlant>0.04</Aq_HenbanePlant>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/BiomeDef[defName= "TemperateSwamp"]/wildPlants</xpath>
+    <value>
+      <Aq_HenbanePlant>0.06</Aq_HenbanePlant>
+      <Aq_AloeVeraPlant>0.02</Aq_AloeVeraPlant>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/BiomeDef[defName= "TropicalRainforest"]/wildPlants</xpath>
+    <value>
+      <Aq_HenbanePlant>0.03</Aq_HenbanePlant>
+      <Aq_AloeVeraPlant>0.02</Aq_AloeVeraPlant>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/BiomeDef[defName= "TropicalSwamp"]/wildPlants</xpath>
+    <value>
+      <Aq_HenbanePlant>0.05</Aq_HenbanePlant>
+      <Aq_AloeVeraPlant>0.03</Aq_AloeVeraPlant>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/BiomeDef[defName= "AridShrubland"]/wildPlants</xpath>
+    <value>
+      <Aq_AloeVeraPlant>0.07</Aq_AloeVeraPlant>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/BiomeDef[defName= "ColdBog"]/wildPlants</xpath>
+    <value>
+      <Aq_HenbanePlant>0.02</Aq_HenbanePlant>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/BiomeDef[defName= "Desert"]/wildPlants</xpath>
+    <value>
+      <Aq_AloeVeraPlant>0.07</Aq_AloeVeraPlant>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/BiomeDef[defName= "ExtremeDesert"]/wildPlants</xpath>
+    <value>
+      <Aq_AloeVeraPlant>0.03</Aq_AloeVeraPlant>
+    </value>
+  </Operation>
+</Patch>
