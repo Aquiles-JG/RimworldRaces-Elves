@@ -69,10 +69,11 @@
 	  <li>Skin_DarkGray</li>
 	  <li>Hair_SnowWhite</li>
       <li>DarkVision</li>
+      <li>CaveDweller</li>
       <li>UVSensitivity_Mild</li>
       <li>MinTemp_SmallDecrease</li>
 	  <li>AptitudePoor_Animals</li>
-	  <li>AptitudeStrong_Melee</li>
+	  <li>AptitudePoor_Social</li>
     </genes>
     <modExtensions>
     	<li Class="XenotypeRestrictions.XenotypeExtension">
