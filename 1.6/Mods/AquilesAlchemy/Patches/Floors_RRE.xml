@@ -38,14 +38,14 @@
     </costList>
   </TerrainDef>
   
-    <TerrainDef ParentName="Aq_DecoratedTileStoneBase">
+    <!--TerrainDef ParentName="Aq_DecoratedTileStoneBase">
     <defName>Aq_DecoratedTileStoneObsidian</defName>
     <label>decorated obsidian tile</label>
     <color>(35,35,35)</color>
     <costList>
       <BlocksObsidian>20</BlocksObsidian>
     </costList>
-  </TerrainDef>
+  </TerrainDef-->
   
    <TerrainDef ParentName="Aq_SquircleFloorBase">
     <defName>Aq_SquircleFloorClaystone</defName>

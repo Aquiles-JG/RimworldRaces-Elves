@@ -47,13 +47,13 @@
     </costList>
   </TerrainDef>
   
-   <TerrainDef ParentName="FloorBaseStoneFineUnderdark">
+   <!--TerrainDef ParentName="FloorBaseStoneFineUnderdark">
     <defName>DE_FloorFineUnderdarkObsidian</defName>
     <label>underdark temple tiles (obsidian)</label>
     <color>(35,35,35)</color>
     <costList>
       <BlocksObsidian>20</BlocksObsidian>
     </costList>
-  </TerrainDef>
+  </TerrainDef-->
   
 </Defs>
