@@ -2,7 +2,7 @@
 <Defs>
 	
 	<ThingDef ParentName="PlantBase">
-		<defName>Aq_PlantPeppermint</defName>
+		<defName>Aq_Plant_Peppermint</defName>
 		<label>peppermint plant</label>
 		<description>A hybrid mint, a cross between watermint and spearmint.</description>	
 		<graphicData>
@@ -42,7 +42,7 @@
 	</ThingDef>
 	
     <ThingDef ParentName="PlantBase">
-		<defName>Aq_PlantHenbane</defName>
+		<defName>Aq_Plant_Henbane</defName>
 		<label>henbane</label>
 		<description>Commonly known as henbane, black henbane or stinking nightshade, is a poisonous plant in the family Solanaceae. The leaves of this plant are a key ingredient for some medical venoms.</description>
 		<graphicData>
@@ -83,7 +83,7 @@
     </ThingDef>
 	
 	<ThingDef ParentName="PlantBase">
-    	<defName>Aq_PlantAloeVera</defName>
+    	<defName>Aq_Plant_AloeVera</defName>
 		<label>aloe vera</label>
 		<description>Aloe vera is a succulent plant species of the genus Aloe. An evergreen perennial that grows wild in warmer climates and is cultivated for agricultural and medicinal uses.</description>
 		<graphicData>
