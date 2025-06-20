@@ -3,58 +3,58 @@
   <Operation Class="PatchOperationAdd">
     <xpath>/Defs/BiomeDef[defName= "BorealForest"]/wildPlants</xpath>
     <value>
-      <Aq_HenbanePlant>0.02</Aq_HenbanePlant>
+      <Aq_PlantHenbane>0.02</Aq_PlantHenbane>
     </value>
   </Operation>
   <Operation Class="PatchOperationAdd">
     <xpath>/Defs/BiomeDef[defName= "TemperateForest"]/wildPlants</xpath>
     <value>
-      <Aq_HenbanePlant>0.04</Aq_HenbanePlant>
+      <Aq_PlantHenbane>0.04</Aq_PlantHenbane>
     </value>
   </Operation>
   <Operation Class="PatchOperationAdd">
     <xpath>/Defs/BiomeDef[defName= "TemperateSwamp"]/wildPlants</xpath>
     <value>
-      <Aq_HenbanePlant>0.06</Aq_HenbanePlant>
-      <Aq_AloeVeraPlant>0.02</Aq_AloeVeraPlant>
+      <Aq_PlantHenbane>0.06</Aq_PlantHenbane>
+      <Aq_PlantAloeVera>0.02</Aq_PlantAloeVera>
     </value>
   </Operation>
   <Operation Class="PatchOperationAdd">
     <xpath>/Defs/BiomeDef[defName= "TropicalRainforest"]/wildPlants</xpath>
     <value>
-      <Aq_HenbanePlant>0.03</Aq_HenbanePlant>
-      <Aq_AloeVeraPlant>0.02</Aq_AloeVeraPlant>
+      <Aq_PlantHenbane>0.03</Aq_PlantHenbane>
+      <Aq_PlantAloeVera>0.02</Aq_PlantAloeVera>
     </value>
   </Operation>
   <Operation Class="PatchOperationAdd">
     <xpath>/Defs/BiomeDef[defName= "TropicalSwamp"]/wildPlants</xpath>
     <value>
-      <Aq_HenbanePlant>0.05</Aq_HenbanePlant>
-      <Aq_AloeVeraPlant>0.03</Aq_AloeVeraPlant>
+      <Aq_PlantHenbane>0.05</Aq_PlantHenbane>
+      <Aq_PlantAloeVera>0.03</Aq_PlantAloeVera>
     </value>
   </Operation>
   <Operation Class="PatchOperationAdd">
     <xpath>/Defs/BiomeDef[defName= "AridShrubland"]/wildPlants</xpath>
     <value>
-      <Aq_AloeVeraPlant>0.07</Aq_AloeVeraPlant>
+      <Aq_PlantAloeVera>0.07</Aq_PlantAloeVera>
     </value>
   </Operation>
   <Operation Class="PatchOperationAdd">
     <xpath>/Defs/BiomeDef[defName= "ColdBog"]/wildPlants</xpath>
     <value>
-      <Aq_HenbanePlant>0.02</Aq_HenbanePlant>
+      <Aq_PlantHenbane>0.02</Aq_PlantHenbane>
     </value>
   </Operation>
   <Operation Class="PatchOperationAdd">
     <xpath>/Defs/BiomeDef[defName= "Desert"]/wildPlants</xpath>
     <value>
-      <Aq_AloeVeraPlant>0.07</Aq_AloeVeraPlant>
+      <Aq_PlantAloeVera>0.07</Aq_PlantAloeVera>
     </value>
   </Operation>
   <Operation Class="PatchOperationAdd">
     <xpath>/Defs/BiomeDef[defName= "ExtremeDesert"]/wildPlants</xpath>
     <value>
-      <Aq_AloeVeraPlant>0.03</Aq_AloeVeraPlant>
+      <Aq_PlantAloeVera>0.03</Aq_PlantAloeVera>
     </value>
   </Operation>
 </Patch>
