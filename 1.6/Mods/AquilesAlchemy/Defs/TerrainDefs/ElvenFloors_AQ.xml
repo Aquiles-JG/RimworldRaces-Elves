@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
-<TerrainDef ParentName="FloorBaseStoneUnderdark">
+  <!-- Dark Elves Tiles-->
+  <TerrainDef ParentName="FloorBaseStoneUnderdark">
     <defName>DE_FloorStoneUnderdarkClaystone</defName>
     <label>underdark stone tiles (claystone)</label>
     <color>(228, 188, 147)</color>
@@ -9,7 +9,6 @@
       <BlocksClaystone>8</BlocksClaystone>
     </costList>
   </TerrainDef>
-
   <TerrainDef ParentName="FloorBaseStoneUnderdark">
     <defName>DE_FloorStoneUnderdarkBasalt</defName>
     <label>underdark stone tiles (basalt)</label>
@@ -18,9 +17,7 @@
       <BlocksBasalt>8</BlocksBasalt>
     </costList>
   </TerrainDef>
-  
-  
-   <TerrainDef ParentName="FloorBaseStoneFineUnderdark">
+  <TerrainDef ParentName="FloorBaseStoneFineUnderdark">
     <defName>DE_FloorFineUnderdarkClaystone</defName>
     <label>underdark temple tiles (claystone)</label>
     <color>(228, 188, 147)</color>
@@ -28,8 +25,7 @@
       <BlocksClaystone>20</BlocksClaystone>
     </costList>
   </TerrainDef>
-  
-<TerrainDef ParentName="FloorBaseStoneFineUnderdark">
+  <TerrainDef ParentName="FloorBaseStoneFineUnderdark">
     <defName>DE_FloorFineUnderdarkBasalt</defName>
     <label>underdark temple tiles (basalt)</label>
     <color>(50,50,50)</color>
@@ -37,7 +33,6 @@
       <BlocksBasalt>20</BlocksBasalt>
     </costList>
   </TerrainDef>
-
   <TerrainDef ParentName="FloorBaseStoneFineUnderdark">
     <defName>DE_FloorFineUnderdarkAlabaster</defName>
     <label>underdark temple tiles (alabaster)</label>
@@ -46,8 +41,7 @@
       <BlocksAlabaster>20</BlocksAlabaster>
     </costList>
   </TerrainDef>
-  
-   <!--TerrainDef ParentName="FloorBaseStoneFineUnderdark">
+  <!--TerrainDef ParentName="FloorBaseStoneFineUnderdark">
     <defName>DE_FloorFineUnderdarkObsidian</defName>
     <label>underdark temple tiles (obsidian)</label>
     <color>(35,35,35)</color>
@@ -55,5 +49,55 @@
       <BlocksObsidian>20</BlocksObsidian>
     </costList>
   </TerrainDef-->
+  
+  <!-- Elves floors-->
+  <TerrainDef ParentName="Aq_DecoratedTileStoneBase">
+    <defName>Aq_DecoratedTileStoneClaystone</defName>
+    <label>decorated claystone tile</label>
+    <color>(228, 188, 147)</color>
+    <costList>
+      <BlocksClaystone>20</BlocksClaystone>
+    </costList>
+  </TerrainDef>
+  <TerrainDef ParentName="Aq_DecoratedTileStoneBase">
+    <defName>Aq_DecoratedTileStoneBasalt</defName>
+    <label>decorated basalt tile</label>
+    <color>(50,50,50)</color>
+    <costList>
+      <BlocksBasalt>20</BlocksBasalt>
+    </costList>
+  </TerrainDef>
+  <TerrainDef ParentName="Aq_DecoratedTileStoneBase">
+    <defName>Aq_DecoratedTileStoneAlabaster</defName>
+    <label>decorated alabaster tile</label>
+    <color>(247,244,225)</color>
+    <costList>
+      <BlocksAlabaster>20</BlocksAlabaster>
+    </costList>
+  </TerrainDef>
+  <!--TerrainDef ParentName="Aq_DecoratedTileStoneBase">
+    <defName>Aq_DecoratedTileStoneObsidian</defName>
+    <label>decorated obsidian tile</label>
+    <color>(35,35,35)</color>
+    <costList>
+      <BlocksObsidian>20</BlocksObsidian>
+    </costList>
+  </TerrainDef-->
+  <TerrainDef ParentName="Aq_LeafFloorBase">
+    <defName>Aq_LeafFloorClaystone</defName>
+    <label>claystone leaf floor</label>
+    <color>(228, 188, 147)</color>
+    <costList>
+      <BlocksClaystone>10</BlocksClaystone>
+    </costList>
+  </TerrainDef>
+  <TerrainDef ParentName="Aq_LeafFloorBase">
+    <defName>Aq_LeafFloorBasalt</defName>
+    <label>basalt leaf floor</label>
+    <color>(50,50,50)</color>
+    <costList>
+      <BlocksBasalt>10</BlocksBasalt>
+    </costList>
+  </TerrainDef>
   
 </Defs>

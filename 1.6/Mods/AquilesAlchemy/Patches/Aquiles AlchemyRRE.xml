@@ -59,6 +59,25 @@
 					</value>
 			</li>
 			
+			<!-- Furniture-->
+			<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="DE_Chandelier"]/costList/Steel</xpath>
+					<value>				
+      					<Aq_Glass>3</Aq_Glass>
+					</value>
+			</li>
+			<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="DE_WallLamp"]/costList/Steel</xpath>
+					<value>
+      					<Aq_Glass>2</Aq_Glass>
+					</value>
+			</li>
+			<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="Aq_Icebox"]/costList/Plasteel</xpath>
+					<value>
+      					<Aq_Glass>3</Aq_Glass>
+					</value>
+			</li>				
 			<!-- Potions-->
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/RecipeDef[defName="MakeToxicVenomBulk"]/ingredients/li[1]/filter/thingDefs</xpath>
@@ -89,6 +108,20 @@
 			  		<Aq_Iron>50</Aq_Iron>
 				</value>
 			</li>
+			
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[defName = "Aq_PeppermintBarrel"]/costList/WoodLog</xpath>
+	  		</li>
+	  
+	  		<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "Aq_PeppermintBarrel"]</xpath>
+				<value>
+					<stuffCategories>
+						<li>Woody</li>
+					</stuffCategories>
+					<costStuffCount>100</costStuffCount>
+				</value>
+      		</li>
 		
 			<!-- Anomaly Building-->
 			<li MayRequire="Ludeon.RimWorld.Anomaly" Class="PatchOperationReplace">

@@ -3,27 +3,18 @@
 
   <DesignatorDropdownGroupDef>
     <defName>Floor_UnderdarkFine</defName>
-    <label>underdark fine tiles</label>
   </DesignatorDropdownGroupDef>
   
    <DesignatorDropdownGroupDef>
     <defName>Floor_Underdark</defName>
-    <label>underdark tiles</label>
-  </DesignatorDropdownGroupDef>
-  
-  <DesignatorDropdownGroupDef>
-    <defName>Floor_CrackedUnderdark</defName>
-    <label>underdark cracked floor</label>
   </DesignatorDropdownGroupDef>
   
   <DesignatorDropdownGroupDef>
     <defName>Floor_Tile_Decorated</defName>
-    <label>decorated stone tile</label>
   </DesignatorDropdownGroupDef>
   
   <DesignatorDropdownGroupDef>
-    <defName>Floor_Squircle</defName>
-    <label>squircle tiles</label>
+    <defName>Floor_Leaf</defName>
   </DesignatorDropdownGroupDef>
 
 </Defs>
