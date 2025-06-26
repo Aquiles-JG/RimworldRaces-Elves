@@ -36,6 +36,15 @@
 			<sowMinSkill>7</sowMinSkill>
 			<visualSizeRange>0.4~1</visualSizeRange>
 			<wildOrder>2</wildOrder>
+			<wildClusterRadius>3</wildClusterRadius>
+		  	<wildClusterWeight>250</wildClusterWeight>
+			<wildBiomes>
+			  <TemperateForest>0.04</TemperateForest>
+			  <TemperateSwamp>0.02</TemperateSwamp>
+			  <BorealForest>0.04</BorealForest>
+              <ColdBog>0.04</ColdBog>
+              <Tundra>0.04</Tundra>
+		    </wildBiomes>
 			<immatureGraphicPath>Things/Plant/Immature/Peppermint</immatureGraphicPath>
 			<purpose>Food</purpose>
 		</plant>
@@ -80,12 +89,11 @@
 		  <wildClusterRadius>2</wildClusterRadius>
 		  <wildClusterWeight>150</wildClusterWeight>
 		  <wildBiomes>
-			<TemperateForest>0.04</TemperateForest>
-			<TemperateSwamp>0.06</TemperateSwamp>
-			<TropicalRainforest>0.03</TropicalRainforest>
-			<TropicalSwamp>0.05</TropicalSwamp>
-			<BorealForest>0.02</BorealForest>
-			<ColdBog>0.02</ColdBog>
+			 <TemperateForest>0.04</TemperateForest>
+			 <TemperateSwamp>0.05</TemperateSwamp>
+			 <TropicalRainforest>0.04</TropicalRainforest>
+             <TropicalSwamp>0.05</TropicalSwamp>
+             <BorealForest>0.02</BorealForest>
 		  </wildBiomes>
 		</plant>
     </ThingDef>
@@ -128,12 +136,11 @@
 		  <wildClusterRadius>3</wildClusterRadius>
 		  <wildClusterWeight>250</wildClusterWeight>
 		  <wildBiomes>
-			<TemperateSwamp>0.02</TemperateSwamp>
-			<TropicalRainforest>0.02</TropicalRainforest>
-			<TropicalSwamp>0.03</TropicalSwamp>
+		    <TemperateSwamp>0.01</TemperateSwamp>
+        	<TropicalRainforest>0.02</TropicalRainforest>
+        	<TropicalSwamp>0.03</TropicalSwamp>
 			<AridShrubland>0.07</AridShrubland>
 			<Desert>0.07</Desert>
-			<ExtremeDesert>0.03</ExtremeDesert>
 		  </wildBiomes>
 		  <sowResearchPrerequisites>
 			 <li>Aq_ElvenMedicine</li>
