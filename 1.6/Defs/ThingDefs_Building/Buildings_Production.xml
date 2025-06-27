@@ -44,7 +44,7 @@
 		<size>(2,2)</size>
 		<passability>PassThroughOnly</passability>
 		<pathCost>70</pathCost>
-		<uiOrder>2002</uiOrder>
+		<uiOrder>2790</uiOrder>
 		<researchPrerequisites>
 			<li>Kara_Culture</li>
 		</researchPrerequisites>
