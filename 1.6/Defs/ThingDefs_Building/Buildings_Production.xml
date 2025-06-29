@@ -30,7 +30,7 @@
 		<designationCategory>Production</designationCategory>
 		<altitudeLayer>Building</altitudeLayer>
 		<rotatable>true</rotatable>
-		<uiIconScale>0.8</uiIconScale>
+		<uiIconScale>0.75</uiIconScale>
 		<fillPercent>0.5</fillPercent>
 		<statBases>
 			<Mass>100</Mass>
