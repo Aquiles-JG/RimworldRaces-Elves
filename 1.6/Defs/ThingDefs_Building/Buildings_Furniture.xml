@@ -1,6 +1,34 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
+  <ThingDef ParentName="BuildingBase">
+    <defName>Aq_SittingSpot</defName>
+    <label>sitting spot</label>
+    <description>A designated spot to sit on the floor. Not comfortable.</description>
+    <designationCategory>Furniture</designationCategory>
+    <graphicData>
+      <texPath>Things/Building/SittingSpot</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <altitudeLayer>Item</altitudeLayer>
+    <passability>Standable</passability>
+    <statBases>
+      <WorkToBuild>0</WorkToBuild>
+      <Comfort>0</Comfort>
+    </statBases>
+    <scatterableOnMapGen>false</scatterableOnMapGen>
+    <useHitPoints>false</useHitPoints>
+    <rotatable>false</rotatable>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <pathCost>0</pathCost>
+    <fillPercent>0.35</fillPercent>
+    <building>
+      <sowTag>SupportPlantsOnly</sowTag>
+      <canPlaceOverImpassablePlant>false</canPlaceOverImpassablePlant>
+      <isSittable>true</isSittable>
+    </building>
+  </ThingDef>
+  
   <ThingDef ParentName="AnimalBedFurnitureBase">
     <defName>Aq_RoyalAnimalBed</defName>
     <label>royal animal bed</label>

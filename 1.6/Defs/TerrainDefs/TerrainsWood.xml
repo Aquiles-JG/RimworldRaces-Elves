@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+ <TerrainDef Abstract="True" ParentName="FloorBase" Name="ElvenParquetBase">
+  <description>Exquisite wooden parquet. It will give an atmosphere of luxury and sophistication to any room.</description>
+  <texturePath>Terrain/Surfaces/ElvenWoodFloor</texturePath>
+  <burnedDef>BurnedWoodPlankFloor</burnedDef>
+  <pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType>
+  <pollutionOverlayTexturePath>Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath>
+  <isPaintable>true</isPaintable>
+  <renderPrecedence>245</renderPrecedence>
+  <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+  <statBases>
+	 <WorkToBuild>4000</WorkToBuild>
+	 <Beauty>4</Beauty>
+	 <Flammability>0.22</Flammability>
+  </statBases>
+  <tags>
+	 <li>FineFloor</li>
+  </tags>
+  <isPaintable>true</isPaintable>
+  <researchPrerequisites>
+      <li>Aq_WoodcraftII</li>
+      <li>Aq_ElvenArmor</li>
+  </researchPrerequisites>
+  <constructEffect>ConstructWood</constructEffect>
+  <designatorDropdown>ElvenParquet</designatorDropdown>
+ </TerrainDef>
+ 
+ <TerrainDef ParentName="ElvenParquetBase">
+    <defName>Aq_WoodElvenParquet</defName>
+    <label>wood elven parquet</label>
+    <color>(108,78,55)</color>
+    <costList>
+      <WoodLog>20</WoodLog>
+    </costList>
+  </TerrainDef>
+  
+</Defs>

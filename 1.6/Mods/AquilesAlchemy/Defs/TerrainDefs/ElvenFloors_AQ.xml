@@ -100,4 +100,117 @@
     </costList>
   </TerrainDef>
   
+  <!-- Wood Floor-->
+   <TerrainDef ParentName="ElvenParquetBase">
+    <defName>Aq_BambooElvenParquet</defName>
+    <label>bamboo elven parquet</label>
+    <color>(248,218,158)</color>
+    <costList>
+      <Aq_LumberBamboo>20</Aq_LumberBamboo>
+    </costList>
+  </TerrainDef>
+  <TerrainDef ParentName="ElvenParquetBase">
+    <defName>Aq_BirchElvenParquet</defName>
+    <label>birch elven parquet</label>
+    <color>(251,217,172)</color>
+    <costList>
+      <Aq_LumberBirch>20</Aq_LumberBirch>
+    </costList>
+  </TerrainDef>
+  <TerrainDef ParentName="ElvenParquetBase">
+    <defName>Aq_PalmElvenParquet</defName>
+    <label>black palm elven parquet</label>
+    <color>(42,40,41)</color>
+    <costList>
+      <Aq_LumberPalm>20</Aq_LumberPalm>
+    </costList>
+  </TerrainDef>
+  <TerrainDef ParentName="ElvenParquetBase">
+    <defName>Aq_CecropiaElvenParquet</defName>
+    <label>cecropia elven parquet</label>
+    <color>(123,47,24)</color>
+    <costList>
+      <Aq_LumberCecropia>20</Aq_LumberCecropia>
+    </costList>
+  </TerrainDef>
+  <TerrainDef ParentName="ElvenParquetBase">
+    <defName>Aq_CocoaElvenParquet</defName>
+    <label>cocoawood elven parquet</label>
+    <color>(86,42,34)</color>
+    <costList>
+      <Aq_LumberCocoa>20</Aq_LumberCocoa>
+    </costList>
+  </TerrainDef>
+  <TerrainDef ParentName="ElvenParquetBase">
+    <defName>Aq_CypressElvenParquet</defName>
+    <label>cypress elven parquet</label>
+    <color>(233,207,175)</color>
+    <costList>
+      <Aq_LumberCypress>20</Aq_LumberCypress>
+    </costList>
+  </TerrainDef>
+  <TerrainDef ParentName="ElvenParquetBase">
+    <defName>Aq_DragoElvenParquet</defName>
+    <label>drago elven parquet</label>
+    <color>(245,175,125)</color>
+    <costList>
+      <Aq_LumberDrago>20</Aq_LumberDrago>
+    </costList>
+  </TerrainDef>
+  <TerrainDef ParentName="ElvenParquetBase">
+    <defName>Aq_MapleElvenParquet</defName>
+    <label>maple elven parquet</label>
+    <color>(211,186,159)</color>
+    <costList>
+      <Aq_LumberMaple>20</Aq_LumberMaple>
+    </costList>
+  </TerrainDef>
+  <TerrainDef ParentName="ElvenParquetBase">
+    <defName>Aq_OakElvenParquet</defName>
+    <label>oak elven parquet</label>
+    <color>(181,137,88)</color>
+    <costList>
+      <Aq_LumberOak>20</Aq_LumberOak>
+    </costList>
+  </TerrainDef>
+  <TerrainDef ParentName="ElvenParquetBase">
+    <defName>Aq_PineElvenParquet</defName>
+    <label>pine elven parquet</label>
+    <color>(241,190,133)</color>
+    <costList>
+      <Aq_LumberPine>20</Aq_LumberPine>
+    </costList>
+  </TerrainDef>
+  <TerrainDef ParentName="ElvenParquetBase">
+    <defName>Aq_PoplarElvenParquet</defName>
+    <label>poplar elven parquet</label>
+    <color>(207,174,129)</color>
+    <costList>
+      <Aq_LumberPoplar>20</Aq_LumberPoplar>
+    </costList>
+  </TerrainDef>
+  <TerrainDef ParentName="ElvenParquetBase">
+    <defName>Aq_SweetGumElvenParquet</defName>
+    <label>sweetgum elven parquet</label>
+ 	<color>(104,63,53)</color>
+    <costList>
+       <Aq_LumberSweetGum>20</Aq_LumberSweetGum>
+    </costList>   
+  </TerrainDef>
+  <TerrainDef ParentName="ElvenParquetBase">
+    <defName>Aq_TeakElvenParquet</defName>
+    <label>teak elven parquet</label>
+    <color>(120,86,51)</color>
+    <costList>
+      <Aq_LumberTeak>20</Aq_LumberTeak>
+    </costList>
+  </TerrainDef>
+  <TerrainDef ParentName="ElvenParquetBase">
+    <defName>Aq_WillowElvenParquet</defName>
+    <label>willow elven parquet</label>
+    <color>(239,194,113)</color>
+    <costList>
+      <Aq_LumberWillow>20</Aq_LumberWillow>
+    </costList>
+  </TerrainDef>
 </Defs>

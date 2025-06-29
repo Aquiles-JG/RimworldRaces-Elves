@@ -16,5 +16,9 @@
   <DesignatorDropdownGroupDef>
     <defName>Floor_Leaf</defName>
   </DesignatorDropdownGroupDef>
+  
+   <DesignatorDropdownGroupDef>
+    <defName>ElvenParquet</defName>
+  </DesignatorDropdownGroupDef>
 
 </Defs>
