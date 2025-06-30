@@ -192,7 +192,7 @@
 			<li Class="PatchOperationAdd">
     			<xpath>/Defs/ThingDef[defName="Aq_Glowstone"]/stuffProps/categories</xpath>
     			<value>
-      				<li>Aq_Gemstones</li>
+      				<li>Aq_Gemstone</li>
    				 </value>
   			</li>
   			<li Class="PatchOperationReplace">
