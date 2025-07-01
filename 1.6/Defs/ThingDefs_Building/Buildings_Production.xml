@@ -11,12 +11,12 @@
       		<texPath>Things/Building/Aq_PeppermintBarrel/PeppermintBarrel</texPath>
       		<graphicClass>Graphic_Multi</graphicClass>
       		<shaderType>CutoutComplex</shaderType>
-      		<drawSize>2</drawSize>
+      		<colorTwo>(138,201,128)</colorTwo>
       		<damageData>
-        	  <rect>(0.05,0.1,0.9,0.9)</rect>
+        		<rect>(0.05,0.1,0.9,0.9)</rect>
       		</damageData>
-      		<shadowData>
-        	  <volume>(0.75, 0.35, 0.33)</volume>
+     		<shadowData>
+        		<volume>(0.75, 0.35, 0.33)</volume>
       		</shadowData>
     	</graphicData>
 		<thingCategories>
@@ -30,7 +30,7 @@
 		<designationCategory>Production</designationCategory>
 		<altitudeLayer>Building</altitudeLayer>
 		<rotatable>true</rotatable>
-		<uiIconScale>0.75</uiIconScale>
+		<uiIconScale>1</uiIconScale>
 		<fillPercent>0.5</fillPercent>
 		<statBases>
 			<Mass>100</Mass>
@@ -39,12 +39,11 @@
 			<Flammability>1</Flammability>
 			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">2</StyleDominance>		
 		</statBases>
-		<dominantStyleCategory>Underdark</dominantStyleCategory>
 		<tickerType>Rare</tickerType>
-		<size>(2,2)</size>
 		<passability>PassThroughOnly</passability>
 		<pathCost>70</pathCost>
 		<uiOrder>2790</uiOrder>
+		<uiIconColorTwo>(138,201,128)</uiIconColorTwo>
 		<researchPrerequisites>
 			<li>Kara_Culture</li>
 		</researchPrerequisites>
