@@ -112,6 +112,9 @@
 		<TropicalRainforest>0.01</TropicalRainforest>
 	  </wildBiomes>
       <trainability>Advanced</trainability>
+      <specialTrainables>
+        <li MayRequire="Ludeon.RimWorld.Odyssey">AttackTarget</li>
+      </specialTrainables>
       <manhunterOnTameFailChance>0.25</manhunterOnTameFailChance>
       <manhunterOnDamageChance>1.0</manhunterOnDamageChance>
       <gestationPeriodDays>20</gestationPeriodDays>
@@ -134,6 +137,7 @@
           <soundAngry>Aq_Troll_Angry</soundAngry>
         </li>
       </lifeStageAges>
+      <soundEating>PredatorLarge_Eat</soundEating>
       <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>

@@ -98,6 +98,7 @@
           <soundAngry>Pawn_Deer_Angry</soundAngry>
         </li>
       </lifeStageAges>
+      <soundEating>Herbivore_Eat</soundEating>
       <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
