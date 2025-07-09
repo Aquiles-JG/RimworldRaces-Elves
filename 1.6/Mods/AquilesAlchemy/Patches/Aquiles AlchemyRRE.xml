@@ -77,7 +77,13 @@
 					<value>
       					<Aq_Glass>3</Aq_Glass>
 					</value>
-			</li>				
+			</li>		
+		    <li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="DE_Hearth"]/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter/thingDefs</xpath>
+				<value>
+					<li>Aq_Charcoal</li>
+				</value>
+			</li>		
 			<!-- Potions-->
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/RecipeDef[defName="MakeToxicVenomBulk"]/ingredients/li[1]/filter/thingDefs</xpath>

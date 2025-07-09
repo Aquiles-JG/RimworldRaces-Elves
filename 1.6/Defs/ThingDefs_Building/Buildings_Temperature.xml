@@ -61,6 +61,7 @@
         <fuelFilter><thingDefs><li>Hay</li></thingDefs></fuelFilter>
         <fuelIconPath>Things/Item/Resource/Aq_NoIceBlocks</fuelIconPath>	
         <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>		
+        <canEjectFuel>true</canEjectFuel>
       </li>	
       <li Class="CompProperties_HeatPusher">
         <compClass>CompHeatPusherPowered</compClass>
@@ -139,6 +140,7 @@
         </fuelFilter>
         <initialFuelPercent>0</initialFuelPercent>
         <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+        <canEjectFuel>true</canEjectFuel>
       </li>
       <li Class="CompProperties_Glower">
         <glowRadius>15</glowRadius>
