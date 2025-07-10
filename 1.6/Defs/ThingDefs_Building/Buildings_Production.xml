@@ -1,37 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
- 	<ThingDef ParentName="BuildingBase">
+ 	<ThingDef ParentName="AdvancedFermenterBase">
 		<defName>Aq_PeppermintBarrel</defName>
 		<label>peppermint barrel</label>
 		<description>A big barrel meant for aging a high volume of peppermint at once. Any sunlight hitting the barrel may slow down the fermenting, or even stop it.</description>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<techLevel>Medieval</techLevel>
 		<graphicData>
-      		<texPath>Things/Building/Aq_PeppermintBarrel/PeppermintBarrel</texPath>
-      		<graphicClass>Graphic_Multi</graphicClass>
-      		<shaderType>CutoutComplex</shaderType>
       		<colorTwo>(138,201,128)</colorTwo>
-      		<damageData>
-        		<rect>(0.05,0.1,0.9,0.9)</rect>
-      		</damageData>
-     		<shadowData>
-        		<volume>(0.75, 0.35, 0.33)</volume>
-      		</shadowData>
     	</graphicData>
-		<thingCategories>
-			<li>BuildingsProduction</li>
-		</thingCategories>
 		<costList>
-			<WoodLog>100</WoodLog>
-			<Steel>50</Steel>
+			<WoodLog>50</WoodLog>
+			<Steel>30</Steel>
 			<Leather_MDeer>20</Leather_MDeer>
 		</costList>
-		<designationCategory>Production</designationCategory>
-		<altitudeLayer>Building</altitudeLayer>
-		<rotatable>true</rotatable>
-		<uiIconScale>1</uiIconScale>
-		<fillPercent>0.5</fillPercent>
 		<statBases>
 			<Mass>100</Mass>
 			<WorkToBuild>1000</WorkToBuild>
@@ -39,10 +22,7 @@
 			<Flammability>1</Flammability>
 			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">2</StyleDominance>		
 		</statBases>
-		<tickerType>Rare</tickerType>
-		<passability>PassThroughOnly</passability>
-		<pathCost>70</pathCost>
-		<uiOrder>2790</uiOrder>
+		<constructEffect>ConstructWood</constructEffect>
 		<uiIconColorTwo>(138,201,128)</uiIconColorTwo>
 		<researchPrerequisites>
 			<li>Kara_Culture</li>
@@ -60,8 +40,6 @@
     	<inspectorTabs>
 			<li>PipeSystem.ITab_Processor</li>
 		</inspectorTabs>
-		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
-		<minifiedDef>MinifiedThing</minifiedDef>
 	</ThingDef>
 	
 	 <PipeSystem.ProcessDef>
