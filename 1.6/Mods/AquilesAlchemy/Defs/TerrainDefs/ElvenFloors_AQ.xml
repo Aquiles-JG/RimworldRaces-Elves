@@ -41,14 +41,14 @@
       <BlocksAlabaster>20</BlocksAlabaster>
     </costList>
   </TerrainDef>
-  <!--TerrainDef ParentName="FloorBaseStoneFineUnderdark">
-    <defName>DE_FloorFineUnderdarkObsidian</defName>
-    <label>underdark temple tiles (obsidian)</label>
-    <color>(35,35,35)</color>
+  <TerrainDef ParentName="FloorBaseStoneFineUnderdark">
+    <defName>DE_FloorFineUnderdarkDunite</defName>
+    <label>underdark temple tiles (dunite)</label>
+    <color>(153,176,110)</color>
     <costList>
-      <BlocksObsidian>20</BlocksObsidian>
+      <BlocksDunite>20</BlocksDunite>
     </costList>
-  </TerrainDef-->
+  </TerrainDef>
   
   <!-- Elves floors-->
   <TerrainDef ParentName="Aq_DecoratedTileStoneBase">
@@ -75,14 +75,14 @@
       <BlocksAlabaster>20</BlocksAlabaster>
     </costList>
   </TerrainDef>
-  <!--TerrainDef ParentName="Aq_DecoratedTileStoneBase">
-    <defName>Aq_DecoratedTileStoneObsidian</defName>
-    <label>decorated obsidian tile</label>
-    <color>(35,35,35)</color>
+  <TerrainDef ParentName="Aq_DecoratedTileStoneBase">
+    <defName>Aq_DecoratedTileStoneDunite</defName>
+    <label>decorated dunite tile</label>
+    <color>(153,176,110)</color>
     <costList>
-      <BlocksObsidian>20</BlocksObsidian>
+      <BlocksDunite>20</BlocksDunite>
     </costList>
-  </TerrainDef-->
+  </TerrainDef>
   <TerrainDef ParentName="Aq_LeafFloorBase">
     <defName>Aq_LeafFloorClaystone</defName>
     <label>claystone leaf floor</label>
