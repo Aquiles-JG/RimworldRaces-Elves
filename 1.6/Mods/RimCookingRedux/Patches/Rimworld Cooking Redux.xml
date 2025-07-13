@@ -46,6 +46,7 @@
             </sowResearchPrerequisites>
           </value>
         </li>
+      
         <li Class="PatchOperationReplace">
           <xpath>/Defs/ThingCategoryDef[defName="Aq_DrinksAlcoholic"]/iconPath</xpath>
           <value>

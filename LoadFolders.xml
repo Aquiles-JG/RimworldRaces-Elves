@@ -12,7 +12,6 @@
   <!-- Mods-->
   <li IfModActive="SamBucher.ADogSaidAnimalProsthetics2">1.6/Mods/ADogSaid2</li>
   <li IfModActive="Aquiles.Alchemy">1.6/Mods/AquilesAlchemy</li>
-  <li IfModActive="CETeam.CombatExtended">1.6/Mods/CombatExtended</li>
   <li IfModActive="mooloh.dndmenagerie">1.6/Mods/DNDMenagerie</li>
   <li IfModActive="Owlchemist.GiddyUp">1.6/Mods/GiddyUp2</li>
   <li IfModActive="Aquiles.MonstrousCompendium">1.6/Mods/MonstrousCompendium</li>
