@@ -79,6 +79,7 @@
 		<BorealForest>0.1</BorealForest>
 		<Tundra>0.1</Tundra>
 		<ColdBog>0.05</ColdBog>
+		<Glowforest MayRequire="Ludeon.RimWorld.Odyssey">0.02</Glowforest>
 	  </wildBiomes>
       <lifeStageAges>
         <li>

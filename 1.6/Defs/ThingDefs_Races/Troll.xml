@@ -103,13 +103,13 @@
       <specificMeatDef MayRequire="Ludeon.Rimworld.Anomaly">Meat_Twisted</specificMeatDef>
       <meatLabel>troll meat</meatLabel>
       <wildBiomes>
-		<TemperateForest>0.01</TemperateForest>
 		<BorealForest>0.05</BorealForest>
 		<ColdBog>0.1</ColdBog>	
-		<TemperateSwamp>0.1</TemperateSwamp>
+		<TemperateSwamp>0.05</TemperateSwamp>
 		<Tundra>0.05</Tundra>
-		<TropicalSwamp>0.1</TropicalSwamp>
-		<TropicalRainforest>0.01</TropicalRainforest>
+		<TropicalSwamp>0.05</TropicalSwamp>
+		<GlacialPlain MayRequire="Ludeon.RimWorld.Odyssey">0.01</GlacialPlain>
+		<Scarlands MayRequire="Ludeon.RimWorld.Odyssey">0.02</Scarlands>		
 	  </wildBiomes>
       <trainability>Advanced</trainability>
       <specialTrainables>

@@ -39,11 +39,12 @@
 			<wildClusterRadius>3</wildClusterRadius>
 		  	<wildClusterWeight>250</wildClusterWeight>
 			<wildBiomes>
-			  <TemperateForest>0.04</TemperateForest>
+			  <TemperateForest>0.02</TemperateForest>
 			  <TemperateSwamp>0.02</TemperateSwamp>
-			  <BorealForest>0.04</BorealForest>
-              <ColdBog>0.04</ColdBog>
-              <Tundra>0.04</Tundra>
+			  <BorealForest>0.02</BorealForest>
+              <ColdBog>0.02</ColdBog>
+              <Tundra>0.02</Tundra>
+              <Grasslands MayRequire="Ludeon.RimWorld.Odyssey">0.02</Grasslands>
 		    </wildBiomes>
 			<immatureGraphicPath>Things/Plant/Immature/Peppermint</immatureGraphicPath>
 			<purpose>Food</purpose>
@@ -89,11 +90,13 @@
 		  <wildClusterRadius>2</wildClusterRadius>
 		  <wildClusterWeight>150</wildClusterWeight>
 		  <wildBiomes>
-			 <TemperateForest>0.04</TemperateForest>
-			 <TemperateSwamp>0.05</TemperateSwamp>
-			 <TropicalRainforest>0.04</TropicalRainforest>
-             <TropicalSwamp>0.05</TropicalSwamp>
+			 <TemperateForest>0.02</TemperateForest>
+			 <TemperateSwamp>0.02</TemperateSwamp>
+			 <TropicalRainforest>0.01</TropicalRainforest>
+             <TropicalSwamp>0.01</TropicalSwamp>
              <BorealForest>0.02</BorealForest>
+             <Glowforest MayRequire="Ludeon.RimWorld.Odyssey">0.01</Glowforest>
+			 <Scarlands MayRequire="Ludeon.RimWorld.Odyssey">0.01</Scarlands>		
 		  </wildBiomes>
 		</plant>
     </ThingDef>
@@ -136,11 +139,10 @@
 		  <wildClusterRadius>3</wildClusterRadius>
 		  <wildClusterWeight>250</wildClusterWeight>
 		  <wildBiomes>
-		    <TemperateSwamp>0.01</TemperateSwamp>
         	<TropicalRainforest>0.02</TropicalRainforest>
-        	<TropicalSwamp>0.03</TropicalSwamp>
-			<AridShrubland>0.07</AridShrubland>
-			<Desert>0.07</Desert>
+        	<TropicalSwamp>0.02</TropicalSwamp>
+			<AridShrubland>0.05</AridShrubland>
+			<Desert>0.05</Desert>
 		  </wildBiomes>
 		  <sowResearchPrerequisites>
 			 <li>Aq_ElvenMedicine</li>
