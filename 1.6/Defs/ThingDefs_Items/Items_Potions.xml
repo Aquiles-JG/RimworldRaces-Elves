@@ -12,7 +12,7 @@
 	</graphicData>
 	<techLevel>Medieval</techLevel>
 	<statBases>
-	  <MarketValue>40</MarketValue>
+	  <MarketValue>60</MarketValue>
 	  <Mass>0.50</Mass>
 	  <Flammability>0.7</Flammability>
 	  <MedicalPotency>0.8</MedicalPotency>
