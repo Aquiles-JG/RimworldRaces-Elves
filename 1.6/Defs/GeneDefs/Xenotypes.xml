@@ -72,7 +72,6 @@
       <li>CaveDweller</li>
       <li>UVSensitivity_Mild</li>
       <li>MinTemp_SmallDecrease</li>
-	  <li>AptitudePoor_Animals</li>
 	  <li>AptitudePoor_Social</li>
     </genes>
     <modExtensions>
