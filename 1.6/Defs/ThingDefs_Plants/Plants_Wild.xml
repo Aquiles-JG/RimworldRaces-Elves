@@ -37,7 +37,7 @@
 			<visualSizeRange>0.4~1</visualSizeRange>
 			<wildOrder>2</wildOrder>
 			<wildClusterRadius>5</wildClusterRadius>
-      		<wildClusterWeight>100</wildClusterWeight>
+      		<wildClusterWeight>150</wildClusterWeight>
 			<wildBiomes>
 			  <TemperateForest>0.02</TemperateForest>
 			  <TemperateSwamp>0.02</TemperateSwamp>
