@@ -32,7 +32,6 @@
       <Flammability>0.25</Flammability>
       <Beauty>5</Beauty>
       <JoyGainFactor>1.15</JoyGainFactor>
-      <StyleDominance MayRequire="Ludeon.RimWorld.Ideology">2</StyleDominance>
     </statBases>
     <stuffCategories>
       <li>Metallic</li>
@@ -43,7 +42,6 @@
     </costList>
     <pathCost>14</pathCost>
     <passability>PassThroughOnly</passability>
-    <dominantStyleCategory>Underdark</dominantStyleCategory>
     <designationCategory>Joy</designationCategory>
   </ThingDef>
 

@@ -6,7 +6,7 @@
 		<Operation Class="PatchOperationReplace">
 		<xpath>Defs/GeneDef[defName="Ears_Pointed"]/renderNodeProperties/li/texPath</xpath>
 		<value>
-			<texPath>Drow/Drow_Ear</texPath>
+			<texPath>Things/Pawn/Humanlike/Ears/Drow_Ear</texPath>
 		</value>
 		</Operation>
 

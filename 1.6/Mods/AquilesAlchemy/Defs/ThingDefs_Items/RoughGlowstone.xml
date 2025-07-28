@@ -1,32 +1,28 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
-
-		<ThingDef ParentName="ResourceBase">
-    		<defName>Aq_RoughGlowstone</defName>
-    		<label>rough glowstone</label>
-    		<description>Uncut glowstone nuggets that need to be cut into gemstones at the jeweler table.</description>
-    		<graphicData>
-      			<texPath>Resources/Aq_RoughGlowstone</texPath>
-      			<graphicClass>Graphic_StackCount</graphicClass>
-    		</graphicData>
-    		<soundInteract>Metal_Drop</soundInteract>
-    		<soundDrop>Metal_Drop</soundDrop>
-    		<statBases>
-      			<MarketValue>4.9</MarketValue>
-      			<Mass>0.3</Mass>
-    		</statBases>
-			<useHitPoints>false</useHitPoints>
-			<healthAffectsPrice>false</healthAffectsPrice>
-			<thingCategories>
-			   <li>Aq_UncutGemstones</li>
-			</thingCategories>
-			<deepCommonality>0.5</deepCommonality>
-			<deepCountPerPortion>10</deepCountPerPortion>
-			<deepLumpSizeRange>4~9</deepLumpSizeRange>
-			<burnableByRecipe>false</burnableByRecipe>
-			<smeltable>false</smeltable>
-  		</ThingDef>
-  			
-  
+  <ThingDef ParentName="ResourceBase">
+    <defName>Aq_RoughGlowstone</defName>
+    <label>rough glowstone</label>
+    <description>Uncut glowstone nuggets that need to be cut into gemstones at the jeweler table.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Aq_RoughGlowstone</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <statBases>
+      <MarketValue>4.9</MarketValue>
+      <Mass>0.3</Mass>
+    </statBases>
+    <useHitPoints>false</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <thingCategories>
+      <li>Aq_UncutGemstones</li>
+    </thingCategories>
+    <deepCommonality>0.5</deepCommonality>
+    <deepCountPerPortion>10</deepCountPerPortion>
+    <deepLumpSizeRange>4~9</deepLumpSizeRange>
+    <burnableByRecipe>false</burnableByRecipe>
+    <smeltable>false</smeltable>
+  </ThingDef>
 </Defs>

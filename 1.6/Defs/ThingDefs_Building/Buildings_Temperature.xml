@@ -34,8 +34,7 @@
       <Cleanliness>0</Cleanliness>
       <Beauty>0</Beauty>
       <MarketValue>235</MarketValue>
-	  <Mass>35</Mass>
-	  <StyleDominance MayRequire="Ludeon.RimWorld.Ideology">4</StyleDominance>		  
+	  <Mass>35</Mass>  
     </statBases>
     <rotatable>false</rotatable>
     <altitudeLayer>Building</altitudeLayer>
@@ -69,7 +68,6 @@
         <heatPushMinTemperature>-3</heatPushMinTemperature>		
       </li>
     </comps>
-    <dominantStyleCategory>Underdark</dominantStyleCategory>
     <designationCategory>Temperature</designationCategory>
     <tradeTags>
       <li>Underdark</li>
@@ -100,7 +98,6 @@
       <Flammability>0</Flammability>
       <Beauty>5</Beauty>
       <Mass>15</Mass>
-      <StyleDominance MayRequire="Ludeon.RimWorld.Ideology">6</StyleDominance>
     </statBases>
     <category>Building</category>
     <tickerType>Normal</tickerType>
@@ -108,7 +105,6 @@
     <fillPercent>0.15</fillPercent>
     <size>(2,1)</size>
     <selectable>true</selectable>
-    <dominantStyleCategory>Underdark</dominantStyleCategory>
     <designationCategory>Temperature</designationCategory>
     <uiIconPath>Things/Building/DE_Hearth/DE_HearthIcon</uiIconPath>
     <uiIconOffset>(0, -0.04)</uiIconOffset>
