@@ -50,7 +50,7 @@
         <li Class="PatchOperationReplace">
           <xpath>/Defs/ThingCategoryDef[defName="Aq_DrinksAlcoholic"]/iconPath</xpath>
           <value>
-            <iconPath>Things/Item/Aq_PeppermintLiquor/Aq_PeppermintLiquor_b</iconPath>
+            <iconPath>Things/Item/Drug/Aq_PeppermintLiquor/Aq_PeppermintLiquor_b</iconPath>
           </value>
         </li>
         <li Class="PatchOperationAdd">
