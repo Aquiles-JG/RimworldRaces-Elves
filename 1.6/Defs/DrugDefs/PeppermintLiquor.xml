@@ -6,7 +6,7 @@
     <label>herbal liqueur</label>
     <description>A clear, mint-flavored distilled spirit, similar to the human peppermint liquor. It's most often made with neutral grain alcohol and peppermint extract and tastes like a liquid candy cane.</description>
     <graphicData>
-      <texPath>Things/Item/Aq_PeppermintLiquor</texPath>
+      <texPath>Things/Item/Drug/Aq_PeppermintLiquor</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <equippedAngleOffset>-150</equippedAngleOffset>

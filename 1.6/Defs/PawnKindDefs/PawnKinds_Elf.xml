@@ -240,7 +240,7 @@
     	<max>1.8</max>
     </gearHealthRange>
     <apparelRequired>
-    	<li>Aq_ElvenJerkin</li>
+    	<li>Aq_ElvenGambeson</li>
     </apparelRequired>
     <apparelMoney>
       <min>300</min>
@@ -283,7 +283,7 @@
     	<max>1.8</max>
     </gearHealthRange>
     <apparelRequired>
-    	<li>Aq_ElvenJerkin</li>
+    	<li>Aq_ElvenGambeson</li>
     </apparelRequired>
     <apparelMoney>
       <min>300</min>

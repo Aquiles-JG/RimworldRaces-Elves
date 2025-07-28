@@ -23,7 +23,7 @@
     <description>The longbow preferred by the gray elves. A powerful long range weapon.</description>
     <techLevel>Medieval</techLevel>
     <graphicData>
-      <texPath>Things/Item/Equipment/WeaponRanged/Aq_GaladhrimBow</texPath>
+      <texPath>Things/WeaponRanged/Bow/Aq_GaladhrimBow</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.5,1.5)</drawSize>
     </graphicData>
@@ -107,7 +107,7 @@
     <description>The elite archers of the gray elves utilize an exceptional longbow that has devestating damage and pinpoint accuracy.</description>
     <techLevel>Medieval</techLevel>
     <graphicData>
-      <texPath>Things/Item/Equipment/WeaponRanged/Aq_NoldorinBow</texPath>
+      <texPath>Things/WeaponRanged/Bow/Aq_NoldorinBow</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(2.0,2.0)</drawSize>
     </graphicData>

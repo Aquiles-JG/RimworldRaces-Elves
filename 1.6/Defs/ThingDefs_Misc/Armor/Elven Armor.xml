@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
-
-<!-- ==================== Medium =================== -->
-
-<ThingDef ParentName="ApparelMakeableBase">
-    <defName>Aq_ElvenJerkin</defName>
-    <label>elven jerkin</label>
-    <description>A studded leather jerkin of elvish design.\n\nWhilst not as protective as full plate armor, it doesn't slow the wearer down and provides some insulation from cold and heat.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Only Elves may wear it.</description>
-     <techLevel>Medieval</techLevel>
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>Aq_ElvenGambeson</defName>
+    <label>elven gambeson</label>
+    <description>A padded leather gambeson of elvish design.\n\nWhilst not as protective as a plate armor, it doesn't slow the wearer down and provides some insulation from cold and heat.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Only Elves may wear it.</description>
+    <techLevel>Medieval</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
       <researchPrerequisite>Aq_ElvenArmorII</researchPrerequisite>
@@ -17,30 +13,28 @@
       </skillRequirements>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/Apparel/ElvenJerkin/Aq_ElvenJerkin</texPath>
+      <texPath>Things/Apparel/ElvenGambeson/Gambeson</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
     </graphicData>
     <stuffCategories>
       <li>Leathery</li>
     </stuffCategories>
     <costStuffCount>200</costStuffCount>
     <statBases>
-     <MaxHitPoints>150</MaxHitPoints>
-			<WorkToMake>22000</WorkToMake>
-			<Mass>6</Mass>
-			<StuffEffectMultiplierArmor>0.65</StuffEffectMultiplierArmor>
-			<StuffEffectMultiplierInsulation_Cold>1</StuffEffectMultiplierInsulation_Cold>
-			<StuffEffectMultiplierInsulation_Heat>0.5</StuffEffectMultiplierInsulation_Heat>
-			<EquipDelay>10</EquipDelay>
+      <MaxHitPoints>150</MaxHitPoints>
+      <WorkToMake>22000</WorkToMake>
+      <Mass>6</Mass>
+      <StuffEffectMultiplierArmor>0.65</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>1</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.5</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>10</EquipDelay>
     </statBases>
- 
     <thingSetMakerTags>
       <li>RewardStandardQualitySuper</li>
     </thingSetMakerTags>
-<costList>
-  <Steel>30</Steel>
-</costList>
+    <costList>
+      <Steel>30</Steel>
+    </costList>
     <thingCategories>
       <li>ApparelArmor</li>
     </thingCategories>
@@ -52,11 +46,11 @@
         <li>Arms</li>
         <li>Legs</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Apparel/ElvenJerkin/Aq_ElvenJerkin</wornGraphicPath>
+      <wornGraphicPath>Things/Apparel/ElvenGambeson/Gambeson</wornGraphicPath>
       <useWornGraphicMask>true</useWornGraphicMask>
       <layers>
         <li>Shell</li>
-		<li>Middle</li>
+        <li>Middle</li>
       </layers>
       <tags>
         <li>Aq_ElfMilitary</li>
@@ -65,21 +59,21 @@
         <li>Soldier</li>
       </defaultOutfitTags>
     </apparel>
-   <colorGenerator Class="ColorGenerator_StandardApparel"/>
-   <modExtensions>
-		    <li Class="XenotypeRestrictions.XenotypeExtension">
-			  <exclusiveXenotypes>
-				<li>Aq_Elf</li>
-			  </exclusiveXenotypes>
-		    </li>
-	 </modExtensions>
-	   <tradeTags>
-        <li>Elvendom</li>
-         <li>Armor</li>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
+    <modExtensions>
+      <li Class="XenotypeRestrictions.XenotypeExtension">
+        <exclusiveXenotypes>
+          <li>Aq_Elf</li>
+        </exclusiveXenotypes>
+      </li>
+    </modExtensions>
+    <tradeTags>
+      <li>Elvendom</li>
+      <li>Armor</li>
     </tradeTags>
   </ThingDef>
-
- <!-- Dragon Rider Armor -->
+  
+  <!-- Dragon Rider Armor -->
   <ThingDef ParentName="ArmorSmithableBase">
     <defName>Aq_ElfLordArmor</defName>
     <label>high lord armor</label>
@@ -145,18 +139,17 @@
     <costStuffCount>125</costStuffCount>
     <stuffCategories>
       <li>Metallic</li>
-    </stuffCategories> 
+    </stuffCategories>
     <costList>
       <Gold>25</Gold>
     </costList>
-    <colorGenerator Class="ColorGenerator_StandardApparel"/>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
     <modExtensions>
-		<li Class="XenotypeRestrictions.XenotypeExtension">
-			<exclusiveXenotypes>
-				<li>Aq_Elf</li>
-			</exclusiveXenotypes>
-		</li>
-	</modExtensions>
+      <li Class="XenotypeRestrictions.XenotypeExtension">
+        <exclusiveXenotypes>
+          <li>Aq_Elf</li>
+        </exclusiveXenotypes>
+      </li>
+    </modExtensions>
   </ThingDef>
-
 </Defs>
