@@ -71,7 +71,7 @@
     </thingCategories>
     <techLevel>Medieval</techLevel>
     <graphicData>
-      <texPath>Things/Pawn/Elf/Apparel/Aq_ElvishCirclet/ElvishCirclet</texPath>
+      <texPath>Things/Apparel/Aq_ElvishCirclet/ElvishCirclet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -105,7 +105,7 @@
       <bodyPartGroups>
         <li>UpperHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Elf/Apparel/Aq_ElvishCirclet/ElvishCirclet</wornGraphicPath>
+      <wornGraphicPath>Things/Apparel/Aq_ElvishCirclet/ElvishCirclet</wornGraphicPath>
       <useWornGraphicMask>true</useWornGraphicMask>
       <layers>
         <li>Overhead</li>

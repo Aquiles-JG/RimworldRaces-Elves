@@ -10,7 +10,7 @@
     <defName>Aq_Legolas</defName>
     <label>elf archer</label>
     <hairGender>Male</hairGender>
-    <texPath>Things/Pawn/Elf/Hairs/ElfLegolas</texPath>
+    <texPath>Things/Pawn/Humanlike/ElfHair/ElfLegolas</texPath>
     <category>Elf</category>
     <hairTags>
       <li>Elf</li>
@@ -22,7 +22,7 @@
     <defName>Aq_Elrond</defName>
     <label>elf lord</label>
     <hairGender>Male</hairGender>
-    <texPath>Things/Pawn/Elf/Hairs/ElfElrond</texPath>
+    <texPath>Things/Pawn/Humanlike/ElfHair/ElfElrond</texPath>
     <category>Elf</category>
     <hairTags>
       <li>Elf</li>
@@ -34,7 +34,7 @@
     <defName>Aq_Arwen</defName>
     <label>elf noblewoman</label>
     <hairGender>Female</hairGender>
-    <texPath>Things/Pawn/Elf/Hairs/ElfArwen</texPath>
+    <texPath>Things/Pawn/Humanlike/ElfHair/ElfArwen</texPath>
     <category>Elf</category>
     <hairTags>
       <li>Elf</li>
@@ -46,7 +46,7 @@
     <defName>Aq_ArwenTwo</defName>
     <label>elf ponytail</label>
     <hairGender>Female</hairGender>
-    <texPath>Things/Pawn/Elf/Hairs/ElfArwenTwo</texPath>
+    <texPath>Things/Pawn/Humanlike/ElfHair/ElfArwenTwo</texPath>
     <category>Elf</category>
     <hairTags>
       <li>Elf</li>
@@ -58,7 +58,7 @@
     <defName>Aq_Galadriel</defName>
     <label>elf queen</label>
     <hairGender>Female</hairGender>
-    <texPath>Things/Pawn/Elf/Hairs/ElfGaladriel</texPath>
+    <texPath>Things/Pawn/Humanlike/ElfHair/ElfGaladriel</texPath>
     <category>Elf</category>
     <hairTags>
       <li>Elf</li>

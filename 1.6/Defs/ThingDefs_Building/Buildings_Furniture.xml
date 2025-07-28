@@ -29,46 +29,6 @@
     </building>
   </ThingDef>
   
-  <ThingDef ParentName="AnimalBedFurnitureBase">
-    <defName>Aq_RoyalAnimalBed</defName>
-    <label>royal animal bed</label>
-    <description>A soft bed for very special animals to sleep on.</description>
-    <uiOrder>2051</uiOrder>
-    <graphicData>
-      <texPath>Things/Building/AnimalBedRoyal</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>3.5</drawSize>
-      <shaderType>CutoutComplex</shaderType>
-    </graphicData>
-    <size>(2,2)</size>
-    <!-- <uiIconScale>0.80</uiIconScale>-->
-    <stuffCategories>
-      <li>Fabric</li>
-      <li>Leathery</li>
-    </stuffCategories>
-    <costStuffCount>80</costStuffCount>
-    <costList>
-      <Gold>1</Gold>
-    </costList>
-    <building>
-      <destroySound>BuildingDestroyed_Soft_Small</destroySound>
-      <bed_pawnDrawOffset>0.5</bed_pawnDrawOffset>
-    </building>
-    <statBases>
-      <MaxHitPoints>140</MaxHitPoints>
-      <Flammability>1.0</Flammability>
-      <WorkToBuild>750</WorkToBuild>
-      <Mass>5</Mass>
-      <BedRestEffectiveness>1.10</BedRestEffectiveness>
-      <Comfort>0.85</Comfort>
-      <ImmunityGainSpeedFactor>1.15</ImmunityGainSpeedFactor>
-      <SurgerySuccessChanceFactor>1.05</SurgerySuccessChanceFactor>
-    </statBases>
-    <researchPrerequisites>
-      <li>Aq_ClothingOne</li>
-    </researchPrerequisites>
-  </ThingDef>
-  
   <!-- ======================== Lighting ======================= -->
   <ThingDef ParentName="LampBase">
     <defName>DE_Chandelier</defName>
@@ -200,7 +160,6 @@
               <li MayRequire="Ludeon.RimWorld.Royalty,Ludeon.RimWorld.Ideology">DarklightBrazier</li>
               <li MayRequire="Ludeon.RimWorld.Ideology">Darktorch</li>
               <li MayRequire="Ludeon.RimWorld.Ideology">DarktorchFungus</li>
-              <li>DE_Hearth</li>
             </defs>
             <offsetPerBuilding>0.01</offsetPerBuilding>
             <radius>9.9</radius>

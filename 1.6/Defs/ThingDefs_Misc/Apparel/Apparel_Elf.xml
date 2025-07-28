@@ -6,7 +6,7 @@
     <label>elven cape</label>
     <description>A fashionable cape worn by the elves that uses dark forest colors.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Only Elves may wear it.</description>
     <graphicData>
-      <texPath>Things/Pawn/Elf/Apparel/HoodedCape/CloakDisplay</texPath>
+      <texPath>Things/Apparel/HoodedCape/CloakDisplay</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costStuffCount>50</costStuffCount>
@@ -36,7 +36,7 @@
         <li>Shoulders</li>
         <li>Arms</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Elf/Apparel/HoodedCape/Cloak</wornGraphicPath>
+      <wornGraphicPath>Things/Apparel/HoodedCape/Cloak</wornGraphicPath>
       <layers>
         <li>Shell</li>
       </layers>
@@ -125,7 +125,7 @@
     <label>elven robe</label>
     <description>A simple and elegant robe made by the elves.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Only Elves may wear it.</description>
     <graphicData>
-      <texPath>Things/Pawn/Elf/Apparel/Robe/Robe</texPath>
+      <texPath>Things/Apparel/Robe/Robe</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costStuffCount>75</costStuffCount>
@@ -155,7 +155,7 @@
         <li>Arms</li>
         <li>Legs</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Elf/Apparel/Robe/Robe</wornGraphicPath>
+      <wornGraphicPath>Things/Apparel/Robe/Robe</wornGraphicPath>
       <layers>
         <li>Shell</li>
         <li>Middle</li>
