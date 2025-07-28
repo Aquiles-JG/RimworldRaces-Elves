@@ -36,8 +36,8 @@
 			<sowMinSkill>7</sowMinSkill>
 			<visualSizeRange>0.4~1</visualSizeRange>
 			<wildOrder>2</wildOrder>
-			<wildClusterRadius>3</wildClusterRadius>
-		  	<wildClusterWeight>250</wildClusterWeight>
+			<wildClusterRadius>5</wildClusterRadius>
+      		<wildClusterWeight>100</wildClusterWeight>
 			<wildBiomes>
 			  <TemperateForest>0.02</TemperateForest>
 			  <TemperateSwamp>0.02</TemperateSwamp>
@@ -87,8 +87,9 @@
 		  </sowResearchPrerequisites>
 		  <immatureGraphicPath>Things/Plant/Immature/Henbane</immatureGraphicPath>
 		  <purpose>Health</purpose>
-		  <wildClusterRadius>2</wildClusterRadius>
-		  <wildClusterWeight>150</wildClusterWeight>
+		  <wildOrder>2</wildOrder>
+		  <wildClusterRadius>5</wildClusterRadius>
+      	  <wildClusterWeight>150</wildClusterWeight>
 		  <wildBiomes>
 			 <TemperateForest>0.02</TemperateForest>
 			 <TemperateSwamp>0.02</TemperateSwamp>
@@ -136,13 +137,14 @@
 		  <visualSizeRange>0.4~1</visualSizeRange>
 		  <immatureGraphicPath>Things/Plant/Immature/AloeVera</immatureGraphicPath>
 		  <purpose>Health</purpose>
-		  <wildClusterRadius>3</wildClusterRadius>
-		  <wildClusterWeight>250</wildClusterWeight>
+		  <wildOrder>2</wildOrder>
+		  <wildClusterRadius>5</wildClusterRadius>
+		  <wildClusterWeight>150</wildClusterWeight>
 		  <wildBiomes>
-        	<TropicalRainforest>0.02</TropicalRainforest>
-        	<TropicalSwamp>0.02</TropicalSwamp>
-			<AridShrubland>0.05</AridShrubland>
-			<Desert>0.05</Desert>
+        	<TropicalRainforest>0.01</TropicalRainforest>
+        	<TropicalSwamp>0.01</TropicalSwamp>
+			<AridShrubland>0.02</AridShrubland>
+			<Desert>0.02</Desert>
 		  </wildBiomes>
 		  <sowResearchPrerequisites>
 			 <li>Aq_ElvenMedicine</li>
