@@ -39,15 +39,14 @@
 			<wildClusterRadius>5</wildClusterRadius>
       		<wildClusterWeight>150</wildClusterWeight>
 			<wildBiomes>
-			  <TemperateForest>0.02</TemperateForest>
-			  <TemperateSwamp>0.02</TemperateSwamp>
-			  <BorealForest>0.02</BorealForest>
-              <ColdBog>0.02</ColdBog>
-              <Tundra>0.02</Tundra>
-              <Grasslands MayRequire="Ludeon.RimWorld.Odyssey">0.02</Grasslands>
+			  <TemperateForest>0.01</TemperateForest>
+			  <TemperateSwamp>0.01</TemperateSwamp>
+			  <BorealForest>0.01</BorealForest>
+              <ColdBog>0.01</ColdBog>
+              <Tundra>0.01</Tundra>
+              <Grasslands MayRequire="Ludeon.RimWorld.Odyssey">0.01</Grasslands>
 		    </wildBiomes>
 			<immatureGraphicPath>Things/Plant/Immature/Peppermint</immatureGraphicPath>
-			<purpose>Food</purpose>
 		</plant>
 	</ThingDef>
 	
@@ -89,13 +88,13 @@
 		  <purpose>Health</purpose>
 		  <wildOrder>2</wildOrder>
 		  <wildClusterRadius>5</wildClusterRadius>
-      	  <wildClusterWeight>150</wildClusterWeight>
+      	  <wildClusterWeight>250</wildClusterWeight>
 		  <wildBiomes>
-			 <TemperateForest>0.02</TemperateForest>
-			 <TemperateSwamp>0.02</TemperateSwamp>
+			 <TemperateForest>0.01</TemperateForest>
+			 <TemperateSwamp>0.01</TemperateSwamp>
 			 <TropicalRainforest>0.01</TropicalRainforest>
              <TropicalSwamp>0.01</TropicalSwamp>
-             <BorealForest>0.02</BorealForest>
+             <BorealForest>0.01</BorealForest>
              <Glowforest MayRequire="Ludeon.RimWorld.Odyssey">0.01</Glowforest>
 			 <Scarlands MayRequire="Ludeon.RimWorld.Odyssey">0.01</Scarlands>		
 		  </wildBiomes>
@@ -139,12 +138,12 @@
 		  <purpose>Health</purpose>
 		  <wildOrder>2</wildOrder>
 		  <wildClusterRadius>5</wildClusterRadius>
-		  <wildClusterWeight>150</wildClusterWeight>
+		  <wildClusterWeight>250</wildClusterWeight>
 		  <wildBiomes>
         	<TropicalRainforest>0.01</TropicalRainforest>
         	<TropicalSwamp>0.01</TropicalSwamp>
-			<AridShrubland>0.02</AridShrubland>
-			<Desert>0.02</Desert>
+			<AridShrubland>0.01</AridShrubland>
+			<Desert>0.01</Desert>
 		  </wildBiomes>
 		  <sowResearchPrerequisites>
 			 <li>Aq_ElvenMedicine</li>
