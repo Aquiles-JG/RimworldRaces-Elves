@@ -3,7 +3,7 @@
   <!-- War Sickle -->
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>DE_Warsickle</defName>
-    <label>drow warsickle</label>
+    <label>warsickle</label>
     <description>Decorated light ceremonial weapon of drow design incrusted with precious metals.</description>
     <graphicData>
       <texPath>Things/MeleeWeapons/DE_Warsickle</texPath>
@@ -67,7 +67,7 @@
   <!-- Rapier -->
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>DE_Rapier</defName>
-    <label>drow rapier</label>
+    <label>rapier</label>
     <description>The traditional longsword of the dark elves.</description>
     <graphicData>
       <texPath>Things/MeleeWeapons/DE_Rapier</texPath>
@@ -201,7 +201,7 @@
   <!--Glaive-->
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>DE_Glaive</defName>
-    <label>drow glaive</label>
+    <label>glaive</label>
     <description>The glaive is a heavy polearm that demands strength and agility and both requirements are met by the sinister ironfists, keepers of the Great Houses.</description>
     <graphicData>
       <texPath>Things/MeleeWeapons/DE_Glaive</texPath>

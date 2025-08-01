@@ -167,14 +167,14 @@
 
 <FactionDef ParentName="Aq_ElfFactionBase">
     <defName>Aq_ElfFactionHigh</defName>
-    <label>hidden empire</label>
+    <label>elf empire</label>
     <description>While largely populated by gray elves (named for their wisdom), this collective organization of many elves has taken it upon their shoulders to intervene in affairs on behalf of other kindred. Their realms stand as strongholds for well trained troops, as well as locales to recruit agents, and fellowships, for their cause.</description>
     <colorSpectrum>
     	<li>(228, 179, 51)</li>
     	<li>(228, 179, 21)</li>
     </colorSpectrum>
     <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
-    <configurationListOrderPriority>64</configurationListOrderPriority>
+    <configurationListOrderPriority>65</configurationListOrderPriority>
     <allowedMemes>
     	<li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
     	<li MayRequire="Ludeon.RimWorld.Ideology">AnimalPersonhood</li>

@@ -137,7 +137,7 @@
   </ThingDef>
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>Aq_Elf_BastardSword</defName>
-    <label>elven bastard sword</label>
+    <label>bastard sword</label>
     <description>Longer and heavier than a regular sword, the bastard sword provides more damage potential and still be a one-handed weapon.</description>
     <graphicData>
       <texPath>Things/MeleeWeapons/Elf_BastardSword</texPath>
@@ -226,7 +226,7 @@
   </ThingDef>
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>Aq_Elf_Greatsword</defName>
-    <label>elven greatsword</label>
+    <label>greatsword</label>
     <description>A masterpiece of elven blacksmithing: a two-handed sword with a long blade, capable of cleaving enemies with powerful yet elegant swings.</description>
     <graphicData>
       <texPath>Things/MeleeWeapons/Elf_Greatsword</texPath>

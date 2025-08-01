@@ -22,7 +22,7 @@
 
 <ThingDef ParentName="BaseWeaponNeolithic">
     <defName>DE_RepeaterCB</defName>
-    <label>drow crossbow</label>
+    <label>repeater crossbow</label>
     <description>An incredibly fast repeater crossbow used by assassins mostly. It doesn't fire double shots like the other crossbow, but its armor penetration is unmatched.</description> 
     <graphicData>
       <texPath>Things/WeaponRanged/RepeaterCrossbow/DE_RepeaterCB</texPath>
@@ -119,7 +119,7 @@
 
 <ThingDef ParentName="BaseWeaponNeolithic">
     <defName>DE_DoubleCB</defName>
-    <label>drow double crossbow</label>
+    <label>double crossbow</label>
     <description>A heavy double crossbow used by drow infantry. Double attacks. Less damage, but more armor piercing than a repeater crossbow.</description> 
     <graphicData>
       <texPath>Things/WeaponRanged/DoubleCrossbow/DE_DoubleCB</texPath>

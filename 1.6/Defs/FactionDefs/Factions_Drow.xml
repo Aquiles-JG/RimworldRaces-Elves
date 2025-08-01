@@ -98,7 +98,7 @@
     <settlementNameMaker>NamerSettlementDrow</settlementNameMaker>
     <permanentEnemy>true</permanentEnemy>
     <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
-    <configurationListOrderPriority>66</configurationListOrderPriority>
+    <configurationListOrderPriority>63</configurationListOrderPriority>
     <factionIconPath>World/DrowCamp</factionIconPath>
     <pawnGroupMakers>
  	  <li>
@@ -219,7 +219,7 @@
     <naturalEnemy>true</naturalEnemy>
     <settlementGenerationWeight>0.5</settlementGenerationWeight>
     <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
-    <configurationListOrderPriority>65</configurationListOrderPriority>
+    <configurationListOrderPriority>63</configurationListOrderPriority>
     <factionIconPath>World/DrowCampUF</factionIconPath>      
 	<pawnGroupMakers>
     <li>
