@@ -53,6 +53,7 @@
       <li Class="StockGenerator_Category">
                 <categoryDef>Drugs</categoryDef>
                 <thingDefCountRange>1~3</thingDefCountRange>
+                <maxTechLevelGenerate>Medieval</maxTechLevelGenerate>
                 <totalPriceRange>300~1800</totalPriceRange>
             </li>
       <li Class="StockGenerator_SingleDef">
@@ -151,15 +152,11 @@
           <li>MedicineUltratech</li> 
           <li>ComponentSpacer</li> 
         </excludedThingDefs>
-        <customCountRanges>
-          <Luciferium>7~25</Luciferium>
-          <Hyperweave>40~120</Hyperweave>
-        </customCountRanges>
       </li>
       <li Class="StockGenerator_Tag">
         <tradeTag>Underdark</tradeTag>
-        <thingDefCountRange>2~4</thingDefCountRange>
-        <totalPriceRange>300~1800</totalPriceRange>
+        <thingDefCountRange>2~2</thingDefCountRange>
+        <totalPriceRange>300~1600</totalPriceRange>
       </li>
       <li Class="StockGenerator_Tag">
         <tradeTag>Minoan</tradeTag>
