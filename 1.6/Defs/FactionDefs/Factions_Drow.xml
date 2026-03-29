@@ -216,7 +216,7 @@
     </allowedMemes> 
     <settlementNameMaker>NamerSettlementUFDrow</settlementNameMaker>
     <factionNameMaker>NamerFactionUFDrow</factionNameMaker>
-    <naturalEnemy>true</naturalEnemy>
+    <naturalEnemy>false</naturalEnemy>
     <settlementGenerationWeight>0.5</settlementGenerationWeight>
     <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
     <configurationListOrderPriority>63</configurationListOrderPriority>
