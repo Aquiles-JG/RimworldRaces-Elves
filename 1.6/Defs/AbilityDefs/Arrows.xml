@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <AbilityDef>
+    <defName>Aq_FireArrow</defName>
+    <label>fire arrow</label>
+    <description>Incendiary projectiles that will ignite on impact.</description>
+    <iconPath>UI/Icons/FireArrow</iconPath>
+    <displayOrder>200</displayOrder>
+    <aiCanUse>true</aiCanUse>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>42</range>
+      <targetParams>
+        <canTargetLocations>true</canTargetLocations>
+      </targetParams>
+      <warmupTime>2.5</warmupTime>
+      <soundCast>Aq_BowLongbow</soundCast>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityLaunchProjectile">
+        <projectileDef>Aq_Arrow_Fire</projectileDef>
+      </li>
+    </comps>
+  </AbilityDef>
+</Defs>

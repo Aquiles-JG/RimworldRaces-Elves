@@ -1,42 +1,41 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
-<!-- Glowstone -->
-<ThingDef ParentName="RockBase">
-		<defName>Aq_MineableGlowstone</defName>
-		<label>glowstone vein</label>
-		<description>A rock that fell from the sky a long time ago, containing bits of a strange glowing stone.</description>
-		<graphicData>
-			<texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>CutoutComplex</shaderType>
-			<color>(114,92,83)</color>
-			<colorTwo>(113,187,252)</colorTwo>
-		</graphicData>
-		<statBases>
-			<Beauty>10</Beauty>
-			<MaxHitPoints>3500</MaxHitPoints>
-		</statBases>
-		<building>
-			<isResourceRock>true</isResourceRock>
-      		<mineableThing>Aq_Glowstone</mineableThing>
-      		<mineableYield>3</mineableYield>
-      		<mineableScatterCommonality>0.1</mineableScatterCommonality>
-      		<mineableScatterLumpSizeRange>4~8</mineableScatterLumpSizeRange>
-      		<veinMineable>true</veinMineable>
-		</building>
-		<comps>
-			<li Class="CompProperties_Glower">
-				<glowRadius>3</glowRadius>
-				<glowColor>(78, 226, 229,0)</glowColor>
-			</li>
-		</comps>
-		<modExtensions>
-			<li Class="BiomeCondition.MineableExtension">
-					<onlyCoasts>false</onlyCoasts>
-					<onlyCaves>true</onlyCaves>
-			</li>
-		</modExtensions>
-</ThingDef>
-	
+  <!-- Glowstone -->
+  <ThingDef ParentName="RockBase">
+    <defName>Aq_MineableGlowstone</defName>
+    <label>glowstone vein</label>
+    <description>A rock that fell from the sky a long time ago, containing bits of a strange glowing stone.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(114,92,83)</color>
+      <colorTwo>(113,187,252)</colorTwo>
+    </graphicData>
+    <statBases>
+      <Beauty>10</Beauty>
+      <MaxHitPoints>3500</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>Aq_Glowstone</mineableThing>
+      <mineableYield>3</mineableYield>
+      <mineableScatterCommonality>0.1</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>4~8</mineableScatterLumpSizeRange>
+      <veinMineable>true</veinMineable>
+    </building>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>3</glowRadius>
+        <glowColor>(78, 226, 229,0)</glowColor>
+      </li>
+    </comps>
+    <modExtensions>
+      <li Class="BiomeCondition.MineableExtension">
+        <onlyCoasts>false</onlyCoasts>
+        <onlyCaves>true</onlyCaves>
+      </li>
+    </modExtensions>
+  </ThingDef>
+ 
 </Defs>

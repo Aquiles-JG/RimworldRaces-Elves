@@ -17,6 +17,7 @@
       <armorPenetrationBase>0.15</armorPenetrationBase>
     </projectile>
   </ThingDef>
+  
   <ThingDef ParentName="BaseWeaponNeolithic">
     <defName>Aq_Bow_High</defName>
     <label>elven longbow</label>
@@ -84,6 +85,8 @@
       <li>Elvendom</li>
     </tradeTags>
   </ThingDef>
+  
+  <!-- Elven Greatbow-->
   <ThingDef ParentName="BaseProjectileNeolithic">
     <defName>Aq_Arrow_Great</defName>
     <label>elven great arrow</label>
@@ -100,11 +103,35 @@
       <speed>55</speed>
     </projectile>
   </ThingDef>
+  <ThingDef>
+    <defName>Aq_Arrow_Fire</defName>
+    <label>fire arrow</label>
+    <thingClass>FireArrow</thingClass>
+    <category>Projectile</category>
+    <tickerType>Normal</tickerType>
+    <altitudeLayer>Projectile</altitudeLayer>
+    <useHitPoints>False</useHitPoints>
+    <neverMultiSelect>True</neverMultiSelect>
+    <graphicData>
+      <texPath>Things/Projectile/FlamebowArrow</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Arrow</damageDef>
+      <damageAmountBase>10</damageAmountBase>
+      <speed>44</speed>
+      <stoppingPower>1.5</stoppingPower>
+      <armorPenetrationBase>0.2</armorPenetrationBase>
+      <arcHeightFactor>0.90</arcHeightFactor>
+      <shadowSize>0.4</shadowSize>
+      <ai_IsIncendiary>true</ai_IsIncendiary>
+    </projectile>
+  </ThingDef>
   
   <ThingDef ParentName="BaseWeaponNeolithic">
     <defName>Aq_Bow_Great</defName>
     <label>elven greatbow</label>
-    <description>The elite archers of the gray elves utilize an exceptional longbow that has devestating damage and pinpoint accuracy.</description>
+    <description>The elite archers of the gray elves utilize an exceptional longbow that has devestating damage and pinpoint accuracy. This greatbow can fire up to three incendiary arrows.</description>
     <techLevel>Medieval</techLevel>
     <graphicData>
       <texPath>Things/WeaponRanged/Bow/Aq_NoldorinBow</texPath>
@@ -160,9 +187,26 @@
         <cooldownTime>1.8</cooldownTime>
       </li>
     </tools>
+    <comps Inherit="False">
+      <li Class="CompProperties_EquippableAbilityReloadable">
+        <abilityDef>Aq_FireArrow</abilityDef>
+        <maxCharges>3</maxCharges>
+        <soundReload>Standard_Reload</soundReload>
+        <chargeNoun>Fire arrow</chargeNoun>
+        <ammoDef>Chemfuel</ammoDef>
+        <ammoCountPerCharge>5</ammoCountPerCharge>
+        <baseReloadTicks>60</baseReloadTicks>
+      </li>
+      <li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Styleable"/>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+    </comps>
     <tradeTags>
       <li>ElvenRanged</li>
       <li>Elvendom</li>
     </tradeTags>
   </ThingDef>
+  
 </Defs>

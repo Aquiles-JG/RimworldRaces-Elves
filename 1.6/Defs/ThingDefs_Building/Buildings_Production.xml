@@ -11,7 +11,7 @@
       		<colorTwo>(138,201,128)</colorTwo>
     	</graphicData>
 		<costList>
-			<WoodLog>50</WoodLog>
+			<WoodLog>40</WoodLog>
 			<Steel>30</Steel>
 			<Leather_MDeer>20</Leather_MDeer>
 		</costList>
