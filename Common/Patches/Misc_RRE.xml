@@ -6,10 +6,4 @@
       <glowColor>(78, 226, 229, 0)</glowColor>
     </value>
   </Operation>
-  <Operation Class="PatchOperationAdd">
-    <xpath>/Defs/ThingDef[defName = "FermentingBarrel"]/costList</xpath>
-    <value>
-      <Aq_Tar>5</Aq_Tar>
-    </value>
-  </Operation>
 </Patch>
