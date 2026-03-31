@@ -25,6 +25,12 @@
 			 		<Aq_Iron>20</Aq_Iron>
 				</value>
 			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "Aq_Bow_Great"]/comps/li[@Class="CompProperties_EquippableAbilityReloadable"]/ammoDef</xpath>
+				<value>
+			  		<ammoDef>Aq_Tar</ammoDef>
+				</value>
+			</li>
 			
 			<!-- Scenarios-->
 			<li Class="PatchOperationAdd">
