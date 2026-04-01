@@ -194,7 +194,7 @@
         <soundReload>Standard_Reload</soundReload>
         <chargeNoun>Fire arrow</chargeNoun>
         <ammoDef>Chemfuel</ammoDef>
-        <ammoCountPerCharge>5</ammoCountPerCharge>
+        <ammoCountPerCharge>2</ammoCountPerCharge>
         <baseReloadTicks>60</baseReloadTicks>
       </li>
       <li Class="CompProperties_Forbiddable"/>
