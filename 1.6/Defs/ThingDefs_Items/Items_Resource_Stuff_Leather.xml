@@ -28,7 +28,7 @@
    <ThingDef ParentName="LeatherBase">
     <defName>Leather_Aq_Troll</defName>
     <label>troll pelt</label>
-    <description>A soft furry pelt harvested from a common troll. It is difficult to pierce and insulates well against cold.</description>
+    <description>A hard pelt harvested from a common troll. It is difficult to pierce and insulates well against cold.</description>
     <graphicData>
       <color>(61,82,26)</color>
     </graphicData>

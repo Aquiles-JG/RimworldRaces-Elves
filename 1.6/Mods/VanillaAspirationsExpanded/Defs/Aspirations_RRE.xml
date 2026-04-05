@@ -25,6 +25,7 @@
 			<li>Aq_Troll</li>
 			<li MayRequire="Aquiles.MonstrousCompendium">Aq_Gorgon</li>
 			<li MayRequire="Aquiles.MonstrousCompendium">Aq_Manticore</li>
+			<li MayRequire="Aquiles.MonstrousCompendium">Aq_SaltwaterScrag</li>
 			<li MayRequire="Aquiles.Alchemy">Aq_RustMonster</li>
 			<li MayRequire="VanillaExpanded.VAECaves">VAECaves_CaveCrawler</li>
 			<li MayRequire="VanillaExpanded.VAECaves">VAECaves_Wyrm</li>
