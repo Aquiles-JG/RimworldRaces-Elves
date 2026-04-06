@@ -23,6 +23,7 @@
 			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">2</StyleDominance>		
 		</statBases>
 		<constructEffect>ConstructWood</constructEffect>
+		<uiIconPath>Things/Building/Production/MetallicBarrel/MetallicBarrel_south</uiIconPath>
 		<uiIconColorTwo>(138,201,128)</uiIconColorTwo>
 		<researchPrerequisites>
 			<li>Kara_Culture</li>
