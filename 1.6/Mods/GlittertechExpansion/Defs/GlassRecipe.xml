@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <RecipeDef ParentName="USH_BaseGlittertechForming">
+        <defName>Aq_TurnGlassToGlowstone</defName>
+        <label>turn glass into glowstone</label>
+        <description>Turn glass into glowstone using philosopher's stone.</description>
+        <jobString>Turning glass into glowstone.</jobString>
+        <researchPrerequisite>USH_GlittertechAlchemyRes</researchPrerequisite>
+        <gestationCycles>5</gestationCycles>
+        <formingTicks>3000</formingTicks>
+        <ingredients Inherit="false">
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Aq_Glass</li>
+                    </thingDefs>
+                </filter>
+                <count>64</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>USH_PhilosophersStone</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <products>
+            <Aq_Glowstone>3</Aq_Glowstone>
+        </products>
+        <descriptionHyperlinks>
+            <ThingDef>Aq_Glowstone</ThingDef>
+        </descriptionHyperlinks>
+        <modExtensions>
+            <li Class="USH_GE.ModExtension_UseGlittertechBill">
+                <powerNeeded>600</powerNeeded>
+            </li>
+        </modExtensions>
+    </RecipeDef>
+</Defs>

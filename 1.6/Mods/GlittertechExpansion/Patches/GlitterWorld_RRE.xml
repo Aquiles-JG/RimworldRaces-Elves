@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <!--New Glass into Glowstone Recipe-->
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="USH_GlittertechFabricator"]/recipes</xpath>
+        <value>
+          <li>Aq_TurnGlassToGlowstone</li>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>
