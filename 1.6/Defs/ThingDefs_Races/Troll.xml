@@ -96,7 +96,7 @@
       <herdAnimal>false</herdAnimal>
       <predator>true</predator>
       <baseBodySize>2.25</baseBodySize>
-      <baseHungerRate>0.75</baseHungerRate>
+      <baseHungerRate>0.425</baseHungerRate>
       <baseHealthScale>2.5</baseHealthScale>
       <foodType>Corpse,CarnivoreAnimal,OvivoreAnimal</foodType>
       <leatherDef>Leather_Aq_Troll</leatherDef>
@@ -157,7 +157,7 @@
 		<race>Aq_Troll</race>
 		<combatPower>300</combatPower>
     	<ecoSystemWeight>0.25</ecoSystemWeight>
-		<wildGroupSize>1~3</wildGroupSize>
+		<wildGroupSize>1~2</wildGroupSize>
 		<lifeStages>
 		  <li>
 		  	<label>trolling</label>
