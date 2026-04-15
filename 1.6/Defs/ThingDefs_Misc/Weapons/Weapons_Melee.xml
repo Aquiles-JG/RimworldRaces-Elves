@@ -349,7 +349,7 @@
   
   <ThingDef ParentName="BaseWeapon_ElfBladelink">
     <defName>Aq_Elf_BastardBladelink</defName>
-    <label>palatine bastard sword</label>
+    <label>palatine sword</label>
     <description>A legendary blade only granted to the highest ranking servants of the elven Empire.</description>
     <graphicData>
       <texPath>Things/MeleeWeapons/Elf_BastardSwordLink</texPath>

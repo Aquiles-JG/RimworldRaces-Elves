@@ -139,6 +139,9 @@
       <min>0.5</min>
       <max>1.8</max>
     </gearHealthRange>
+    <apparelRequired>
+    	<li>Aq_ElfApparel_Robe</li>
+    </apparelRequired>
     <apparelMoney>
       <min>300</min>
       <max>900</max>
