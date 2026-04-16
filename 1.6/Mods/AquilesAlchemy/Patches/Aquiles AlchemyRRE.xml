@@ -83,7 +83,16 @@
 					<value>
       					<Aq_Glass>3</Aq_Glass>
 					</value>
-			</li>		
+			</li>
+			<li Class="PatchOperationReplace">
+    				<xpath>/Defs/ThingDef[defName="Aq_Icebox"]/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter/thingDefs</xpath>
+    				<value>
+      					<thingDefs>
+        				   <li>Aq_BlocksIce</li>
+      					</thingDefs>
+    				</value>
+  			</li>
+
 			<!-- Potions-->
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/RecipeDef[defName="MakeToxicVenomBulk"]/ingredients/li[1]/filter/thingDefs</xpath>
