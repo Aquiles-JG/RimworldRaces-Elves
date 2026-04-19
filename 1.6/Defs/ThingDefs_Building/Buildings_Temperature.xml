@@ -33,7 +33,6 @@
       <Flammability>0.25</Flammability>
       <Cleanliness>0</Cleanliness>
       <Beauty>0</Beauty>
-      <MarketValue>235</MarketValue>
 	  <Mass>35</Mass>  
     </statBases>
     <rotatable>false</rotatable>
