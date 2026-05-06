@@ -13,14 +13,14 @@
 			
 			<!-- Weapons-->
 			<li Class="PatchOperationAdd">
-			<xpath>/Defs/ThingDef[defName="DE_RepeaterCB" or defName="DE_DoubleCB"]/costList</xpath>
+			<xpath>/Defs/ThingDef[defName="DE_RepeaterCB"]/costList</xpath>
 				<value>
 			 		<Aq_PrimitiveComponent>1</Aq_PrimitiveComponent>
 				</value>
 			</li>
 			
 			<li Class="PatchOperationReplace">
-			<xpath>/Defs/ThingDef[defName="DE_RepeaterCB" or defName="DE_DoubleCB"]/costList/Steel</xpath>
+			<xpath>/Defs/ThingDef[defName="DE_RepeaterCB"]/costList/Steel</xpath>
 				<value>
 			 		<Aq_Iron>20</Aq_Iron>
 				</value>
