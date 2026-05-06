@@ -118,7 +118,7 @@
     </costList>
   </TerrainDef>
   
-  <!-- Elves Floors-->
+  <!-- Elven Floors-->
   <TerrainDef Abstract="True" ParentName="FloorBase" Name="Aq_DecoratedTileStoneBase">
     <renderPrecedence>220</renderPrecedence>
     <description>Decorative stone tiles that have been cut and laid with great precision by elven hands. Slow to construct and very beautiful.</description>
