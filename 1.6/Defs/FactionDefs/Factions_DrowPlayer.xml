@@ -24,7 +24,7 @@
 	<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>		
 	<factionNameMaker>NamerFactionDrow</factionNameMaker>
 	<allowedCultures>
-		<li>WayofKara</li>
+		<li>DarkWay</li>
 	</allowedCultures>
 		
 	<raidLootValueFromPointsCurve>
