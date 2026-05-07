@@ -72,7 +72,7 @@
       <li>Underdark</li>
     </tradeTags>
     <researchPrerequisites>
-      <li>Kara_Furniture</li>
+      <li>Drow_Furniture</li>
     </researchPrerequisites>
   </ThingDef>
 
