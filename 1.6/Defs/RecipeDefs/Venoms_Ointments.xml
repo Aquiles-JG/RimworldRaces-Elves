@@ -140,7 +140,7 @@
 	<recipeUsers>
 	  <li>DrugLab</li>
 	</recipeUsers>
-	<researchPrerequisite>Kara_CultureIII</researchPrerequisite>
+	<researchPrerequisite>Drow_CultureIII</researchPrerequisite>
 	<skillRequirements>
 	  <Intellectual>5</Intellectual>
 	  <Medicine>5</Medicine>
@@ -188,7 +188,7 @@
          <recipeUsers>
           <li>DrugLab</li>
         </recipeUsers>
-        <researchPrerequisite>Kara_CultureIII</researchPrerequisite>
+        <researchPrerequisite>Drow_CultureIII</researchPrerequisite>
         <skillRequirements>
           <Intellectual>4</Intellectual>
           <Medicine>4</Medicine>
