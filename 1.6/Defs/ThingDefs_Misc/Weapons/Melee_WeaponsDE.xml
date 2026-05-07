@@ -284,11 +284,11 @@
   </ThingDef>
   <!-- HOLY WEAPONS: Dagger -->
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
-    <defName>Kara_Melee_FlameEdge</defName>
+    <defName>DE_FlameEdge</defName>
     <label>drow dagger</label>
     <description>This is a deadly dagger made by the skill of the Drow master assassins. Its blade has the effect of setting the opponent on fire.</description>
     <graphicData>
-      <texPath>Things/MeleeWeapons/Kara_FlameEdge</texPath>
+      <texPath>Things/MeleeWeapons/DE_Edge</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -365,11 +365,11 @@
   </ThingDef>
   <!--== Broadsword ===-->
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
-    <defName>Kara_Blade</defName>
+    <defName>DE_Blade</defName>
     <label>drow broadsword</label>
     <description>The drow call these weapons "the Goddess Wrath", wielded by the fearsome Khabi or Temple Guards. Very few have suffered a full blow and live to tell the tale. The special composition of the blade short-circuit mechanoids.</description>
     <graphicData>
-      <texPath>Things/MeleeWeapons/Kara_Blade</texPath>
+      <texPath>Things/MeleeWeapons/DE_Blade</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.2</drawSize>
     </graphicData>
@@ -445,11 +445,11 @@
   </ThingDef>
   <!--== Lance ===-->
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
-    <defName>Kara_Lance</defName>
+    <defName>DE_Lance</defName>
     <label>drow lance</label>
     <description>In the dawn of time, it is said that the Drow Goddess was wounded by a drifting spear, so the goddess proscribed the use of this weapon. However, it is also said that She allows her finest champions to wield the Forbidden Lance in battle. The point will make the deepest wounds, so beware!</description>
     <graphicData>
-      <texPath>Things/MeleeWeapons/Kara_Lance</texPath>
+      <texPath>Things/MeleeWeapons/DE_Lance</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1</drawSize>
     </graphicData>

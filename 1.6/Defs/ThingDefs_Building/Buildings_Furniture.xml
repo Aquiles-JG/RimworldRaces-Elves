@@ -85,7 +85,7 @@
     </comps>
     <designationCategory>Furniture</designationCategory>
     <researchPrerequisites Inherit="False">
-      <li>Kara_Furniture</li>
+      <li>Drow_Furniture</li>
     </researchPrerequisites>
   </ThingDef>
   
@@ -175,7 +175,7 @@
       <Aq_Glowstone>1</Aq_Glowstone>
     </killedLeavings>
     <researchPrerequisites>
-      <li>Kara_Furniture</li>
+      <li>Drow_Furniture</li>
     </researchPrerequisites>
   </ThingDef>
   

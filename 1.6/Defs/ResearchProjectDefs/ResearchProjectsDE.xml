@@ -28,7 +28,7 @@
         <baseCost>1500</baseCost>
         <prerequisites>
             <li>Smithing</li>
-            <li>Kara_Furniture</li>
+            <li>Drow_Furniture</li>
         </prerequisites>
         <researchViewX>3</researchViewX>
         <researchViewY>0.7</researchViewY>
@@ -40,7 +40,7 @@
     	<description>Craft the silent ranged weapons of the dark elves.</description>
     	<baseCost>2000</baseCost>
     	<prerequisites>
-      		<li>Kara_Smithing</li>
+      		<li>Drow_Smithing</li>
     	</prerequisites>
         <researchViewX>4</researchViewX>
         <researchViewY>0.7</researchViewY>
@@ -53,7 +53,7 @@
         <baseCost>1500</baseCost>
         <prerequisites>
             <li>ComplexClothing</li>
-            <li>Kara_Furniture</li>
+            <li>Drow_Furniture</li>
         </prerequisites>
         <researchViewX>3</researchViewX>
         <researchViewY>0</researchViewY>
@@ -65,7 +65,7 @@
 		<description>Forge the fearsome weapons of the dark elves.</description>
 		<baseCost>2000</baseCost>
 		<prerequisites>
-		  <li>Kara_Smithing</li>
+		  <li>Drow_Smithing</li>
 		</prerequisites>
 		<researchViewX>4</researchViewX>
 		<researchViewY>0</researchViewY>
@@ -77,8 +77,8 @@
 		<description>Decipher the secrets of the ancient metallurgy of the Drow people.</description>
 		<baseCost>2500</baseCost>
 		<prerequisites>
-		  <li>Kara_Weapons</li>
-		  <li>Kara_RangedWeapons</li>
+		  <li>Drow_Weapons</li>
+		  <li>Drow_RangedWeapons</li>
 		</prerequisites>
 		<researchViewX>5</researchViewX>
 		<researchViewY>0</researchViewY>
@@ -110,7 +110,7 @@
         <description>Craft the incredible Drow medicine, an ancient recipe made with their own blood.</description>
         <baseCost>1500</baseCost>
         <prerequisites>
-            <li>Kara_Culture</li>
+            <li>Drow_Culture</li>
             <li>DrugProduction</li>
         </prerequisites>
         <researchViewX>3</researchViewX>
@@ -123,7 +123,7 @@
         <description>Craft the most powerful Drow remedies: venoms.</description>
         <baseCost>2000</baseCost>
         <prerequisites>
-            <li>Kara_CultureII</li>
+            <li>Drow_CultureII</li>
         </prerequisites>
         <researchViewX>4</researchViewX>
         <researchViewY>1.4</researchViewY>
@@ -135,7 +135,7 @@
         <description>Unleash the full healing power of the Drow medicine.</description>
         <baseCost>2500</baseCost>
         <prerequisites>
-            <li>Kara_CultureIII</li>
+            <li>Drow_CultureIII</li>
         </prerequisites>
         <researchViewX>5</researchViewX>
         <researchViewY>1.4</researchViewY>
