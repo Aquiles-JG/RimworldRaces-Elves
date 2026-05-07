@@ -7,7 +7,7 @@
     <iconPath>UI/Memes/Robe</iconPath>
     <groupDef>Primacy</groupDef>
     <impact>2</impact>
-    <worshipRoomLabel>karantar</worshipRoomLabel>
+    <worshipRoomLabel>temple</worshipRoomLabel>
     <renderOrder>50</renderOrder>
     <deityCount>1</deityCount>
     <veneratedAnimalsCountOffset>1</veneratedAnimalsCountOffset>
@@ -33,11 +33,11 @@
         <li>memeConcept->darkness</li>
         <li>memeConcept->death</li>
         <li>memeConcept->pain</li>
-        <li>memeLeaderNoun->nuschka</li>
+        <li>memeLeaderNoun->champion</li>
         <li>memeLeaderNoun->high priestess</li>
         <li>memeLeaderNoun->matriarch</li>
         <li>memeMoralist->handmaiden</li>
-        <li>memeMoralist->sha'kara</li>  
+        <li>memeMoralist->priestess</li>  
         <li>memeMoralist->pathfinder</li>  
       </rulesStrings>
     </generalRules>
