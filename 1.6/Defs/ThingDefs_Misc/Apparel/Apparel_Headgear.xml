@@ -7,7 +7,7 @@
     <description>This hood covering can keep a wearer warm and dry.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Only Dark Elves may wear it.</description>
     <techLevel>Medieval</techLevel>
     <recipeMaker>
-      <researchPrerequisite>Kara_Apparel</researchPrerequisite>
+      <researchPrerequisite>Drow_Apparel</researchPrerequisite>
     </recipeMaker>
     <thingCategories Inherit="False">
       <li>Headgear</li>
