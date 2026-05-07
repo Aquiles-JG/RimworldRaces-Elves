@@ -32,37 +32,6 @@
           <color>(244,244,244)</color>
         </value>
       </li>
-      <!-- Leaf Floors-->
-      <li Class="PatchOperationReplace">
-        <xpath>Defs/TerrainDef[defName = "Aq_LeafFloorSandstone"]/color</xpath>
-        <value>
-          <color>(87,71,63)</color>
-        </value>
-      </li>
-      <li Class="PatchOperationReplace">
-        <xpath>Defs/TerrainDef[defName = "Aq_LeafFloorGranite"]/color</xpath>
-        <value>
-          <color>(75,84,92)</color>
-        </value>
-      </li>
-      <li Class="PatchOperationReplace">
-        <xpath>Defs/TerrainDef[defName = "Aq_LeafFloorLimestone"]/color</xpath>
-        <value>
-          <color>(202,214,194)</color>
-        </value>
-      </li>
-      <li Class="PatchOperationReplace">
-        <xpath>Defs/TerrainDef[defName = "Aq_LeafFloorSlate"]/color</xpath>
-        <value>
-          <color>(47,79,79)</color>
-        </value>
-      </li>
-      <li Class="PatchOperationReplace">
-        <xpath>Defs/TerrainDef[defName = "Aq_LeafFloorMarble"]/color</xpath>
-        <value>
-          <color>(244,244,244)</color>
-        </value>
-      </li>
     </operations>
   </Operation>
 </Patch>
