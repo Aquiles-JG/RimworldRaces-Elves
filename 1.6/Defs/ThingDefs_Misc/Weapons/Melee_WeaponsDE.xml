@@ -54,7 +54,7 @@
       </li>
     </tools>
     <recipeMaker>
-      <researchPrerequisite>Kara_Weapons</researchPrerequisite>
+      <researchPrerequisite>Drow_Weapons</researchPrerequisite>
       <skillRequirements>
         <Crafting>5</Crafting>
       </skillRequirements>
@@ -121,7 +121,7 @@
       </li>
     </tools>
     <recipeMaker>
-      <researchPrerequisite>Kara_Weapons</researchPrerequisite>
+      <researchPrerequisite>Drow_Weapons</researchPrerequisite>
       <skillRequirements>
         <Crafting>8</Crafting>
       </skillRequirements>
@@ -186,7 +186,7 @@
       <skillRequirements>
         <Crafting>4</Crafting>
       </skillRequirements>
-      <researchPrerequisite>Kara_Weapons</researchPrerequisite>
+      <researchPrerequisite>Drow_Weapons</researchPrerequisite>
     </recipeMaker>
     <tradeTags>
       <li>DrowMelee</li>
@@ -235,7 +235,7 @@
       <li>Underdark</li>
     </tradeTags>
     <recipeMaker>
-      <researchPrerequisite>Kara_Weapons</researchPrerequisite>
+      <researchPrerequisite>Drow_Weapons</researchPrerequisite>
       <skillRequirements>
         <Crafting>7</Crafting>
       </skillRequirements>
@@ -313,7 +313,7 @@
     <techLevel>Medieval</techLevel>
     <equippedAngleOffset>-65</equippedAngleOffset>
     <recipeMaker>
-      <researchPrerequisite>Kara_WeaponsII</researchPrerequisite>
+      <researchPrerequisite>Drow_WeaponsII</researchPrerequisite>
       <skillRequirements>
         <Crafting>10</Crafting>
       </skillRequirements>
@@ -396,7 +396,7 @@
     </costList>
     <equippedAngleOffset>-65</equippedAngleOffset>
     <recipeMaker>
-      <researchPrerequisite>Kara_WeaponsII</researchPrerequisite>
+      <researchPrerequisite>Drow_WeaponsII</researchPrerequisite>
       <skillRequirements>
         <Crafting>11</Crafting>
       </skillRequirements>
@@ -476,7 +476,7 @@
     </costList>
     <equippedAngleOffset>45</equippedAngleOffset>
     <recipeMaker>
-      <researchPrerequisite>Kara_WeaponsII</researchPrerequisite>
+      <researchPrerequisite>Drow_WeaponsII</researchPrerequisite>
       <skillRequirements>
         <Crafting>12</Crafting>
       </skillRequirements>
