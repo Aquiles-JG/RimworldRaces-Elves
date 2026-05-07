@@ -11,7 +11,7 @@
     <canStageAttacks>true</canStageAttacks>
 	<techLevel>Medieval</techLevel>
 	<allowedCultures>
-    	<li MayRequire="Ludeon.RimWorld.Ideology">WayofKara</li>
+    	<li MayRequire="Ludeon.RimWorld.Ideology">DarkWay</li>
     </allowedCultures>
 	<requiredMemes>
 	  <li MayRequire="Ludeon.RimWorld.Ideology">Darkness</li>
