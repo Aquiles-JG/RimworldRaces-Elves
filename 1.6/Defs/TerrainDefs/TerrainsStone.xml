@@ -12,7 +12,7 @@
       <StyleDominance>1</StyleDominance>
     </statBases>
     <researchPrerequisites>
-      <li>Kara_Smithing</li>
+      <li>Drow_Smithing</li>
     </researchPrerequisites>
     <resourcesFractionWhenDeconstructed>0.6</resourcesFractionWhenDeconstructed>
   </TerrainDef>
@@ -72,7 +72,7 @@
       <li>FineFloor</li>
     </tags>
     <researchPrerequisites>
-      <li>Kara_Smithing</li>
+      <li>Drow_Smithing</li>
     </researchPrerequisites>
     <resourcesFractionWhenDeconstructed>0.66</resourcesFractionWhenDeconstructed>
   </TerrainDef>
