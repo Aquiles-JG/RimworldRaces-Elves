@@ -43,7 +43,7 @@
     <equippedAngleOffset>-65</equippedAngleOffset>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
-      <texPath>Things/MeleeWeapons/DE_FlameEdge</texPath>
+      <texPath>Things/MeleeWeapons/DE_Edge</texPath>
     </graphicData>
     <soundInteract>Interact_BladelinkMonoSword</soundInteract>
     <meleeHitSound>MeleeHit_BladelinkMonoSword</meleeHitSound>
