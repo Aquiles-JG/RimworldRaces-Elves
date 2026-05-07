@@ -34,7 +34,7 @@
     <products>
       <Aq_Extract>4</Aq_Extract>
     </products>
-    <researchPrerequisite>Kara_Culture</researchPrerequisite>
+    <researchPrerequisite>Drow_Culture</researchPrerequisite>
   </RecipeDef>
   
   <RecipeDef>
@@ -111,7 +111,7 @@
       <Crafting>3</Crafting>
     </skillRequirements>
     <researchPrerequisites>
-		<li>Kara_CultureII</li>
+		<li>Drow_CultureII</li>
 	</researchPrerequisites>
   </RecipeDef>
 
