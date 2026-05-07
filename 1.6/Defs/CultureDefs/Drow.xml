@@ -2,7 +2,7 @@
 <Defs>
   
  <CultureDef>
-    <defName>WayofKara</defName>
+    <defName>DarkWay</defName>
     <label>Drow</label>
     <description>A broad category describing the beliefs, styles and practices of dark elves societies.</description>
     <ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">DrowIdeoNamer</ideoNameMaker>
