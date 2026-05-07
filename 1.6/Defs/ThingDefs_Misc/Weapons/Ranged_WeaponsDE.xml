@@ -66,7 +66,7 @@
 		<li>FueledSmithy</li>
 		<li>ElectricSmithy</li>
 	  </recipeUsers>
-    <researchPrerequisite>Kara_RangedWeapons</researchPrerequisite>
+    <researchPrerequisite>Drow_RangedWeapons</researchPrerequisite>
       <skillRequirements>
         <Crafting>7</Crafting>
       </skillRequirements>
@@ -119,7 +119,7 @@
 	</ThingDef>
   
   <ThingDef ParentName="BaseWeaponNeolithic">
-    <defName>Kara_Bow</defName>
+    <defName>Drow_Bow</defName>
     <label>drow bow</label>
     <description>A drow longbow. You could think this is only for hunters, but this bow is used also in war, because its excellent accuracy and armor penetration.</description>
     <techLevel>Medieval</techLevel>
@@ -183,7 +183,7 @@
       </li>
     </tools>
     <recipeMaker>
-      <researchPrerequisite>Kara_RangedWeapons</researchPrerequisite>
+      <researchPrerequisite>Drow_RangedWeapons</researchPrerequisite>
       <skillRequirements>
 		<Crafting>8</Crafting>
 	  </skillRequirements>
