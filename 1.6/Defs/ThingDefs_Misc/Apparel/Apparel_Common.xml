@@ -196,7 +196,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <recipeMaker>
-      <researchPrerequisite>Kara_Apparel</researchPrerequisite>
+      <researchPrerequisite>Drow_Apparel</researchPrerequisite>
     </recipeMaker>
     <statBases>
       <MaxHitPoints>100</MaxHitPoints>
