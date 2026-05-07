@@ -10,7 +10,7 @@
       <li>Apparel</li>
     </thingCategories>
     <recipeMaker>
-      <researchPrerequisite>Kara_Apparel</researchPrerequisite>
+      <researchPrerequisite>Drow_Apparel</researchPrerequisite>
     </recipeMaker>
     <graphicData>
       <texPath>Things/Apparel/DE_Cloak/DE_Cloak_UI</texPath>
@@ -75,7 +75,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <recipeMaker>
-      <researchPrerequisite>Kara_Apparel</researchPrerequisite>
+      <researchPrerequisite>Drow_Apparel</researchPrerequisite>
     </recipeMaker>
     <statBases>
       <MaxHitPoints>120</MaxHitPoints>
@@ -138,7 +138,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <recipeMaker>
-      <researchPrerequisite>Kara_Apparel</researchPrerequisite>
+      <researchPrerequisite>Drow_Apparel</researchPrerequisite>
     </recipeMaker>
     <statBases>
       <MaxHitPoints>80</MaxHitPoints>
