@@ -3,7 +3,7 @@
 
 	<!-- Dark Elves-->
 	<ResearchProjectDef ParentName="ElvenResearch">
-        <defName>Kara_Furniture</defName>
+        <defName>Drow_Furniture</defName>
         <label>dark furniture</label>
         <description>The dark elves like to decorate their houses with their own particular furnishing.</description>
         <baseCost>1000</baseCost>
@@ -22,7 +22,7 @@
 	</ResearchProjectDef>
  
     <ResearchProjectDef ParentName="ElvenResearch">
-        <defName>Kara_Smithing</defName>
+        <defName>Drow_Smithing</defName>
         <label>drow blacksmithing</label>
         <description>Discover the ancient craft of the Drow blacksmiths.</description>
         <baseCost>1500</baseCost>
@@ -35,7 +35,7 @@
    </ResearchProjectDef>
    
    <ResearchProjectDef ParentName="ElvenResearch">
-    	<defName>Kara_RangedWeapons</defName>
+    	<defName>Drow_RangedWeapons</defName>
     	<label>flight of death</label>
     	<description>Craft the silent ranged weapons of the dark elves.</description>
     	<baseCost>2000</baseCost>
@@ -47,7 +47,7 @@
    </ResearchProjectDef>
    
     <ResearchProjectDef ParentName="ElvenResearch">
-        <defName>Kara_Apparel</defName>
+        <defName>Drow_Apparel</defName>
         <label>shadow clothing</label>
         <description>Unlock one of the many secrets of the Drow assassins: their stealthy clothes.</description>
         <baseCost>1500</baseCost>
@@ -60,7 +60,7 @@
    	</ResearchProjectDef>
    
     <ResearchProjectDef ParentName="ElvenResearch">
-		<defName>Kara_Weapons</defName>
+		<defName>Drow_Weapons</defName>
 		<label>blades of war</label>
 		<description>Forge the fearsome weapons of the dark elves.</description>
 		<baseCost>2000</baseCost>
@@ -72,7 +72,7 @@
   	</ResearchProjectDef>
   
     <ResearchProjectDef ParentName="ElvenResearch">
-		<defName>Kara_WeaponsII</defName>
+		<defName>Drow_WeaponsII</defName>
 		<label>holy weapons</label>
 		<description>Decipher the secrets of the ancient metallurgy of the Drow people.</description>
 		<baseCost>2500</baseCost>
@@ -85,7 +85,7 @@
   	</ResearchProjectDef>
    
     <ResearchProjectDef ParentName="ElvenResearch">
-        <defName>Kara_Culture</defName>
+        <defName>Drow_Culture</defName>
         <label>underdark pleasures</label>
         <description>Uncover some of the forgotten lore of the Drow, like their strong herbal liqueur.</description>
         <baseCost>1000</baseCost>
@@ -105,7 +105,7 @@
    </ResearchProjectDef>
    
    <ResearchProjectDef ParentName="ElvenResearch">
-        <defName>Kara_CultureII</defName>
+        <defName>Drow_CultureII</defName>
         <label>drow medicine</label>
         <description>Craft the incredible Drow medicine, an ancient recipe made with their own blood.</description>
         <baseCost>1500</baseCost>
@@ -118,7 +118,7 @@
    </ResearchProjectDef>
    
     <ResearchProjectDef ParentName="ElvenResearch">
-        <defName>Kara_CultureIII</defName>
+        <defName>Drow_CultureIII</defName>
         <label>venoms</label>
         <description>Craft the most powerful Drow remedies: venoms.</description>
         <baseCost>2000</baseCost>
@@ -130,7 +130,7 @@
    </ResearchProjectDef>
    
     <ResearchProjectDef ParentName="ElvenResearch">
-        <defName>Kara_CultureIV</defName>
+        <defName>Drow_CultureIV</defName>
         <label>drow rebirth</label>
         <description>Unleash the full healing power of the Drow medicine.</description>
         <baseCost>2500</baseCost>
