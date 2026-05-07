@@ -18,7 +18,7 @@
       <skillRequirements>
         <Crafting>6</Crafting>
       </skillRequirements>
-      <researchPrerequisite>Kara_Smithing</researchPrerequisite>
+      <researchPrerequisite>Drow_Smithing</researchPrerequisite>
       <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
     </recipeMaker>
     <costStuffCount>140</costStuffCount>
@@ -136,7 +136,7 @@
         <li>ElectricSmithy</li>
         <li>FueledSmithy</li>
       </recipeUsers>
-      <researchPrerequisite>Kara_Smithing</researchPrerequisite>
+      <researchPrerequisite>Drow_Smithing</researchPrerequisite>
       <skillRequirements>
         <Crafting>10</Crafting>
       </skillRequirements>
