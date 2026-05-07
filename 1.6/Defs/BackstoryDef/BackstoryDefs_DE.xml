@@ -105,7 +105,7 @@
     <defName>AcolyteDrow</defName>
     <title>acolyte</title>
     <titleShort>acolyte</titleShort>
-    <baseDesc>The acolytes are the bulk of the servants of Kara. As a low member of the clergy, [PAWN_nameDef] endures a hard, cruel and unforgiven existence, only bearable thanks to the secret dream of maybe one day becoming the High Priestess.</baseDesc>
+    <baseDesc>The acolytes are the bulk of the servants of the goddess. As a low member of the clergy, [PAWN_nameDef] endures a hard, cruel and unforgiven existence, only bearable thanks to the secret dream of maybe one day becoming the High Priestess.</baseDesc>
     <skillGains>
       <Social>1</Social>
     </skillGains>
@@ -122,7 +122,7 @@
     <defName>PriestessDrow</defName>
     <title>priestess</title>
     <titleShort>priestess</titleShort>
-    <baseDesc>Committed by a single sacred vow: obedience, [PAWN_nameDef] devotes [PAWN_possessive] life as a priestess in one of the many temples of Kara and therefore [PAWN_pronoun] plays an active role in local politics.</baseDesc>
+    <baseDesc>Committed by a single sacred vow: obedience, [PAWN_nameDef] devotes [PAWN_possessive] life as a priestess in one of the many temples and therefore [PAWN_pronoun] plays an active role in local politics.</baseDesc>
     <slot>Adulthood</slot>
     <skillGains>
       <Social>2</Social>
@@ -154,7 +154,7 @@
     <defName>KhabaDrow</defName>
     <title>khaba</title>
     <titleShort>khaba</titleShort>
-    <baseDesc>One of the seventy-one words to define a woman in the drow language. The khaba is a young girl that had to serve as an armed guardian in the Karantar without pay for seven whole years. Only the Nuschka is exempted from this service. [PAWN_nameDef] didn't have that luck.</baseDesc>
+    <baseDesc>One of the seventy-one words to define a woman in the drow language. The khaba is a young girl that had to serve as an armed guardian in the Dark Temple without pay for seven whole years. Only the Nuschka is exempted from this service. [PAWN_nameDef] didn't have that luck.</baseDesc>
     <slot>Adulthood</slot>
     <skillGains>
       <Shooting>2</Shooting>
@@ -170,7 +170,7 @@
     <defName>PoleJumperDrow</defName>
     <title>pole jumper</title>
     <titleShort>pole jumper</titleShort>
-    <baseDesc>Karanzaran is capable of deploying deadly troops that no other drow city can. [PAWN_nameDef] was a pole jumper, a member of an elite corps that used a pole to jump over shield walls and spread terror from the inside of enemy formations.</baseDesc>
+    <baseDesc>A drow city is capable of deploying deadly troops that no other drow city can. [PAWN_nameDef] was a pole jumper, a member of an elite corps that used a pole to jump over shield walls and spread terror from the inside of enemy formations.</baseDesc>
     <slot>Adulthood</slot>
     <skillGains>
       <Melee>3</Melee>
@@ -200,7 +200,7 @@
     <defName>MatriarchDrow</defName>
     <title>matriarch</title>
     <titleShort>matriarch</titleShort>
-    <baseDesc>As the oppressing ruler of one of the four Great Houses of the Drow, [PAWN_nameDef] embodies the scheming and treachery associated with the Goddess of Darkness. Each matriarch stands at the center of a vast conspiratorial web, with demons, dark elves, spiders, and slaves positioned between them and their enemies, aiming both to further their own family's goals and the will of Kara.</baseDesc>
+    <baseDesc>As the oppressing ruler of one of the four Great Houses of the Drow, [PAWN_nameDef] embodies the scheming and treachery associated with the Goddess of Darkness. Each matriarch stands at the center of a vast conspiratorial web, with demons, dark elves, spiders, and slaves positioned between them and their enemies, aiming both to further their own family's goals and the will of the goddess.</baseDesc>
     <slot>Adulthood</slot>
     <skillGains>
       <Medicine>2</Medicine>
@@ -280,7 +280,7 @@
     <defName>GardenerDrow</defName>
     <title>mushrooms shepherd</title>
     <titleShort>mushrooms shepherd</titleShort>
-    <baseDesc>As pale imitations of the Floating Gardens of Karanzaran, all the great Houses grow their own mushrooms gardens. Fragile yards that need constant attention.[PAWN_nameDef] earned a living as a mushrooms shepherd, and for that [PAWN_pronoun] was under the direct protection of the matriarch.</baseDesc>
+    <baseDesc>As pale imitations of the Floating Gardens of a drow city, all the great Houses grow their own mushrooms gardens. Fragile yards that need constant attention.[PAWN_nameDef] earned a living as a mushrooms shepherd, and for that [PAWN_pronoun] was under the direct protection of the matriarch.</baseDesc>
     <slot>Adulthood</slot>
     <skillGains>
       <Plants>3</Plants>
@@ -314,7 +314,7 @@
     <defName>SlaveDrow</defName>
     <title>slave child</title>
     <titleShort>slave child</titleShort>
-    <baseDesc>No matter the race, culture or planet, slaves are always the first spoils of war.[PAWN_nameDef] was captured when [PAWN_possessive] city was sacked by a enemy House. [PAWN_pronoun] was very young back then but still remembers the horrifying Great Slave Market of Karanzaran. Under the service of a harsh master, [PAWN_possessive] will was broken and little hope is to be found in [PAWN_nameDef]'s heart.</baseDesc>
+    <baseDesc>No matter the race, culture or planet, slaves are always the first spoils of war.[PAWN_nameDef] was captured when [PAWN_possessive] city was sacked by a enemy House. [PAWN_pronoun] was very young back then but still remembers a horrifying Great Slave Market of a drow city. Under the service of a harsh master, [PAWN_possessive] will was broken and little hope is to be found in [PAWN_nameDef]'s heart.</baseDesc>
     <slot>Childhood</slot>
     <skillGains>
       <Mining>1</Mining>
@@ -351,7 +351,7 @@
     <defName>ServantDrow</defName>
     <title>sanctuary child</title>
     <titleShort>sanctuary child</titleShort>
-    <baseDesc>Sometimes the poorest drow families sell their offspring to the temples. As one of these abandoned children, [PAWN_nameDef] served in one of the sanctuaries of the Broad Breasted Mother, doing minion's work. It is very difficult to earn enough money to buy their freedom, so eventually the girls take the Vow of Kara to become acolytes and the boys join the army.</baseDesc>
+    <baseDesc>Sometimes the poorest drow families sell their offspring to the temples. As one of these abandoned children, [PAWN_nameDef] served in one of the sanctuaries of the Broad Breasted Mother, doing minion's work. It is very difficult to earn enough money to buy their freedom, so eventually the girls take the Vow to become acolytes and the boys join the army.</baseDesc>
     <slot>Childhood</slot>
     <skillGains>
       <Mining>1</Mining>
@@ -395,7 +395,7 @@
     <defName>NuschkaDrow</defName>
     <title>nuschka</title>
     <titleShort>nuschka</titleShort>
-    <baseDesc>Born as the daughter of the High Priestess, [PAWN_nameDef] was raised as a crown princess for a major drow city. A birthright both powerful and dangerous, because [PAWN_pronoun] needed to excel soon in the arts of war, conspiracy and poison in order to survive the vicious life inside the Karantar.</baseDesc>
+    <baseDesc>Born as the daughter of the High Priestess, [PAWN_nameDef] was raised as a crown princess for a major drow city. A birthright both powerful and dangerous, because [PAWN_pronoun] needed to excel soon in the arts of war, conspiracy and poison in order to survive the vicious life inside the Dark Temple.</baseDesc>
     <slot>Childhood</slot>
     <skillGains>
       <Shooting>3</Shooting>
@@ -417,7 +417,7 @@
     <defName>MuyoDrow</defName>
     <title>muyo</title>
     <titleShort>muyo</titleShort>
-    <baseDesc>When [PAWN_possessive] family was purged after a failed conspiracy, [PAWN_nameDef] was kept alive because of [PAWN_possessive] great beauty. [PAWN_nameDef] lived comfortably in the Karantar for the sexual pleasure of the priestesses of Kara. In exchange, no deed or responsability was expected, as long as [PAWN_pronoun] remained gorgeous. But everything comes with a price and so many years of luxury, idleness and boredom lead [PAWN_pronoun] to enjoy drugs.</baseDesc>
+    <baseDesc>When [PAWN_possessive] family was purged after a failed conspiracy, [PAWN_nameDef] was kept alive because of [PAWN_possessive] great beauty. [PAWN_nameDef] lived comfortably in the Dark Temple for the sexual pleasure of the priestesses of the goddess. In exchange, no deed or responsability was expected, as long as [PAWN_pronoun] remained gorgeous. But everything comes with a price and so many years of luxury, idleness and boredom lead [PAWN_pronoun] to enjoy drugs.</baseDesc>
     <slot>Childhood</slot>
     <skillGains>
       <Social>3</Social>
