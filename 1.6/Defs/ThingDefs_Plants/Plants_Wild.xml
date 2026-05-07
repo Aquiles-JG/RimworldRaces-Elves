@@ -82,7 +82,7 @@
 		  <growDays>7</growDays>
 		  <visualSizeRange>0.4~1</visualSizeRange>
 		  <sowResearchPrerequisites>
-			<li>Kara_CultureII</li>
+			<li>Drow_CultureII</li>
 		  </sowResearchPrerequisites>
 		  <immatureGraphicPath>Things/Plant/Immature/Henbane</immatureGraphicPath>
 		  <purpose>Health</purpose>
