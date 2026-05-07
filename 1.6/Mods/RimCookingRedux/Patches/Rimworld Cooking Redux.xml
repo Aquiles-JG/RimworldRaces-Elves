@@ -8,7 +8,7 @@
       <operations>
       
         <li Class="PatchOperationAdd">
-          <xpath>/Defs/ResearchProjectDef[defName="Kara_Culture"]/prerequisites</xpath>
+          <xpath>/Defs/ResearchProjectDef[defName="Drow_Culture"]/prerequisites</xpath>
           <value>
             <li>Aq_Spices</li>
           </value>
