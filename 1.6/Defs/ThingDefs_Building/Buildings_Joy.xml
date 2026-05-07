@@ -23,7 +23,7 @@
       <joyKind>Gaming_Cerebral</joyKind>
     </building>
     <researchPrerequisites>
-      <li>Kara_Furniture</li>
+      <li>Drow_Furniture</li>
     </researchPrerequisites>
     <statBases>
       <MaxHitPoints>50</MaxHitPoints>
