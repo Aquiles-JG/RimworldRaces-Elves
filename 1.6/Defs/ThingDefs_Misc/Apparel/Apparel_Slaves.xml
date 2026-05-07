@@ -10,7 +10,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <recipeMaker>
-      <researchPrerequisite>Kara_Culture</researchPrerequisite>
+      <researchPrerequisite>Drow_Culture</researchPrerequisite>
     </recipeMaker>
     <costList>
       <Cloth>30</Cloth>
