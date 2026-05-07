@@ -92,7 +92,7 @@
     </tradeTags>
     <allowedArchonexusCount>50</allowedArchonexusCount>
     <researchPrerequisites>
-      <li>Kara_Culture</li>
+      <li>Drow_Culture</li>
     </researchPrerequisites>
   </ThingDef>
 
@@ -120,7 +120,7 @@
     </statBases>
     <tickerType>Rare</tickerType>
      <researchPrerequisites>
-      <li>Kara_Culture</li>
+      <li>Drow_Culture</li>
     </researchPrerequisites>
     <comps>
       <li Class="CompProperties_Rottable">
