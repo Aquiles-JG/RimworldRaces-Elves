@@ -102,26 +102,6 @@
     </requiredWorkTags>
   </BackstoryDef>
   <BackstoryDef ParentName="DrowBackstoryBase">
-    <defName>HPriestessDrow</defName>
-    <title>sha'Kara</title>
-    <titleShort>sha'Kara</titleShort>
-    <baseDesc>Since the beginning, only the drow women can enter the service of Kara. [PAWN_nameDef] assisted the High Priestess of [PAWN_possessive] city in all matters moral, if there is any in the drow society. Now, after a dire turn of events, [PAWN_pronoun] must face exile in an unknown rimworld.</baseDesc>
-    <slot>Adulthood</slot>
-    <skillGains>
-      <Medicine>1</Medicine>
-      <Intellectual>2</Intellectual>
-      <Social>3</Social>
-    </skillGains>
-    <workDisables>
-      <li>Cleaning</li>
-      <li>Hauling</li>
-    </workDisables>
-    <requiredWorkTags>
-      <li>Social</li>
-    </requiredWorkTags>
-    <bodyTypeGlobal>Female</bodyTypeGlobal>
-  </BackstoryDef>
-  <BackstoryDef ParentName="DrowBackstoryBase">
     <defName>AcolyteDrow</defName>
     <title>acolyte</title>
     <titleShort>acolyte</titleShort>
