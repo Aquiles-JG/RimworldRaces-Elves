@@ -7,7 +7,7 @@
     <iconPath>UI/Memes/Robe</iconPath>
     <groupDef>Primacy</groupDef>
     <impact>2</impact>
-    <worshipRoomLabel>temple</worshipRoomLabel>
+    <worshipRoomLabel>dark temple</worshipRoomLabel>
     <renderOrder>50</renderOrder>
     <deityCount>1</deityCount>
     <veneratedAnimalsCountOffset>1</veneratedAnimalsCountOffset>
