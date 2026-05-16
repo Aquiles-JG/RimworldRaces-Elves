@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- Slabs -->
+  <ThingDef ParentName="BuildingFloorCoveringMediumBase">
+    <defName>Underdark_SlabMedium</defName>
+    <label>underdark slab (medium)</label>
+    <description>A stone bas relief of drow imaginery for decorating a floor.</description>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Terrain/Surfaces/Underdark_SlabMedium</texPath>
+      <drawSize>(3,3)</drawSize>
+    </graphicData>
+    <dominantStyleCategory>Aq_Underdark</dominantStyleCategory>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <stuffCategories>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>100</costStuffCount>
+    <researchPrerequisites>
+      <li>Drow_Smithing</li>
+    </researchPrerequisites>
+    <building>
+      <paintable>true</paintable>
+    </building>
+  </ThingDef>
+  
+  <ThingDef ParentName="BuildingFloorCoveringBroadBase">
+    <defName>Underdark_SlabBroad</defName>
+    <label>underdark slab (broad)</label>
+    <description>A stone bas relief of drow imaginery for decorating a floor.</description>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Terrain/Surfaces/Underdark_SlabBroad</texPath>
+      <drawSize>(4,4)</drawSize>
+    </graphicData>
+    <dominantStyleCategory>Aq_Underdark</dominantStyleCategory>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <stuffCategories>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>150</costStuffCount>
+    <researchPrerequisites>
+      <li>Drow_Smithing</li>
+    </researchPrerequisites>
+    <building>
+      <paintable>true</paintable>
+    </building>
+  </ThingDef>
+</Defs>

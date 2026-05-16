@@ -67,7 +67,7 @@
 			
 			<!-- Furniture-->
 			<li Class="PatchOperationReplace"> 
-					<xpath>/Defs/ThingDef[defName="DE_Chandelier"]/costList/Steel</xpath>
+					<xpath>/Defs/ThingDef[defName="Aq_DarkChandelier"]/costList/Steel</xpath>
 					<value>				
       					<Aq_Glass>3</Aq_Glass>
 					</value>

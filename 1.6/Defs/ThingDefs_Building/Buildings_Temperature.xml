@@ -33,7 +33,8 @@
       <Flammability>0.25</Flammability>
       <Cleanliness>0</Cleanliness>
       <Beauty>0</Beauty>
-	  <Mass>35</Mass>  
+	  <Mass>35</Mass>
+	  <StyleDominance MayRequire="Ludeon.RimWorld.Ideology">5</StyleDominance>	 
     </statBases>
     <rotatable>false</rotatable>
     <altitudeLayer>Building</altitudeLayer>

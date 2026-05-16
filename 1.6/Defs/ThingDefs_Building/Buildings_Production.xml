@@ -19,8 +19,7 @@
 			<Mass>100</Mass>
 			<WorkToBuild>1000</WorkToBuild>
 			<MaxHitPoints>200</MaxHitPoints>
-			<Flammability>1</Flammability>
-			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">2</StyleDominance>		
+			<Flammability>1</Flammability>	
 		</statBases>
 		<constructEffect>ConstructWood</constructEffect>
 		<uiIconPath>Things/Building/Production/MetallicBarrel/MetallicBarrel_south</uiIconPath>

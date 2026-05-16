@@ -31,8 +31,8 @@
   
   <!-- ======================== Lighting ======================= -->
   <ThingDef ParentName="LampBase">
-    <defName>DE_Chandelier</defName>
-    <label>drow chandelier</label>
+    <defName>Aq_DarkChandelier</defName>
+    <label>dark chandelier</label>
     <description>A dark ceiling mounted chandelier made by drow artisans. Thanks to their amazing craftsmanship with glowstone, these chandeliers are an endless source of darklight.</description>
     <category>Building</category>
     <building>
@@ -42,7 +42,7 @@
     </building>
     <clearBuildingArea>false</clearBuildingArea>
     <graphicData>
-      <texPath>Things/Building/DE_Chandelier</texPath>
+      <texPath>Things/Building/Aq_DarkChandelier</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>Transparent</shaderType>
       <drawRotated>false</drawRotated>
@@ -68,6 +68,7 @@
       <MaxHitPoints>125</MaxHitPoints>
       <WorkToBuild>2400</WorkToBuild>
       <Mass>6</Mass>
+      <StyleDominance MayRequire="Ludeon.RimWorld.Ideology">2</StyleDominance>	
     </statBases>
     <selectable>true</selectable>
     <soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
@@ -119,6 +120,7 @@
     </building>
     <statBases>
       <MaxHitPoints>50</MaxHitPoints>
+      <StyleDominance MayRequire="Ludeon.RimWorld.Ideology">2</StyleDominance>	
     </statBases>
     <tickerType>Rare</tickerType>
     <placeWorkers>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <StyleCategoryDef>
+        <defName>Aq_Underdark</defName>
+        <label>underdark</label>
+        <iconPath>UI/StyleCategories/Underdark</iconPath>
+		 <addDesignators>
+            <li>Underdark_SlabMedium</li>
+			<li>Underdark_SlabBroad</li>
+			<li>Aq_DarkChandelier</li>
+			<li>Aq_Icebox</li>
+			<li>DE_WallLamp</li>
+        </addDesignators>
+		<addDesignatorGroups>
+            <li>Floor_Underdark</li>
+            <li>Floor_UnderdarkFine</li>
+        </addDesignatorGroups>
+        <thingDefStyles>
+            <!-- Weapons -->
+		
+            <!-- Apparel -->
+			
+			<!-- Armors -->
+			
+			<!-- Building -->
+        </thingDefStyles>
+    </StyleCategoryDef>
+</Defs>
