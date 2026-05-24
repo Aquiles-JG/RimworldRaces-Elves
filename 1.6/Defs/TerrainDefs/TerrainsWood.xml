@@ -20,7 +20,6 @@
   </tags>
   <isPaintable>true</isPaintable>
   <researchPrerequisites>
-      <li>Aq_WoodcraftII</li>
       <li>Aq_ElvenArmor</li>
   </researchPrerequisites>
   <constructEffect>ConstructWood</constructEffect>

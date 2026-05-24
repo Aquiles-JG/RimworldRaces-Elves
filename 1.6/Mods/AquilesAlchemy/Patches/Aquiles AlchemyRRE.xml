@@ -103,6 +103,13 @@
           </recipeUsers>
         </value>
       </li>
+      <!-- Terrain-->
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/TerrainDef[@Name = "ElvenParquetBase"]/researchPrerequisites</xpath>
+        <value>
+           <li>Aq_WoodcraftII</li>
+        </value>
+      </li>
       <!-- Buildings-->
       <li Class="PatchOperationReplace">
         <xpath>/Defs/ThingDef[defName = "Aq_PeppermintBarrel"]/costList/Steel</xpath>

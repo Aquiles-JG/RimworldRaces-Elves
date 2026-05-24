@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-    <RecipeDef ParentName="USH_BaseGlittertechForming">
+    <RecipeDef MayRequire="Aquiles.Alchemy" ParentName="USH_BaseGlittertechForming">
         <defName>Aq_TurnGlassToGlowstone</defName>
         <label>turn glass into glowstone</label>
         <description>Turn glass into glowstone using philosopher's stone.</description>

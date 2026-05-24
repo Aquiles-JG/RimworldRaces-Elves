@@ -294,7 +294,7 @@
     </apparelMoney>
     <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
     <weaponMoney>
-    	<min>160</min>
+    	<min>205</min>
     	<max>250</max>
     </weaponMoney>
     <weaponTags>
@@ -349,7 +349,7 @@
     </apparelMoney>
     <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
     <weaponMoney>
-    	<min>160</min>
+    	<min>205</min>
       	<max>250</max>
     </weaponMoney>
     <weaponTags>
