@@ -81,14 +81,6 @@
       <BlocksDunite>20</BlocksDunite>
     </costList>
   </TerrainDef>
-  <TerrainDef MayRequire="Ludeon.RimWorld.Odyssey" ParentName="FloorBaseStoneFineUnderdark">
-    <defName>DE_FloorFineUnderdarkObsidian</defName>
-    <label>underdark temple tiles (obsidian)</label>
-    <color>(35,35,35)</color>
-    <costList>
-      <Obsidian>20</Obsidian>
-    </costList>
-  </TerrainDef>
   
   <!-- Elves floors-->
   <TerrainDef ParentName="Aq_DecoratedTileStoneBase">
@@ -145,14 +137,6 @@
     <color>(153,176,110)</color>
     <costList>
       <BlocksDunite>20</BlocksDunite>
-    </costList>
-  </TerrainDef>
-  <TerrainDef MayRequire="Ludeon.RimWorld.Odyssey" ParentName="Aq_DecoratedTileStoneBase">
-    <defName>Aq_DecoratedTileStoneObsidian</defName>
-    <label>decorated obsidian tile</label>
-    <color>(35,35,35)</color>
-    <costList>
-      <Obsidian>20</Obsidian>
     </costList>
   </TerrainDef>
   

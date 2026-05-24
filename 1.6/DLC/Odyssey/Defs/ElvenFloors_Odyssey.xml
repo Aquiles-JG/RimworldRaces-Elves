@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Dark Elves Tiles-->
+  <TerrainDef ParentName="FloorBaseStoneFineUnderdark">
+    <defName>DE_FloorFineUnderdarkObsidian</defName>
+    <label>underdark temple tiles (obsidian)</label>
+    <color>(35,35,35)</color>
+    <costList>
+      <Obsidian>20</Obsidian>
+    </costList>
+  </TerrainDef>
+  
+  <!-- Elves floors-->
+  <TerrainDef ParentName="Aq_DecoratedTileStoneBase">
+    <defName>Aq_DecoratedTileStoneObsidian</defName>
+    <label>decorated obsidian tile</label>
+    <color>(35,35,35)</color>
+    <costList>
+      <Obsidian>20</Obsidian>
+    </costList>
+  </TerrainDef>
+
+</Defs>
