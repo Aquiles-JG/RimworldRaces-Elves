@@ -113,7 +113,7 @@
     <isBad>false</isBad>
     <comps>
       <li Class="HediffCompProperties_SeverityPerDay">
-        <severityPerDay>-1.05</severityPerDay>
+        <severityPerDay>-0.95</severityPerDay>
       </li>
       <li Class="AquilesCore.HediffCompProperties_Regen">
         <regenHoursMin>5</regenHoursMin>
