@@ -21,7 +21,7 @@
       <DeteriorationRate>1</DeteriorationRate>
     </statBases>
     <thingCategories>
-      <li>Aq_Oils</li>
+      <li>Manufactured</li>
     </thingCategories>
     <tradeTags>
       <li>MedicalSupplies</li>
@@ -48,7 +48,7 @@
       <DeteriorationRate>1</DeteriorationRate>
     </statBases>
     <thingCategories>
-      <li>Aq_Oils</li>
+      <li>Manufactured</li>
     </thingCategories>
     <tradeTags>
       <li>MedicalSupplies</li>
