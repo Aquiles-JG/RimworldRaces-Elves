@@ -115,7 +115,7 @@
       <li Class="HediffCompProperties_SeverityPerDay">
         <severityPerDay>-1.05</severityPerDay>
       </li>
-      <li Class="Regeneration.HediffCompProperties_Regen">
+      <li Class="AquilesCore.HediffCompProperties_Regen">
         <regenHoursMin>5</regenHoursMin>
         <regenHoursMax>6</regenHoursMax>
         <regenHealVal>2</regenHealVal>
