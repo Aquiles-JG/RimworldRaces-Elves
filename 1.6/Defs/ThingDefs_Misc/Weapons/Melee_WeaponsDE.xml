@@ -131,73 +131,7 @@
       <li>Underdark</li>
     </tradeTags>
   </ThingDef>
-  <!-- HEAVY WEAPONS: Mace -->
-  <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
-    <defName>DE_Mace</defName>
-    <label>drow mace</label>
-    <description>Dark elves sometimes prefer blunt weapons, like this flanged mace, very effective against armor.</description>
-    <graphicData>
-      <texPath>Things/MeleeWeapons/DE_Mace</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
-      <drawSize>1.1</drawSize>
-    </graphicData>
-    <statBases>
-      <WorkToMake>16000</WorkToMake>
-      <Mass>1.85</Mass>
-    </statBases>
-    <weaponTags>
-      <li>DrowMelee</li>
-    </weaponTags>
-    <weaponClasses>
-      <li>Drow</li>
-    </weaponClasses>
-    <uiIconScale>1.1</uiIconScale>
-    <techLevel>Medieval</techLevel>
-    <equippedAngleOffset>-55</equippedAngleOffset>
-    <costStuffCount>75</costStuffCount>
-    <stuffCategories>
-      <li>Metallic</li>
-    </stuffCategories>
-    <costList>
-      <Leather_MDeer>10</Leather_MDeer>
-    </costList>
-    <tools>
-      <li>
-        <label>handle</label>
-        <capacities>
-          <li>Poke</li>
-        </capacities>
-        <power>9</power>
-        <cooldownTime>2</cooldownTime>
-      </li>
-      <li>
-        <label>head</label>
-        <labelUsedInLogging>false</labelUsedInLogging>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>21</power>
-        <armorPenetration>0.2</armorPenetration>
-        <cooldownTime>2.2</cooldownTime>
-      </li>
-    </tools>
-    <recipeMaker>
-      <skillRequirements>
-        <Crafting>4</Crafting>
-      </skillRequirements>
-      <researchPrerequisite>Drow_Weapons</researchPrerequisite>
-    </recipeMaker>
-    <tradeTags>
-      <li>DrowMelee</li>
-      <li>Underdark</li>
-    </tradeTags>
-    <modExtensions>
-      <li Class="VEF.Things.ThingDefExtension">
-        <usableWithShields>true</usableWithShields>
-      </li>
-    </modExtensions>
-  </ThingDef>
+  <!-- HEAVY WEAPONS-->
   <!--Glaive-->
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>DE_Glaive</defName>
