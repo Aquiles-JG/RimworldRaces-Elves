@@ -14,7 +14,7 @@
 			<li Class="PatchOperationAddModExtension">
 				<xpath>/Defs/ThingDef[defName = "Aq_MineableGlowstone"]</xpath>
 					<value>
-						<li Class="SecondaryYields.MineableExtension">
+						<li Class="AquilesCore.SecondaryYieldsExtension">
 						<chanceToSpawnSecondaryOutput>0.05</chanceToSpawnSecondaryOutput>
 						<yieldOutputThings>
 							<li>
