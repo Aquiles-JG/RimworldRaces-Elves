@@ -79,7 +79,6 @@
     <description>Another finesse made by the brilliant craftsmanship of the elven blacksmiths.</description>
     <graphicData>
       <texPath>Things/MeleeWeapons/ElvenLhang</texPath>
-      <drawSize>1.1</drawSize>
     </graphicData>
     <costList>
       <WoodLog>10</WoodLog>
