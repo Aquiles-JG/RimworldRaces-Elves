@@ -1,9 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
+  <!-- Base-->
+  <ThingDef Name="ElfRangedWeaponBase" ParentName="BaseWeaponNeolithic" Abstract="True">
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <soundInteract>Bow_Recurve</soundInteract>
+    <weaponTags>
+      <li>ElvenRanged</li>
+    </weaponTags>
+    <weaponClasses>
+      <li>Elf</li>
+    </weaponClasses>
+    <equippedStatOffsets>
+      <AimingDelayFactor>-0.15</AimingDelayFactor>
+    </equippedStatOffsets>
+    <tradeTags>
+      <li>ElvenRanged</li>
+      <li>Elvendom</li>
+    </tradeTags>
+  </ThingDef>
   <!-- Elven Longbow -->
   <ThingDef ParentName="BaseProjectileNeolithic">
     <defName>Aq_Arrow_High</defName>
-    <label>elven long arrow</label>
+    <label>elven arrow</label>
     <graphicData>
       <texPath>Things/Projectile/Arrow_Small</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -17,18 +38,14 @@
       <armorPenetrationBase>0.15</armorPenetrationBase>
     </projectile>
   </ThingDef>
-  
-  <ThingDef ParentName="BaseWeaponNeolithic">
+  <ThingDef ParentName="ElfRangedWeaponBase">
     <defName>Aq_Bow_High</defName>
     <label>elven longbow</label>
     <description>The longbow preferred by the gray elves. A powerful long range weapon.</description>
-    <techLevel>Medieval</techLevel>
     <graphicData>
       <texPath>Things/WeaponRanged/Bow/Aq_GaladhrimBow</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.5,1.5)</drawSize>
     </graphicData>
-    <soundInteract>Bow_Recurve</soundInteract>
     <stuffCategories>
       <li>Woody</li>
     </stuffCategories>
@@ -45,12 +62,6 @@
       <AccuracyLong>0.7</AccuracyLong>
       <RangedWeapon_Cooldown>1.6</RangedWeapon_Cooldown>
     </statBases>
-    <weaponTags>
-      <li>ElvenRanged</li>
-    </weaponTags>
-    <weaponClasses>
-      <li>Elf</li>
-    </weaponClasses>
     <recipeMaker>
       <recipeUsers>
         <li>ElectricSmithy</li>
@@ -80,12 +91,7 @@
         <cooldownTime>1.6</cooldownTime>
       </li>
     </tools>
-    <tradeTags>
-      <li>ElvenRanged</li>
-      <li>Elvendom</li>
-    </tradeTags>
   </ThingDef>
-  
   <!-- Elven Greatbow-->
   <ThingDef ParentName="BaseProjectileNeolithic">
     <defName>Aq_Arrow_Great</defName>
@@ -128,17 +134,15 @@
     </projectile>
   </ThingDef>
   
-  <ThingDef ParentName="BaseWeaponNeolithic">
+  <ThingDef ParentName="ElfRangedWeaponBase">
     <defName>Aq_Bow_Great</defName>
     <label>elven greatbow</label>
     <description>The elite archers of the gray elves utilize an exceptional longbow that has devestating damage and pinpoint accuracy. This greatbow can fire up to three incendiary arrows.</description>
     <techLevel>Medieval</techLevel>
     <graphicData>
       <texPath>Things/WeaponRanged/Bow/Aq_NoldorinBow</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(2.0,2.0)</drawSize>
     </graphicData>
-    <soundInteract>Bow_Recurve</soundInteract>
     <costList>
       <WoodLog>100</WoodLog>
       <Gold>1</Gold>
@@ -152,12 +156,6 @@
       <AccuracyLong>0.85</AccuracyLong>
       <RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
     </statBases>
-    <weaponTags>
-      <li>ElvenRanged</li>
-    </weaponTags>
-    <weaponClasses>
-      <li>Elf</li>
-    </weaponClasses>
     <recipeMaker>
       <recipeUsers>
         <li>ElectricSmithy</li>
@@ -197,16 +195,11 @@
         <ammoCountPerCharge>2</ammoCountPerCharge>
         <baseReloadTicks>60</baseReloadTicks>
       </li>
-      <li Class="CompProperties_Forbiddable"/>
-      <li Class="CompProperties_Styleable"/>
+      <li Class="CompProperties_Forbiddable" />
+      <li Class="CompProperties_Styleable" />
       <li>
         <compClass>CompQuality</compClass>
       </li>
     </comps>
-    <tradeTags>
-      <li>ElvenRanged</li>
-      <li>Elvendom</li>
-    </tradeTags>
   </ThingDef>
-  
 </Defs>

@@ -1,14 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <!-- Elven double knives -->
-  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
-    <defName>Aq_Elf_WhiteKnives</defName>
-    <label>elven knives</label>
-    <description>Twin white knives provide fast and deadly melee damage to quickly dispatch many foes from the battlefield.</description>
+  <!-- Base-->
+  <ThingDef Name="ElfMeleeWeaponBase" ParentName="BaseMeleeWeapon_Sharp_Quality" Abstract="True">
     <graphicData>
-      <texPath>Things/MeleeWeapons/ElvenKnife</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>0.65</drawSize>
     </graphicData>
     <techLevel>Medieval</techLevel>
     <weaponTags>
@@ -17,7 +12,21 @@
     <weaponClasses>
       <li>Elf</li>
     </weaponClasses>
-    <costStuffCount>80</costStuffCount>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <tradeTags>
+      <li>ElvenMelee</li>
+      <li>Elvendom</li>
+    </tradeTags>
+  </ThingDef>
+  <!-- Elven double knives -->
+  <ThingDef ParentName="ElfMeleeWeaponBase">
+    <defName>Aq_Elf_WhiteKnives</defName>
+    <label>elven knives</label>
+    <description>Twin white knives provide fast and deadly melee damage to quickly dispatch many foes from the battlefield.</description>
+    <graphicData>
+      <texPath>Things/MeleeWeapons/ElvenKnife</texPath>
+      <drawSize>0.65</drawSize>
+    </graphicData>
     <costList>
       <WoodLog>20</WoodLog>
     </costList>
@@ -25,10 +34,10 @@
       <WorkToMake>24000</WorkToMake>
       <Mass>1</Mass>
     </statBases>
-    <equippedAngleOffset>-65</equippedAngleOffset>
     <stuffCategories>
       <li>Metallic</li>
     </stuffCategories>
+    <costStuffCount>80</costStuffCount>
     <tools>
       <li>
         <label>handle</label>
@@ -62,29 +71,16 @@
       </skillRequirements>
       <researchPrerequisite>Aq_WeaponsOne</researchPrerequisite>
     </recipeMaker>
-    <tradeTags>
-      <li>ElvenMelee</li>
-      <li>Elvendom</li>
-    </tradeTags>
   </ThingDef>
   <!-- Elven Lhang -->
-  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+  <ThingDef ParentName="ElfMeleeWeaponBase">
     <defName>Aq_Elf_Lhang</defName>
     <label>lhang</label>
     <description>Another finesse made by the brilliant craftsmanship of the elven blacksmiths.</description>
     <graphicData>
       <texPath>Things/MeleeWeapons/ElvenLhang</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.1</drawSize>
     </graphicData>
-    <techLevel>Medieval</techLevel>
-    <weaponTags>
-      <li>ElvenMelee</li>
-    </weaponTags>
-    <weaponClasses>
-      <li>Elf</li>
-    </weaponClasses>
-    <costStuffCount>125</costStuffCount>
     <costList>
       <WoodLog>10</WoodLog>
     </costList>
@@ -92,11 +88,10 @@
       <WorkToMake>28000</WorkToMake>
       <Mass>1.5</Mass>
     </statBases>
-    <equippedAngleOffset>-65</equippedAngleOffset>
     <stuffCategories>
       <li>Metallic</li>
     </stuffCategories>
-    <comps></comps>
+    <costStuffCount>125</costStuffCount>
     <tools>
       <li>
         <label>handle</label>
@@ -130,18 +125,14 @@
       </skillRequirements>
       <researchPrerequisite>Aq_WeaponsOne</researchPrerequisite>
     </recipeMaker>
-    <tradeTags>
-      <li>ElvenMelee</li>
-      <li>Elvendom</li>
-    </tradeTags>
   </ThingDef>
-  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+  <!-- Bastard Sword-->
+  <ThingDef ParentName="ElfMeleeWeaponBase">
     <defName>Aq_Elf_BastardSword</defName>
     <label>bastard sword</label>
     <description>Longer and heavier than a regular sword, the bastard sword provides more damage potential and still be a one-handed weapon.</description>
     <graphicData>
       <texPath>Things/MeleeWeapons/Elf_BastardSword</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
       <WorkToMake>35000</WorkToMake>
@@ -155,12 +146,9 @@
       <Gold>5</Gold>
     </costList>
     <equippedAngleOffset>-45</equippedAngleOffset>
-    <weaponTags>
+    <weaponTags Inherit="False">
       <li>ElvenMeleeElite</li>
     </weaponTags>
-    <weaponClasses>
-      <li>Elf</li>
-    </weaponClasses>
     <tools>
       <li>
         <label>handle</label>
@@ -194,13 +182,6 @@
         <Crafting>9</Crafting>
       </skillRequirements>
     </recipeMaker>
-    <tradeTags>
-      <li>ElvenMelee</li>
-      <li>Elvendom</li>
-    </tradeTags>
-    <comps>
-      <li Class="CompProperties_Biocodable" />
-    </comps>
     <modExtensions>
       <li Class="VEF.Things.ThingDefExtension">
         <weaponDraftedDrawOffsets>
@@ -223,205 +204,8 @@
         </weaponDraftedDrawOffsets>
       </li>
     </modExtensions>
-  </ThingDef>
-  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
-    <defName>Aq_Elf_Greatsword</defName>
-    <label>greatsword</label>
-    <description>A masterpiece of elven blacksmithing: a two-handed sword with a long blade, capable of cleaving enemies with powerful yet elegant swings.</description>
-    <graphicData>
-      <texPath>Things/MeleeWeapons/Elf_Greatsword</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>1.35</drawSize>
-    </graphicData>
-    <techLevel>Medieval</techLevel>
-    <!--equippedAngleOffset>-45</equippedAngleOffset-->
-    <statBases>
-      <WorkToMake>40000</WorkToMake>
-      <Mass>3.25</Mass>
-    </statBases>
-    <costStuffCount>150</costStuffCount>
-    <stuffCategories>
-      <li>Metallic</li>
-    </stuffCategories>
-    <costList>
-      <Gold>10</Gold>
-    </costList>
-    <weaponTags>
-      <li>ElvenMeleeElite</li>
-    </weaponTags>
-    <weaponClasses>
-      <li>Elf</li>
-    </weaponClasses>
-    <equippedStatOffsets>
-      <MoveSpeed>-0.1</MoveSpeed>
-    </equippedStatOffsets>
-    <tools>
-      <li>
-        <label>handle</label>
-        <capacities>
-          <li>Poke</li>
-        </capacities>
-        <power>8</power>
-        <cooldownTime>2</cooldownTime>
-      </li>
-      <li>
-        <label>point</label>
-        <capacities>
-          <li>Stab</li>
-        </capacities>
-        <power>16</power>
-        <cooldownTime>2.75</cooldownTime>
-      </li>
-      <li>
-        <label>edge</label>
-        <capacities>
-          <li>Cut</li>
-        </capacities>
-        <power>32</power>
-        <armorPenetration>0.25</armorPenetration>
-        <cooldownTime>2.75</cooldownTime>
-      </li>
-    </tools>
-    <recipeMaker>
-      <researchPrerequisite>Aq_WeaponsOne</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>10</Crafting>
-      </skillRequirements>
-    </recipeMaker>
-    <tradeTags>
-      <li>ElvenMelee</li>
-      <li>Elvendom</li>
-    </tradeTags>
     <comps>
       <li Class="CompProperties_Biocodable" />
     </comps>
-    <modExtensions>
-		<li Class="VEF.Things.ThingDefExtension">
-			<weaponDraftedDrawOffsets>
-				<north>
-					<drawOffset>(-0.20,0.0,0.20)</drawOffset> <!--0.30,0,0.40-->
-					<angleOffset>115</angleOffset>
-				</north>
-				<east>
-					<drawOffset>(0.30,0.00,0.20)</drawOffset> <!--0.30,0.2,0.40-->
-					<angleOffset>-45</angleOffset>
-				</east>
-				<south>
-					<drawOffset>(0.30,0.00,0.20)</drawOffset>
-					<angleOffset>-45</angleOffset>
-				</south>
-				<west>
-					<drawOffset>(-0.30,0.0,0.20)</drawOffset>
-					<angleOffset>45</angleOffset>
-				</west>
-			</weaponDraftedDrawOffsets>
-		</li>
-	</modExtensions> 
-  </ThingDef>
-  <!-- Bladelink Weapons-->
-  <ThingDef Name="BaseWeapon_ElfBladelink" ParentName="BaseWeapon" Abstract="True">
-    <techLevel>Spacer</techLevel>
-    <tradeNeverStack>true</tradeNeverStack>
-    <relicChance>3</relicChance>
-    <comps>
-      <li>
-        <compClass>CompQuality</compClass>
-      </li>
-      <li Class="CompProperties_BladelinkWeapon">
-        <biocodeOnEquip>true</biocodeOnEquip>
-      </li>
-      <li Class="CompProperties_GeneratedName">
-        <nameMaker>NamerWeaponBladelink</nameMaker>
-      </li>
-    </comps>
-    <smeltable>true</smeltable>
-    <burnableByRecipe>true</burnableByRecipe>
-    <thingCategories>
-      <li>WeaponsMeleeBladelink</li>
-    </thingCategories>
-    <thingSetMakerTags>
-      <li>WeaponBladelink</li>
-    </thingSetMakerTags>
-    <tradeTags>
-      <li>Elvendom</li>
-    </tradeTags>
-  </ThingDef>
-  
-  <ThingDef ParentName="BaseWeapon_ElfBladelink">
-    <defName>Aq_Elf_BastardBladelink</defName>
-    <label>palatine sword</label>
-    <description>A legendary blade only granted to the highest ranking servants of the elven Empire.</description>
-    <graphicData>
-      <texPath>Things/MeleeWeapons/Elf_BastardSwordLink</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <statBases>
-      <MarketValue>4000</MarketValue>
-      <Mass>2.25</Mass>
-    </statBases>
-    <techLevel>Medieval</techLevel>
-    <smeltable>false</smeltable>
-    <soundInteract>Interact_BladelinkMonoSword</soundInteract>
-    <meleeHitSound>MeleeHit_BladelinkMonoSword</meleeHitSound>
-    <equippedAngleOffset>-45</equippedAngleOffset>
-    <weaponClasses>
-      <li>Elf</li>
-    </weaponClasses>
-    <tools>
-      <li>
-        <label>handle</label>
-        <capacities>
-          <li>Poke</li>
-        </capacities>
-        <power>8</power>
-        <cooldownTime>1.8</cooldownTime>
-      </li>
-      <li>
-        <label>point</label>
-        <capacities>
-          <li>Stab</li>
-        </capacities>
-        <power>16</power>
-        <cooldownTime>2.2</cooldownTime>
-      </li>
-      <li>
-        <label>edge</label>
-        <capacities>
-          <li>Cut</li>
-        </capacities>
-        <power>30</power>
-        <extraMeleeDamages>
-          <li>
-            <def>VAE_UncontrollableBleeding</def>
-            <amount>8</amount>
-            <chance>0.7</chance>
-          </li>
-        </extraMeleeDamages>
-        <armorPenetration>0.25</armorPenetration>
-        <cooldownTime>2.2</cooldownTime>
-      </li>
-    </tools>
-    <modExtensions>
-      <li Class="VEF.Things.ThingDefExtension">
-        <weaponDraftedDrawOffsets>
-          <north>
-            <drawOffset>(-0.2, 0, -0.15)</drawOffset>
-            <angleOffset>-205</angleOffset>
-          </north>
-          <east>
-            <drawOffset>(0.45, 0, -0.15)</drawOffset>
-            <angleOffset>0</angleOffset>
-          </east>
-          <south>
-            <drawOffset>(0.2, 0, -0.15)</drawOffset>
-            <angleOffset>0</angleOffset>
-          </south>
-          <west>
-            <drawOffset>(-0.45, -0.1, -0.15)</drawOffset>
-            <angleOffset>0</angleOffset>
-          </west>
-        </weaponDraftedDrawOffsets>
-      </li>
-    </modExtensions>
   </ThingDef>
 </Defs>
