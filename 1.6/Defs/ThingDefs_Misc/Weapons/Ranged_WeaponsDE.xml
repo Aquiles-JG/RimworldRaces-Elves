@@ -1,47 +1,68 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
-<!-- Repeater Crossbow -->
-
- <ThingDef ParentName="BaseProjectileNeolithic">
+  <!-- Base-->
+  <ThingDef Name="DrowRangedWeaponBase" ParentName="BaseWeaponNeolithic" Abstract="True">
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <soundInteract>Bow_Large</soundInteract>
+    <weaponTags>
+      <li>DrowRanged</li>
+    </weaponTags>
+    <weaponClasses>
+      <li>Drow</li>
+    </weaponClasses>
+    <equippedStatOffsets>
+      <HuntingStealth>0.15</HuntingStealth>
+    </equippedStatOffsets>
+    <recipeMaker>
+      <recipeUsers>
+        <li>FueledSmithy</li>
+        <li>ElectricSmithy</li>
+      </recipeUsers>
+      <researchPrerequisite>Drow_RangedWeapons</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <tradeTags>
+      <li>DrowRanged</li>
+      <li>Underdark</li>
+    </tradeTags>
+  </ThingDef>
+  <!-- Repeater Crossbow -->
+  <ThingDef ParentName="BaseProjectileNeolithic">
     <defName>DE_bolt_repeater</defName>
     <label>repeater crossbow bolt</label>
     <graphicData>
-      <texPath>Things/WeaponRanged/RepeaterCrossbow/DE_arrow_big</texPath>
+      <texPath>Things/WeaponRanged/Crossbow/DE_arrow_big</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectile>
       <flyOverhead>false</flyOverhead>
       <damageDef>Arrow</damageDef>
       <damageAmountBase>16</damageAmountBase>
-	  <armorPenetrationBase>0.3</armorPenetrationBase>
+      <armorPenetrationBase>0.3</armorPenetrationBase>
       <speed>54</speed>
     </projectile>
   </ThingDef>
-
-
-<ThingDef ParentName="BaseWeaponNeolithic">
+  <ThingDef ParentName="DrowRangedWeaponBase">
     <defName>DE_RepeaterCB</defName>
     <label>repeater crossbow</label>
-    <description>An incredibly fast repeater crossbow used by assassins mostly. It doesn't fire double shots like the other crossbow, but its armor penetration is unmatched.</description> 
+    <description>An incredibly fast repeater crossbow used by assassins mostly. It doesn't fire double shots like the other crossbow, but its armor penetration is unmatched.</description>
     <graphicData>
-      <texPath>Things/WeaponRanged/RepeaterCrossbow/DE_RepeaterCB</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/WeaponRanged/Crossbow/DE_RepeaterCB</texPath>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
-    <soundInteract>Bow_Large</soundInteract>
     <costList>
-	  <Steel>20</Steel>
-	  <Leather_MDeer>10</Leather_MDeer>
+      <Steel>20</Steel>
+      <Leather_MDeer>15</Leather_MDeer>
     </costList>
-     <stuffCategories>
+    <stuffCategories>
       <li>Woody</li>
     </stuffCategories>
-    <costStuffCount>10</costStuffCount>
-    <equippedStatOffsets>
-    	<HuntingStealth>0.10</HuntingStealth>
-    </equippedStatOffsets>
-    <techLevel>Medieval</techLevel>
+    <costStuffCount>40</costStuffCount>
     <statBases>
       <WorkToMake>20000</WorkToMake>
       <Mass>0.65</Mass>
@@ -51,26 +72,6 @@
       <AccuracyLong>0.32</AccuracyLong>
       <RangedWeapon_Cooldown>1.7</RangedWeapon_Cooldown>
     </statBases>
-    <weaponTags>
-      <li>DrowRanged</li>
-    </weaponTags>
-     <weaponClasses>
-      <li>Drow</li>
-    </weaponClasses>
-    <tradeTags>
-        <li>DrowRanged</li>
-        <li>Underdark</li>
-    </tradeTags>
-    <recipeMaker>
-	  <recipeUsers>
-		<li>FueledSmithy</li>
-		<li>ElectricSmithy</li>
-	  </recipeUsers>
-    <researchPrerequisite>Drow_RangedWeapons</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>7</Crafting>
-      </skillRequirements>
-    </recipeMaker>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
@@ -94,12 +95,8 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
-    <smeltable>true</smeltable>
-    <burnableByRecipe>true</burnableByRecipe>
   </ThingDef>
-
-<!-- ==================== Dark Elven Bow ========================== -->
-
+  <!-- ==================== Dark Elven Bow ========================== -->
   <ThingDef ParentName="BaseProjectileNeolithic">
     <defName>DE_Arrow</defName>
     <label>drow arrow</label>
@@ -112,25 +109,21 @@
       <damageDef>Arrow</damageDef>
       <stoppingPower>1.1</stoppingPower>
       <armorPenetrationBase>0.2</armorPenetrationBase>
-	  <damageAmountBase>20</damageAmountBase>
-	  <arcHeightFactor>0.70</arcHeightFactor>
+      <damageAmountBase>20</damageAmountBase>
+      <arcHeightFactor>0.70</arcHeightFactor>
       <shadowSize>0.4</shadowSize>
     </projectile>
-	</ThingDef>
-  
-  <ThingDef ParentName="BaseWeaponNeolithic">
+  </ThingDef>
+  <ThingDef ParentName="DrowRangedWeaponBase">
     <defName>Drow_Bow</defName>
     <label>drow bow</label>
     <description>A drow longbow. You could think this is only for hunters, but this bow is used also in war, because its excellent accuracy and armor penetration.</description>
-    <techLevel>Medieval</techLevel>
     <graphicData>
       <texPath>Things/WeaponRanged/Bow/DE_Bow</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
       <drawSize>1.1</drawSize>
     </graphicData>
     <equippedAngleOffset>-75</equippedAngleOffset>
-    <soundInteract>Bow_Large</soundInteract>
     <statBases>
       <WorkToMake>25000</WorkToMake>
       <Mass>1.25</Mass>
@@ -140,27 +133,14 @@
       <AccuracyLong>0.62</AccuracyLong>
       <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
     </statBases>
-    <weaponTags>
-      <li>DrowRanged</li>
-    </weaponTags>
-    <weaponClasses>
-      <li>Drow</li>
-    </weaponClasses>
-	 <tradeTags>
-	    <li>DrowRanged</li>
-        <li>Underdark</li>
-     </tradeTags>
     <costList>
-		<Plasteel>5</Plasteel>
-		<Leather_MDeer>20</Leather_MDeer>
+      <Plasteel>5</Plasteel>
+      <Leather_MDeer>20</Leather_MDeer>
     </costList>
-     <stuffCategories>
+    <stuffCategories>
       <li>Woody</li>
     </stuffCategories>
     <costStuffCount>60</costStuffCount>
-    <equippedStatOffsets>
-    	<HuntingStealth>0.25</HuntingStealth>
-    </equippedStatOffsets>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
@@ -183,16 +163,9 @@
       </li>
     </tools>
     <recipeMaker>
-      <researchPrerequisite>Drow_RangedWeapons</researchPrerequisite>
       <skillRequirements>
-		<Crafting>8</Crafting>
-	  </skillRequirements>
-      <recipeUsers>
-        <li>ElectricSmithy</li>
-        <li>FueledSmithy</li>
-      </recipeUsers>
+        <Crafting>8</Crafting>
+      </skillRequirements>
     </recipeMaker>
   </ThingDef>
-  
-  
 </Defs>

@@ -1,31 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <!-- War Sickle -->
-  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
-    <defName>DE_Warsickle</defName>
-    <label>warsickle</label>
-    <description>Decorated light ceremonial weapon of drow design incrusted with precious metals.</description>
+  <!-- Base-->
+  <ThingDef Name="DrowMeleeWeaponBase" ParentName="BaseMeleeWeapon_Sharp_Quality" Abstract="True">
     <graphicData>
-      <texPath>Things/MeleeWeapons/DE_Warsickle</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <statBases>
-      <WorkToMake>14000</WorkToMake>
-      <Mass>1</Mass>
-    </statBases>
+    <techLevel>Medieval</techLevel>
     <weaponTags>
       <li>DrowMelee</li>
     </weaponTags>
     <weaponClasses>
       <li>Drow</li>
     </weaponClasses>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <tradeTags>
+      <li>DrowMelee</li>
+      <li>Underdark</li>
+    </tradeTags>
+  </ThingDef>
+  
+  <!-- War Sickle -->
+  <ThingDef ParentName="DrowMeleeWeaponBase">
+    <defName>DE_Warsickle</defName>
+    <label>warsickle</label>
+    <description>Decorated light ceremonial weapon of drow design incrusted with precious metals.</description>
+    <graphicData>
+      <texPath>Things/MeleeWeapons/DE_Warsickle</texPath>
+    </graphicData>
+    <statBases>
+      <WorkToMake>14000</WorkToMake>
+      <Mass>1</Mass>
+    </statBases>
     <uiIconScale>1.1</uiIconScale>
-    <techLevel>Medieval</techLevel>
     <costList>
       <Steel>60</Steel>
       <Leather_MDeer>10</Leather_MDeer>
     </costList>
-    <equippedAngleOffset>-65</equippedAngleOffset>
     <tools>
       <li>
         <label>handle</label>
@@ -59,37 +69,24 @@
         <Crafting>5</Crafting>
       </skillRequirements>
     </recipeMaker>
-    <tradeTags>
-      <li>DrowMelee</li>
-      <li>Underdark</li>
-    </tradeTags>
   </ThingDef>
   <!-- Rapier -->
-  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+  <ThingDef ParentName="DrowMeleeWeaponBase">
     <defName>DE_Rapier</defName>
     <label>rapier</label>
     <description>The traditional longsword of the dark elves.</description>
     <graphicData>
       <texPath>Things/MeleeWeapons/DE_Rapier</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
       <WorkToMake>18000</WorkToMake>
       <Mass>1.25</Mass>
     </statBases>
-    <weaponTags>
-      <li>DrowMelee</li>
-    </weaponTags>
-    <weaponClasses>
-      <li>Drow</li>
-    </weaponClasses>
     <uiIconScale>1.1</uiIconScale>
-    <techLevel>Medieval</techLevel>
     <costStuffCount>75</costStuffCount>
     <stuffCategories>
       <li>Metallic</li>
     </stuffCategories>
-    <equippedAngleOffset>-65</equippedAngleOffset>
     <equippedStatOffsets>
       <MeleeDodgeChance>0.2</MeleeDodgeChance>
     </equippedStatOffsets>
@@ -126,35 +123,25 @@
         <Crafting>8</Crafting>
       </skillRequirements>
     </recipeMaker>
-    <tradeTags>
-      <li>DrowMelee</li>
-      <li>Underdark</li>
-    </tradeTags>
   </ThingDef>
   <!-- HEAVY WEAPONS-->
   <!--Glaive-->
-  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+  <ThingDef ParentName="DrowMeleeWeaponBase">
     <defName>DE_Glaive</defName>
     <label>glaive</label>
     <description>The glaive is a heavy polearm that demands strength and agility and both requirements are met by the sinister ironfists, keepers of the Great Houses.</description>
     <graphicData>
       <texPath>Things/MeleeWeapons/DE_Glaive</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
-      <drawSize>1.5</drawSize>
+      <drawSize>1.4</drawSize>
     </graphicData>
     <statBases>
       <WorkToMake>21000</WorkToMake>
       <Mass>2.5</Mass>
     </statBases>
-    <weaponTags>
-       <li>DrowMeleeHeavy</li>
+    <weaponTags Inherit="False">
+      <li>DrowMeleeHeavy</li>
     </weaponTags>
-    <weaponClasses>
-      <li>Drow</li>
-    </weaponClasses>
     <uiIconScale>1.2</uiIconScale>
-    <techLevel>Medieval</techLevel>
     <equippedAngleOffset>45</equippedAngleOffset>
     <costStuffCount>80</costStuffCount>
     <stuffCategories>
@@ -164,10 +151,6 @@
       <WoodLog>40</WoodLog>
       <Gold>1</Gold>
     </costList>
-    <tradeTags>
-      <li>DrowMelee</li>
-      <li>Underdark</li>
-    </tradeTags>
     <recipeMaker>
       <researchPrerequisite>Drow_Weapons</researchPrerequisite>
       <skillRequirements>
@@ -217,25 +200,21 @@
     </modExtensions>
   </ThingDef>
   <!-- HOLY WEAPONS: Dagger -->
-  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+  <ThingDef ParentName="DrowMeleeWeaponBase">
     <defName>DE_FlameEdge</defName>
     <label>drow dagger</label>
     <description>This is a deadly dagger made by the skill of the Drow master assassins. Its blade has the effect of setting the opponent on fire.</description>
     <graphicData>
       <texPath>Things/MeleeWeapons/DE_Edge</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
       <WorkToMake>15000</WorkToMake>
       <Mass>1</Mass>
       <MarketValue>1220</MarketValue>
     </statBases>
-    <weaponTags>
+    <weaponTags Inherit="False">
       <li>DrowMeleeSpecial</li>
     </weaponTags>
-    <weaponClasses>
-      <li>Drow</li>
-    </weaponClasses>
     <soundInteract>Interact_BladelinkMonoSword</soundInteract>
     <meleeHitSound>MeleeHit_BladelinkMonoSword</meleeHitSound>
     <costList>
@@ -244,8 +223,6 @@
       <Leather_MDeer>10</Leather_MDeer>
     </costList>
     <uiIconScale>1</uiIconScale>
-    <techLevel>Medieval</techLevel>
-    <equippedAngleOffset>-65</equippedAngleOffset>
     <recipeMaker>
       <researchPrerequisite>Drow_WeaponsII</researchPrerequisite>
       <skillRequirements>
@@ -289,22 +266,17 @@
     <thingSetMakerTags>
       <li>RewardStandardLowFreq</li>
     </thingSetMakerTags>
-    <tradeTags>
-      <li>DrowMelee</li>
-      <li>Underdark</li>
-    </tradeTags>
     <comps>
       <li Class="CompProperties_Biocodable" />
     </comps>
   </ThingDef>
   <!--== Broadsword ===-->
-  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+  <ThingDef ParentName="DrowMeleeWeaponBase">
     <defName>DE_Blade</defName>
     <label>drow broadsword</label>
     <description>The drow call these weapons "the Goddess Wrath", wielded by the fearsome Khabi or Temple Guards. Very few have suffered a full blow and live to tell the tale. The special composition of the blade short-circuit mechanoids.</description>
     <graphicData>
       <texPath>Things/MeleeWeapons/DE_Blade</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.2</drawSize>
     </graphicData>
     <statBases>
@@ -312,23 +284,18 @@
       <Mass>1.85</Mass>
       <MarketValue>1760</MarketValue>
     </statBases>
-    <weaponClasses>
-      <li>Drow</li>
-    </weaponClasses>
-    <weaponTags>
+    <weaponTags Inherit="False">
       <li>DrowMeleeSpecial</li>
     </weaponTags>
     <uiIconScale>1.2</uiIconScale>
     <soundInteract>Interact_ZeusHammer</soundInteract>
     <meleeHitSound>MeleeHit_ZeusHammer</meleeHitSound>
-    <techLevel>Medieval</techLevel>
     <costList>
       <Steel>80</Steel>
       <Plasteel>20</Plasteel>
       <Gold>1</Gold>
       <Leather_MDeer>20</Leather_MDeer>
     </costList>
-    <equippedAngleOffset>-65</equippedAngleOffset>
     <recipeMaker>
       <researchPrerequisite>Drow_WeaponsII</researchPrerequisite>
       <skillRequirements>
@@ -369,39 +336,28 @@
         <cooldownTime>2.6</cooldownTime>
       </li>
     </tools>
-    <tradeTags>
-      <li>DrowMelee</li>
-      <li>Underdark</li>
-    </tradeTags>
     <comps>
       <li Class="CompProperties_Biocodable" />
     </comps>
   </ThingDef>
   <!--== Lance ===-->
-  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+  <ThingDef ParentName="DrowMeleeWeaponBase">
     <defName>DE_Lance</defName>
     <label>drow lance</label>
     <description>In the dawn of time, it is said that the Drow Goddess was wounded by a drifting spear, so the goddess proscribed the use of this weapon. However, it is also said that She allows her finest champions to wield the Forbidden Lance in battle. The point will make the deepest wounds, so beware!</description>
     <graphicData>
       <texPath>Things/MeleeWeapons/DE_Lance</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>1</drawSize>
     </graphicData>
     <statBases>
       <WorkToMake>30000</WorkToMake>
       <Mass>2.25</Mass>
       <MarketValue>2075</MarketValue>
     </statBases>
-    <weaponTags>
+    <weaponTags Inherit="False">
       <li>DrowMeleeSpecial</li>
     </weaponTags>
-    <weaponClasses>
-      <li>Drow</li>
-    </weaponClasses>
-    <uiIconScale>1</uiIconScale>
     <soundInteract>Interact_PlasmaSword</soundInteract>
     <meleeHitSound>MeleeHit_PlasmaSword</meleeHitSound>
-    <techLevel>Medieval</techLevel>
     <costList>
       <Steel>100</Steel>
       <Plasteel>25</Plasteel>
@@ -441,10 +397,6 @@
         <cooldownTime>2.3</cooldownTime>
       </li>
     </tools>
-    <tradeTags>
-      <li>DrowMelee</li>
-      <li>Underdark</li>
-    </tradeTags>
     <comps>
       <li Class="CompProperties_Biocodable" />
     </comps>
@@ -471,5 +423,4 @@
       </li>
     </modExtensions>
   </ThingDef>
-  
 </Defs>
