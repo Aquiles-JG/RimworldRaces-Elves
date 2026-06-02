@@ -48,7 +48,7 @@
     <label>palatine sword</label>
     <description>A legendary blade only granted to the highest ranking servants of the elven Empire.</description>
     <graphicData>
-      <texPath>Things/MeleeWeapons/Elf_BastardSwordLink</texPath>
+      <texPath>Things/MeleeWeapons/Elf_BastardSword</texPath>
     </graphicData>
     <statBases>
       <MarketValue>4000</MarketValue>

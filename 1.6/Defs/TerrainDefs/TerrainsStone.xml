@@ -121,26 +121,23 @@
     <renderPrecedence>220</renderPrecedence>
     <description>Decorative stone tiles that have been cut and laid with great precision by elven hands. Slow to construct and very beautiful.</description>
     <texturePath>Terrain/Surfaces/DecoratedTileStone</texturePath>
-    <resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
+    <resourcesFractionWhenDeconstructed>0.3</resourcesFractionWhenDeconstructed>
     <statBases>
-      <WorkToBuild>5000</WorkToBuild>
-      <Beauty>3</Beauty>
+      <WorkToBuild>1200</WorkToBuild>
+      <Beauty>2</Beauty>
       <CleaningTimeFactor>0.8</CleaningTimeFactor>
     </statBases>
     <designatorDropdown>Floor_Tile_Decorated</designatorDropdown>
     <researchPrerequisites>
       <li>Aq_ElvenArmor</li>
     </researchPrerequisites>
-    <tags>
-      <li>FineFloor</li>
-    </tags>
   </TerrainDef>
   <TerrainDef ParentName="Aq_DecoratedTileStoneBase">
     <defName>Aq_DecoratedTileStoneSandstone</defName>
     <label>decorated sandstone tile</label>
     <color>(126,104,94)</color>
     <costList>
-      <BlocksSandstone>20</BlocksSandstone>
+      <BlocksSandstone>8</BlocksSandstone>
     </costList>
   </TerrainDef>
   <TerrainDef ParentName="Aq_DecoratedTileStoneBase">
@@ -148,7 +145,7 @@
     <label>decorated granite tile</label>
     <color>(105,95,97)</color>
     <costList>
-      <BlocksGranite>20</BlocksGranite>
+      <BlocksGranite>8</BlocksGranite>
     </costList>
   </TerrainDef>
   <TerrainDef ParentName="Aq_DecoratedTileStoneBase">
@@ -156,7 +153,7 @@
     <label>decorated limestone tile</label>
     <color>(158,153,135)</color>
     <costList>
-      <BlocksLimestone>20</BlocksLimestone>
+      <BlocksLimestone>8</BlocksLimestone>
     </costList>
   </TerrainDef>
   <TerrainDef ParentName="Aq_DecoratedTileStoneBase">
@@ -164,7 +161,7 @@
     <label>decorated slate tile</label>
     <color>(70,70,70)</color>
     <costList>
-      <BlocksSlate>20</BlocksSlate>
+      <BlocksSlate>8</BlocksSlate>
     </costList>
   </TerrainDef>
   <TerrainDef ParentName="Aq_DecoratedTileStoneBase">
@@ -172,7 +169,7 @@
     <label>decorated marble tile</label>
     <color>(132,135,132)</color>
     <costList>
-      <BlocksMarble>20</BlocksMarble>
+      <BlocksMarble>8</BlocksMarble>
     </costList>
   </TerrainDef>
 </Defs>

@@ -88,7 +88,7 @@
     <label>decorated claystone tile</label>
     <color>(228, 188, 147)</color>
     <costList>
-      <BlocksClaystone>20</BlocksClaystone>
+      <BlocksClaystone>8</BlocksClaystone>
     </costList>
   </TerrainDef>
   <TerrainDef ParentName="Aq_DecoratedTileStoneBase">
@@ -96,7 +96,7 @@
     <label>decorated basalt tile</label>
     <color>(50,50,50)</color>
     <costList>
-      <BlocksBasalt>20</BlocksBasalt>
+      <BlocksBasalt>8</BlocksBasalt>
     </costList>
   </TerrainDef>
   <TerrainDef ParentName="Aq_DecoratedTileStoneBase">
@@ -104,42 +104,9 @@
     <label>decorated gneiss tile</label>
     <color>(146,138,104)</color>
     <costList>
-      <BlocksGneiss>20</BlocksGneiss>
+      <BlocksGneiss>8</BlocksGneiss>
     </costList>
   </TerrainDef>
-  <TerrainDef ParentName="Aq_DecoratedTileStoneBase">
-    <defName>Aq_DecoratedTileStoneQuartzite</defName>
-    <label>decorated quartzite tile</label>
-    <color>(154,158,136)</color>
-    <costList>
-      <BlocksQuartzite>20</BlocksQuartzite>
-    </costList>
-  </TerrainDef>
-  <TerrainDef ParentName="Aq_DecoratedTileStoneBase">
-    <defName>Aq_DecoratedTileStoneChalk</defName>
-    <label>decorated chalk tile</label>
-    <color>(220,220,220)</color>
-    <costList>
-      <BlocksChalk>20</BlocksChalk>
-    </costList>
-  </TerrainDef>
-  <TerrainDef ParentName="Aq_DecoratedTileStoneBase">
-    <defName>Aq_DecoratedTileStoneAlabaster</defName>
-    <label>decorated alabaster tile</label>
-    <color>(247,244,225)</color>
-    <costList>
-      <BlocksAlabaster>20</BlocksAlabaster>
-    </costList>
-  </TerrainDef>
-  <TerrainDef ParentName="Aq_DecoratedTileStoneBase">
-    <defName>Aq_DecoratedTileStoneDunite</defName>
-    <label>decorated dunite tile</label>
-    <color>(153,176,110)</color>
-    <costList>
-      <BlocksDunite>20</BlocksDunite>
-    </costList>
-  </TerrainDef>
-  
   <!-- Wood Floor-->
    <TerrainDef ParentName="ElvenParquetBase">
     <defName>Aq_BambooElvenParquet</defName>
