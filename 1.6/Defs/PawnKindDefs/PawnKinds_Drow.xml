@@ -502,8 +502,7 @@
 
  <PawnKindDef ParentName="DrowEliteBase">
     <defName>Drow_ShockDrow</defName>
-    <label>khaba</label>
-    <labelPlural>khabi</labelPlural>
+    <label>temple guard</label>
     <combatPower>102</combatPower>
     <fixedGender>Female</fixedGender>
     <gearHealthRange>
@@ -541,7 +540,7 @@
 
   <PawnKindDef ParentName="DrowEliteUFBase">
 	<defName>Drow_ShockUFDrow</defName>
-    <label>kin'asier</label>
+    <label>assassin</label>
     <combatPower>102</combatPower>
     <gearHealthRange>
     	<min>0.7</min>
@@ -850,7 +849,7 @@
 
   <PawnKindDef ParentName="DrowEliteBase">
     <defName>Drow_CaptainDrow</defName>
-    <label>nuschka</label>
+    <label>matriarch</label>
 	<factionLeader>true</factionLeader>
 	<minGenerationAge>30</minGenerationAge>
 	<maxGenerationAge>45</maxGenerationAge>
