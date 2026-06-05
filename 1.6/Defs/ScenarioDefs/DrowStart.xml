@@ -76,7 +76,7 @@
         </li>
         <li Class="ScenPart_StartingThing_Defined">
           <def>StartingThing_Defined</def>
-          <thingDef>DE_Rapier</thingDef>
+          <thingDef>Aq_DrowRapier</thingDef>
           <count>1</count>
         </li>
         <!-- Scatter some things near player start -->

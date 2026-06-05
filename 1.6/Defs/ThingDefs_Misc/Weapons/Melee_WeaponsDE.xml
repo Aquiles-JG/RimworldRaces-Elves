@@ -72,11 +72,11 @@
   </ThingDef>
   <!-- Rapier -->
   <ThingDef ParentName="DrowMeleeWeaponBase">
-    <defName>DE_Rapier</defName>
+    <defName>Aq_DrowRapier</defName>
     <label>rapier</label>
     <description>The traditional longsword of the dark elves.</description>
     <graphicData>
-      <texPath>Things/MeleeWeapons/DE_Rapier</texPath>
+      <texPath>Things/MeleeWeapons/DrowRapier</texPath>
     </graphicData>
     <statBases>
       <WorkToMake>18000</WorkToMake>
