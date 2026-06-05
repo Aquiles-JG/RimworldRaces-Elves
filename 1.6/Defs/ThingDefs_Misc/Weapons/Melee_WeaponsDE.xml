@@ -33,7 +33,7 @@
     </statBases>
     <uiIconScale>1.1</uiIconScale>
     <costList>
-      <Steel>60</Steel>
+      <Steel>50</Steel>
       <Leather_MDeer>10</Leather_MDeer>
     </costList>
     <tools>
@@ -83,10 +83,10 @@
       <Mass>1.25</Mass>
     </statBases>
     <uiIconScale>1.1</uiIconScale>
-    <costStuffCount>75</costStuffCount>
-    <stuffCategories>
-      <li>Metallic</li>
-    </stuffCategories>
+    <costList>
+      <Steel>70</Steel>
+      <Leather_MDeer>10</Leather_MDeer>
+    </costList>
     <equippedStatOffsets>
       <MeleeDodgeChance>0.2</MeleeDodgeChance>
     </equippedStatOffsets>
