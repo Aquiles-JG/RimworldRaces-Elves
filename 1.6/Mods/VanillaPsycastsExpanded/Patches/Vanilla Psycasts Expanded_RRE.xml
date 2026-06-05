@@ -33,11 +33,11 @@
                   		<kindDef>Combat</kindDef>
                   		<commonality>10</commonality>
                   		<options>
-                     		<Penal_MeleeDrow>5</Penal_MeleeDrow>
-                     		<Mercenary_SniperDrow>3.5</Mercenary_SniperDrow>
-                     		<Drow_shocktroop>2</Drow_shocktroop>
-                     		<Penal_CaptainDrow>1</Penal_CaptainDrow>
-					 		<Penal_PriestessDrow>0.2</Penal_PriestessDrow>
+                     		<Drow_SniperDrow>35</Drow_SniperDrow>
+							<Drow_ShockDrow>20</Drow_ShockDrow>
+        					<Drow_HeavyDrow>40</Drow_HeavyDrow>
+							<Drow_CaptainDrow>5</Drow_CaptainDrow>
+					 		<Drow_PriestessDrow>0.2</Drow_PriestessDrow>
                   		</options>
                   		</li>
                   	</value>
@@ -49,11 +49,11 @@
                   		<kindDef>Combat</kindDef>
                   		<commonality>10</commonality>
                   		<options>
-                     		<Penal_MeleeUFDrow>5</Penal_MeleeUFDrow>
-                     		<Mercenary_SniperUFDrow>3.5</Mercenary_SniperUFDrow>
-                     		<AssassinUFDrow>2</AssassinUFDrow>
-                     		<Penal_CaptainUFDrow>1</Penal_CaptainUFDrow>
-					 		<Penal_KinasierUFDrow>0.2</Penal_KinasierUFDrow>
+                     		<Drow_SniperUFDrow>35</Drow_SniperUFDrow>
+        					<Drow_HeavyUFDrow>35</Drow_HeavyUFDrow>
+        					<Drow_ShockUFDrow>25</Drow_ShockUFDrow>
+							<Drow_CaptainUFDrow>5</Drow_CaptainUFDrow>
+					 		<Drow_PriestessUFDrow>0.2</Drow_PriestessUFDrow>
                   		</options>
                   		</li>
                   	</value>

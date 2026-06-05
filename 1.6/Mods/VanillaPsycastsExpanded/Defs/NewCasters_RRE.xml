@@ -3,7 +3,7 @@
 
 	<PawnKindDef ParentName="DrowEliteBase">
 		<defName>Drow_PriestessDrow</defName>
-		<label>sacred handmaiden</label>
+		<label>holy handmaiden</label>
 		<combatPower>300</combatPower>
 		<fixedGender>Female</fixedGender>
 		<itemQuality>Normal</itemQuality>

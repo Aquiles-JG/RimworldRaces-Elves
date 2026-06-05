@@ -10,9 +10,9 @@
   </BackstoryDef>
   <!-- Adulthood -->
   <BackstoryDef ParentName="DrowBackstoryBase">
-    <defName>KinasierDrow</defName>
-    <title>kin'asier</title>
-    <titleShort>kin'asier</titleShort>
+    <defName>AssassinDrow</defName>
+    <title>assassin</title>
+    <titleShort>assassin</titleShort>
     <baseDesc>Exiled to the outer worlds by a deceitful political plot, [PAWN_nameDef] joined the fearsome Kin'asier, probably the best assassins in the Rim. The kin'asier are outcast, doomed to never return home, and only loyal to their legendary leader: the Dark Bride.</baseDesc>
     <slot>Adulthood</slot>
     <skillGains>
@@ -152,8 +152,8 @@
   </BackstoryDef>
   <BackstoryDef ParentName="DrowBackstoryBase">
     <defName>KhabaDrow</defName>
-    <title>khaba</title>
-    <titleShort>khaba</titleShort>
+    <title>temple guard</title>
+    <titleShort>guard</titleShort>
     <baseDesc>One of the seventy-one words to define a woman in the drow language. The khaba is a young girl that had to serve as an armed guardian in the Dark Temple without pay for seven whole years. Only the Nuschka is exempted from this service. [PAWN_nameDef] didn't have that luck.</baseDesc>
     <slot>Adulthood</slot>
     <skillGains>
@@ -393,8 +393,8 @@
   </BackstoryDef>
   <BackstoryDef ParentName="DrowBackstoryBase">
     <defName>NuschkaDrow</defName>
-    <title>nuschka</title>
-    <titleShort>nuschka</titleShort>
+    <title>heiress</title>
+    <titleShort>heiress</titleShort>
     <baseDesc>Born as the daughter of the High Priestess, [PAWN_nameDef] was raised as a crown princess for a major drow city. A birthright both powerful and dangerous, because [PAWN_pronoun] needed to excel soon in the arts of war, conspiracy and poison in order to survive the vicious life inside the Dark Temple.</baseDesc>
     <slot>Childhood</slot>
     <skillGains>

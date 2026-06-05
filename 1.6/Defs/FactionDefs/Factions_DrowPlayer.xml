@@ -4,7 +4,7 @@
 
 <FactionDef Parent="PlayerFactionBase">
     <defName>Player_Drow</defName>
-    <label>last Kin'asier</label>
+    <label>last shadows</label>
     <description>The remains of a secret organization of dark elves assassins.</description>
    	<xenotypeSet Inherit="False">
       <xenotypeChances>
