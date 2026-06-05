@@ -13,6 +13,7 @@
     <weaponClasses>
       <li>Elf</li>
     </weaponClasses>
+    <equippedAngleOffset>-45</equippedAngleOffset>
     <equippedStatOffsets>
       <AimingDelayFactor>-0.15</AimingDelayFactor>
     </equippedStatOffsets>
@@ -39,12 +40,11 @@
     </projectile>
   </ThingDef>
   <ThingDef ParentName="ElfRangedWeaponBase">
-    <defName>Aq_Bow_High</defName>
+    <defName>Aq_ElvenLongbow</defName>
     <label>elven longbow</label>
     <description>The longbow preferred by the gray elves. A powerful long range weapon.</description>
     <graphicData>
       <texPath>Things/WeaponRanged/Bow/ElvenLongbow</texPath>
-      <drawSize>(1.5,1.5)</drawSize>
     </graphicData>
     <stuffCategories>
       <li>Woody</li>
@@ -135,13 +135,12 @@
   </ThingDef>
   
   <ThingDef ParentName="ElfRangedWeaponBase">
-    <defName>Aq_Bow_Great</defName>
+    <defName>Aq_ElvenGreatbow</defName>
     <label>elven greatbow</label>
     <description>The elite archers of the gray elves utilize an exceptional longbow that has devestating damage and pinpoint accuracy. This greatbow can fire up to three incendiary arrows.</description>
     <techLevel>Medieval</techLevel>
     <graphicData>
       <texPath>Things/WeaponRanged/Bow/ElvenGreatbow</texPath>
-      <drawSize>(2.0,2.0)</drawSize>
     </graphicData>
     <costList>
       <WoodLog>100</WoodLog>

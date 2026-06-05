@@ -74,7 +74,7 @@
         </li>
          <li Class="ScenPart_StartingThing_Defined">
           <def>StartingThing_Defined</def>
-          <thingDef>Aq_Bow_High</thingDef>
+          <thingDef>Aq_ElvenLongbow</thingDef>
           <stuff>WoodLog</stuff>
           <count>2</count>
         </li>

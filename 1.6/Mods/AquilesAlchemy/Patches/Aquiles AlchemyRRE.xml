@@ -16,7 +16,7 @@
         </value>
       </li>
       <li Class="PatchOperationReplace">
-        <xpath>/Defs/ThingDef[defName = "Aq_Bow_Great"]/comps/li[@Class="CompProperties_EquippableAbilityReloadable"]/ammoDef</xpath>
+        <xpath>/Defs/ThingDef[defName = "Aq_ElvenGreatbow"]/comps/li[@Class="CompProperties_EquippableAbilityReloadable"]/ammoDef</xpath>
         <value>
           <ammoDef>Aq_Tar</ammoDef>
         </value>
