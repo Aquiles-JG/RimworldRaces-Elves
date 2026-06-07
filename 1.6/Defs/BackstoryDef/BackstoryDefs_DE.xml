@@ -154,7 +154,7 @@
     <defName>KhabaDrow</defName>
     <title>temple guard</title>
     <titleShort>guard</titleShort>
-    <baseDesc>One of the seventy-one words to define a woman in the drow language. The khaba is a young girl that had to serve as an armed guardian in the Dark Temple without pay for seven whole years. Only the Nuschka is exempted from this service. [PAWN_nameDef] didn't have that luck.</baseDesc>
+    <baseDesc>One of the seventy-one words to define a woman in the drow language. The khaba is a young girl that had to serve as an armed guardian in the Dark Temple without pay for seven whole years. [PAWN_nameDef] didn't have that luck.</baseDesc>
     <slot>Adulthood</slot>
     <skillGains>
       <Shooting>2</Shooting>
@@ -392,7 +392,7 @@
     </requiredWorkTags>
   </BackstoryDef>
   <BackstoryDef ParentName="DrowBackstoryBase">
-    <defName>NuschkaDrow</defName>
+    <defName>HeiressDrow</defName>
     <title>heiress</title>
     <titleShort>heiress</titleShort>
     <baseDesc>Born as the daughter of the High Priestess, [PAWN_nameDef] was raised as a crown princess for a major drow city. A birthright both powerful and dangerous, because [PAWN_pronoun] needed to excel soon in the arts of war, conspiracy and poison in order to survive the vicious life inside the Dark Temple.</baseDesc>
@@ -433,7 +433,7 @@
     <bodyTypeGlobal>Male</bodyTypeGlobal>
   </BackstoryDef>
   <BackstoryDef ParentName="DrowBackstoryBase">
-    <defName>HeiressDrow</defName>
+    <defName>BadHeiressDrow</defName>
     <title>spoiled heiress</title>
     <titleShort>spoiled heiress</titleShort>
     <baseDesc>The major Drow Houses are organized in strict hierarchies where the strong prey on the weak. As long as the Matriarch is alive, the heiress will enjoy a life of limitless pleasure, luxury and excess. But beware, because conspiracies are always on the making and privileged positions can change in a blink of a eye. As a child, [PAWN_nameDef] was a spoiled brat and probably [PAWN_pronoun] will always be one.</baseDesc>
