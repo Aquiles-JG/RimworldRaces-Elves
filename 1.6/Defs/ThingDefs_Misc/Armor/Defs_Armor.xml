@@ -62,7 +62,6 @@
     </thingCategories>
     <tradeTags>
       <li>Underdark</li>
-      <li>Armor</li>
     </tradeTags>
     <colorGenerator Class="ColorGenerator_StandardApparel" />
     <tickerType>Rare</tickerType>
@@ -147,7 +146,6 @@
     </thingCategories>
     <tradeTags>
       <li>Underdark</li>
-      <li>Armor</li>
     </tradeTags>
     <costStuffCount>200</costStuffCount>
     <stuffCategories>

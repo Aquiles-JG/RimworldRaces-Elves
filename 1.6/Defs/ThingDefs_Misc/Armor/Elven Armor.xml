@@ -69,7 +69,6 @@
     </modExtensions>
     <tradeTags>
       <li>Elvendom</li>
-      <li>Armor</li>
     </tradeTags>
   </ThingDef>
   
@@ -134,7 +133,6 @@
     </thingCategories>
     <tradeTags>
       <li>Elvendom</li>
-      <li>Armor</li>
     </tradeTags>
     <costStuffCount>125</costStuffCount>
     <stuffCategories>
