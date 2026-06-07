@@ -1,11 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
-<StyleItemCategoryDef>
+  <StyleItemCategoryDef>
     <defName>Elf</defName>
     <label>elf</label>
   </StyleItemCategoryDef>
-
+  <!-- Hairs from original LOTR Elves mod by Jecrell-->
   <HairDef>
     <defName>Aq_Legolas</defName>
     <label>elf archer</label>
@@ -17,7 +16,6 @@
       <li>HairLong</li>
     </hairTags>
   </HairDef>
-  
   <HairDef>
     <defName>Aq_Elrond</defName>
     <label>elf lord</label>
@@ -29,7 +27,6 @@
       <li>HairLong</li>
     </hairTags>
   </HairDef>
-  
   <HairDef>
     <defName>Aq_Arwen</defName>
     <label>elf noblewoman</label>
@@ -41,7 +38,6 @@
       <li>HairLong</li>
     </hairTags>
   </HairDef>
-  
   <HairDef>
     <defName>Aq_ArwenTwo</defName>
     <label>elf ponytail</label>
@@ -53,7 +49,6 @@
       <li>HairLong</li>
     </hairTags>
   </HairDef>
-  
   <HairDef>
     <defName>Aq_Galadriel</defName>
     <label>elf queen</label>
@@ -65,5 +60,4 @@
       <li>HairLong</li>
     </hairTags>
   </HairDef>
-  
 </Defs>

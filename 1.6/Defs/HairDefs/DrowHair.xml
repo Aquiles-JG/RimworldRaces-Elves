@@ -1,40 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
-<StyleItemCategoryDef>
+  <StyleItemCategoryDef>
     <defName>Drow</defName>
     <label>drow</label>
   </StyleItemCategoryDef>
-
-<!-- New hairs-->
-
-   <HairDef>
-    <defName>Aq_Hair_NuschkaDrow</defName>
-    <label>nuschka</label>
-    <hairGender>Female</hairGender>
-    <texPath>Things/Pawn/Humanlike/DrowHair/Nuschka</texPath>
-	<category>Drow</category>
-		<hairTags>
-			<li>Drow</li>
-			<li>HairLong</li>
-		</hairTags>
-  </HairDef>
-
-<!-- CP hairs-->
-  
+  <!-- CP hairs from original Drow mod-->
   <HairDef>
     <defName>CP_Hair_Cassie_Drow</defName>
     <label>Cassie Drow</label>
     <hairGender>Female</hairGender>
     <texPath>Things/Pawn/Humanlike/DrowHair/Cassie</texPath>
-	<category>Drow</category>
-		<hairTags>
-			<li>Drow</li>
-			<li>HairShort</li>
-			<li>HairLong</li>
-		</hairTags>
+    <category>Drow</category>
+    <hairTags>
+      <li>Drow</li>
+      <li>HairShort</li>
+      <li>HairLong</li>
+    </hairTags>
   </HairDef>
-  
   <HairDef>
     <defName>CP_Hair_Ellie_Drow</defName>
     <label>Ellie Drow</label>
@@ -42,205 +24,184 @@
     <texPath>Things/Pawn/Humanlike/DrowHair/Ellie</texPath>
     <category>Drow</category>
     <hairTags>
-			<li>Drow</li>
-			<li>HairLong</li>
-		</hairTags>
+      <li>Drow</li>
+      <li>HairLong</li>
+    </hairTags>
   </HairDef>
-  
   <HairDef>
     <defName>CP_Hair_Jill_Drow</defName>
     <label>Jill Drow</label>
     <hairGender>Female</hairGender>
     <texPath>Things/Pawn/Humanlike/DrowHair/Jill</texPath>
-<category>Drow</category>
-		<hairTags>
-			<li>Drow</li>
-			<li>HairLong</li>
-		</hairTags>
+    <category>Drow</category>
+    <hairTags>
+      <li>Drow</li>
+      <li>HairLong</li>
+    </hairTags>
   </HairDef>
-  
   <HairDef>
     <defName>CP_Hair_Juli_Drow</defName>
     <label>Juli Drow</label>
     <hairGender>Female</hairGender>
     <texPath>Things/Pawn/Humanlike/DrowHair/Juli</texPath>
-	<category>Drow</category>
-		<hairTags>
-			<li>Drow</li>
-			<li>HairLong</li>
-		</hairTags>
+    <category>Drow</category>
+    <hairTags>
+      <li>Drow</li>
+      <li>HairLong</li>
+    </hairTags>
   </HairDef>
-
-  
   <HairDef>
     <defName>CP_Hair_Lara_Drow</defName>
     <label>Lara Drow</label>
     <hairGender>Female</hairGender>
     <texPath>Things/Pawn/Humanlike/DrowHair/Lara</texPath>
-	<category>Drow</category>
-		<hairTags>
-			<li>Drow</li>
-			<li>HairLong</li>
-		</hairTags>
+    <category>Drow</category>
+    <hairTags>
+      <li>Drow</li>
+      <li>HairLong</li>
+    </hairTags>
   </HairDef>
-  
-
   <HairDef>
     <defName>CP_Hair_Pharah_Drow</defName>
     <label>Pharah Drow</label>
     <hairGender>Female</hairGender>
     <texPath>Things/Pawn/Humanlike/DrowHair/Pharah</texPath>
-	<category>Drow</category>
-		<hairTags>
-			<li>Drow</li>
-			<li>HairLong</li>
-		</hairTags>
+    <category>Drow</category>
+    <hairTags>
+      <li>Drow</li>
+      <li>HairLong</li>
+    </hairTags>
   </HairDef>
-  
   <HairDef>
     <defName>CP_Hair_Powergirl_Drow</defName>
     <label>Starr Drow</label>
     <hairGender>Any</hairGender>
     <texPath>Things/Pawn/Humanlike/DrowHair/PowerGirl</texPath>
-	<category>Drow</category>
-		<hairTags>
-			<li>Drow</li>
-			<li>HairShort</li>
-		</hairTags>
+    <category>Drow</category>
+    <hairTags>
+      <li>Drow</li>
+      <li>HairShort</li>
+    </hairTags>
   </HairDef>
-  
   <HairDef>
     <defName>CP_Hair_Quiet_Drow</defName>
     <label>Quiet Drow</label>
     <hairGender>Female</hairGender>
     <texPath>Things/Pawn/Humanlike/DrowHair/Quiet</texPath>
-	<category>Drow</category>
-		<hairTags>
-			<li>Drow</li>
-			<li>HairLong</li>
-		</hairTags>
+    <category>Drow</category>
+    <hairTags>
+      <li>Drow</li>
+      <li>HairLong</li>
+    </hairTags>
   </HairDef>
-  
   <HairDef>
     <defName>CP_Hair_Sam_Drow</defName>
     <label>Sam Drow</label>
     <hairGender>Female</hairGender>
     <texPath>Things/Pawn/Humanlike/DrowHair/Sam</texPath>
-	<category>Drow</category>
-		<hairTags>
-			<li>Drow</li>
-			<li>HairLong</li>
-		</hairTags>
+    <category>Drow</category>
+    <hairTags>
+      <li>Drow</li>
+      <li>HairLong</li>
+    </hairTags>
   </HairDef>
-  
   <HairDef>
     <defName>CP_Hair_Wallaby_A_Drow</defName>
     <label>Wallaby A Drow</label>
     <hairGender>Male</hairGender>
     <texPath>Things/Pawn/Humanlike/DrowHair/Wallaby_A</texPath>
-	<category>Drow</category>
-		<hairTags>
-			<li>Drow</li>
-			<li>HairLong</li>
-		</hairTags>
+    <category>Drow</category>
+    <hairTags>
+      <li>Drow</li>
+      <li>HairLong</li>
+    </hairTags>
   </HairDef>
-  
   <HairDef>
     <defName>CP_Hair_Wallaby_B_Drow</defName>
-    <label>Wallaby B  Drow</label>
+    <label>Wallaby B Drow</label>
     <hairGender>Female</hairGender>
     <texPath>Things/Pawn/Humanlike/DrowHair/Wallaby_B</texPath>
-	<category>Drow</category>
-		<hairTags>
-			<li>Drow</li>
-			<li>HairLong</li>
-		</hairTags>
+    <category>Drow</category>
+    <hairTags>
+      <li>Drow</li>
+      <li>HairLong</li>
+    </hairTags>
   </HairDef>
-
-
   <HairDef>
     <defName>CP_Hair_Zoey_Drow</defName>
     <label>Zoey Drow</label>
     <hairGender>Female</hairGender>
     <texPath>Things/Pawn/Humanlike/DrowHair/Zoey</texPath>
-	<category>Drow</category>
-		<hairTags>
-		<li>Drow</li>
-		<li>HairLong</li>
-		</hairTags>
+    <category>Drow</category>
+    <hairTags>
+      <li>Drow</li>
+      <li>HairLong</li>
+    </hairTags>
   </HairDef>
-
-    <HairDef>
+  <HairDef>
     <defName>CP_Hair_JohnWick_Messy_Drow</defName>
     <label>Wick Drow</label>
     <hairGender>Male</hairGender>
     <texPath>Things/Pawn/Humanlike/DrowHair/JohnWick</texPath>
-	<category>Drow</category>
-		<hairTags>
-		<li>Drow</li>
-		<li>HairLong</li>
-		</hairTags>
+    <category>Drow</category>
+    <hairTags>
+      <li>Drow</li>
+      <li>HairLong</li>
+    </hairTags>
   </HairDef>
-  
-   <HairDef>
+  <HairDef>
     <defName>CP_Hair_Bill_Drow</defName>
     <label>Bill Drow</label>
     <hairGender>Male</hairGender>
     <texPath>Things/Pawn/Humanlike/DrowHair/Bill</texPath>
-<category>Drow</category>
-		<hairTags>
-			<li>Drow</li>
-			<li>HairShort</li>
-		</hairTags>
-  </HairDef> 
-  
-    <HairDef>
+    <category>Drow</category>
+    <hairTags>
+      <li>Drow</li>
+      <li>HairShort</li>
+    </hairTags>
+  </HairDef>
+  <HairDef>
     <defName>CP_Hair_Francis_Drow</defName>
     <label>Francis Drow</label>
     <hairGender>Male</hairGender>
     <texPath>Things/Pawn/Humanlike/DrowHair/Francis</texPath>
-	<category>Drow</category>
-		<hairTags>
-		<li>Drow</li>
-		<li>HairShort</li>
-		</hairTags>
+    <category>Drow</category>
+    <hairTags>
+      <li>Drow</li>
+      <li>HairShort</li>
+    </hairTags>
   </HairDef>
-  
-    <HairDef>
+  <HairDef>
     <defName>CP_Hair_Ted_Drow</defName>
     <label>Ted Drow</label>
     <hairGender>Male</hairGender>
     <texPath>Things/Pawn/Humanlike/DrowHair/YoungBill</texPath>
-<category>Drow</category>
-		<hairTags>
-			<li>Drow</li>
-			<li>HairShort</li>
-		</hairTags>
+    <category>Drow</category>
+    <hairTags>
+      <li>Drow</li>
+      <li>HairShort</li>
+    </hairTags>
   </HairDef>
-  
-      <HairDef>
+  <HairDef>
     <defName>CP_Hair_Jack_Drow</defName>
     <label>Jack Drow</label>
     <hairGender>Male</hairGender>
     <texPath>Things/Pawn/Humanlike/DrowHair/Jack</texPath>
-	<category>Drow</category>
-		<hairTags>
-			<li>Drow</li>
-			<li>HairShort</li>
-		</hairTags>
+    <category>Drow</category>
+    <hairTags>
+      <li>Drow</li>
+      <li>HairShort</li>
+    </hairTags>
   </HairDef>
-  
-    <HairDef>
+  <HairDef>
     <defName>CP_Hair_Joel_Drow</defName>
     <label>Joel Drow</label>
     <hairGender>Male</hairGender>
     <texPath>Things/Pawn/Humanlike/DrowHair/Joel</texPath>
-	<category>Drow</category>
-		<hairTags>
-			<li>Drow</li>
-			<li>HairShort</li>
-		</hairTags>
+    <category>Drow</category>
+    <hairTags>
+      <li>Drow</li>
+      <li>HairShort</li>
+    </hairTags>
   </HairDef>
-  
-
 </Defs>
