@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DXR_DryadicHeart" or defName="DXR_DryadicLung" or defName="DXR_DryadicLiver" or defName="DXR_DryadicKidney"]/costList/Gold</xpath>
+        <value>
+            <Aq_Glowstone>10</Aq_Glowstone>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DXR_DryadicEye"]/costList/Gold</xpath>
+        <value>
+            <Aq_Glowstone>2</Aq_Glowstone>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>
