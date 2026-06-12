@@ -181,28 +181,6 @@
         <Crafting>9</Crafting>
       </skillRequirements>
     </recipeMaker>
-    <modExtensions>
-      <li Class="VEF.Things.ThingDefExtension">
-        <weaponDraftedDrawOffsets>
-          <north>
-            <drawOffset>(-0.2, 0, -0.15)</drawOffset>
-            <angleOffset>-205</angleOffset>
-          </north>
-          <east>
-            <drawOffset>(0.45, 0, -0.15)</drawOffset>
-            <angleOffset>0</angleOffset>
-          </east>
-          <south>
-            <drawOffset>(0.2, 0, -0.15)</drawOffset>
-            <angleOffset>0</angleOffset>
-          </south>
-          <west>
-            <drawOffset>(-0.45, -0.1, -0.15)</drawOffset>
-            <angleOffset>0</angleOffset>
-          </west>
-        </weaponDraftedDrawOffsets>
-      </li>
-    </modExtensions>
     <comps>
       <li Class="CompProperties_Biocodable" />
     </comps>
