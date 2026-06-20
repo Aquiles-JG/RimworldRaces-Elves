@@ -61,7 +61,7 @@
     </apparel>
     <colorGenerator Class="ColorGenerator_StandardApparel" />
     <modExtensions>
-      <li Class="XenotypeRestrictions.XenotypeExtension">
+      <li Class="AquilesCore.XenotypeExtension">
         <exclusiveXenotypes>
           <li>Aq_Elf</li>
         </exclusiveXenotypes>
@@ -143,7 +143,7 @@
     </costList>
     <colorGenerator Class="ColorGenerator_StandardApparel" />
     <modExtensions>
-      <li Class="XenotypeRestrictions.XenotypeExtension">
+      <li Class="AquilesCore.XenotypeExtension">
         <exclusiveXenotypes>
           <li>Aq_Elf</li>
         </exclusiveXenotypes>

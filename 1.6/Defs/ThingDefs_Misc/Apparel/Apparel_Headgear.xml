@@ -54,7 +54,7 @@
       <li>Underdark</li>
     </tradeTags>
     <modExtensions>
-      <li Class="XenotypeRestrictions.XenotypeExtension">
+      <li Class="AquilesCore.XenotypeExtension">
         <exclusiveXenotypes>
           <li>Aq_DarkElf</li>
         </exclusiveXenotypes>
@@ -137,7 +137,7 @@
       <li>Elvendom</li>
     </tradeTags>
     <modExtensions>
-      <li Class="XenotypeRestrictions.XenotypeExtension">
+      <li Class="AquilesCore.XenotypeExtension">
         <exclusiveXenotypes>
           <li>Aq_DarkElf</li>
           <li>Aq_Elf</li>
@@ -149,7 +149,7 @@
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>DE_PriestessCowl</defName>
     <label>priestess cowl</label>
-    <description>A fabric cowl of elven design that was blessed in a temple.\n\nOffers a small amount of protection and will slightly enchance psychic sensitivity and help dissipate neural heat.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Only Elves and Dark Elves may wear it.</description>
+    <description>A fabric cowl of elven design that was blessed in a temple.\n\nOffers a small amount of protection and will slightly enchance psychic sensitivity and help dissipate neural heat.</description>
     <techLevel>Medieval</techLevel>
     <graphicData>
       <texPath>Things/Apparel/DE_PriestessCowl/DE_PriestessCowl</texPath>
@@ -211,13 +211,5 @@
       <li>Underdark</li>
       <li>Elvendom</li>
     </tradeTags>
-    <modExtensions>
-      <li Class="XenotypeRestrictions.XenotypeExtension">
-        <exclusiveXenotypes>
-          <li>Aq_DarkElf</li>
-          <li>Aq_Elf</li>
-        </exclusiveXenotypes>
-      </li>
-    </modExtensions>
   </ThingDef>
 </Defs>

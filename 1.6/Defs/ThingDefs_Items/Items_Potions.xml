@@ -96,7 +96,7 @@
     	<rotatable>false</rotatable>		
 		<ingestible>
 			<outcomeDoers>
-				<li Class="HediffRemover.IngestionOutcomeDoer_RemoveHediff">
+				<li Class="AquilesCore.IngestionOutcomeDoer_RemoveHediff">
 					<hediffToRemove>CatatonicBreakdown</hediffToRemove>
 				</li>
 				<li Class="IngestionOutcomeDoer_GiveHediff">
@@ -132,7 +132,7 @@
     <rotatable>false</rotatable>
     <ingestible>
       <outcomeDoers>
-        <li Class="HediffRemover.IngestionOutcomeDoer_Immunity">
+        <li Class="AquilesCore.IngestionOutcomeDoer_Immunity">
             <hediffToRemove>Plague</hediffToRemove>
             <severityToReduce>0.2</severityToReduce>
             <immunityHediff>

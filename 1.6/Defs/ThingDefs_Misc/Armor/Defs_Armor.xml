@@ -73,7 +73,7 @@
       </li>
     </comps>
     <modExtensions>
-      <li Class="XenotypeRestrictions.XenotypeExtension">
+      <li Class="AquilesCore.XenotypeExtension">
         <exclusiveXenotypes>
           <li>Aq_DarkElf</li>
         </exclusiveXenotypes>
@@ -164,7 +164,7 @@
       <li Class="CompProperties_Biocodable" />
     </comps>
     <modExtensions>
-      <li Class="XenotypeRestrictions.XenotypeExtension">
+      <li Class="AquilesCore.XenotypeExtension">
         <exclusiveXenotypes>
           <li>Aq_DarkElf</li>
         </exclusiveXenotypes>

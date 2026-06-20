@@ -31,7 +31,7 @@
 	  <li>AptitudeStrong_Artistic</li>
     </genes>
      <modExtensions>
-		<li Class="XenotypeRestrictions.XenotypeExtension">
+		<li Class="AquilesCore.XenotypeExtension">
 			<!--overridenSpawnedParts>
 				<li>
 					<key>Lung</key><value>CustomLung</value>
@@ -75,7 +75,7 @@
 	  <li>AptitudePoor_Social</li>
     </genes>
     <modExtensions>
-    	<li Class="XenotypeRestrictions.XenotypeExtension">
+    	<li Class="AquilesCore.XenotypeExtension">
 			<!--overridenSpawnedParts>
 				<li>
 					<key>Lung</key><value>CustomLung</value>
