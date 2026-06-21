@@ -20,6 +20,7 @@
   <li IfModActive="Aquiles.Collection">1.6/Mods/RadHairFix</li>
   <li IfModActive="Rah.RBSE">1.6/Mods/RBSE</li>
   <li IfModActive="Aquiles.RimCooking.Redux">1.6/Mods/RimCookingRedux</li>
+  <li IfModActive="DimonSever000.FactionLanguages">1.6/Mods/RimLanguages</li>
   <li IfModActive="BotchJob.Profaned">1.6/Mods/TheProfaned</li>
   <li IfModActive="Superniquito.TraitIcons">1.6/Mods/TraitIcons</li>
   <li IfModActive="VanillaExpanded.VanillaAspirationsExpanded">1.6/Mods/VanillaAspirationsExpanded</li>
