@@ -48,9 +48,12 @@
     <defName>ElfLanguage</defName>
     <rulePack>
       <rulesStrings>
-        <li>r_name(p=1)-&gt;[wholeName]</li>
+       	<li>r_name(p=1)->[wholeName]</li>
+       	<li>r_name(p=0.02)->[anyPrefix][wholeName]</li>
+      	<!---->
+		<li>anyPrefix->astro</li>
         <!---->
-        <li>wholeName-&gt;Elven</li>
+        <li>wholeName-&gt;elven</li>
       </rulesStrings>
     </rulePack>
   </RulePackDef>
@@ -61,9 +64,9 @@
         <li>r_name(p=1)-&gt;[adj] [Name]</li>
         <!---->
         <li>adj(p=1)-&gt;high</li>
-        <li>adj(p=0.3)-&gt;classical</li>
-        <li>adj(p=0.2)-&gt;imperial</li>
-        <li>adj(p=0.1)-&gt;lyrical</li>
+        <li>adj(p=0.5)-&gt;classical</li>
+        <li>adj(p=0.4)-&gt;imperial</li>
+        <li>adj(p=0.3)-&gt;lyrical</li>
         <li>Name-&gt;elvish</li>
       </rulesStrings>
     </rulePack>
@@ -75,9 +78,9 @@
         <li>r_name(p=1)-&gt;[adj] [Name]</li>
         <!---->
         <li>adj(p=1)-&gt;dark</li>
-        <li>adj(p=0.3)-&gt;secret</li>
-        <li>adj(p=0.2)-&gt;sacred</li>
-        <li>adj(p=0.1)-&gt;cryptic</li>
+        <li>adj(p=0.5)-&gt;secret</li>
+        <li>adj(p=0.4)-&gt;sacred</li>
+        <li>adj(p=0.3)-&gt;cryptic</li>
         <li>Name-&gt;elvish</li>
       </rulesStrings>
     </rulePack>
