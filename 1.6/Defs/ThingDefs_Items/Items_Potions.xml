@@ -87,7 +87,7 @@
 		<description>A balsamic ointment made by the Elves that can revive someone catatonic. It causes some mild side effects though.</description>
 		<graphicData>
       		<texPath>Things/Item/Drug/RestorationBalm</texPath>
-      		<graphicClass>Graphic_Single</graphicClass>
+      		<graphicClass>Graphic_StackCount</graphicClass>
     	</graphicData>
 		<statBases>
 			<MarketValue>320</MarketValue>
