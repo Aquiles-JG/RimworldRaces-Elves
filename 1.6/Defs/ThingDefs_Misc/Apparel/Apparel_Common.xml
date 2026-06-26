@@ -72,7 +72,7 @@
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>DE_Shirt</defName>
     <label>elven shirt</label>
-    <description>A nice shirt made by the elves.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Only Elves and Dark Elves may wear it.</description>
+    <description>A nice shirt made by the elves.</description>
     <recipeMaker>
       <researchPrerequisite>Aq_Elvendom</researchPrerequisite>
     </recipeMaker>
@@ -119,20 +119,12 @@
       <li>Underdark</li>
     </tradeTags>
     <colorGenerator Class="ColorGenerator_StandardApparel" />
-    <modExtensions>
-      <li Class="XenotypeRestrictions.XenotypeExtension">
-        <exclusiveXenotypes>
-          <li>Aq_DarkElf</li>
-          <li>Aq_Elf</li>
-        </exclusiveXenotypes>
-      </li>
-    </modExtensions>
   </ThingDef>
   <!-- Elven pants  -->
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>DE_Pants</defName>
     <label>elven pants</label>
-    <description>A set of tight pants made by the elves.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Only Elves and Dark Elves may wear it.</description>
+    <description>A set of pants made by the elves.</description>
     <recipeMaker>
       <researchPrerequisite>Aq_Elvendom</researchPrerequisite>
     </recipeMaker>
@@ -177,20 +169,12 @@
       <li>Underdark</li>
     </tradeTags>
     <colorGenerator Class="ColorGenerator_StandardApparel" />
-    <modExtensions>
-      <li Class="XenotypeRestrictions.XenotypeExtension">
-        <exclusiveXenotypes>
-          <li>Aq_DarkElf</li>
-          <li>Aq_Elf</li>
-        </exclusiveXenotypes>
-      </li>
-    </modExtensions>
   </ThingDef>
   <!-- Elven undergarment -->
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>DE_Undergarment</defName>
     <label>elven undergarment</label>
-    <description>A full undergarment used worn by she-elves of all ranks and positions.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Only Elves and Dark Elves may wear it.</description>
+    <description>A full undergarment used worn by she-elves of all ranks and positions.</description>
     <graphicData>
       <texPath>Things/Apparel/DE_Undergarment/DE_Undergarment</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -239,20 +223,12 @@
       <li>Underdark</li>
     </tradeTags>
     <colorGenerator Class="ColorGenerator_StandardApparel" />
-    <modExtensions>
-      <li Class="XenotypeRestrictions.XenotypeExtension">
-        <exclusiveXenotypes>
-          <li>Aq_DarkElf</li>
-          <li>Aq_Elf</li>
-        </exclusiveXenotypes>
-      </li>
-    </modExtensions>
   </ThingDef>
   <!-- Priestess Robe-->
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>DE_PriestessRobe</defName>
     <label>priestess robe</label>
-    <description>A long robe of elven design that was blessed in a temple.\n\nIt is more protective than a regular robe and will slightly enchance psychic sensitivity and help dissipate neural heat.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Only Elves and Dark Elves may wear it.</description>
+    <description>A long robe of elven design that was blessed in a temple.\n\nIt is more protective than a regular robe and will slightly enchance psychic sensitivity and help dissipate neural heat.</description>
     <possessionCount>1</possessionCount>
     <techLevel>Medieval</techLevel>
     <recipeMaker>
@@ -320,14 +296,6 @@
       <li>Elvendom</li>
     </tradeTags>
     <colorGenerator Class="ColorGenerator_StandardApparel" />
-    <modExtensions>
-      <li Class="XenotypeRestrictions.XenotypeExtension">
-        <exclusiveXenotypes>
-          <li>Aq_DarkElf</li>
-          <li>Aq_Elf</li>
-        </exclusiveXenotypes>
-      </li>
-    </modExtensions>
   </ThingDef>
  
 </Defs>

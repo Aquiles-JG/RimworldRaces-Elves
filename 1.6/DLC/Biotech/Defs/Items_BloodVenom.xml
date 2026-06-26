@@ -16,7 +16,7 @@
     <rotatable>false</rotatable>
     <ingestible>
       <outcomeDoers>
-        <li Class="HediffRemover.IngestionOutcomeDoer_RemoveHediff">
+        <li Class="AquilesCore.IngestionOutcomeDoer_RemoveHediff">
           <hediffToRemove>PregnantHuman</hediffToRemove>
         </li>
         <li Class="IngestionOutcomeDoer_GiveHediff">

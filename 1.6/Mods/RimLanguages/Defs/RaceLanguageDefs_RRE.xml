@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <FactionLanguages.LanguageFamilyDef>
+    <defName>Aq_Elf</defName>
+    <forcedLanguage>Aq_Elvish</forcedLanguage>
+    <linkedRace>Human</linkedRace>
+    <factionDialects>
+      <li>
+        <dialectDef>Elf_Standard</dialectDef>
+        <factions>
+          <li>Aq_ElfFactionHigh</li>
+        </factions>
+      </li>
+      <li>
+        <dialectDef>Elf_Underdark</dialectDef>
+        <factions>
+          <li>Aq_DrowCity</li>
+          <li>Aq_DrowUnforgiven</li>
+        </factions>
+      </li>
+    </factionDialects>
+  </FactionLanguages.LanguageFamilyDef>
+  
+  <FactionLanguages.RaceLanguageDef>
+    <defName>Aq_Elvish</defName>
+    <label>elf language</label>
+    <description>A form of communication that has evolved under the influence of a different biology, cognitive processes, and habitat. Its structure and vocabulary reflect the peculiarities of thinking and perception of the elves.</description>
+    <nameMaker>ElfLanguage</nameMaker>
+  </FactionLanguages.RaceLanguageDef>
+  
+  <FactionLanguages.DialectDef>
+    <defName>Elf_Standard</defName>
+    <label>grey elf dialect</label>
+    <description>A formalized and standardized type of the elven language. It has a clear structure, strict grammar and a rich vocabulary, including specialized terms for diplomacy, military affairs and administrative management.</description>
+    <nameMaker>ElfDialect_Standard</nameMaker>
+    <learningDifficulty>2</learningDifficulty>
+  </FactionLanguages.DialectDef>
+  
+  <FactionLanguages.DialectDef>
+    <defName>Elf_Underdark</defName>
+    <label>dark elf dialect</label>
+    <description>A formalized and standardized type of the elven language spoken by the drow. It has a clear structure, strict grammar and a rich vocabulary, including specialized terms for diplomacy, military affairs and administrative management.</description>
+    <nameMaker>ElfDialect_Underdark</nameMaker>
+    <learningDifficulty>2.5</learningDifficulty>
+  </FactionLanguages.DialectDef>
+  
+  <RulePackDef>
+    <defName>ElfLanguage</defName>
+    <rulePack>
+      <rulesStrings>
+       	<li>r_name(p=1)->[wholeName]</li>
+       	<li>r_name(p=0.02)->[anyPrefix][wholeName]</li>
+      	<!---->
+		<li>anyPrefix->umbro</li>
+        <!---->
+        <li>wholeName-&gt;elven</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  <RulePackDef>
+    <defName>ElfDialect_Standard</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name(p=1)-&gt;[adj] [Name]</li>
+        <!---->
+        <li>adj(p=1)-&gt;high</li>
+        <li>adj(p=0.5)-&gt;classical</li>
+        <li>adj(p=0.4)-&gt;imperial</li>
+        <li>adj(p=0.3)-&gt;lyrical</li>
+        <li>Name-&gt;elvish</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  <RulePackDef>
+    <defName>ElfDialect_Underdark</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name(p=1)-&gt;[adj] [Name]</li>
+        <!---->
+        <li>adj(p=1)-&gt;dark</li>
+        <li>adj(p=0.5)-&gt;secret</li>
+        <li>adj(p=0.4)-&gt;sacred</li>
+        <li>adj(p=0.3)-&gt;cryptic</li>
+        <li>Name-&gt;elvish</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+</Defs>

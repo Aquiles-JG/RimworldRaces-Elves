@@ -52,7 +52,7 @@
       <li>Elvendom</li>
     </tradeTags>
     <modExtensions>
-      <li Class="XenotypeRestrictions.XenotypeExtension">
+      <li Class="AquilesCore.XenotypeExtension">
         <exclusiveXenotypes>
           <li>Aq_Elf</li>
         </exclusiveXenotypes>
@@ -112,7 +112,7 @@
     </tradeTags>
     <colorGenerator Class="ColorGenerator_StandardApparel" />
     <modExtensions>
-      <li Class="XenotypeRestrictions.XenotypeExtension">
+      <li Class="AquilesCore.XenotypeExtension">
         <exclusiveXenotypes>
           <li>Aq_Elf</li>
         </exclusiveXenotypes>
@@ -173,7 +173,7 @@
       <li>Elvendom</li>
     </tradeTags>
     <modExtensions>
-      <li Class="XenotypeRestrictions.XenotypeExtension">
+      <li Class="AquilesCore.XenotypeExtension">
         <exclusiveXenotypes>
           <li>Aq_Elf</li>
         </exclusiveXenotypes>

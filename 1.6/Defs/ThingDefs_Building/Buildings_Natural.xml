@@ -31,7 +31,7 @@
       </li>
     </comps>
     <modExtensions>
-      <li Class="BiomeCondition.MineableExtension">
+      <li Class="AquilesCore.MineableExtension">
         <onlyCoasts>false</onlyCoasts>
         <onlyCaves>true</onlyCaves>
       </li>
