@@ -6,23 +6,23 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>/Defs/ThingDef[defName="DE_Pants"]/apparel/wornGraphicPath</xpath>
+				<xpath>/Defs/ThingDef[defName="Aq_ElvenPants"]/apparel/wornGraphicPath</xpath>
 			</li>
 			<li Class="PatchOperationRemove">
-				<xpath>/Defs/ThingDef[defName="DE_Pants"]/apparel/wornGraphicPath</xpath>
+				<xpath>/Defs/ThingDef[defName="Aq_ElvenPants"]/apparel/wornGraphicPath</xpath>
 			</li>
 		</operations>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>/Defs/ThingDef[defName="DE_Pants"]/apparel</xpath>
+		<xpath>/Defs/ThingDef[defName="Aq_ElvenPants"]/apparel</xpath>
 		<value>
-			<wornGraphicPath>Things/Apparel/DE_Pants/DE_Pants</wornGraphicPath>
+			<wornGraphicPath>Things/Apparel/ElvenPants/ElvenPants</wornGraphicPath>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationAddModExtension">
-		<xpath>/Defs/ThingDef[defName="DE_Pants"]</xpath>
+		<xpath>/Defs/ThingDef[defName="Aq_ElvenPants"]</xpath>
 		<value>
 			<li Class="VisiblePants.ThingDefExtension"/>
 		</value>

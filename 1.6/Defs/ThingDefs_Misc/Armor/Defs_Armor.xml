@@ -2,25 +2,17 @@
 <Defs>
 
   <ThingDef ParentName="ArmorSmithableBase">
-    <defName>DE_StuddedArmor</defName>
+    <defName>Aq_DrowStuddedArmor</defName>
     <label>drow studded armor</label>
     <description>A studded leather armor is reinforced with close-set rivets or spikes. Meant to be worn under a cloak, offers suitable protection for light combat. The armor was impregnated with a substance that help sustain the pain of wounds.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Only Dark Elves may wear it.</description>
     <graphicData>
-      <texPath>Things/Apparel/DE_StuddedArmor/DE_StuddedArmor</texPath>
+      <texPath>Things/Apparel/DrowStuddedArmor/DrowStuddedArmor</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <techLevel>Medieval</techLevel>
-    <recipeMaker>
-      <recipeUsers Inherit="False">
-        <li>ElectricSmithy</li>
-        <li>FueledSmithy</li>
-      </recipeUsers>
-      <skillRequirements>
-        <Crafting>6</Crafting>
-      </skillRequirements>
-      <researchPrerequisite>Drow_Smithing</researchPrerequisite>
-      <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
-    </recipeMaker>
+    <thingCategories>
+      <li>ApparelArmor</li>
+    </thingCategories>
     <costStuffCount>140</costStuffCount>
     <stuffCategories>
       <li>Leathery</li>
@@ -38,7 +30,7 @@
       <EquipDelay>10</EquipDelay>
     </statBases>
     <apparel>
-      <wornGraphicPath>Things/Apparel/DE_StuddedArmor/DE_StuddedArmor</wornGraphicPath>
+      <wornGraphicPath>Things/Apparel/DrowStuddedArmor/DrowStuddedArmor</wornGraphicPath>
       <tags>
         <li>K_Apparel</li>
       </tags>
@@ -57,12 +49,17 @@
         <li>Soldier</li>
       </defaultOutfitTags>
     </apparel>
-    <thingCategories>
-      <li>ApparelArmor</li>
-    </thingCategories>
-    <tradeTags>
-      <li>Underdark</li>
-    </tradeTags>
+    <recipeMaker>
+      <recipeUsers Inherit="False">
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+      <researchPrerequisite>Drow_Smithing</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
+    </recipeMaker>
     <colorGenerator Class="ColorGenerator_StandardApparel" />
     <tickerType>Rare</tickerType>
     <comps>
@@ -72,6 +69,9 @@
         </hediffDefnames>
       </li>
     </comps>
+    <tradeTags>
+      <li>Underdark</li>
+    </tradeTags>
     <modExtensions>
       <li Class="AquilesCore.XenotypeExtension">
         <exclusiveXenotypes>
@@ -82,15 +82,25 @@
   </ThingDef>
   
   <ThingDef ParentName="ArmorSmithableBase">
-    <defName>DE_PlateArmor</defName>
+    <defName>Aq_DrowPlateArmor</defName>
     <label>drow plate armor</label>
     <description>Overlapping solid plates of armor covering the entire body from neck to feet. The armor was impregnated with a substance that helps sustain the pain of wounds and prevents the bleeding.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Only Dark Elves may wear it.</description>
     <graphicData>
-      <texPath>Things/Apparel/DE_PlateArmor/DE_PlateArmor</texPath>
+      <texPath>Things/Apparel/DrowPlateArmor/DrowPlateArmor</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
     <techLevel>Medieval</techLevel>
+    <thingCategories>
+      <li>ApparelArmor</li>
+    </thingCategories>
+    <costStuffCount>200</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costList>
+      <Aq_Glowstone>5</Aq_Glowstone>
+    </costList>
     <statBases>
       <WorkToMake>50000</WorkToMake>
       <MaxHitPoints>300</MaxHitPoints>
@@ -117,7 +127,7 @@
         <li>Arms</li>
         <li>Legs</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Apparel/DE_PlateArmor/DE_PlateArmor</wornGraphicPath>
+      <wornGraphicPath>Things/Apparel/DrowPlateArmor/DrowPlateArmor</wornGraphicPath>
       <layers>
         <li>Middle</li>
         <li>Shell</li>
@@ -141,19 +151,6 @@
       </skillRequirements>
       <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
     </recipeMaker>
-    <thingCategories>
-      <li>ApparelArmor</li>
-    </thingCategories>
-    <tradeTags>
-      <li>Underdark</li>
-    </tradeTags>
-    <costStuffCount>200</costStuffCount>
-    <stuffCategories>
-      <li>Metallic</li>
-    </stuffCategories>
-    <costList>
-      <Aq_Glowstone>5</Aq_Glowstone>
-    </costList>
     <tickerType>Rare</tickerType>
     <comps>
       <li Class="VEF.Apparels.CompProperties_ApparelHediffs">
@@ -163,6 +160,9 @@
       </li>
       <li Class="CompProperties_Biocodable" />
     </comps>
+    <tradeTags>
+      <li>Underdark</li>
+    </tradeTags>
     <modExtensions>
       <li Class="AquilesCore.XenotypeExtension">
         <exclusiveXenotypes>

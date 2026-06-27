@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <ThingDef ParentName="ApparelMakeableBase">
-    <defName>DE_PleasureSlaveGarb</defName>
+    <defName>Aq_PleasureSlaveGarb</defName>
     <label>pleasure slave garb</label>
-    <techLevel>Medieval</techLevel>
     <description>Those who are to be slaves must serve all desires.</description>
     <graphicData>
-      <texPath>Things/Apparel/DE_PleasureSlaveGarb/DE_PleasureSlaveGarb</texPath>
+      <texPath>Things/Apparel/PleasureSlaveGarb/PleasureSlaveGarb</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>Drow_Culture</researchPrerequisite>
-    </recipeMaker>
     <costList>
       <Cloth>30</Cloth>
     </costList>
@@ -36,7 +32,7 @@
       <li>Apparel</li>
     </thingCategories>
     <apparel>
-      <wornGraphicPath>Things/Apparel/DE_PleasureSlaveGarb/DE_PleasureSlaveGarb</wornGraphicPath>
+      <wornGraphicPath>Things/Apparel/PleasureSlaveGarb/PleasureSlaveGarb</wornGraphicPath>
       <layers>
         <li>OnSkin</li>
         <li>Middle</li>
@@ -56,5 +52,8 @@
         <li>Slave</li>
       </defaultOutfitTags>
     </apparel>
+    <recipeMaker>
+      <researchPrerequisite>Drow_Culture</researchPrerequisite>
+    </recipeMaker>
   </ThingDef>
 </Defs>

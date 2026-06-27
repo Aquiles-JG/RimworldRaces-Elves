@@ -7,7 +7,7 @@
     <label>elegant dress</label>
     <description>An elven dress for the most distinguished events.</description>
     <graphicData>
-      <texPath>Things/Apparel/Aq_ElegantDress/ElegantDress</texPath>
+      <texPath>Things/Apparel/ElegantDress/ElegantDress</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -45,7 +45,7 @@
         <li>Legs</li>
         <li>Shoulders</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Apparel/Aq_ElegantDress/ElegantDress</wornGraphicPath>
+      <wornGraphicPath>Things/Apparel/ElegantDress/ElegantDress</wornGraphicPath>
       <useWornGraphicMask>true</useWornGraphicMask>
       <gender>Female</gender>
       <tags>
@@ -70,14 +70,11 @@
   </ThingDef>
   <!-- Elven shirt  -->
   <ThingDef ParentName="ApparelMakeableBase">
-    <defName>DE_Shirt</defName>
+    <defName>Aq_ElvenShirt</defName>
     <label>elven shirt</label>
     <description>A nice shirt made by the elves.</description>
-    <recipeMaker>
-      <researchPrerequisite>Aq_Elvendom</researchPrerequisite>
-    </recipeMaker>
     <graphicData>
-      <texPath>Things/Apparel/DE_Shirt/DE_Shirt</texPath>
+      <texPath>Things/Apparel/ElvenShirt/ElvenShirt</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costStuffCount>40</costStuffCount>
@@ -102,7 +99,7 @@
         <li>Torso</li>
         <li>Shoulders</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Apparel/DE_Shirt/DE_Shirt</wornGraphicPath>
+      <wornGraphicPath>Things/Apparel/ElvenShirt/ElvenShirt</wornGraphicPath>
       <layers>
         <li>OnSkin</li>
       </layers>
@@ -114,6 +111,9 @@
         <li>Soldier</li>
       </defaultOutfitTags>
     </apparel>
+    <recipeMaker>
+      <researchPrerequisite>Aq_Elvendom</researchPrerequisite>
+    </recipeMaker>
     <tradeTags>
       <li>Elvendom</li>
       <li>Underdark</li>
@@ -122,14 +122,11 @@
   </ThingDef>
   <!-- Elven pants  -->
   <ThingDef ParentName="ApparelMakeableBase">
-    <defName>DE_Pants</defName>
+    <defName>Aq_ElvenPants</defName>
     <label>elven pants</label>
     <description>A set of pants made by the elves.</description>
-    <recipeMaker>
-      <researchPrerequisite>Aq_Elvendom</researchPrerequisite>
-    </recipeMaker>
     <graphicData>
-      <texPath>Things/Apparel/DE_Pants/DE_Pants</texPath>
+      <texPath>Things/Apparel/ElvenPants/ElvenPants</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costStuffCount>40</costStuffCount>
@@ -164,6 +161,9 @@
         <li>Soldier</li>
       </defaultOutfitTags>
     </apparel>
+    <recipeMaker>
+      <researchPrerequisite>Aq_Elvendom</researchPrerequisite>
+    </recipeMaker>
     <tradeTags>
       <li>Elvendom</li>
       <li>Underdark</li>

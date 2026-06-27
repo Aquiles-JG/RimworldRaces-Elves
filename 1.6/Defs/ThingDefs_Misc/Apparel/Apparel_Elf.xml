@@ -6,7 +6,7 @@
     <label>elven cape</label>
     <description>A fashionable cape worn by the elves that uses dark forest colors.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Only Elves may wear it.</description>
     <graphicData>
-      <texPath>Things/Apparel/HoodedCape/CloakDisplay</texPath>
+      <texPath>Things/Apparel/HoodedCape/Cloak</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costStuffCount>50</costStuffCount>
@@ -65,7 +65,7 @@
     <label>elven tunic</label>
     <description>More beautiful and lighter than a human tunic, this elven garment is a great isolation against cold and hot weather.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Only Elves may wear it.</description>
     <graphicData>
-      <texPath>Things/Apparel/Aq_ElvenTunic/Aq_ElvenTunic</texPath>
+      <texPath>Things/Apparel/ElvenTunic/ElvenTunic</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <techLevel>Medieval</techLevel>
@@ -91,7 +91,7 @@
         <li>Torso</li>
         <li>Shoulders</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Apparel/Aq_ElvenTunic/Aq_ElvenTunic</wornGraphicPath>
+      <wornGraphicPath>Things/Apparel/ElvenTunic/ElvenTunic</wornGraphicPath>
       <layers>
         <li>OnSkin</li>
       </layers>
@@ -121,11 +121,11 @@
   </ThingDef>
   <!-- Elven robe-->
   <ThingDef ParentName="ApparelMakeableBase">
-    <defName>Aq_ElfApparel_Robe</defName>
+    <defName>Aq_ElvenRobe</defName>
     <label>elven robe</label>
     <description>A simple and elegant robe made by the elves.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Only Elves may wear it.</description>
     <graphicData>
-      <texPath>Things/Apparel/Robe/Robe</texPath>
+      <texPath>Things/Apparel/ElvenRobe/ElvenRobe</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costStuffCount>75</costStuffCount>
@@ -155,7 +155,7 @@
         <li>Arms</li>
         <li>Legs</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Apparel/Robe/Robe</wornGraphicPath>
+      <wornGraphicPath>Things/Apparel/ElvenRobe/ElvenRobe</wornGraphicPath>
       <layers>
         <li>Shell</li>
         <li>Middle</li>

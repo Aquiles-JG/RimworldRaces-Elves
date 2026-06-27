@@ -140,7 +140,7 @@
       <max>1.8</max>
     </gearHealthRange>
     <apparelRequired>
-    	<li>Aq_ElfApparel_Robe</li>
+    	<li>Aq_ElvenRobe</li>
     </apparelRequired>
     <apparelMoney>
       <min>300</min>
@@ -188,7 +188,7 @@
       <max>2.3</max>
     </gearHealthRange>
      <apparelRequired>
-    	<li>Aq_ElfApparel_Robe</li>
+    	<li>Aq_ElvenRobe</li>
     </apparelRequired>
     <apparelMoney>
       <min>300</min>

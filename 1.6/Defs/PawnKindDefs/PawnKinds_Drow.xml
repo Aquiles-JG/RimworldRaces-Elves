@@ -286,7 +286,7 @@
 		<max>2.3</max>
 	</gearHealthRange> 
     <apparelRequired>
-    	<li>DE_StuddedArmor</li>
+    	<li>Aq_DrowStuddedArmor</li>
     </apparelRequired>
     <apparelMoney>
     	<min>300</min>
@@ -398,7 +398,7 @@
       	<max>2.3</max>
     </gearHealthRange>
     <apparelRequired>
-    	<li>DE_StuddedArmor</li>
+    	<li>Aq_DrowStuddedArmor</li>
     </apparelRequired>
     <apparelMoney>
     	<min>400</min>
@@ -592,7 +592,7 @@
       	<max>2.3</max>
     </gearHealthRange>
     <apparelRequired>
-    	<li>DE_StuddedArmor</li>
+    	<li>Aq_DrowStuddedArmor</li>
     </apparelRequired>
     <apparelMoney>
       	<min>1200</min>
@@ -862,7 +862,7 @@
     	<max>2.3</max>
     </gearHealthRange>
     <apparelRequired>
-    	<li>DE_PlateArmor</li>
+    	<li>Aq_DrowPlateArmor</li>
     	<li>DE_PriestessCowl</li>
     </apparelRequired>
     <apparelMoney>
