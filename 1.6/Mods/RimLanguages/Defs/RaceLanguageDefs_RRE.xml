@@ -52,6 +52,7 @@
        	<li>r_name(p=0.02)->[anyPrefix][wholeName]</li>
       	<!---->
 		<li>anyPrefix->umbro</li>
+		<li>anyPrefix->astro</li>
         <!---->
         <li>wholeName-&gt;elven</li>
       </rulesStrings>
