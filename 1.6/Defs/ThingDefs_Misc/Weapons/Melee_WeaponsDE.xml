@@ -59,7 +59,6 @@
           <li>Cut</li>
         </capacities>
         <power>12</power>
-        <armorPenetration>0.15</armorPenetration>
         <cooldownTime>1.8</cooldownTime>
       </li>
     </tools>
@@ -113,7 +112,6 @@
           <li>Cut</li>
         </capacities>
         <power>14</power>
-        <armorPenetration>0.25</armorPenetration>
         <cooldownTime>1.7</cooldownTime>
       </li>
     </tools>
@@ -172,7 +170,7 @@
           <li>Stab</li>
         </capacities>
         <power>23</power>
-        <armorPenetration>0.15</armorPenetration>
+        <armorPenetration>0.5</armorPenetration>
         <cooldownTime>2.5</cooldownTime>
       </li>
     </tools>
@@ -259,16 +257,12 @@
             <chance>0.65</chance>
           </li>
         </extraMeleeDamages>
-        <armorPenetration>0.15</armorPenetration>
         <cooldownTime>1.9</cooldownTime>
       </li>
     </tools>
     <thingSetMakerTags>
       <li>RewardStandardLowFreq</li>
     </thingSetMakerTags>
-    <comps>
-      <li Class="CompProperties_Biocodable" />
-    </comps>
   </ThingDef>
   <!--== Broadsword ===-->
   <ThingDef ParentName="DrowMeleeWeaponBase">
@@ -332,13 +326,9 @@
             <chance>0.6</chance>
           </li>
         </extraMeleeDamages>
-        <armorPenetration>0.2</armorPenetration>
         <cooldownTime>2.6</cooldownTime>
       </li>
     </tools>
-    <comps>
-      <li Class="CompProperties_Biocodable" />
-    </comps>
   </ThingDef>
   <!--== Lance ===-->
   <ThingDef ParentName="DrowMeleeWeaponBase">
@@ -393,12 +383,9 @@
             <chance>0.6</chance>
           </li>
         </extraMeleeDamages>
-        <armorPenetration>0.2</armorPenetration>
+        <armorPenetration>0.5</armorPenetration>
         <cooldownTime>2.3</cooldownTime>
       </li>
     </tools>
-    <comps>
-      <li Class="CompProperties_Biocodable" />
-    </comps>
   </ThingDef>
 </Defs>

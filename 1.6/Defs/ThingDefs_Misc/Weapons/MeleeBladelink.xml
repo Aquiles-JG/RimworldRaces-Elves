@@ -85,7 +85,6 @@
             <chance>0.7</chance>
           </li>
         </extraMeleeDamages>
-        <armorPenetration>0.25</armorPenetration>
         <cooldownTime>2.2</cooldownTime>
       </li>
     </tools>
