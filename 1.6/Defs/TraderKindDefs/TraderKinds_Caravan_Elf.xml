@@ -29,7 +29,7 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>MedicineHerbal</thingDef>
-        <countRange>0~10</countRange>
+        <countRange>10~25</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Dye</thingDef>
@@ -134,6 +134,10 @@
       <li Class="StockGenerator_SingleDef">
             <thingDef>RawBerries</thingDef>
             <countRange>40~200</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>MedicineHerbal</thingDef>
+        <countRange>10~25</countRange>
       </li>
       <!-- Techprints -->
       <li Class="StockGenerator_Techprints">
