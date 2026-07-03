@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <TerrainDef ParentName="ElvenParquetBase">
+    <defName>Aq_AcaciaElvenParquet</defName>
+    <label>acacia elven parquet</label>
+    <color>(81,56,49)</color>
+    <costList>
+      <Aq_LumberAcacia>20</Aq_LumberAcacia>
+    </costList>
+  </TerrainDef>
+  <TerrainDef ParentName="ElvenParquetBase">
+    <defName>Aq_CamelliaElvenParquet</defName>
+    <label>camellia elven parquet</label>
+    <color>(203,191,178)</color>
+    <costList>
+      <Aq_LumberCamellia>20</Aq_LumberCamellia>
+    </costList>
+  </TerrainDef>
+  <TerrainDef ParentName="ElvenParquetBase">
+    <defName>Aq_CherryElvenParquet</defName>
+    <label>cherry elven parquet</label>
+    <color>(123,39,22)</color>
+    <costList>
+      <Aq_LumberCherry>20</Aq_LumberCherry>
+    </costList>
+  </TerrainDef>
+</Defs>

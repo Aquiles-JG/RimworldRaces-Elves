@@ -27,6 +27,7 @@
   <li IfModActive="VanillaExpanded.VPsycastsE">1.6/Mods/VanillaPsycastsExpanded</li>
   <li IfModActive="OskarPotocki.VFE.Medieval2">1.6/Mods/VFEMedieval2</li>
   <li IfModActive="VanillaExpanded.VFEProduction">1.6/Mods/VFEProduction</li>
+  <li IfModActive="dismarzero.VGP.XtraTreesandFlowers">1.6/Mods/VGPXtraTrees</li>
   <li IfModActive="XeoNovaDan.VisiblePants">1.6/Mods/VisiblePants</li>
   <li IfModActive="vanillaracesexpanded.highmate">1.6/Mods/VREHighmate</li>
   <li IfModActive="valzietine.dryadbiotechupdate">1.6/Mods/WarhammerDryads</li>

@@ -87,8 +87,8 @@
 		  <immatureGraphicPath>Things/Plant/Immature/Henbane</immatureGraphicPath>
 		  <purpose>Health</purpose>
 		  <wildOrder>2</wildOrder>
-		  <wildClusterRadius>5</wildClusterRadius>
-      	  <wildClusterWeight>250</wildClusterWeight>
+		  <wildClusterRadius>2</wildClusterRadius>
+      	  <wildClusterWeight>150</wildClusterWeight>
 		  <wildBiomes>
 			 <TemperateForest>0.01</TemperateForest>
 			 <TemperateSwamp>0.01</TemperateSwamp>
