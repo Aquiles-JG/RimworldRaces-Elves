@@ -3,7 +3,7 @@
 
 
 <Operation Class="PatchOperationAdd">
-<xpath>/Defs/ThingDef[defName = "DE_Cloak"]/apparel</xpath>
+<xpath>/Defs/ThingDef[defName = "Aq_DrowCloak"]/apparel</xpath>
     <value>
       <renderSkipFlags>
         <li>None</li>

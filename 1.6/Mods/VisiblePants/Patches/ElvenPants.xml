@@ -26,34 +26,7 @@
 		<value>
 			<li Class="VisiblePants.ThingDefExtension"/>
 		</value>
-	</Operation>
-	
-	<Operation Class="PatchOperationSequence">
-		<success>Always</success>
-		<operations>
-			<li Class="PatchOperationTest">
-				<xpath>/Defs/ThingDef[defName="DE_Loincloth"]/apparel/wornGraphicPath</xpath>
-			</li>
-			<li Class="PatchOperationRemove">
-				<xpath>/Defs/ThingDef[defName="DE_Loincloth"]/apparel/wornGraphicPath</xpath>
-			</li>
-		</operations>
-	</Operation>
-
-	<Operation Class="PatchOperationAdd">
-		<xpath>/Defs/ThingDef[defName="DE_Loincloth"]/apparel</xpath>
-		<value>
-			<wornGraphicPath>Things/Apparel/DE_Loincloth/DE_Loincloth</wornGraphicPath>
-		</value>
-	</Operation>
-
-	<Operation Class="PatchOperationAddModExtension">
-		<xpath>/Defs/ThingDef[defName="DE_Loincloth"]</xpath>
-		<value>
-			<li Class="VisiblePants.ThingDefExtension"/>
-		</value>
-	</Operation>
-	
+	</Operation>	
 		
 
 </Patch>

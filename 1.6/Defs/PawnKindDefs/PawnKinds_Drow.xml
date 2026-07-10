@@ -341,7 +341,7 @@
 		<max>2.3</max>
 	</gearHealthRange> 
     <apparelRequired>
-    	<li>DE_Cloak</li>
+    	<li>Aq_DrowCloak</li>
     </apparelRequired>
     <apparelMoney>
       	<min>300</min>
@@ -453,7 +453,7 @@
       	<max>2.3</max>
     </gearHealthRange>
     <apparelRequired>
-    	<li>DE_Cloak</li>
+    	<li>Aq_DrowCloak</li>
     </apparelRequired>
     <apparelMoney>
     	<min>400</min>
@@ -510,9 +510,7 @@
       	<max>2.3</max>
     </gearHealthRange>
     <apparelRequired>
-    	<li>DE_Loincloth</li>
-    	<li>DE_Girdle</li>
-    	<li>DE_Undergarment</li>
+    	<li>Aq_DrowBikiniArmor</li>
     </apparelRequired>
     <apparelMoney>
     	<min>1100</min>
@@ -549,8 +547,8 @@
     <apparelTags>
     </apparelTags>
     <apparelRequired>
-    	<li>DE_Cloak</li>
-    	<li>DE_Hood</li>
+    	<li>Aq_DrowCloak</li>
+    	<li>Aq_DrowHood</li>
     </apparelRequired>
     <apparelMoney>
       	<min>1100</min>
@@ -649,8 +647,8 @@
     </gearHealthRange>
     <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
     <apparelRequired>
-    	<li>DE_Cloak</li>
-    	<li>DE_Hood</li>
+    	<li>Aq_DrowCloak</li>
+    	<li>Aq_DrowHood</li>
     </apparelRequired>
     <apparelMoney>
       	<min>1200</min>
@@ -754,8 +752,8 @@
     	<li>ApparelUtility</li>
     </apparelTags>
     <apparelRequired>
-    	<li>DE_Cloak</li>
-    	<li>DE_Hood</li>
+    	<li>Aq_DrowCloak</li>
+    	<li>Aq_DrowHood</li>
     </apparelRequired>
     <apparelMoney>
     	<min>900</min>
@@ -797,8 +795,8 @@
     	<max>2.3</max>
     </gearHealthRange>
     <apparelRequired>
-    	<li>DE_Cloak</li>
-    	<li>DE_Hood</li>
+    	<li>Aq_DrowCloak</li>
+    	<li>Aq_DrowHood</li>
     </apparelRequired>
     <apparelMoney>
     	<min>700</min>
@@ -826,8 +824,8 @@
     	<max>2.3</max>
     </gearHealthRange>
     <apparelRequired>
-    	<li>DE_Cloak</li>
-    	<li>DE_Hood</li>
+    	<li>Aq_DrowCloak</li>
+    	<li>Aq_DrowHood</li>
     </apparelRequired>
     <apparelMoney>
     	<min>700</min>
@@ -936,8 +934,8 @@
     	<max>2.3</max>
     </gearHealthRange>
     <apparelRequired>
-    	<li>DE_Cloak</li>
-    	<li>DE_Hood</li>
+    	<li>Aq_DrowCloak</li>
+    	<li>Aq_DrowHood</li>
     </apparelRequired>
     <apparelMoney>
 		<min>1700</min>

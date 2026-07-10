@@ -170,60 +170,6 @@
     </tradeTags>
     <colorGenerator Class="ColorGenerator_StandardApparel" />
   </ThingDef>
-  <!-- Elven undergarment -->
-  <ThingDef ParentName="ApparelMakeableBase">
-    <defName>DE_Undergarment</defName>
-    <label>elven undergarment</label>
-    <description>A full undergarment used worn by she-elves of all ranks and positions.</description>
-    <graphicData>
-      <texPath>Things/Apparel/DE_Undergarment/DE_Undergarment</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>Drow_Apparel</researchPrerequisite>
-    </recipeMaker>
-    <statBases>
-      <MaxHitPoints>100</MaxHitPoints>
-      <WorkToMake>1700</WorkToMake>
-      <Mass>0.1</Mass>
-      <EquipDelay>1.5</EquipDelay>
-      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.3</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.11</StuffEffectMultiplierInsulation_Heat>
-    </statBases>
-    <costStuffCount>50</costStuffCount>
-    <stuffCategories>
-      <li>Fabric</li>
-      <li>Leathery</li>
-    </stuffCategories>
-    <thingCategories>
-      <li>Apparel</li>
-    </thingCategories>
-    <apparel>
-      <bodyPartGroups>
-        <li>Torso</li>
-        <li>Shoulders</li>
-      </bodyPartGroups>
-      <wornGraphicPath>Things/Apparel/DE_Undergarment/DE_Undergarment</wornGraphicPath>
-      <gender>Female</gender>
-      <layers>
-        <li>OnSkin</li>
-      </layers>
-      <tags>
-         <li>ElfApparelBasic</li>
-      </tags>
-      <defaultOutfitTags>
-        <li>Worker</li>
-        <li>Soldier</li>
-      </defaultOutfitTags>
-      <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
-    </apparel>
-    <tradeTags>
-      <li>Elvendom</li>
-      <li>Underdark</li>
-    </tradeTags>
-    <colorGenerator Class="ColorGenerator_StandardApparel" />
-  </ThingDef>
   <!-- Priestess Robe-->
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>DE_PriestessRobe</defName>
