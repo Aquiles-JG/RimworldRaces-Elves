@@ -271,7 +271,7 @@
     <description>The drow call these weapons "the Goddess Wrath", wielded by the fearsome Khabi or Temple Guards. Very few have suffered a full blow and live to tell the tale. The special composition of the blade short-circuit mechanoids.</description>
     <graphicData>
       <texPath>Things/MeleeWeapons/DE_Blade</texPath>
-      <drawSize>1.2</drawSize>
+      <drawSize>1.1</drawSize>
     </graphicData>
     <statBases>
       <WorkToMake>25000</WorkToMake>
