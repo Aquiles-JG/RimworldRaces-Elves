@@ -7,6 +7,7 @@
     <graphicData>
       <texPath>Things/Apparel/DrowBikiniArmor/DrowBikiniArmor</texPath>
       <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
     </graphicData>
     <techLevel>Medieval</techLevel>
     <thingCategories>
@@ -38,7 +39,9 @@
         <li>Torso</li>
         <li>Shoulders</li>
         <li>Waist</li>
+        <li>Legs</li>
       </bodyPartGroups>
+      <useWornGraphicMask>true</useWornGraphicMask>
       <wornGraphicPath>Things/Apparel/DrowBikiniArmor/DrowBikiniArmor</wornGraphicPath>
       <gender>Female</gender>
       <layers>
@@ -211,6 +214,7 @@
         <li>Arms</li>
         <li>Legs</li>
       </bodyPartGroups>
+      <useWornGraphicMask>true</useWornGraphicMask>
       <wornGraphicPath>Things/Apparel/DrowPlateArmor/DrowPlateArmor</wornGraphicPath>
       <layers>
         <li>Middle</li>
