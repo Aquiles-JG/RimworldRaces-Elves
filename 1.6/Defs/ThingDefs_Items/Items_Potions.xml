@@ -120,7 +120,7 @@
   <ThingDef ParentName="Aq_UnderdarkDrugBase">
     <defName>Aq_PlagueVenom</defName>
     <label>anti-plague venom</label>
-    <description>A venom for fighting plague outbreaks, if it's not too late. Need to wait 8 hours for taking another dose.</description>
+    <description>A venom for fighting plague outbreaks, if it's not too late. Need to wait 8 hours for taking another dose.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Reduces a plague infection with each dose, even remove it if the severity drops to zero.</description>
     <graphicData>
       <texPath>Things/Item/Drug/PlagueVenom</texPath>
       <graphicClass>Graphic_Single</graphicClass>
