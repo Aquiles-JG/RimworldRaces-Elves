@@ -1,8 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
-<!-- Alcohol-->
-<HediffDef>
+ <!-- Alcohol-->
+ <HediffDef>
 	<defName>PeppermintHigh</defName>
 	<label>peppermint liquor high</label>
 	<labelNoun>a peppermint liquor high</labelNoun>
@@ -26,11 +25,10 @@
 		</statOffsets>		
 	   </li>
 	</stages>
-</HediffDef>
+ </HediffDef>
 
-<!-- Venoms and Ointments-->
-
-<HediffDef>
+ <!-- Venoms and Ointments-->
+ <HediffDef>
     <defName>VenomTreated</defName>
     <label>treated with venoms</label>
     <description>A therapeutical venom is in the bloodstream. No use for another dose right now.</description>
@@ -40,8 +38,8 @@
         <showRemainingTime>true</showRemainingTime>
       </li>
     </comps>
-</HediffDef>
-
+ </HediffDef>
+ 
  <HediffDef>
     <defName>Aq_Convalescent</defName>
     <hediffClass>HediffWithComps</hediffClass>
