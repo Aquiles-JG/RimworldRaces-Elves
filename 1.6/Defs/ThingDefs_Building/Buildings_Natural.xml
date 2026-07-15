@@ -3,7 +3,7 @@
   <!-- Glowstone -->
   <ThingDef ParentName="RockBase">
     <defName>Aq_MineableGlowstone</defName>
-    <label>glowstone vein</label>
+    <label>glowstone deposit</label>
     <description>A rock that fell from the sky a long time ago, containing bits of a strange glowing stone.</description>
     <graphicData>
       <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
