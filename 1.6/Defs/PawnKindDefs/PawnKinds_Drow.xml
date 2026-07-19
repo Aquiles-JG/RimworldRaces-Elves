@@ -299,6 +299,7 @@
     </weaponMoney>
     <weaponTags>
     	<li>DrowMelee</li>
+    	<li>LongSword</li>
     </weaponTags>
     <inventoryOptions>
       <skipChance>0.85</skipChance>
