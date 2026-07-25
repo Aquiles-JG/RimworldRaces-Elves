@@ -67,7 +67,7 @@
     </graphicData>
     <socialPropernessMatters>true</socialPropernessMatters>
     <statBases>
-      <MarketValue>70</MarketValue>
+      <MarketValue>35</MarketValue>
       <Mass>0.025</Mass>
       <MaxHitPoints>30</MaxHitPoints>
       <Flammability>0.2</Flammability>
