@@ -1,24 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Patch>
 
-  <Operation Class="PatchOperationAdd">
-    <xpath>/Defs/ThingDef[defName="Aq_RawPeppermint"]</xpath>
-    <value>
-      <ingredient>
-        <mergeCompatibilityTags>
-          <li>Condiments</li>
-        </mergeCompatibilityTags>
-      </ingredient>
-    </value>
-  </Operation>
-  
-  <Operation Class="PatchOperationReplace">
+  <Operation Class="PatchOperationRemove">
     <xpath>/Defs/ThingDef[defName="Aq_RawPeppermint"]/thingCategories</xpath>
-    <value>
-      <thingCategories>
-        <li>Aq_Condiments</li>
-      </thingCategories>
-    </value>
+   
   </Operation>
   
 </Patch>
