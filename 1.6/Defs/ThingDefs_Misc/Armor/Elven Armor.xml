@@ -49,7 +49,6 @@
       <wornGraphicPath>Things/Apparel/ElvenGambeson/Gambeson</wornGraphicPath>
       <useWornGraphicMask>true</useWornGraphicMask>
       <layers>
-        <li>Shell</li>
         <li>Middle</li>
       </layers>
       <tags>
@@ -114,7 +113,7 @@
         <li>Royal</li>
       </tags>
       <layers>
-        <li>Middle</li>
+        <li>Shell</li>
       </layers>
       <defaultOutfitTags>
         <li>Soldier</li>
