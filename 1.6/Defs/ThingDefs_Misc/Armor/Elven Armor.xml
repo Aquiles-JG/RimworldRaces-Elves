@@ -43,13 +43,11 @@
         <li>Torso</li>
         <li>Neck</li>
         <li>Shoulders</li>
-        <li>Arms</li>
-        <li>Legs</li>
       </bodyPartGroups>
       <wornGraphicPath>Things/Apparel/ElvenGambeson/Gambeson</wornGraphicPath>
       <useWornGraphicMask>true</useWornGraphicMask>
       <layers>
-        <li>Middle</li>
+        <li>OnSkin</li>
       </layers>
       <tags>
         <li>Aq_ElfMilitary</li>
@@ -102,7 +100,6 @@
         <li>Torso</li>
         <li>Neck</li>
         <li>Shoulders</li>
-        <li>Waist</li>
         <li>Arms</li>
         <li>Legs</li>
       </bodyPartGroups>
