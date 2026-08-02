@@ -35,6 +35,7 @@
         <li>Arms</li>
       </bodyPartGroups>
       <wornGraphicPath>Things/Apparel/DrowCloak/DrowCloak</wornGraphicPath>
+      <gender>Female</gender>
       <layers>
         <li>Shell</li>
       </layers>
