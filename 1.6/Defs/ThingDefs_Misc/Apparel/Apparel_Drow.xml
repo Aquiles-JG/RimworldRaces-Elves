@@ -35,7 +35,6 @@
         <li>Arms</li>
       </bodyPartGroups>
       <wornGraphicPath>Things/Apparel/DrowCloak/DrowCloak</wornGraphicPath>
-      <gender>Female</gender>
       <layers>
         <li>Shell</li>
       </layers>
@@ -183,6 +182,7 @@
       </bodyPartGroups>
       <wornGraphicPath>Things/Apparel/DrowRobe/DrowRobe</wornGraphicPath>
       <useWornGraphicMask>true</useWornGraphicMask>
+      <gender>Female</gender>
       <layers>
         <li>Shell</li>
         <li>Middle</li>
