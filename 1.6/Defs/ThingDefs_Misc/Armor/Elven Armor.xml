@@ -9,11 +9,11 @@
       <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
       <researchPrerequisite>Aq_ElvenArmorII</researchPrerequisite>
       <skillRequirements>
-        <Crafting>10</Crafting>
+        <Crafting>7</Crafting>
       </skillRequirements>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/Apparel/ElvenGambeson/Gambeson</texPath>
+      <texPath>Things/Apparel/ElvenGambeson/ElvenGambeson</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <stuffCategories>
@@ -44,7 +44,7 @@
         <li>Neck</li>
         <li>Shoulders</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Apparel/ElvenGambeson/Gambeson</wornGraphicPath>
+      <wornGraphicPath>Things/Apparel/ElvenGambeson/ElvenGambeson</wornGraphicPath>
       <useWornGraphicMask>true</useWornGraphicMask>
       <layers>
         <li>OnSkin</li>
@@ -75,7 +75,7 @@
     <label>high lord armor</label>
     <description>An armor set crafted by the mastery of the Elves blacksmiths. Lightweight but durable, it ensures mobility during battle.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Only Elves may wear it.</description>
     <graphicData>
-      <texPath>Things/Apparel/ElfLordArmor/ElfLordArmor</texPath>
+      <texPath>Things/Apparel/ElvenLordArmor/ElvenLordArmor</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -103,7 +103,7 @@
         <li>Arms</li>
         <li>Legs</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Apparel/ElfLordArmor/ElfLordArmor</wornGraphicPath>
+      <wornGraphicPath>Things/Apparel/ElvenLordArmor/ElvenLordArmor</wornGraphicPath>
       <useWornGraphicMask>true</useWornGraphicMask>
       <tags>
         <li>Aq_ElfMilitary</li>
@@ -119,7 +119,7 @@
     </apparel>
     <recipeMaker>
       <skillRequirements>
-        <Crafting>9</Crafting>
+        <Crafting>10</Crafting>
       </skillRequirements>
       <researchPrerequisite>Aq_ElvenArmorII</researchPrerequisite>
       <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>

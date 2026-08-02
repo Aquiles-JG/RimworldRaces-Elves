@@ -331,7 +331,7 @@
     </gearHealthRange>
     <apparelRequired>
     	<li>Aq_ElvenTunic</li>
-    	<li>Aq_ElfApparel_Cape</li>
+    	<li>Aq_ElvenCape</li>
     </apparelRequired>
     <apparelMoney>
       <min>700</min>

@@ -2,11 +2,11 @@
 <Defs>
   <!-- Elven cape-->
   <ThingDef ParentName="ApparelMakeableBase">
-    <defName>Aq_ElfApparel_Cape</defName>
+    <defName>Aq_ElvenCape</defName>
     <label>elven cape</label>
     <description>A fashionable cape worn by the elves that uses dark forest colors.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Only Elves may wear it.</description>
     <graphicData>
-      <texPath>Things/Apparel/HoodedCape/Cloak</texPath>
+      <texPath>Things/Apparel/ElvenCape/ElvenCape</texPath>  <!-- from the old LOTR mod by Jecrell-->
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costStuffCount>50</costStuffCount>
@@ -36,7 +36,7 @@
         <li>Shoulders</li>
         <li>Arms</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Apparel/HoodedCape/Cloak</wornGraphicPath>
+      <wornGraphicPath>Things/Apparel/ElvenCape/ElvenCape</wornGraphicPath>
       <layers>
         <li>Shell</li>
       </layers>

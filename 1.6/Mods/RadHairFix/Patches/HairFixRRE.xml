@@ -17,7 +17,7 @@
 </Operation>
 
 <Operation Class="PatchOperationAdd">
-<xpath>/Defs/ThingDef[defName = "Aq_ElfApparel_Cape"]/apparel</xpath>
+<xpath>/Defs/ThingDef[defName = "Aq_ElvenCape"]/apparel</xpath>
     <value>
       <renderSkipFlags>
         <li>None</li>
@@ -31,7 +31,7 @@
 </Operation>
 
 <Operation Class="PatchOperationAdd">
-<xpath>/Defs/ThingDef[defName = "DE_PriestessRobe"]/apparel</xpath>
+<xpath>/Defs/ThingDef[defName = "Aq_DrowRobe"]/apparel</xpath>
     <value>
       <renderSkipFlags>
         <li>None</li>

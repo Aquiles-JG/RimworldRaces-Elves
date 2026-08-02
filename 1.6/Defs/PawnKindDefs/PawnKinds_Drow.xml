@@ -862,7 +862,7 @@
     </gearHealthRange>
     <apparelRequired>
     	<li>Aq_DrowPlateArmor</li>
-    	<li>DE_PriestessCowl</li>
+    	<li>Aq_DrowCowl</li>
     </apparelRequired>
     <apparelMoney>
     	<min>1700</min>

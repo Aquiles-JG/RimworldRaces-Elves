@@ -67,7 +67,7 @@
     <label>elvish circlet</label>
     <description>An intricate circlet bearing a magic gemstone.\n\nIt provides no physical protection, but will enhance the wearer's psychic sensitivity and help dissipate neural heat.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Only Elves and Dark Elves may wear it.</description>
     <graphicData>
-      <texPath>Things/Apparel/ElvishCirclet/ElvishCirclet</texPath>
+      <texPath>Things/Apparel/ElvenCirclet/ElvenCirclet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -104,7 +104,7 @@
       <bodyPartGroups>
         <li>UpperHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Apparel/ElvishCirclet/ElvishCirclet</wornGraphicPath>
+      <wornGraphicPath>Things/Apparel/ElvenCirclet/ElvenCirclet</wornGraphicPath>
       <useWornGraphicMask>true</useWornGraphicMask>
       <layers>
         <li>Overhead</li>
@@ -146,12 +146,12 @@
   </ThingDef>
   <!-- Priestess cowl-->
   <ThingDef ParentName="ApparelMakeableBase">
-    <defName>DE_PriestessCowl</defName>
+    <defName>Aq_DrowCowl</defName>
     <label>priestess cowl</label>
-    <description>A fabric cowl of elven design that was blessed in a temple.\n\nOffers a small amount of protection and will slightly enchance psychic sensitivity and help dissipate neural heat.</description>
+    <description>A fabric cowl of drow design that was blessed in a temple.\n\nOffers a small amount of protection and will slightly enchance psychic sensitivity and help dissipate neural heat.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Only Dark Elves may wear it.</description>
     <techLevel>Medieval</techLevel>
     <graphicData>
-      <texPath>Things/Apparel/DE_PriestessCowl/DE_PriestessCowl</texPath>
+      <texPath>Things/Apparel/DrowCowl/DrowCowl</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
       <drawSize>0.9</drawSize>
@@ -193,13 +193,12 @@
       <bodyPartGroups>
         <li>UpperHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Apparel/DE_PriestessCowl/DE_PriestessCowl</wornGraphicPath>
+      <wornGraphicPath>Things/Apparel/DrowCowl/DrowCowl</wornGraphicPath>
       <useWornGraphicMask>true</useWornGraphicMask>
       <layers>
         <li>Overhead</li>
       </layers>
       <tags>
-        <li>ElfApparelRoyal</li>
         <li>K_SacredApparel</li>
       </tags>
       <defaultOutfitTags>
@@ -208,7 +207,13 @@
     </apparel>
     <tradeTags>
       <li>Underdark</li>
-      <li>Elvendom</li>
     </tradeTags>
+    <modExtensions>
+      <li Class="AquilesCore.XenotypeExtension">
+        <exclusiveXenotypes>
+          <li>Aq_DarkElf</li>
+        </exclusiveXenotypes>
+      </li>
+    </modExtensions>
   </ThingDef>
 </Defs>

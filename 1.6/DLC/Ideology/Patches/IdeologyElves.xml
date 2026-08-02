@@ -20,7 +20,7 @@
             <li>UpperHead</li>
           </bodyPartGroupsMatchAny>
           <requiredDefs>
-            <li>DE_PriestessCowl</li>
+            <li>Aq_DrowCowl</li>
           </requiredDefs>
         </requirement>
       </li>
@@ -42,7 +42,7 @@
             <li>Legs</li>
           </bodyPartGroupsMatchAny>
           <requiredDefs>
-            <li>DE_PriestessRobe</li>
+            <li>Aq_DrowRobe</li>
           </requiredDefs>
         </requirement>
       </li>
