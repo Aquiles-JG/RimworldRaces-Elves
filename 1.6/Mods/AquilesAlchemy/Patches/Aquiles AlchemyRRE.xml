@@ -132,13 +132,6 @@
           <costStuffCount>40</costStuffCount>
         </value>
       </li>
-      <!-- Anomaly Building-->
-      <li MayRequire="Ludeon.RimWorld.Anomaly" Class="PatchOperationReplace">
-        <xpath>/Defs/ThingDef[defName="Aq_InhibitingIncense"]/costList/PsychoidLeaves</xpath>
-        <value>
-          <Aq_Chromium>10</Aq_Chromium>
-        </value>
-      </li>
       <!-- Traders-->
       <li Class="PatchOperationAdd">
         <xpath>Defs/TraderKindDef[defName="Elf_Caravan_Exotic"]/stockGenerators</xpath>

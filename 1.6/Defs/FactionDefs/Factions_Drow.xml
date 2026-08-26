@@ -81,7 +81,7 @@
 <FactionDef ParentName="Aq_DrowFactionBase">
     <defName>Aq_DrowCity</defName>
     <label>drow aristocracy</label>
-    <description>One of the four great noble houses that rule with iron fist the dark elven society. Implacable owners of their ancient cities, they are always plotting to gain influence in others places. They hate each other as much as they worship the Goddess of Darkness.</description>
+    <description>One of the four great noble houses that rule with iron fist the dark elven society. Implacable owners of their ancient cities, they are always plotting to gain influence in others places. They hate each other as much as they worship all the three names of the Goddess.</description>
     <colorSpectrum Inherit="False">
     	<li>(220, 20, 60)</li>
     	<li>(220, 60, 60)</li>

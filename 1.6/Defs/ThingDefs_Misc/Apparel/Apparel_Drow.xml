@@ -65,70 +65,7 @@
     </modExtensions>
   </ThingDef>
   
-  <!-- Elven Girdle -->
-  <ThingDef ParentName="ApparelMakeableBase">
-    <defName>DE_Girdle</defName>
-    <label>drow girdle</label>
-    <description>A decorated but resistant girdle usually worn by the khabi or temple guards.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Only Dark Elves may wear it.</description>
-    <graphicData>
-      <texPath>Things/Apparel/DE_Girdle/DE_Girdle</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>Drow_Apparel</researchPrerequisite>
-    </recipeMaker>
-    <statBases>
-      <MaxHitPoints>120</MaxHitPoints>
-      <WorkToMake>1200</WorkToMake>
-      <Mass>0.10</Mass>
-      <EquipDelay>1.5</EquipDelay>
-      <StuffEffectMultiplierArmor>0.15</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.25</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.16</StuffEffectMultiplierInsulation_Heat>
-    </statBases>
-    <costStuffCount>40</costStuffCount>
-    <stuffCategories>
-      <li>Fabric</li>
-      <li>Leathery</li>
-    </stuffCategories>
-    <thingCategories>
-      <li>Apparel</li>
-    </thingCategories>
-    <apparel>
-      <bodyPartGroups>
-        <li>Torso</li>
-      </bodyPartGroups>
-      <wornGraphicPath>Things/Apparel/DE_Girdle/DE_Girdle</wornGraphicPath>
-      <gender>Female</gender>
-      <layers>
-        <li>Middle</li>
-      </layers>
-      <tags>
-        <li>K_Apparel</li>
-        <li>K_KhabiApparel</li>
-      </tags>
-      <defaultOutfitTags>
-        <li>Soldier</li>
-      </defaultOutfitTags>
-      <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
-    </apparel>
-    <equippedStatOffsets>
-      <PainShockThreshold>0.05</PainShockThreshold>
-    </equippedStatOffsets>
-    <tradeTags>
-      <li>Underdark</li>
-    </tradeTags>
-    <colorGenerator Class="ColorGenerator_StandardApparel" />
-    <modExtensions>
-      <li Class="AquilesCore.XenotypeExtension">
-        <exclusiveXenotypes>
-          <li>Aq_DarkElf</li>
-        </exclusiveXenotypes>
-      </li>
-    </modExtensions>
-  </ThingDef>
-  
-   <!-- Priestess Robe-->
+  <!-- Priestess Robe-->
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>Aq_DrowRobe</defName>
     <label>priestess robe</label>

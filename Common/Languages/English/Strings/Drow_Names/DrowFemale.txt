@@ -1,9 +1,3 @@
-Lonare
-Junnia
-Sarano'a
-Tala'rie
-Jeno'va
-Ada'ra
 Alauni'rra
 Anasua
 Ardulace
@@ -17,12 +11,10 @@ Ereldra
 Filfaere
 Haelra
 Iliva'ra
-Jezzara
 Jhu'lae
 Laele
 Laryn'da
 Lyrana
-Mana'rie
 Miz'rie
 Narce'la
 Nedyle

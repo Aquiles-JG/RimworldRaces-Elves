@@ -29,7 +29,6 @@
   <loadAfter>
   	<li>Ludeon.Rimworld.Biotech</li>
     <li>OskarPotocki.VanillaFactionsExpanded.Core</li>
-    <li>CETeam.CombatExtended</li>
     <li>Aquiles.Core</li>
     <li>Ushanka.GlittertechExpansion</li>
   </loadAfter>
